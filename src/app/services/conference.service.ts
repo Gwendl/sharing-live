@@ -25,6 +25,7 @@ export class ConferenceService {
   constructor(private router: Router) {}
 
   public async connect(): Promise<void> {
+    this.participants = [];
     this.socketIo = await this.createConnection();
     this.socketIo.on("disconnect", () => {
       console.log("disconnected");
@@ -123,5 +124,7 @@ export class ConferenceService {
     this.localUser.localStreams.push(localStream);
   }
 
-  public async onParticipantLeft(participant: Participant): Promise<void> {}
+  public onParticipantLeft(nickname: string): Promise<void> {
+    this.participants = this.participants.filter(p => p.nickname !== nickname);
+  }
 }

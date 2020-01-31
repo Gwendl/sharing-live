@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import { FormGroup, FormControl, Validator } from "src/app/models";
 import { SnackBarService } from "src/app/services";
+import { ConferenceService } from "src/app/services/conference.service";
 
 @Component({
   templateUrl: "./home.component.html",
@@ -11,7 +12,10 @@ export class HomeComponent {
   public nicknameControl: FormControl;
   public joinRoomFormGroup: FormGroup;
   public roomIdControl: FormControl;
-  constructor(private snackbarService: SnackBarService) {
+  constructor(
+    private snackbarService: SnackBarService,
+    private conferenceService: ConferenceService
+  ) {
     this.nicknameControl = new FormControl(
       "",
       Validator.required("Ce champ est requis")
@@ -20,14 +24,15 @@ export class HomeComponent {
       "",
       Validator.required("Ce champ est requis")
     );
-
     this.createRoomFormGroup = new FormGroup({
       nickname: this.nicknameControl
     });
-
     this.joinRoomFormGroup = new FormGroup({
       roomId: this.roomIdControl
     });
+    this.conferenceService
+      .connect()
+      .then(() => this.conferenceService.createConference("Matthieu"));
   }
 
   public submitCreateRoom(form: FormGroup) {
@@ -36,8 +41,10 @@ export class HomeComponent {
       this.snackbarService.error("Le formulaire est invalide");
       return;
     }
-    console.log(form.value);
-    // call
+    const { nickname } = form.value;
+    this.conferenceService
+      .connect()
+      .then(() => this.conferenceService.createConference(nickname));
   }
 
   public submitJoinRoom(form: FormGroup) {
@@ -46,7 +53,9 @@ export class HomeComponent {
       this.snackbarService.error("Le formulaire est invalide");
       return;
     }
-    console.log(form.value);
-    // call
+    const { roomId } = form.value;
+    this.conferenceService
+      .connect()
+      .then(() => this.conferenceService.joinConference(roomId, "test"));
   }
 }
