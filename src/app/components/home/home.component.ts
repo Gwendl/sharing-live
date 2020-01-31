@@ -36,9 +36,6 @@ export class HomeComponent {
       roomId: this.roomIdControl,
       nickname: this.joinRoomNicknameControl
     });
-    this.conferenceService
-      .connect()
-      .then(() => this.conferenceService.createConference("Matthieu"));
   }
 
   public submitCreateRoom(form: FormGroup) {
@@ -59,9 +56,9 @@ export class HomeComponent {
       this.snackbarService.error("Le formulaire est invalide");
       return;
     }
-    const { roomId } = form.value;
+    const { roomId, nickname } = form.value;
     this.conferenceService
       .connect()
-      .then(() => this.conferenceService.joinConference(roomId, "test"));
+      .then(() => this.conferenceService.joinConference(roomId, nickname));
   }
 }
