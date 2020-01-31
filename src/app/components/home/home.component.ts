@@ -30,9 +30,6 @@ export class HomeComponent {
     this.joinRoomFormGroup = new FormGroup({
       roomId: this.roomIdControl
     });
-    this.conferenceService
-      .connect()
-      .then(() => this.conferenceService.createConference("Matthieu"));
   }
 
   public submitCreateRoom(form: FormGroup) {
