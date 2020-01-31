@@ -1,7 +1,6 @@
 import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { ConferenceService } from "src/app/services/conference.service";
-import { LocalStream, RemoteStream } from "src/app/models";
 
 @Component({
   templateUrl: "./conference.component.html",
@@ -24,13 +23,15 @@ export class ConferenceComponent {
     console.log(this.router.snapshot.params.id);
   }
 
-  public getLocalStreams(): LocalStream[] {
-    // this.conferenceService.
-    return [];
+  public getLocalStreams(): MediaStream[] {
+    return this.conferenceService
+      .getLocalParticipant()
+      .localStreams.map(localStream => localStream.stream);
   }
 
-  public getRemoteStreams(): RemoteStream[] {
-    // this.conferenceService.
-    return [];
+  public getRemoteStreams(): MediaStream[] {
+    return this.conferenceService
+      .getLocalParticipant()
+      .remoteStreams.map(remoteStream => remoteStream.stream);
   }
 }
