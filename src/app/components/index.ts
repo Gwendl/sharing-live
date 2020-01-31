@@ -4,3 +4,5 @@ export * from "./snack-bar/snack-bar.component";
 export * from "./snack-bar/snack-bar.module";
 export * from "./conference/conference.component";
 export * from "./conference/conference.module";
+export * from "./stream-card/stream-card.component";
+export * from "./stream-card/stream-card.module";

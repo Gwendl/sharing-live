@@ -2,15 +2,13 @@ import { Injectable } from "@angular/core";
 import { Participant } from "src/app/models/participant";
 import { Router } from "@angular/router";
 import * as socketIo from "socket.io-client";
-import { LocalParticipant } from "src/app/models/LocalParticipant";
 import {
   RTCInformation,
   RTCInitiator,
   RTCConnection,
   RTCReceiver
 } from "light-rtc";
-import { LocalStream } from "src/app/models/localStream";
-import { RemoteStream } from "src/app/models/remoteStream";
+import { LocalParticipant, LocalStream, RemoteStream } from "../models";
 import { environment } from "src/environments/environment";
 
 @Injectable({
@@ -44,17 +42,17 @@ export class ConferenceService {
     });
   }
 
-  private subscribeEvents(socketIo: SocketIOClient.Socket): void {
-    socketIo.on("participantJoined", nickname =>
+  private subscribeEvents(socketIoClient: SocketIOClient.Socket): void {
+    socketIoClient.on("participantJoined", nickname =>
       this.onParticipantJoined(nickname)
     );
-    socketIo.on("participantLeft", nickname =>
+    socketIoClient.on("participantLeft", nickname =>
       this.onParticipantLeft(nickname)
     );
-    socketIo.on("conferenceJoined", (conferenceId, nickname) =>
+    socketIoClient.on("conferenceJoined", (conferenceId, nickname) =>
       this.onConferenceJoined(conferenceId, nickname)
     );
-    socketIo.on("rtcHandshake", (nickname, peerId, rtcInfos) =>
+    socketIoClient.on("rtcHandshake", (nickname, peerId, rtcInfos) =>
       this.onRTCHandshake(nickname, peerId, rtcInfos)
     );
   }
