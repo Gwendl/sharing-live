@@ -44,63 +44,73 @@ export class ConferenceService {
   }
 
   private subscribeEvents(socketIo: SocketIOClient.Socket): void {
-    socketIo.on("participantJoined", this.onParticipantJoined);
-    socketIo.on("ParticipantLeft", this.onParticipantLeft);
-    socketIo.on("conferenceJoined", this.onParticipantLeft);
-    socketIo.on("conferenceCreated", this.onConferenceCreated);
-    socketIo.on("rtcHandshake", this.onRTCHandshake);
+    socketIo.on("participantJoined", nickname =>
+      this.onParticipantJoined(nickname)
+    );
+    socketIo.on("participantLeft", nickname =>
+      this.onParticipantLeft(nickname)
+    );
+    socketIo.on("conferenceJoined", (conferenceId, nickname) =>
+      this.onConferenceJoined(conferenceId, nickname)
+    );
+    socketIo.on("rtcHandshake", (nickname, peerId, rtcInfos) =>
+      this.onRTCHandshake(nickname, peerId, rtcInfos)
+    );
   }
 
-  public joinConference(conferenceId: string, nickName: string): void {
-    this.socketIo.emit("joinConference", conferenceId, nickName);
+  public onConferenceJoined(conferenceId: string, nickname: string): void {
     this.conferenceId = conferenceId;
-    this.localUser = new LocalParticipant(nickName);
-  }
-
-  public createConference(nickName: string): void {
-    this.localUser = new LocalParticipant(nickName);
-    console.log(this.socketIo);
-    this.socketIo.emit("createConference", nickName);
-  }
-
-  public onConferenceCreated(conferenceId: string): void {
-    this.conferenceId = conferenceId;
+    this.localUser = new LocalParticipant(nickname);
     this.router.navigate(["conference", conferenceId]);
   }
 
-  public async onParticipantJoined(participant: Participant): Promise<void> {
-    this.participants.push(participant);
+  public joinConference(conferenceId: string, nickname: string): void {
+    this.socketIo.emit("joinConference", conferenceId, nickname);
+  }
+
+  public createConference(nickname: string): void {
+    this.localUser = new LocalParticipant(nickname);
+    console.log(this.socketIo);
+    this.socketIo.emit("createConference", nickname);
+  }
+
+  public async onParticipantJoined(nickname: string): Promise<void> {
+    this.participants.push({
+      nickname,
+      muted: false
+    });
     this.localUser.localStreams.forEach(localStream => {
-      const remoteStream = this.sendStream(localStream, participant);
+      const remoteStream = this.sendStream(localStream, nickname);
     });
   }
 
   private sendStream(
     localStream: LocalStream,
-    participant: Participant
+    nickname: string
   ): RTCConnection {
     return new RTCInitiator(localStream.stream, infos => {
-      this.sendRTCHandshake(participant.nickname, localStream.id, infos);
+      this.sendRTCHandshake(nickname, localStream.id, infos);
     });
   }
 
   public sendRTCHandshake(
-    nickName: string,
+    nickname: string,
     peerId: string,
     rtcInfos: RTCInformation
   ): void {
-    this.socketIo.emit("rtcHandshake", nickName, peerId, rtcInfos);
+    this.socketIo.emit("rtcHandshake", nickname, peerId, rtcInfos);
   }
 
   public onRTCHandshake(
-    nickName: string,
+    nickname: string,
     peerId: string,
     rtcInfos: RTCInformation
   ): void {
-    const participant = this.participants.find(p => p.nickname === nickName);
+    const participant = this.participants.find(p => p.nickname === nickname);
     const rtcConnection = new RTCReceiver(undefined, infos => {
       this.sendRTCHandshake(participant.nickname, peerId, infos);
     });
+    rtcConnection.addInformations(rtcInfos);
     const remoteStream = new RemoteStream(peerId, rtcConnection);
     this.localUser.remoteStreams.push(remoteStream);
   }
@@ -108,7 +118,7 @@ export class ConferenceService {
   public addStream(stream: MediaStream): void {
     const localStream = new LocalStream(stream);
     this.participants.forEach(p => {
-      this.sendStream(localStream, p);
+      this.sendStream(localStream, p.nickname);
     });
     this.localUser.localStreams.push(localStream);
   }
