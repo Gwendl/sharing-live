@@ -8,6 +8,9 @@ export class RemoteStream {
   public constructor(id: string, connection: RTCConnection) {
     this.id = id;
     this.connection = connection;
-    connection.onStream(s => (this.stream = s));
+    connection.onStream(s => {
+      console.log("Stream received");
+      this.stream = s;
+    });
   }
 }
