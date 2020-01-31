@@ -18,4 +18,16 @@ export class ConferenceComponent {
       });
     console.log(this.router.snapshot.params.id);
   }
+
+  public getLocalStreams(): MediaStream[] {
+    return this.conferenceService
+      .getLocalParticipant()
+      .localStreams.map(localStream => localStream.stream);
+  }
+
+  public getRemoteStreams(): MediaStream[] {
+    return this.conferenceService
+      .getLocalParticipant()
+      .remoteStreams.map(remoteStream => remoteStream.stream);
+  }
 }
