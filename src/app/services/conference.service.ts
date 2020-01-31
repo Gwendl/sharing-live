@@ -122,7 +122,7 @@ export class ConferenceService {
     this.localUser.localStreams.push(localStream);
   }
 
-  public onParticipantLeft(nickname: string): Promise<void> {
+  public onParticipantLeft(nickname: string): void {
     this.participants = this.participants.filter(p => p.nickname !== nickname);
   }
 }
