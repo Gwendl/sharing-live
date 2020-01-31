@@ -1,0 +1,21 @@
+.video {
+  width: 200px;
+}
+mat-card {
+  width: 230px;
+  background: red;
+  margin: 10px;
+
+  mat-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .button-actions {
+      margin-top: 5px;
+      button:nth-of-type(1) {
+        margin-right: 5px;
+      }
+    }
+  }
+}
