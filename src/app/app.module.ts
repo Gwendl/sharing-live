@@ -4,8 +4,12 @@ import { NgModule } from "@angular/core";
 import { AppRoutingModule } from "./core/app-routing.module";
 import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
-import { HomeModule, SnackBarModule } from "./components";
-import { SnackBarComponent } from "./components";
+import {
+  HomeModule,
+  SnackBarModule,
+  ConferenceModule,
+  SnackBarComponent
+} from "./components";
 
 @NgModule({
   declarations: [AppComponent],
@@ -14,7 +18,8 @@ import { SnackBarComponent } from "./components";
     AppRoutingModule,
     BrowserAnimationsModule,
     HomeModule,
-    SnackBarModule
+    SnackBarModule,
+    ConferenceModule
   ],
   providers: [],
   bootstrap: [AppComponent],
