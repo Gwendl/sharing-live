@@ -1,0 +1,13 @@
+@import "~src/styles/variables";
+
+:host-context(.error) {
+  color: $warn-color !important;
+}
+
+:host-context(.success) {
+  color: $validation !important;
+}
+
+.message {
+  white-space: pre-line;
+}

@@ -1,0 +1,63 @@
+<div class="ocean-top">
+  <div class="wave-top"></div>
+  <div class="wave-top"></div>
+</div>
+<div class="home-container">
+  <div>
+    <h1 class="title">Sharing live</h1>
+  </div>
+  <div class="room-manager">
+    <mat-card class="create-room-card">
+      <div class="create-room-container">
+        <h2 class="text-center">Create a room</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+        <form
+          class="full-width"
+          [formGroup]="createRoomFormGroup"
+          (ngSubmit)="submitCreateRoom(createRoomFormGroup)"
+        >
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Nickname</mat-label>
+            <input matInput [formControl]="nicknameControl" />
+            <mat-error>{{ nicknameControl.mainError() }} </mat-error>
+          </mat-form-field>
+          <div class="text-center">
+            <button mat-raised-button color="primary" type="submit">
+              Create
+            </button>
+          </div>
+        </form>
+      </div>
+    </mat-card>
+    <mat-card class="join-room-card">
+      <div class="join-room-container">
+        <h2 class="text-center">Join a room</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        </p>
+        <form
+          class="full-width"
+          [formGroup]="joinRoomFormGroup"
+          (ngSubmit)="submitJoinRoom(joinRoomFormGroup)"
+        >
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Room ID</mat-label>
+            <input matInput [formControl]="roomIdControl" />
+            <mat-error>{{ roomIdControl.mainError() }} </mat-error>
+          </mat-form-field>
+          <div class="text-center">
+            <button mat-raised-button color="primary" type="submit">
+              Join
+            </button>
+          </div>
+        </form>
+      </div>
+    </mat-card>
+  </div>
+</div>
+<div class="ocean-bottom">
+  <div class="wave-bottom"></div>
+  <div class="wave-bottom"></div>
+</div>

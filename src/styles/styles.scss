@@ -1,0 +1,34 @@
+@import "~src/styles/variables";
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  overflow: hidden;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.text-center {
+  text-align: center;
+}
+.wrapper-snackbar-error {
+  background-color: $red-light !important;
+  max-width: 100% !important;
+  width: 50% !important;
+  margin: 10px auto !important;
+  text-align: center;
+}
+
+.wrapper-snackbar-success {
+  background-color: $green-light !important;
+  max-width: 100% !important;
+  width: 50% !important;
+  margin: 10px auto !important;
+  text-align: center;
+}
