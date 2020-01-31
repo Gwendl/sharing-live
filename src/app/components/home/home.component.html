@@ -11,7 +11,8 @@
       <div class="create-room-container">
         <h2 class="text-center">Create a room</h2>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum
+          dolor, sit amet consectetur adipisicing elit.
         </p>
         <form
           class="full-width"
@@ -20,8 +21,8 @@
         >
           <mat-form-field class="full-width" appearance="outline">
             <mat-label>Nickname</mat-label>
-            <input matInput [formControl]="nicknameControl" />
-            <mat-error>{{ nicknameControl.mainError() }} </mat-error>
+            <input matInput [formControl]="createRoomNickNameControl" />
+            <mat-error>{{ createRoomNickNameControl.mainError() }} </mat-error>
           </mat-form-field>
           <div class="text-center">
             <button mat-raised-button color="primary" type="submit">
@@ -46,6 +47,11 @@
             <mat-label>Room ID</mat-label>
             <input matInput [formControl]="roomIdControl" />
             <mat-error>{{ roomIdControl.mainError() }} </mat-error>
+          </mat-form-field>
+          <mat-form-field class="full-width" appearance="outline">
+            <mat-label>Nickname</mat-label>
+            <input matInput [formControl]="joinRoomNicknameControl" />
+            <mat-error>{{ joinRoomNicknameControl.mainError() }} </mat-error>
           </mat-form-field>
           <div class="text-center">
             <button mat-raised-button color="primary" type="submit">
