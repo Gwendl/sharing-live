@@ -8,11 +8,17 @@ import { SnackBarService } from "src/app/services";
 })
 export class HomeComponent {
   public createRoomFormGroup: FormGroup;
-  public nicknameControl: FormControl;
+  public createRoomNickNameControl: FormControl;
   public joinRoomFormGroup: FormGroup;
   public roomIdControl: FormControl;
+  public joinRoomNicknameControl: FormControl;
   constructor(private snackbarService: SnackBarService) {
-    this.nicknameControl = new FormControl(
+    this.createRoomNickNameControl = new FormControl(
+      "",
+      Validator.required("Ce champ est requis")
+    );
+
+    this.joinRoomNicknameControl = new FormControl(
       "",
       Validator.required("Ce champ est requis")
     );
@@ -22,11 +28,12 @@ export class HomeComponent {
     );
 
     this.createRoomFormGroup = new FormGroup({
-      nickname: this.nicknameControl
+      nickname: this.createRoomNickNameControl
     });
 
     this.joinRoomFormGroup = new FormGroup({
-      roomId: this.roomIdControl
+      roomId: this.roomIdControl,
+      nickname: this.joinRoomNicknameControl
     });
   }
 
