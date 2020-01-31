@@ -1,35 +1,23 @@
 <div class="conference-container">
   <div class="local-streams">
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
+    <app-stream-card
+      *ngFor="let localStream of getLocalStreams()"
+    ></app-stream-card>
   </div>
 
   <div class="main-stream">
     <video
-      src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
+      [srcObject]="focusStream"
       autoplay
+      playsinline
+      muted
       class="main-stream-video"
     ></video>
   </div>
-  <div class="main-buttons">
-    <button>Mute</button>
-    <button>close</button>
-    <button>Exit</button>
-  </div>
   <div class="remote-streams">
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
-    <app-stream-card></app-stream-card>
+    <app-stream-card
+      *ngFor="let remoteStream of getRemoteStreams()"
+    ></app-stream-card>
   </div>
+  <app-conference-buttons></app-conference-buttons>
 </div>

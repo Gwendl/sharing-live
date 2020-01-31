@@ -1,10 +1,11 @@
 import { NgModule } from "@angular/core";
 import { ConferenceComponent } from "./conference.component";
 import { StreamCardModule } from "../stream-card/stream-card.module";
-import { MatButtonModule } from "@angular/material";
+import { CommonModule } from "@angular/common";
+import { ConferenceButtonsModule } from "../conference-buttons/conference-buttons.module";
 
 @NgModule({
   declarations: [ConferenceComponent],
-  imports: [StreamCardModule, MatButtonModule]
+  imports: [CommonModule, StreamCardModule, ConferenceButtonsModule]
 })
 export class ConferenceModule {}

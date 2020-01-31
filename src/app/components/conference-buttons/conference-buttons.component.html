@@ -1,0 +1,17 @@
+<div class="main-buttons">
+  <button
+    mat-fab
+    class="mic-icon"
+    [matTooltip]="isMuted ? 'Enable microphone' : 'Disable microphone'"
+    [ngClass]="{ muted: isMuted }"
+    (click)="toggleMic()"
+  >
+    <mat-icon>{{ isMuted ? "mic_off" : "mic_on" }}</mat-icon>
+  </button>
+  <button mat-fab class="close-icon">
+    <mat-icon>close</mat-icon>
+  </button>
+  <button mat-fab class="hang-icon">
+    <mat-icon>call_end</mat-icon>
+  </button>
+</div>

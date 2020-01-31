@@ -1,8 +1,10 @@
 <mat-card>
   <mat-card-content>
     <video
-      src="http://clips.vorwaerts-gmbh.de/VfE_html5.mp4"
       autoplay
+      playsinline
+      muted
+      [srcObject]="stream"
       class="video"
     ></video>
     <div class="button-actions">
@@ -11,3 +13,5 @@
     </div>
   </mat-card-content>
 </mat-card>
+
+<!-- (click)="changeFocusStream(userStream)" -->

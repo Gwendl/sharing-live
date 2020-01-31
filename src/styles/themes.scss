@@ -14,7 +14,7 @@ $sharing-live-primary: mat-palette($mat-deep-purple, A700);
 $sharing-live-accent: mat-palette($mat-pink, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
-$sharing-live-warn: mat-palette($mat-red, 400);
+$sharing-live-warn: mat-palette($mat-red, 800);
 
 // Create the theme object (a Sass map containing all of the palettes).
 $sharing-live-theme: mat-light-theme(

@@ -3,6 +3,7 @@
   height: 100%;
   display: flex;
   justify-content: space-between;
+  background: black;
 }
 
 .local-streams {
@@ -10,31 +11,24 @@
   width: fit-content;
   max-height: 100%;
   z-index: 1;
+  position: absolute;
+  top: 0;
 }
 
 .remote-streams {
   overflow: overlay;
   width: fit-content;
   max-height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .main-stream {
-  display: flex;
-  width: calc(100% - 564px);
-  justify-content: center;
+  width: 100%;
 }
 
 .main-stream-video {
   width: 100%;
-}
-
-.main-buttons {
-  position: absolute;
-  bottom: 50px;
-  left: 0;
-  top: 0;
-  right: 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  height: 100%;
 }

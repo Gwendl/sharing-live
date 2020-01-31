@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
   selector: "app-stream-card",
@@ -6,5 +6,7 @@ import { Component } from "@angular/core";
   styleUrls: ["./stream-card.component.scss"]
 })
 export class StreamCardComponent {
+  @Input()
+  public stream: MediaStream;
   constructor() {}
 }

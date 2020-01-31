@@ -1,0 +1,30 @@
+@import "~src/styles/variables";
+
+.main-buttons {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 200px;
+  margin: 0 auto;
+}
+
+button {
+  background: white !important;
+}
+.mic-icon {
+  color: #5f6368 !important;
+
+  &.muted {
+    background-color: $warn-color !important;
+    color: white !important;
+  }
+}
+
+.close-icon,
+.hang-icon {
+  color: $warn-color !important;
+}
