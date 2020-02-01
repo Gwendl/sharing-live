@@ -2,22 +2,33 @@
   <div class="local-streams">
     <app-stream-card
       *ngFor="let localStream of getLocalStreams()"
+      [inputStream]="localStream"
+      (closeStreamEmitter)="closeStream($event)"
+      (disableMicEmitter)="disableMic($event)"
+      (enableMicEmitter)="enableMic($event)"
     ></app-stream-card>
   </div>
-
   <div class="main-stream">
     <video
-      [srcObject]="focusStream"
+      [srcObject]="localStream"
       autoplay
       playsinline
-      muted
+      [muted]="focusedStream === localStream"
       class="main-stream-video"
     ></video>
   </div>
   <div class="remote-streams">
     <app-stream-card
       *ngFor="let remoteStream of getRemoteStreams()"
+      [inputStream]="remoteStream"
+      (closeStreamEmitter)="closeStream($event)"
+      (disableMicEmitter)="disableMic($event)"
+      (enableMicEmitter)="enableMic($event)"
     ></app-stream-card>
   </div>
-  <app-conference-buttons></app-conference-buttons>
+  <app-conference-buttons
+    (hangupConferenceEmitter)="hangupConference()"
+    (addStreamEmitter)="addStream()"
+    (addScreenShareEmitter)="addScreenShare()"
+  ></app-conference-buttons>
 </div>

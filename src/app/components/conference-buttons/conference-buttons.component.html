@@ -1,17 +1,26 @@
 <div class="main-buttons">
   <button
     mat-fab
-    class="mic-icon"
-    [matTooltip]="isMuted ? 'Enable microphone' : 'Disable microphone'"
-    [ngClass]="{ muted: isMuted }"
-    (click)="toggleMic()"
+    class="add-icon"
+    (click)="addStream()"
+    matTooltip="Add a stream"
   >
-    <mat-icon>{{ isMuted ? "mic_off" : "mic_on" }}</mat-icon>
+    <mat-icon>add_circle</mat-icon>
   </button>
-  <button mat-fab class="close-icon">
-    <mat-icon>close</mat-icon>
+  <button
+    mat-fab
+    class="screen-share-icon"
+    (click)="addScreenShare()"
+    matTooltip="Add a screen share"
+  >
+    <mat-icon>screen_share</mat-icon>
   </button>
-  <button mat-fab class="hang-icon">
+  <button
+    mat-fab
+    class="hang-icon"
+    (click)="hangupConference()"
+    matTooltip="Leave the conference"
+  >
     <mat-icon>call_end</mat-icon>
   </button>
 </div>

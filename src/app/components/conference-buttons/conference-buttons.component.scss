@@ -14,17 +14,22 @@
 
 button {
   background: white !important;
+  transition: all ease 0.5s;
 }
-.mic-icon {
-  color: #5f6368 !important;
 
-  &.muted {
-    background-color: $warn-color !important;
+.add-icon,
+.screen-share-icon {
+  color: #5f6368 !important;
+  &:hover {
+    background-color: #5f6368 !important;
     color: white !important;
   }
 }
 
-.close-icon,
 .hang-icon {
   color: $warn-color !important;
+  &:hover {
+    background-color: $warn-color !important;
+    color: white !important;
+  }
 }

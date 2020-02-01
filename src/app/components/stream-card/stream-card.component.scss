@@ -1,9 +1,11 @@
+@import "~src/styles/variables";
+
 .video {
   width: 200px;
 }
 mat-card {
   margin: 10px;
-
+  padding: 0 0 5px 0;
   mat-card-content {
     display: flex;
     justify-content: center;
@@ -15,5 +17,29 @@ mat-card {
         margin-right: 5px;
       }
     }
+  }
+}
+
+button {
+  transition: all ease 0.5s;
+}
+
+.mic-icon {
+  color: #5f6368 !important;
+  &.muted {
+    background-color: $warn-color !important;
+    color: white !important;
+  }
+  &:hover {
+    background-color: #5f6368 !important;
+    color: white !important;
+  }
+}
+
+.close-icon {
+  color: $warn-color !important;
+  &:hover {
+    background-color: $warn-color !important;
+    color: white !important;
   }
 }

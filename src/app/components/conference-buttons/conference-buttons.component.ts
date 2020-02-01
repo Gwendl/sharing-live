@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Output, EventEmitter } from "@angular/core";
 
 @Component({
   selector: "app-conference-buttons",
@@ -6,9 +6,27 @@ import { Component } from "@angular/core";
   styleUrls: ["./conference-buttons.component.scss"]
 })
 export class ConferenceButtonsComponent {
-  public isMuted: boolean = false;
+  @Output() public hangupConferenceEmitter: EventEmitter<
+    void
+  > = new EventEmitter<void>();
 
-  public toggleMic() {
-    this.isMuted = !this.isMuted;
+  @Output() public addStreamEmitter: EventEmitter<void> = new EventEmitter<
+    void
+  >();
+
+  @Output() public addScreenShareEmitter: EventEmitter<void> = new EventEmitter<
+    void
+  >();
+
+  public hangupConference(): void {
+    this.hangupConferenceEmitter.emit();
+  }
+
+  public addStream(): void {
+    this.addStreamEmitter.emit();
+  }
+
+  public addScreenShare(): void {
+    this.addScreenShareEmitter.emit();
   }
 }

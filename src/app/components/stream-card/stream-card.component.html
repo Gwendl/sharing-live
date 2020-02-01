@@ -1,15 +1,31 @@
-<mat-card>
+<mat-card
+  [ngStyle]="{ border: '5px solid' + stringToColor(inputStream.nickname) }"
+>
   <mat-card-content>
     <video
       autoplay
       playsinline
-      muted
-      [srcObject]="stream"
+      [srcObject]="inputStream.stream"
       class="video"
     ></video>
     <div class="button-actions">
-      <button mat-button>MUTE</button>
-      <button mat-button>CLOSE</button>
+      <button
+        class="mic-icon"
+        mat-icon-button
+        (click)="toogleMic(inputStream.stream)"
+        [ngClass]="{ muted: micMuted }"
+        [matTooltip]="micMuted ? 'Enable microphone' : 'Disable microphone'"
+      >
+        <mat-icon>{{ micMuted ? "mic_off" : "mic_on" }}</mat-icon>
+      </button>
+      <button
+        class="close-icon"
+        mat-icon-button
+        (click)="closeStream(inputStream.stream)"
+        matTooltip="Close stream"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
     </div>
   </mat-card-content>
 </mat-card>

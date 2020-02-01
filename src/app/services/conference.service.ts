@@ -47,19 +47,21 @@ export class ConferenceService {
   }
 
   private subscribeEvents(socketIoClient: SocketIOClient.Socket): void {
-    socketIoClient.on("participantJoined", nickname =>
+    socketIoClient.on("participantJoined", (nickname: string) =>
       this.onParticipantJoined(nickname)
     );
-    socketIoClient.on("participantLeft", nickname =>
+    socketIoClient.on("participantLeft", (nickname: string) =>
       this.onParticipantLeft(nickname)
     );
     socketIoClient.on(
       "conferenceJoined",
-      (conferenceId, nickname, participants) =>
+      (conferenceId: string, nickname: string, participants: string[]) =>
         this.onConferenceJoined(conferenceId, nickname, participants)
     );
-    socketIoClient.on("rtcHandshake", (nickname, peerId, rtcInfos) =>
-      this.onRTCHandshake(nickname, peerId, rtcInfos)
+    socketIoClient.on(
+      "rtcHandshake",
+      (nickname: string, peerId: string, rtcInfos: RTCInformation) =>
+        this.onRTCHandshake(nickname, peerId, rtcInfos)
     );
   }
 
