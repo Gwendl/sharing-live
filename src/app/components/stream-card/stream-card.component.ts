@@ -20,7 +20,6 @@ export class StreamCardComponent {
     MediaStream
   > = new EventEmitter<MediaStream>();
   public micMuted: boolean;
-  constructor() {}
 
   public toogleMic(stream: MediaStream) {
     this.micMuted

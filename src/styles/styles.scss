@@ -1,15 +1,23 @@
 @import "~src/styles/variables";
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
   overflow-x: hidden;
-  height: 100vh;
+  height: 100%;
 }
 
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+button {
+  transition: all ease 0.3s;
 }
 
 [hidden] {
@@ -37,4 +45,8 @@ body {
   width: 50% !important;
   margin: 10px auto !important;
   text-align: center;
+}
+
+.cdk-global-scrollblock {
+  overflow-y: hidden !important;
 }

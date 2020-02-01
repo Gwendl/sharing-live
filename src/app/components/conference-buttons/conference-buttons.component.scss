@@ -14,14 +14,13 @@
 
 button {
   background: white !important;
-  transition: all ease 0.5s;
 }
 
 .add-icon,
 .screen-share-icon {
-  color: #5f6368 !important;
+  color: $primary-color !important;
   &:hover {
-    background-color: #5f6368 !important;
+    background-color: $primary-color !important;
     color: white !important;
   }
 }

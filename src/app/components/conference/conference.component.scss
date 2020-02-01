@@ -2,7 +2,6 @@
   overflow: hidden;
   height: 100%;
   display: flex;
-  justify-content: space-between;
   background: black;
 }
 
@@ -13,12 +12,14 @@
   z-index: 1;
   position: absolute;
   top: 0;
+  left: 0;
 }
 
 .remote-streams {
   overflow: overlay;
   width: fit-content;
   max-height: 100%;
+  z-index: 1;
   position: absolute;
   top: 0;
   right: 0;

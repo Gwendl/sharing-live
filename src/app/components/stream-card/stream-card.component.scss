@@ -20,18 +20,17 @@ mat-card {
   }
 }
 
-button {
-  transition: all ease 0.5s;
-}
-
 .mic-icon {
-  color: #5f6368 !important;
+  color: $primary-color !important;
   &.muted {
     background-color: $warn-color !important;
     color: white !important;
+    &:hover {
+      background-color: #a71f1f !important;
+    }
   }
   &:hover {
-    background-color: #5f6368 !important;
+    background-color: $primary-color !important;
     color: white !important;
   }
 }

@@ -2,6 +2,10 @@ import { Component } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { ConferenceService } from "src/app/services/conference.service";
 import { RemoteStream, LocalStream } from "src/app/models";
+import { MatDialog } from "@angular/material";
+import { AddStreamDialogComponent } from "../add-stream-dialog/add-stream-dialog.component";
+import { SnackBarService } from "src/app/services";
+import { AddNicknameDialogComponent } from "../add-nickname-dialog/add-nickname-dialog.component";
 
 @Component({
   templateUrl: "./conference.component.html",
@@ -12,7 +16,9 @@ export class ConferenceComponent {
   public focusedStream: MediaStream;
   constructor(
     private router: ActivatedRoute,
-    private conferenceService: ConferenceService
+    private conferenceService: ConferenceService,
+    private dialog: MatDialog,
+    private snackbarService: SnackBarService
   ) {
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
@@ -22,6 +28,9 @@ export class ConferenceComponent {
         this.conferenceService.addStream(stream);
       });
     console.log(this.router.snapshot.params.id);
+
+    // dialog ref nickname test
+    this.openNicknameDialog();
   }
 
   public getLocalStreams(): LocalStream[] {
@@ -52,7 +61,27 @@ export class ConferenceComponent {
     console.log("disable microphone", stream);
   }
 
-  public addStream() {}
+  public addStream(): void {
+    const dialogRef = this.dialog.open(AddStreamDialogComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      if (!result) return;
+      this.conferenceService.addStream(result);
+      this.snackbarService.success("Stream added");
+    });
+  }
 
-  public addScreenShare() {}
+  public addScreenShare(): void {
+    // navigator.mediaDevices.getDisplayMedia();
+  }
+
+  public openNicknameDialog(): void {
+    const dialogRef = this.dialog.open(AddNicknameDialogComponent, {
+      disableClose: true
+    });
+    dialogRef.afterClosed().subscribe((nickname: string) => {
+      if (!nickname) return;
+      console.log(nickname);
+      this.snackbarService.success(`Welcome ${nickname}!`);
+    });
+  }
 }
