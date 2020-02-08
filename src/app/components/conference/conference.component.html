@@ -3,7 +3,7 @@
     <app-stream-card
       *ngFor="let localStream of getLocalStreams()"
       [inputStream]="localStream"
-      (closeStreamEmitter)="closeStream($event)"
+      (closeStreamEmitter)="closeLocalStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
     ></app-stream-card>
@@ -21,7 +21,7 @@
     <app-stream-card
       *ngFor="let remoteStream of getRemoteStreams()"
       [inputStream]="remoteStream"
-      (closeStreamEmitter)="closeStream($event)"
+      (closeStreamEmitter)="closeRemoteStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
     ></app-stream-card>

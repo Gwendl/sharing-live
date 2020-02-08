@@ -17,8 +17,8 @@ export class StreamCardComponent {
     MediaStream
   > = new EventEmitter<MediaStream>();
   @Output() public closeStreamEmitter: EventEmitter<
-    MediaStream
-  > = new EventEmitter<MediaStream>();
+    string
+  > = new EventEmitter<string>();
   public micMuted: boolean;
 
   public toogleMic(stream: MediaStream) {
@@ -28,8 +28,8 @@ export class StreamCardComponent {
     this.micMuted = !this.micMuted;
   }
 
-  public closeStream(stream: MediaStream) {
-    this.closeStreamEmitter.emit(stream);
+  public closeStream() {
+    this.closeStreamEmitter.emit(this.inputStream.id);
   }
 
   public stringToColor(nickname: string): string {

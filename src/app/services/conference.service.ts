@@ -36,6 +36,10 @@ export class ConferenceService {
     this.subscribeEvents(this.socketIo);
   }
 
+  public disconnect() : void {
+    this.socketIo.disconnect();
+  }
+
   private createConnection(): Promise<SocketIOClient.Socket> {
     return new Promise((res, rej) => {
       const socket = socketIo(environment.serverUrl, {
@@ -63,6 +67,11 @@ export class ConferenceService {
       (nickname: string, peerId: string, rtcInfos: RTCInformation) =>
         this.onRTCHandshake(nickname, peerId, rtcInfos)
     );
+  }
+
+  public stopConnection(nickname: string, streamId: string) : void {
+    const participantConnection = this.getPeerConnections().find(c => c.id === streamId && c.nickname === nickname);
+    participantConnection.connection.getPeer().close();
   }
 
   public onConferenceJoined(
@@ -101,10 +110,19 @@ export class ConferenceService {
     const connection = new RTCInitiator(localStream.stream, infos => {
       this.sendRTCHandshake(nickname, localStream.id, infos);
     });
-    localStream.connections.push({
+    const connectionInfos = {
       connection,
       nickname,
       id: localStream.id
+    };
+    localStream.connections.push(connectionInfos);
+    const peer = connection.getPeer();
+    peer.addEventListener("connectionstatechange", state => {
+      if (peer.connectionState === "disconnected" || peer.connectionState === "closed")
+      {
+        console.log("receiver", peer.connectionState);
+        localStream.connections = localStream.connections.filter(c => c != connectionInfos);
+      }
     });
     return connection;
   }
@@ -135,6 +153,16 @@ export class ConferenceService {
     });
     const remoteStream = new RemoteStream(nickname, peerId, rtcConnection);
     this.localParticipant.remoteStreams.push(remoteStream);
+    const peer = rtcConnection.getPeer();
+    peer.addEventListener("connectionstatechange", state => {
+      if (peer.connectionState === "disconnected" || peer.connectionState === "closed")
+      {
+        console.log("receiver", peer.connectionState);
+        this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(rs => rs != remoteStream);
+        if (remoteStream.stream)
+          remoteStream.stream.getTracks().forEach(t => t.stop());
+      }
+    });
     return remoteStream;
   }
 
@@ -154,7 +182,29 @@ export class ConferenceService {
     this.localParticipant.localStreams.push(localStream);
   }
 
+  public stopLocalStreamConnection(id: string) : void {
+    const localStreamConnection = this.localParticipant.localStreams.find(ls => ls.id === id);
+    localStreamConnection.connections.forEach(c => {
+      console.log("close : ", c.connection.getPeer().peerIdentity);
+      c.connection.getPeer().close();
+    });
+    localStreamConnection.stream.getTracks().forEach(t => t.stop());
+    this.localParticipant.localStreams = this.localParticipant.localStreams.filter(ls => ls !== localStreamConnection);
+  }
+
+  public stopRemoteStreamConnection(id: string) : void {
+    const remoteStreamConnection = this.localParticipant.remoteStreams.find(rs => rs.id);
+    remoteStreamConnection.connection.getPeer().close();
+    if (remoteStreamConnection.stream)
+      remoteStreamConnection.stream.getTracks().forEach(t => t.stop());
+    this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(rs => rs !== remoteStreamConnection);
+  }
+
   public onParticipantLeft(nickname: string): void {
     this.participants = this.participants.filter(p => p.nickname !== nickname);
+  }
+
+  public isInConference() : boolean {
+    return this.localParticipant != undefined;
   }
 }

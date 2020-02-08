@@ -20,35 +20,47 @@ export class ConferenceComponent {
     private dialog: MatDialog,
     private snackbarService: SnackBarService
   ) {
-    navigator.mediaDevices
-      .getUserMedia({ video: true, audio: true })
-      .then(stream => {
-        this.localStream = stream;
-        this.focusedStream = stream;
-        this.conferenceService.addStream(stream);
-      });
-    console.log(this.router.snapshot.params.id);
+    this.initConference();
+  }
 
-    // dialog ref nickname test
-    this.openNicknameDialog();
+  public async initConference() : Promise<void> {
+    if (!this.conferenceService.isInConference()){
+     const nickName = await this.openNicknameDialog();
+     await this.conferenceService.connect();
+     const conferenceId = this.router.snapshot.params.id;
+     await this.conferenceService.joinConference(conferenceId, nickName);
+    }
+    navigator.mediaDevices
+    .getUserMedia({ video: true, audio: true })
+    .then(stream => {
+      this.localStream = stream;
+      this.focusedStream = stream;
+      this.conferenceService.addStream(stream);
+    });
   }
 
   public getLocalStreams(): LocalStream[] {
+    if (!this.conferenceService.isInConference())
+      return [];
     return this.conferenceService.getLocalParticipant().localStreams;
   }
 
   public getRemoteStreams(): RemoteStream[] {
+    if (!this.conferenceService.isInConference())
+      return [];
     return this.conferenceService.getLocalParticipant().remoteStreams;
   }
 
-  public closeStream(stream: MediaStream): void {
-    // close stream
-    console.log("close stream", stream);
+  public closeLocalStreamConnection(localStreamConnectionId: string): void {
+    this.conferenceService.stopLocalStreamConnection(localStreamConnectionId);
+  }
+
+  public closeRemoteStreamConnection(remoteStreamConnectionId: string): void {
+    this.conferenceService.stopRemoteStreamConnection(remoteStreamConnectionId);
   }
 
   public hangupConference(): void {
-    // hang conference
-    console.log("hang conference");
+    this.conferenceService.disconnect();
   }
 
   public enableMic(stream: MediaStream): void {
@@ -70,18 +82,24 @@ export class ConferenceComponent {
     });
   }
 
-  public addScreenShare(): void {
-    // navigator.mediaDevices.getDisplayMedia();
+  public canShareScreen() : boolean {
+    return navigator.mediaDevices["getDisplayMedia"] != undefined;
   }
 
-  public openNicknameDialog(): void {
+  public async addScreenShare(): Promise<void> {
+    const stream = await navigator.mediaDevices["getDisplayMedia"]();
+    this.conferenceService.addStream(stream);
+  }
+
+  public openNicknameDialog(): Promise<string> {
     const dialogRef = this.dialog.open(AddNicknameDialogComponent, {
       disableClose: true
     });
-    dialogRef.afterClosed().subscribe((nickname: string) => {
+    return dialogRef.afterClosed().toPromise().then((nickname: string) => {
       if (!nickname) return;
       console.log(nickname);
       this.snackbarService.success(`Welcome ${nickname}!`);
+      return nickname;
     });
   }
 }
