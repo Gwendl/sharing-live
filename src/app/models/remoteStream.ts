@@ -15,9 +15,13 @@ export class RemoteStream implements ParticipantConnection {
     this.id = id;
     this.nickname = sourceNickname;
     this.connection = connection;
-    connection.onStream(s => {
-      console.log("Stream received");
-      this.stream = s;
-    });
+    connection.onStream(s => (this.stream = s));
+  }
+
+
+  public stop() : void {
+    this.connection.getPeer().close();
+    if (this.stream)
+      this.stream.getTracks().forEach(t => t.stop());
   }
 }

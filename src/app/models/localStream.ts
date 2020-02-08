@@ -13,11 +13,18 @@ export class LocalStream {
     this.stream = stream;
   }
 
-  public addConnection(nickname: string, connection: RTCConnection): void {
-    this.connections.push({
+  public addConnection(nickname: string, connection: RTCConnection): ParticipantConnection {
+    const connectionInfos ={
       nickname,
       id: this.id,
       connection
-    });
+    }; 
+    this.connections.push(connectionInfos);
+    return connectionInfos;
+  }
+
+  public stop() : void {
+    this.stream.getTracks().forEach(t => t.stop());
+    this.connections.forEach(c => c.connection.getPeer().close());
   }
 }

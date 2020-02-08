@@ -21,19 +21,33 @@ export class ConferenceService {
   private socketIo: SocketIOClient.Socket;
   private localParticipant: LocalParticipant;
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+    this.clean();
+  }
 
   public getLocalParticipant(): LocalParticipant {
     return this.localParticipant;
   }
 
   public async connect(): Promise<void> {
-    this.participants = [];
+    if (this.socketIo && this.socketIo.connected)
+      this.socketIo.close();
+    this.clean();
     this.socketIo = await this.createConnection();
     this.socketIo.on("disconnect", () => {
+      this.clean();
       this.router.navigate(["home"]);
     });
     this.subscribeEvents(this.socketIo);
+  }
+
+  private clean() : void {
+    this.participants = [];
+    if (!this.localParticipant)
+      return;
+    this.localParticipant.localStreams.forEach(ls => ls.stop());
+    this.localParticipant.remoteStreams.forEach(rs => rs.stop());
+    this.localParticipant = undefined;
   }
 
   public disconnect() : void {
@@ -67,11 +81,6 @@ export class ConferenceService {
       (nickname: string, peerId: string, rtcInfos: RTCInformation) =>
         this.onRTCHandshake(nickname, peerId, rtcInfos)
     );
-  }
-
-  public stopConnection(nickname: string, streamId: string) : void {
-    const participantConnection = this.getPeerConnections().find(c => c.id === streamId && c.nickname === nickname);
-    participantConnection.connection.getPeer().close();
   }
 
   public onConferenceJoined(
@@ -110,20 +119,7 @@ export class ConferenceService {
     const connection = new RTCInitiator(localStream.stream, infos => {
       this.sendRTCHandshake(nickname, localStream.id, infos);
     });
-    const connectionInfos = {
-      connection,
-      nickname,
-      id: localStream.id
-    };
-    localStream.connections.push(connectionInfos);
-    const peer = connection.getPeer();
-    peer.addEventListener("connectionstatechange", state => {
-      if (peer.connectionState === "disconnected" || peer.connectionState === "closed")
-      {
-        console.log("receiver", peer.connectionState);
-        localStream.connections = localStream.connections.filter(c => c != connectionInfos);
-      }
-    });
+    localStream.addConnection(nickname, connection);
     return connection;
   }
 
@@ -151,19 +147,7 @@ export class ConferenceService {
     const rtcConnection = new RTCReceiver(undefined, infos => {
       this.sendRTCHandshake(nickname, peerId, infos);
     });
-    const remoteStream = new RemoteStream(nickname, peerId, rtcConnection);
-    this.localParticipant.remoteStreams.push(remoteStream);
-    const peer = rtcConnection.getPeer();
-    peer.addEventListener("connectionstatechange", state => {
-      if (peer.connectionState === "disconnected" || peer.connectionState === "closed")
-      {
-        console.log("receiver", peer.connectionState);
-        this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(rs => rs != remoteStream);
-        if (remoteStream.stream)
-          remoteStream.stream.getTracks().forEach(t => t.stop());
-      }
-    });
-    return remoteStream;
+    return this.localParticipant.addRemoteStreamConnection(nickname, peerId, rtcConnection);
   }
 
   private getPeerConnections(): ParticipantConnection[] {
@@ -184,19 +168,13 @@ export class ConferenceService {
 
   public stopLocalStreamConnection(id: string) : void {
     const localStreamConnection = this.localParticipant.localStreams.find(ls => ls.id === id);
-    localStreamConnection.connections.forEach(c => {
-      console.log("close : ", c.connection.getPeer().peerIdentity);
-      c.connection.getPeer().close();
-    });
-    localStreamConnection.stream.getTracks().forEach(t => t.stop());
+    localStreamConnection.stop();
     this.localParticipant.localStreams = this.localParticipant.localStreams.filter(ls => ls !== localStreamConnection);
   }
 
   public stopRemoteStreamConnection(id: string) : void {
-    const remoteStreamConnection = this.localParticipant.remoteStreams.find(rs => rs.id);
-    remoteStreamConnection.connection.getPeer().close();
-    if (remoteStreamConnection.stream)
-      remoteStreamConnection.stream.getTracks().forEach(t => t.stop());
+    const remoteStreamConnection = this.localParticipant.remoteStreams.find(rs => rs.id === id);
+    remoteStreamConnection.stop();
     this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(rs => rs !== remoteStreamConnection);
   }
 
