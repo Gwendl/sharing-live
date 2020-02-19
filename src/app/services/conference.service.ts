@@ -30,8 +30,7 @@ export class ConferenceService {
   }
 
   public async connect(): Promise<void> {
-    if (this.socketIo && this.socketIo.connected)
-      this.socketIo.close();
+    if (this.socketIo && this.socketIo.connected) this.socketIo.close();
     this.clean();
     this.socketIo = await this.createConnection();
     this.socketIo.on("disconnect", () => {
@@ -41,16 +40,15 @@ export class ConferenceService {
     this.subscribeEvents(this.socketIo);
   }
 
-  private clean() : void {
+  private clean(): void {
     this.participants = [];
-    if (!this.localParticipant)
-      return;
+    if (!this.localParticipant) return;
     this.localParticipant.localStreams.forEach(ls => ls.stop());
     this.localParticipant.remoteStreams.forEach(rs => rs.stop());
     this.localParticipant = undefined;
   }
 
-  public disconnect() : void {
+  public disconnect(): void {
     this.socketIo.disconnect();
   }
 
@@ -147,7 +145,11 @@ export class ConferenceService {
     const rtcConnection = new RTCReceiver(undefined, infos => {
       this.sendRTCHandshake(nickname, peerId, infos);
     });
-    return this.localParticipant.addRemoteStreamConnection(nickname, peerId, rtcConnection);
+    return this.localParticipant.addRemoteStreamConnection(
+      nickname,
+      peerId,
+      rtcConnection
+    );
   }
 
   private getPeerConnections(): ParticipantConnection[] {
@@ -166,23 +168,31 @@ export class ConferenceService {
     this.localParticipant.localStreams.push(localStream);
   }
 
-  public stopLocalStreamConnection(id: string) : void {
-    const localStreamConnection = this.localParticipant.localStreams.find(ls => ls.id === id);
+  public stopLocalStreamConnection(id: string): void {
+    const localStreamConnection = this.localParticipant.localStreams.find(
+      ls => ls.id === id
+    );
     localStreamConnection.stop();
-    this.localParticipant.localStreams = this.localParticipant.localStreams.filter(ls => ls !== localStreamConnection);
+    this.localParticipant.localStreams = this.localParticipant.localStreams.filter(
+      ls => ls !== localStreamConnection
+    );
   }
 
-  public stopRemoteStreamConnection(id: string) : void {
-    const remoteStreamConnection = this.localParticipant.remoteStreams.find(rs => rs.id === id);
+  public stopRemoteStreamConnection(id: string): void {
+    const remoteStreamConnection = this.localParticipant.remoteStreams.find(
+      rs => rs.id === id
+    );
     remoteStreamConnection.stop();
-    this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(rs => rs !== remoteStreamConnection);
+    this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(
+      rs => rs !== remoteStreamConnection
+    );
   }
 
   public onParticipantLeft(nickname: string): void {
     this.participants = this.participants.filter(p => p.nickname !== nickname);
   }
 
-  public isInConference() : boolean {
-    return this.localParticipant != undefined;
+  public isInConference(): boolean {
+    return this.localParticipant !== undefined;
   }
 }

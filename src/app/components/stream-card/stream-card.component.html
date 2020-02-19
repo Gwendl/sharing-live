@@ -2,7 +2,11 @@
   [ngStyle]="{ border: '5px solid' + stringToColor(inputStream.nickname) }"
 >
   <mat-card-content>
+    <mat-icon *ngIf="focusedStream" class="icon-focused-stream"
+      >remove_red_eye</mat-icon
+    >
     <video
+      (click)="focusVideo()"
       autoplay
       playsinline
       [srcObject]="inputStream.stream"
@@ -12,7 +16,7 @@
       <button
         class="mic-icon"
         mat-icon-button
-        (click)="toogleMic(inputStream.stream)"
+        (click)="toogleMic()"
         [ngClass]="{ muted: micMuted }"
         [matTooltip]="micMuted ? 'Enable microphone' : 'Disable microphone'"
       >

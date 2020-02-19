@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter } from "@angular/core";
+import { Component, Input, Output, EventEmitter, OnInit } from "@angular/core";
 import { RemoteStream, LocalStream } from "src/app/models";
 import { stringToRGBColor } from "../utils/string-to-color";
 
@@ -10,26 +10,34 @@ import { stringToRGBColor } from "../utils/string-to-color";
 export class StreamCardComponent {
   @Input()
   public inputStream: LocalStream & RemoteStream;
+  @Input() public focusedStream: boolean;
   @Output() public enableMicEmitter: EventEmitter<
     MediaStream
   > = new EventEmitter<MediaStream>();
   @Output() public disableMicEmitter: EventEmitter<
     MediaStream
   > = new EventEmitter<MediaStream>();
-  @Output() public closeStreamEmitter: EventEmitter<
+  @Output() public closeStreamEmitter: EventEmitter<string> = new EventEmitter<
     string
-  > = new EventEmitter<string>();
+  >();
+  @Output() public focusStreamEmitter: EventEmitter<
+    MediaStream
+  > = new EventEmitter<MediaStream>();
   public micMuted: boolean;
 
-  public toogleMic(stream: MediaStream) {
+  public toogleMic(): void {
     this.micMuted
-      ? this.enableMicEmitter.emit(stream)
-      : this.disableMicEmitter.emit(stream);
+      ? this.enableMicEmitter.emit(this.inputStream.stream)
+      : this.disableMicEmitter.emit(this.inputStream.stream);
     this.micMuted = !this.micMuted;
   }
 
-  public closeStream() {
+  public closeStream(): void {
     this.closeStreamEmitter.emit(this.inputStream.id);
+  }
+
+  public focusVideo(): void {
+    this.focusStreamEmitter.emit(this.inputStream.stream);
   }
 
   public stringToColor(nickname: string): string {

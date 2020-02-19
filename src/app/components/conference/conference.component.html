@@ -3,6 +3,8 @@
     <app-stream-card
       *ngFor="let localStream of getLocalStreams()"
       [inputStream]="localStream"
+      [focusedStream]="localStream.stream === focusedStream"
+      (focusStreamEmitter)="focusStream($event)"
       (closeStreamEmitter)="closeLocalStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
@@ -10,7 +12,7 @@
   </div>
   <div class="main-stream">
     <video
-      [srcObject]="localStream"
+      [srcObject]="focusedStream"
       autoplay
       playsinline
       [muted]="focusedStream === localStream"
@@ -21,6 +23,8 @@
     <app-stream-card
       *ngFor="let remoteStream of getRemoteStreams()"
       [inputStream]="remoteStream"
+      [focusedStream]="remoteStream.stream === focusedStream"
+      (focusStreamEmitter)="focusStream($event)"
       (closeStreamEmitter)="closeRemoteStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
