@@ -6,6 +6,8 @@ import { Component, Output, EventEmitter } from "@angular/core";
   styleUrls: ["./conference-buttons.component.scss"]
 })
 export class ConferenceButtonsComponent {
+  public displayedActions: boolean = false;
+  public panelVisible: boolean = true;
   @Output() public hangupConferenceEmitter: EventEmitter<
     void
   > = new EventEmitter<void>();
@@ -18,6 +20,14 @@ export class ConferenceButtonsComponent {
     void
   >();
 
+  @Output() public copyToClipBoardEmitter: EventEmitter<
+    void
+  > = new EventEmitter<void>();
+
+  @Output() public triggerVisibilityEmitter: EventEmitter<
+    void
+  > = new EventEmitter<void>();
+
   public hangupConference(): void {
     this.hangupConferenceEmitter.emit();
   }
@@ -28,5 +38,18 @@ export class ConferenceButtonsComponent {
 
   public addScreenShare(): void {
     this.addScreenShareEmitter.emit();
+  }
+
+  public copyToClipboardShareLink(): void {
+    this.copyToClipBoardEmitter.emit();
+  }
+
+  public triggerVisibility(): void {
+    this.panelVisible = !this.panelVisible;
+    this.triggerVisibilityEmitter.emit();
+  }
+
+  public triggerActions() {
+    this.displayedActions = !this.displayedActions;
   }
 }

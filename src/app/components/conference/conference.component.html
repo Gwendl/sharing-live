@@ -1,9 +1,12 @@
 <div class="conference-container">
-  <div class="local-streams">
+  <div
+    class="local-streams"
+    [ngClass]="{ 'local-stream-invisible': !panelVisibility }"
+  >
     <app-stream-card
       *ngFor="let localStream of getLocalStreams()"
       [inputStream]="localStream"
-      [focusedStream]="localStream.stream === focusedStream"
+      [isFocused]="isFocused(localStream.stream)"
       (focusStreamEmitter)="focusStream($event)"
       (closeStreamEmitter)="closeLocalStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
@@ -12,18 +15,21 @@
   </div>
   <div class="main-stream">
     <video
-      [srcObject]="focusedStream"
+      [srcObject]="getMainStream()"
       autoplay
       playsinline
-      [muted]="focusedStream === localStream"
+      [muted]="isFocused(getMainStream())"
       class="main-stream-video"
     ></video>
   </div>
-  <div class="remote-streams">
+  <div
+    class="remote-streams"
+    [ngClass]="{ 'remote-stream-invisible': !panelVisibility }"
+  >
     <app-stream-card
       *ngFor="let remoteStream of getRemoteStreams()"
       [inputStream]="remoteStream"
-      [focusedStream]="remoteStream.stream === focusedStream"
+      [isFocused]="isFocused(remoteStream.stream)"
       (focusStreamEmitter)="focusStream($event)"
       (closeStreamEmitter)="closeRemoteStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
@@ -34,5 +40,7 @@
     (hangupConferenceEmitter)="hangupConference()"
     (addStreamEmitter)="addStream()"
     (addScreenShareEmitter)="addScreenShare()"
+    (copyToClipBoardEmitter)="copyToClipboardShareLink()"
+    (triggerVisibilityEmitter)="triggerVisibility()"
   ></app-conference-buttons>
 </div>

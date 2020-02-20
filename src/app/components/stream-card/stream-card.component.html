@@ -1,8 +1,6 @@
-<mat-card
-  [ngStyle]="{ border: '5px solid' + stringToColor(inputStream.nickname) }"
->
+<mat-card>
   <mat-card-content>
-    <mat-icon *ngIf="focusedStream" class="icon-focused-stream"
+    <mat-icon *ngIf="isFocused" class="icon-focused-stream"
       >remove_red_eye</mat-icon
     >
     <video
@@ -11,6 +9,9 @@
       playsinline
       [srcObject]="inputStream.stream"
       class="video"
+      [ngStyle]="{
+        'border-bottom': '5px solid' + stringToColor(inputStream.nickname)
+      }"
     ></video>
     <div class="button-actions">
       <button
@@ -33,5 +34,3 @@
     </div>
   </mat-card-content>
 </mat-card>
-
-<!-- (click)="changeFocusStream(userStream)" -->

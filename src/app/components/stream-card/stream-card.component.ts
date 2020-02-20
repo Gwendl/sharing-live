@@ -1,4 +1,4 @@
-import { Component, Input, Output, EventEmitter, OnInit } from "@angular/core";
+import { Component, Input, Output, EventEmitter } from "@angular/core";
 import { RemoteStream, LocalStream } from "src/app/models";
 import { stringToRGBColor } from "../utils/string-to-color";
 
@@ -10,7 +10,7 @@ import { stringToRGBColor } from "../utils/string-to-color";
 export class StreamCardComponent {
   @Input()
   public inputStream: LocalStream & RemoteStream;
-  @Input() public focusedStream: boolean;
+  @Input() public isFocused: boolean;
   @Output() public enableMicEmitter: EventEmitter<
     MediaStream
   > = new EventEmitter<MediaStream>();

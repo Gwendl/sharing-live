@@ -63,12 +63,12 @@ export class ConferenceService {
   }
 
   private subscribeEvents(socketIoClient: SocketIOClient.Socket): void {
-    socketIoClient.on("participantJoined", (nickname: string) =>
-      this.onParticipantJoined(nickname)
-    );
-    socketIoClient.on("participantLeft", (nickname: string) =>
-      this.onParticipantLeft(nickname)
-    );
+    socketIoClient.on("participantJoined", (nickname: string) => {
+      this.onParticipantJoined(nickname);
+    });
+    socketIoClient.on("participantLeft", (nickname: string) => {
+      this.onParticipantLeft(nickname);
+    });
     socketIoClient.on(
       "conferenceJoined",
       (conferenceId: string, nickname: string, participants: string[]) =>
@@ -189,6 +189,9 @@ export class ConferenceService {
   }
 
   public onParticipantLeft(nickname: string): void {
+    this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(
+      rs => rs.nickname !== nickname
+    );
     this.participants = this.participants.filter(p => p.nickname !== nickname);
   }
 

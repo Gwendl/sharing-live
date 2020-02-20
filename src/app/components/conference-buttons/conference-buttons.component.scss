@@ -6,10 +6,12 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  width: 200px;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
+  button {
+    margin-right: 5px;
+  }
 }
 
 button {
@@ -31,4 +33,54 @@ button {
     background-color: $warn-color !important;
     color: white !important;
   }
+}
+
+.share-button {
+  color: $primary-color !important;
+  &:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+  }
+}
+
+.clean-button {
+  color: $primary-color !important;
+  &:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+  }
+  &.active {
+    background-color: $primary-color !important;
+    color: white !important;
+    &:hover {
+      background-color: white !important;
+      color: $primary-color !important;
+    }
+  }
+}
+
+.container-buttons {
+  transition: all ease 1s;
+  color: $primary-color !important;
+  &:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+  }
+  &.active {
+    background-color: $primary-color !important;
+    color: white !important;
+    &:hover {
+      background-color: white !important;
+      color: $primary-color !important;
+    }
+  }
+}
+
+.hide-actions-buttons {
+  transition: all ease 1s;
+  display: none;
+}
+
+.show-actions-buttons {
+  transition: all ease 1s;
 }

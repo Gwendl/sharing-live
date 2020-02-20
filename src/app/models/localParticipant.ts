@@ -45,9 +45,29 @@ export class LocalParticipant implements Participant {
     const peer = connection.getPeer();
     peer.addEventListener("iceconnectionstatechange", state => {
       if (peer.iceConnectionState !== "disconnected") return;
-      remoteStream.stop();
-      this.remoteStreams = this.remoteStreams.filter(rs => rs !== remoteStream);
+      this.stopRemoteStream(connectionId);
     });
     return remoteStream;
+  }
+
+  public stopLocalStream(localStreamId: string): void {
+    const localStream = this.localStreams.find(ls => ls.id === localStreamId);
+    if (!localStream) return;
+    this.localStreams = this.localStreams.filter(ls => ls !== localStream);
+    localStream.stop();
+  }
+
+  public stopLocalStreamFor(localStreamId: string, nickName: string): void {
+    const localStream = this.localStreams.find(ls => ls.id === localStreamId);
+    if (!localStream) return;
+    localStream.stopConnection(nickName);
+    if (!localStream.hasConnection()) this.stopLocalStream(localStreamId);
+  }
+
+  public stopRemoteStream(connectionId: string): void {
+    const remoteStream = this.remoteStreams.find(rs => rs.id === connectionId);
+    if (!remoteStream) return;
+    remoteStream.stop();
+    this.remoteStreams = this.remoteStreams.filter(rs => rs !== remoteStream);
   }
 }

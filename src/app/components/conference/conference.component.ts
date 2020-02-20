@@ -13,8 +13,8 @@ import { ParticipantStream } from "src/app/models/participant-stream";
   styleUrls: ["./conference.component.scss"]
 })
 export class ConferenceComponent {
-  public localStream: MediaStream;
-  public focusedStream: MediaStream;
+  private focusedStream: MediaStream | undefined = undefined;
+  public panelVisibility: boolean = true;
   constructor(
     private router: ActivatedRoute,
     private conferenceService: ConferenceService,
@@ -22,6 +22,26 @@ export class ConferenceComponent {
     private snackbarService: SnackBarService
   ) {
     this.initConference();
+  }
+
+  public getMainStream(): MediaStream | undefined {
+    if (this.focusedStream) return this.focusedStream;
+    const localParticipant = this.conferenceService.getLocalParticipant();
+    if (!localParticipant) return;
+    const lastRemoteStream = localParticipant.remoteStreams.reverse()[0];
+    return (
+      (lastRemoteStream && lastRemoteStream.stream) ||
+      localParticipant.localStreams.map(ls => ls.stream)[0]
+    );
+  }
+
+  public isFocused(stream: MediaStream): boolean {
+    if (!this.focusedStream) return false;
+    return this.focusedStream === stream;
+  }
+
+  public focusStream(stream: MediaStream): void {
+    this.focusedStream = stream;
   }
 
   public async initConference(): Promise<void> {
@@ -34,8 +54,6 @@ export class ConferenceComponent {
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
       .then(stream => {
-        this.localStream = stream;
-        this.focusedStream = stream;
         this.conferenceService.addStream(stream);
       });
   }
@@ -70,11 +88,6 @@ export class ConferenceComponent {
   public disableMic(stream: MediaStream): void {
     // disable microphone
     console.log("disable microphone", stream);
-  }
-
-  public focusStream(stream: MediaStream) {
-    this.focusedStream = stream;
-    console.log(stream);
   }
 
   public addStream(): void {
@@ -114,5 +127,15 @@ export class ConferenceComponent {
     const stream = participant.stream;
     if (!stream) return undefined;
     return participant.id + stream.active;
+  }
+
+  public async copyToClipboardShareLink(): Promise<void> {
+    const shareLink = location.href;
+    await navigator.clipboard.writeText(shareLink);
+    return this.snackbarService.success("Lien copié dans le presse papier");
+  }
+
+  public triggerVisibility() {
+    this.panelVisibility = !this.panelVisibility;
   }
 }

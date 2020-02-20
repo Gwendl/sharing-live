@@ -24,11 +24,30 @@ export class LocalStream implements ParticipantStream {
       connection
     };
     this.connections.push(connectionInfos);
+    connection.getPeer().addEventListener("iceconnectionstatechange", () => {
+      if (connection.getPeer().iceConnectionState !== "disconnected") return;
+      this.stopConnection(nickname);
+    });
     return connectionInfos;
+  }
+
+  public stopConnection(nickName: string): void {
+    const participantConnection = this.connections.find(
+      pc => pc.nickname === nickName
+    );
+    if (!participantConnection) return;
+    participantConnection.connection.getPeer().close();
+    this.connections = this.connections.filter(
+      pc => pc !== participantConnection
+    );
   }
 
   public stop(): void {
     this.stream.getTracks().forEach(t => t.stop());
-    this.connections.forEach(c => c.connection.getPeer().close());
+    this.connections.forEach(c => this.stopConnection(c.nickname));
+  }
+
+  public hasConnection(): boolean {
+    return this.connections.length > 0;
   }
 }

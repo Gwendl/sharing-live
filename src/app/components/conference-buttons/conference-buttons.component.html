@@ -1,20 +1,61 @@
-<div class="main-buttons">
+<div
+  class="main-buttons"
+  [ngStyle]="{
+    width: displayedActions ? '400px' : '56px',
+    height: displayedActions ? '56px' : '56px'
+  }"
+>
   <button
     mat-fab
-    class="add-icon"
-    (click)="addStream()"
-    matTooltip="Add a stream"
+    class="container-buttons"
+    [ngClass]="{ active: displayedActions }"
+    [matTooltip]="displayedActions ? 'Close menu' : 'Open menu'"
+    (click)="triggerActions()"
   >
-    <mat-icon>add_circle</mat-icon>
+    <mat-icon>{{ displayedActions ? "first_page" : "more_horiz" }}</mat-icon>
   </button>
-  <button
-    mat-fab
-    class="screen-share-icon"
-    (click)="addScreenShare()"
-    matTooltip="Add a screen share"
+  <div
+    [ngClass]="{
+      'hide-actions-buttons': !displayedActions,
+      'show-actions-buttons': displayedActions
+    }"
   >
-    <mat-icon>screen_share</mat-icon>
-  </button>
+    <button
+      mat-fab
+      class="add-icon"
+      (click)="addStream()"
+      matTooltip="Add a stream"
+    >
+      <mat-icon>add_circle</mat-icon>
+    </button>
+    <button
+      mat-fab
+      class="screen-share-icon"
+      (click)="addScreenShare()"
+      matTooltip="Add a screen share"
+    >
+      <mat-icon>screen_share</mat-icon>
+    </button>
+    <button
+      mat-fab
+      color="primary"
+      class="share-button"
+      matTooltip="Copy conference link to the clipboard"
+      (click)="copyToClipboardShareLink()"
+    >
+      <mat-icon>share</mat-icon>
+    </button>
+    <button
+      mat-fab
+      color="primary"
+      [ngClass]="{ active: !panelVisible }"
+      class="clean-button"
+      [matTooltip]="panelVisible ? 'Hide streams' : 'Show streams'"
+      (click)="triggerVisibility()"
+    >
+      <mat-icon>{{ panelVisible ? "visibility_off" : "visibility" }}</mat-icon>
+    </button>
+  </div>
   <button
     mat-fab
     class="hang-icon"

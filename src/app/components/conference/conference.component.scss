@@ -13,6 +13,7 @@
   position: absolute;
   top: 0;
   left: 0;
+  transition: all ease 1s;
 }
 
 .remote-streams {
@@ -23,6 +24,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  transition: all ease 1s;
 }
 
 .main-stream {
@@ -32,4 +34,12 @@
 .main-stream-video {
   width: 100%;
   height: 100%;
+}
+
+.local-stream-invisible {
+  transform: translateX(-100%);
+}
+
+.remote-stream-invisible {
+  transform: translateX(100%);
 }
