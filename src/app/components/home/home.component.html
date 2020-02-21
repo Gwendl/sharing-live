@@ -7,12 +7,14 @@
     <h1 class="title">Sharing live</h1>
   </div>
   <div class="room-manager">
-    <mat-card class="create-room-card">
-      <div class="create-room-container">
-        <h2 class="text-center">Create a room</h2>
-        <p class="text-center">
-          Create a room that can be joined by other
-        </p>
+    <mat-card class="form-card">
+      <div class="form-container">
+        <div class="form-infos">
+          <h2 class="text-center">Create a room</h2>
+          <p class="text-center">
+            Create a room that can be joined by other
+          </p>
+        </div>
         <form
           class="full-width"
           [formGroup]="createRoomFormGroup"
@@ -31,12 +33,14 @@
         </form>
       </div>
     </mat-card>
-    <mat-card class="join-room-card">
-      <div class="join-room-container">
-        <h2 class="text-center">Join a room</h2>
-        <p class="text-center">
-          Join a room already created by someone else
-        </p>
+    <mat-card class="form-card">
+      <div class="form-container">
+        <div class="form-infos">
+          <h2 class="text-center">Join a room</h2>
+          <p class="text-center">
+            Join a room already created by someone else
+          </p>
+        </div>
         <form
           class="full-width"
           [formGroup]="joinRoomFormGroup"
