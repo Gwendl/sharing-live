@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  serverUrl: "https://screen-sharing-server.herokuapp.com"
+  serverUrl: "https://server.sharing-live.com"
 };
 
 /*
