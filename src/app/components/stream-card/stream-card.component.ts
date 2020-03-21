@@ -43,4 +43,8 @@ export class StreamCardComponent {
   public stringToColor(nickname: string): string {
     return stringToRGBColor(nickname);
   }
+
+  public hasVideo() : boolean {
+    return this.inputStream.stream && this.inputStream.stream.getVideoTracks().length > 0;
+  }
 }

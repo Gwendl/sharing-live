@@ -4,6 +4,7 @@
       >remove_red_eye</mat-icon
     >
     <video
+      *ngIf="hasVideo()"
       (click)="focusVideo()"
       autoplay
       playsinline

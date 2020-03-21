@@ -81,13 +81,11 @@ export class ConferenceComponent {
   }
 
   public enableMic(stream: MediaStream): void {
-    // enable microphone
-    console.log("enable microphone", stream);
+   stream.getAudioTracks().forEach(at => at.enabled = true);
   }
 
   public disableMic(stream: MediaStream): void {
-    // disable microphone
-    console.log("disable microphone", stream);
+    stream.getAudioTracks().forEach(at => at.enabled = false);
   }
 
   public addStream(): void {

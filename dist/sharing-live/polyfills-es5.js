@@ -1,12 +1,39 @@
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
-
-function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
-
-function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills-es5"], {
+  /***/
+  "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js":
+  /*!******************************************************************************************************!*\
+    !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js ***!
+    \******************************************************************************************************/
+
+  /*! no exports provided */
+
+  /***/
+  function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesModelsEs5JitPolyfillsJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */
+
+
+    var core_js_es_reflect__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! core-js/es/reflect */
+    "./node_modules/core-js/es/reflect/index.js");
+    /* harmony import */
+
+
+    var core_js_es_reflect__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_es_reflect__WEBPACK_IMPORTED_MODULE_0__);
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+
+    /***/
+
+  },
+
   /***/
   "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js":
   /*!**************************************************************************************************!*\
@@ -29,9 +56,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_es_symbol__WEBPACK_IMPORTED_MODULE_0___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_es_symbol__WEBPACK_IMPORTED_MODULE_0__);
+    var core_js_es_symbol__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_es_symbol__WEBPACK_IMPORTED_MODULE_0__);
     /* harmony import */
 
 
@@ -41,9 +66,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_function_bind__WEBPACK_IMPORTED_MODULE_1___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_function_bind__WEBPACK_IMPORTED_MODULE_1__);
+    var core_js_modules_es_function_bind__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_bind__WEBPACK_IMPORTED_MODULE_1__);
     /* harmony import */
 
 
@@ -53,9 +76,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_2___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_2__);
+    var core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_name__WEBPACK_IMPORTED_MODULE_2__);
     /* harmony import */
 
 
@@ -65,9 +86,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_function_has_instance__WEBPACK_IMPORTED_MODULE_3___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_function_has_instance__WEBPACK_IMPORTED_MODULE_3__);
+    var core_js_modules_es_function_has_instance__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_function_has_instance__WEBPACK_IMPORTED_MODULE_3__);
     /* harmony import */
 
 
@@ -77,9 +96,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_create__WEBPACK_IMPORTED_MODULE_4___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_create__WEBPACK_IMPORTED_MODULE_4__);
+    var core_js_modules_es_object_create__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_create__WEBPACK_IMPORTED_MODULE_4__);
     /* harmony import */
 
 
@@ -89,9 +106,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_define_property__WEBPACK_IMPORTED_MODULE_5___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_define_property__WEBPACK_IMPORTED_MODULE_5__);
+    var core_js_modules_es_object_define_property__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_define_property__WEBPACK_IMPORTED_MODULE_5__);
     /* harmony import */
 
 
@@ -101,9 +116,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_define_properties__WEBPACK_IMPORTED_MODULE_6___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_define_properties__WEBPACK_IMPORTED_MODULE_6__);
+    var core_js_modules_es_object_define_properties__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_define_properties__WEBPACK_IMPORTED_MODULE_6__);
     /* harmony import */
 
 
@@ -113,9 +126,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_7___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_7__);
+    var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_7__);
     /* harmony import */
 
 
@@ -125,9 +136,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_8___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_8__);
+    var core_js_modules_es_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_prototype_of__WEBPACK_IMPORTED_MODULE_8__);
     /* harmony import */
 
 
@@ -137,9 +146,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_9___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_9__);
+    var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_9__);
     /* harmony import */
 
 
@@ -149,9 +156,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_get_own_property_names__WEBPACK_IMPORTED_MODULE_10___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_get_own_property_names__WEBPACK_IMPORTED_MODULE_10__);
+    var core_js_modules_es_object_get_own_property_names__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_names__WEBPACK_IMPORTED_MODULE_10__);
     /* harmony import */
 
 
@@ -161,9 +166,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_freeze__WEBPACK_IMPORTED_MODULE_11___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_freeze__WEBPACK_IMPORTED_MODULE_11__);
+    var core_js_modules_es_object_freeze__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_freeze__WEBPACK_IMPORTED_MODULE_11__);
     /* harmony import */
 
 
@@ -173,9 +176,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_seal__WEBPACK_IMPORTED_MODULE_12___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_seal__WEBPACK_IMPORTED_MODULE_12__);
+    var core_js_modules_es_object_seal__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_seal__WEBPACK_IMPORTED_MODULE_12__);
     /* harmony import */
 
 
@@ -185,9 +186,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_prevent_extensions__WEBPACK_IMPORTED_MODULE_13___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_prevent_extensions__WEBPACK_IMPORTED_MODULE_13__);
+    var core_js_modules_es_object_prevent_extensions__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_prevent_extensions__WEBPACK_IMPORTED_MODULE_13__);
     /* harmony import */
 
 
@@ -197,9 +196,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_is_frozen__WEBPACK_IMPORTED_MODULE_14___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_is_frozen__WEBPACK_IMPORTED_MODULE_14__);
+    var core_js_modules_es_object_is_frozen__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_is_frozen__WEBPACK_IMPORTED_MODULE_14__);
     /* harmony import */
 
 
@@ -209,9 +206,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_is_sealed__WEBPACK_IMPORTED_MODULE_15___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_is_sealed__WEBPACK_IMPORTED_MODULE_15__);
+    var core_js_modules_es_object_is_sealed__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_is_sealed__WEBPACK_IMPORTED_MODULE_15__);
     /* harmony import */
 
 
@@ -221,9 +216,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_is_extensible__WEBPACK_IMPORTED_MODULE_16___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_is_extensible__WEBPACK_IMPORTED_MODULE_16__);
+    var core_js_modules_es_object_is_extensible__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_is_extensible__WEBPACK_IMPORTED_MODULE_16__);
     /* harmony import */
 
 
@@ -233,9 +226,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_assign__WEBPACK_IMPORTED_MODULE_17___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_assign__WEBPACK_IMPORTED_MODULE_17__);
+    var core_js_modules_es_object_assign__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_assign__WEBPACK_IMPORTED_MODULE_17__);
     /* harmony import */
 
 
@@ -245,9 +236,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_is__WEBPACK_IMPORTED_MODULE_18___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_is__WEBPACK_IMPORTED_MODULE_18__);
+    var core_js_modules_es_object_is__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_is__WEBPACK_IMPORTED_MODULE_18__);
     /* harmony import */
 
 
@@ -257,9 +246,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_19___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_19__);
+    var core_js_modules_es_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_set_prototype_of__WEBPACK_IMPORTED_MODULE_19__);
     /* harmony import */
 
 
@@ -269,9 +256,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_20___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_20__);
+    var core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_to_string__WEBPACK_IMPORTED_MODULE_20__);
     /* harmony import */
 
 
@@ -281,9 +266,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_concat__WEBPACK_IMPORTED_MODULE_21___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_concat__WEBPACK_IMPORTED_MODULE_21__);
+    var core_js_modules_es_array_concat__WEBPACK_IMPORTED_MODULE_21___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_concat__WEBPACK_IMPORTED_MODULE_21__);
     /* harmony import */
 
 
@@ -293,9 +276,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_is_array__WEBPACK_IMPORTED_MODULE_22___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_is_array__WEBPACK_IMPORTED_MODULE_22__);
+    var core_js_modules_es_array_is_array__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_is_array__WEBPACK_IMPORTED_MODULE_22__);
     /* harmony import */
 
 
@@ -305,9 +286,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_23___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_23__);
+    var core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_from__WEBPACK_IMPORTED_MODULE_23__);
     /* harmony import */
 
 
@@ -317,9 +296,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_of__WEBPACK_IMPORTED_MODULE_24___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_of__WEBPACK_IMPORTED_MODULE_24__);
+    var core_js_modules_es_array_of__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_of__WEBPACK_IMPORTED_MODULE_24__);
     /* harmony import */
 
 
@@ -329,9 +306,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_25___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_25__);
+    var core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_join__WEBPACK_IMPORTED_MODULE_25__);
     /* harmony import */
 
 
@@ -341,9 +316,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_26___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_26__);
+    var core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_slice__WEBPACK_IMPORTED_MODULE_26__);
     /* harmony import */
 
 
@@ -353,9 +326,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_splice__WEBPACK_IMPORTED_MODULE_27___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_splice__WEBPACK_IMPORTED_MODULE_27__);
+    var core_js_modules_es_array_splice__WEBPACK_IMPORTED_MODULE_27___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_splice__WEBPACK_IMPORTED_MODULE_27__);
     /* harmony import */
 
 
@@ -365,9 +336,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_sort__WEBPACK_IMPORTED_MODULE_28___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_sort__WEBPACK_IMPORTED_MODULE_28__);
+    var core_js_modules_es_array_sort__WEBPACK_IMPORTED_MODULE_28___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_sort__WEBPACK_IMPORTED_MODULE_28__);
     /* harmony import */
 
 
@@ -377,9 +346,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_29___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_29__);
+    var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_29___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_29__);
     /* harmony import */
 
 
@@ -389,9 +356,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_30___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_30__);
+    var core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_30___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_map__WEBPACK_IMPORTED_MODULE_30__);
     /* harmony import */
 
 
@@ -401,9 +366,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_31___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_31__);
+    var core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_31___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_31__);
     /* harmony import */
 
 
@@ -413,9 +376,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_some__WEBPACK_IMPORTED_MODULE_32___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_some__WEBPACK_IMPORTED_MODULE_32__);
+    var core_js_modules_es_array_some__WEBPACK_IMPORTED_MODULE_32___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_some__WEBPACK_IMPORTED_MODULE_32__);
     /* harmony import */
 
 
@@ -425,9 +386,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_every__WEBPACK_IMPORTED_MODULE_33___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_every__WEBPACK_IMPORTED_MODULE_33__);
+    var core_js_modules_es_array_every__WEBPACK_IMPORTED_MODULE_33___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_every__WEBPACK_IMPORTED_MODULE_33__);
     /* harmony import */
 
 
@@ -437,9 +396,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_reduce__WEBPACK_IMPORTED_MODULE_34___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_reduce__WEBPACK_IMPORTED_MODULE_34__);
+    var core_js_modules_es_array_reduce__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_reduce__WEBPACK_IMPORTED_MODULE_34__);
     /* harmony import */
 
 
@@ -449,9 +406,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_reduce_right__WEBPACK_IMPORTED_MODULE_35___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_reduce_right__WEBPACK_IMPORTED_MODULE_35__);
+    var core_js_modules_es_array_reduce_right__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_reduce_right__WEBPACK_IMPORTED_MODULE_35__);
     /* harmony import */
 
 
@@ -461,9 +416,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_index_of__WEBPACK_IMPORTED_MODULE_36___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_index_of__WEBPACK_IMPORTED_MODULE_36__);
+    var core_js_modules_es_array_index_of__WEBPACK_IMPORTED_MODULE_36___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_index_of__WEBPACK_IMPORTED_MODULE_36__);
     /* harmony import */
 
 
@@ -473,9 +426,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_last_index_of__WEBPACK_IMPORTED_MODULE_37___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_last_index_of__WEBPACK_IMPORTED_MODULE_37__);
+    var core_js_modules_es_array_last_index_of__WEBPACK_IMPORTED_MODULE_37___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_last_index_of__WEBPACK_IMPORTED_MODULE_37__);
     /* harmony import */
 
 
@@ -485,9 +436,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_copy_within__WEBPACK_IMPORTED_MODULE_38___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_copy_within__WEBPACK_IMPORTED_MODULE_38__);
+    var core_js_modules_es_array_copy_within__WEBPACK_IMPORTED_MODULE_38___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_copy_within__WEBPACK_IMPORTED_MODULE_38__);
     /* harmony import */
 
 
@@ -497,9 +446,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_fill__WEBPACK_IMPORTED_MODULE_39___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_fill__WEBPACK_IMPORTED_MODULE_39__);
+    var core_js_modules_es_array_fill__WEBPACK_IMPORTED_MODULE_39___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_fill__WEBPACK_IMPORTED_MODULE_39__);
     /* harmony import */
 
 
@@ -509,9 +456,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_find__WEBPACK_IMPORTED_MODULE_40___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_find__WEBPACK_IMPORTED_MODULE_40__);
+    var core_js_modules_es_array_find__WEBPACK_IMPORTED_MODULE_40___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_find__WEBPACK_IMPORTED_MODULE_40__);
     /* harmony import */
 
 
@@ -521,9 +466,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_find_index__WEBPACK_IMPORTED_MODULE_41___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_find_index__WEBPACK_IMPORTED_MODULE_41__);
+    var core_js_modules_es_array_find_index__WEBPACK_IMPORTED_MODULE_41___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_find_index__WEBPACK_IMPORTED_MODULE_41__);
     /* harmony import */
 
 
@@ -533,9 +476,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_array_iterator__WEBPACK_IMPORTED_MODULE_42___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_array_iterator__WEBPACK_IMPORTED_MODULE_42__);
+    var core_js_modules_es_array_iterator__WEBPACK_IMPORTED_MODULE_42___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_iterator__WEBPACK_IMPORTED_MODULE_42__);
     /* harmony import */
 
 
@@ -545,9 +486,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_from_code_point__WEBPACK_IMPORTED_MODULE_43___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_from_code_point__WEBPACK_IMPORTED_MODULE_43__);
+    var core_js_modules_es_string_from_code_point__WEBPACK_IMPORTED_MODULE_43___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_from_code_point__WEBPACK_IMPORTED_MODULE_43__);
     /* harmony import */
 
 
@@ -557,9 +496,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_raw__WEBPACK_IMPORTED_MODULE_44___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_raw__WEBPACK_IMPORTED_MODULE_44__);
+    var core_js_modules_es_string_raw__WEBPACK_IMPORTED_MODULE_44___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_raw__WEBPACK_IMPORTED_MODULE_44__);
     /* harmony import */
 
 
@@ -569,9 +506,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_trim__WEBPACK_IMPORTED_MODULE_45___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_trim__WEBPACK_IMPORTED_MODULE_45__);
+    var core_js_modules_es_string_trim__WEBPACK_IMPORTED_MODULE_45___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_trim__WEBPACK_IMPORTED_MODULE_45__);
     /* harmony import */
 
 
@@ -581,9 +516,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_46___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_46__);
+    var core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_46___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_iterator__WEBPACK_IMPORTED_MODULE_46__);
     /* harmony import */
 
 
@@ -593,9 +526,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_code_point_at__WEBPACK_IMPORTED_MODULE_47___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_code_point_at__WEBPACK_IMPORTED_MODULE_47__);
+    var core_js_modules_es_string_code_point_at__WEBPACK_IMPORTED_MODULE_47___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_code_point_at__WEBPACK_IMPORTED_MODULE_47__);
     /* harmony import */
 
 
@@ -605,9 +536,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_ends_with__WEBPACK_IMPORTED_MODULE_48___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_ends_with__WEBPACK_IMPORTED_MODULE_48__);
+    var core_js_modules_es_string_ends_with__WEBPACK_IMPORTED_MODULE_48___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_ends_with__WEBPACK_IMPORTED_MODULE_48__);
     /* harmony import */
 
 
@@ -617,9 +546,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_49___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_49__);
+    var core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_49___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_includes__WEBPACK_IMPORTED_MODULE_49__);
     /* harmony import */
 
 
@@ -629,9 +556,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_repeat__WEBPACK_IMPORTED_MODULE_50___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_repeat__WEBPACK_IMPORTED_MODULE_50__);
+    var core_js_modules_es_string_repeat__WEBPACK_IMPORTED_MODULE_50___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_repeat__WEBPACK_IMPORTED_MODULE_50__);
     /* harmony import */
 
 
@@ -641,9 +566,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_starts_with__WEBPACK_IMPORTED_MODULE_51___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_starts_with__WEBPACK_IMPORTED_MODULE_51__);
+    var core_js_modules_es_string_starts_with__WEBPACK_IMPORTED_MODULE_51___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_starts_with__WEBPACK_IMPORTED_MODULE_51__);
     /* harmony import */
 
 
@@ -653,9 +576,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_anchor__WEBPACK_IMPORTED_MODULE_52___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_anchor__WEBPACK_IMPORTED_MODULE_52__);
+    var core_js_modules_es_string_anchor__WEBPACK_IMPORTED_MODULE_52___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_anchor__WEBPACK_IMPORTED_MODULE_52__);
     /* harmony import */
 
 
@@ -665,9 +586,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_big__WEBPACK_IMPORTED_MODULE_53___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_big__WEBPACK_IMPORTED_MODULE_53__);
+    var core_js_modules_es_string_big__WEBPACK_IMPORTED_MODULE_53___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_big__WEBPACK_IMPORTED_MODULE_53__);
     /* harmony import */
 
 
@@ -677,9 +596,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_blink__WEBPACK_IMPORTED_MODULE_54___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_blink__WEBPACK_IMPORTED_MODULE_54__);
+    var core_js_modules_es_string_blink__WEBPACK_IMPORTED_MODULE_54___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_blink__WEBPACK_IMPORTED_MODULE_54__);
     /* harmony import */
 
 
@@ -689,9 +606,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_bold__WEBPACK_IMPORTED_MODULE_55___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_bold__WEBPACK_IMPORTED_MODULE_55__);
+    var core_js_modules_es_string_bold__WEBPACK_IMPORTED_MODULE_55___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_bold__WEBPACK_IMPORTED_MODULE_55__);
     /* harmony import */
 
 
@@ -701,9 +616,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_fixed__WEBPACK_IMPORTED_MODULE_56___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_fixed__WEBPACK_IMPORTED_MODULE_56__);
+    var core_js_modules_es_string_fixed__WEBPACK_IMPORTED_MODULE_56___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_fixed__WEBPACK_IMPORTED_MODULE_56__);
     /* harmony import */
 
 
@@ -713,9 +626,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_fontcolor__WEBPACK_IMPORTED_MODULE_57___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_fontcolor__WEBPACK_IMPORTED_MODULE_57__);
+    var core_js_modules_es_string_fontcolor__WEBPACK_IMPORTED_MODULE_57___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_fontcolor__WEBPACK_IMPORTED_MODULE_57__);
     /* harmony import */
 
 
@@ -725,9 +636,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_fontsize__WEBPACK_IMPORTED_MODULE_58___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_fontsize__WEBPACK_IMPORTED_MODULE_58__);
+    var core_js_modules_es_string_fontsize__WEBPACK_IMPORTED_MODULE_58___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_fontsize__WEBPACK_IMPORTED_MODULE_58__);
     /* harmony import */
 
 
@@ -737,9 +646,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_italics__WEBPACK_IMPORTED_MODULE_59___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_italics__WEBPACK_IMPORTED_MODULE_59__);
+    var core_js_modules_es_string_italics__WEBPACK_IMPORTED_MODULE_59___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_italics__WEBPACK_IMPORTED_MODULE_59__);
     /* harmony import */
 
 
@@ -749,9 +656,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_link__WEBPACK_IMPORTED_MODULE_60___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_link__WEBPACK_IMPORTED_MODULE_60__);
+    var core_js_modules_es_string_link__WEBPACK_IMPORTED_MODULE_60___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_link__WEBPACK_IMPORTED_MODULE_60__);
     /* harmony import */
 
 
@@ -761,9 +666,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_small__WEBPACK_IMPORTED_MODULE_61___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_small__WEBPACK_IMPORTED_MODULE_61__);
+    var core_js_modules_es_string_small__WEBPACK_IMPORTED_MODULE_61___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_small__WEBPACK_IMPORTED_MODULE_61__);
     /* harmony import */
 
 
@@ -773,9 +676,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_strike__WEBPACK_IMPORTED_MODULE_62___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_strike__WEBPACK_IMPORTED_MODULE_62__);
+    var core_js_modules_es_string_strike__WEBPACK_IMPORTED_MODULE_62___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_strike__WEBPACK_IMPORTED_MODULE_62__);
     /* harmony import */
 
 
@@ -785,9 +686,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_sub__WEBPACK_IMPORTED_MODULE_63___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_sub__WEBPACK_IMPORTED_MODULE_63__);
+    var core_js_modules_es_string_sub__WEBPACK_IMPORTED_MODULE_63___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_sub__WEBPACK_IMPORTED_MODULE_63__);
     /* harmony import */
 
 
@@ -797,9 +696,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_sup__WEBPACK_IMPORTED_MODULE_64___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_sup__WEBPACK_IMPORTED_MODULE_64__);
+    var core_js_modules_es_string_sup__WEBPACK_IMPORTED_MODULE_64___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_sup__WEBPACK_IMPORTED_MODULE_64__);
     /* harmony import */
 
 
@@ -809,9 +706,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_65___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_65__);
+    var core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_65___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_match__WEBPACK_IMPORTED_MODULE_65__);
     /* harmony import */
 
 
@@ -821,9 +716,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_66___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_66__);
+    var core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_66___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_replace__WEBPACK_IMPORTED_MODULE_66__);
     /* harmony import */
 
 
@@ -833,9 +726,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_search__WEBPACK_IMPORTED_MODULE_67___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_search__WEBPACK_IMPORTED_MODULE_67__);
+    var core_js_modules_es_string_search__WEBPACK_IMPORTED_MODULE_67___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_search__WEBPACK_IMPORTED_MODULE_67__);
     /* harmony import */
 
 
@@ -845,9 +736,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_string_split__WEBPACK_IMPORTED_MODULE_68___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_string_split__WEBPACK_IMPORTED_MODULE_68__);
+    var core_js_modules_es_string_split__WEBPACK_IMPORTED_MODULE_68___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_string_split__WEBPACK_IMPORTED_MODULE_68__);
     /* harmony import */
 
 
@@ -857,9 +746,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_parse_int__WEBPACK_IMPORTED_MODULE_69___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_parse_int__WEBPACK_IMPORTED_MODULE_69__);
+    var core_js_modules_es_parse_int__WEBPACK_IMPORTED_MODULE_69___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_parse_int__WEBPACK_IMPORTED_MODULE_69__);
     /* harmony import */
 
 
@@ -869,9 +756,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_parse_float__WEBPACK_IMPORTED_MODULE_70___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_parse_float__WEBPACK_IMPORTED_MODULE_70__);
+    var core_js_modules_es_parse_float__WEBPACK_IMPORTED_MODULE_70___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_parse_float__WEBPACK_IMPORTED_MODULE_70__);
     /* harmony import */
 
 
@@ -881,9 +766,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_es_number__WEBPACK_IMPORTED_MODULE_71___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_es_number__WEBPACK_IMPORTED_MODULE_71__);
+    var core_js_es_number__WEBPACK_IMPORTED_MODULE_71___default = /*#__PURE__*/__webpack_require__.n(core_js_es_number__WEBPACK_IMPORTED_MODULE_71__);
     /* harmony import */
 
 
@@ -893,9 +776,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_es_math__WEBPACK_IMPORTED_MODULE_72___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_es_math__WEBPACK_IMPORTED_MODULE_72__);
+    var core_js_es_math__WEBPACK_IMPORTED_MODULE_72___default = /*#__PURE__*/__webpack_require__.n(core_js_es_math__WEBPACK_IMPORTED_MODULE_72__);
     /* harmony import */
 
 
@@ -905,9 +786,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_es_date__WEBPACK_IMPORTED_MODULE_73___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_es_date__WEBPACK_IMPORTED_MODULE_73__);
+    var core_js_es_date__WEBPACK_IMPORTED_MODULE_73___default = /*#__PURE__*/__webpack_require__.n(core_js_es_date__WEBPACK_IMPORTED_MODULE_73__);
     /* harmony import */
 
 
@@ -917,9 +796,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_regexp_constructor__WEBPACK_IMPORTED_MODULE_74___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_regexp_constructor__WEBPACK_IMPORTED_MODULE_74__);
+    var core_js_modules_es_regexp_constructor__WEBPACK_IMPORTED_MODULE_74___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_constructor__WEBPACK_IMPORTED_MODULE_74__);
     /* harmony import */
 
 
@@ -929,9 +806,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_regexp_to_string__WEBPACK_IMPORTED_MODULE_75___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_regexp_to_string__WEBPACK_IMPORTED_MODULE_75__);
+    var core_js_modules_es_regexp_to_string__WEBPACK_IMPORTED_MODULE_75___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_to_string__WEBPACK_IMPORTED_MODULE_75__);
     /* harmony import */
 
 
@@ -941,9 +816,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_regexp_flags__WEBPACK_IMPORTED_MODULE_76___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_regexp_flags__WEBPACK_IMPORTED_MODULE_76__);
+    var core_js_modules_es_regexp_flags__WEBPACK_IMPORTED_MODULE_76___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_regexp_flags__WEBPACK_IMPORTED_MODULE_76__);
     /* harmony import */
 
 
@@ -953,9 +826,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_map__WEBPACK_IMPORTED_MODULE_77___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_map__WEBPACK_IMPORTED_MODULE_77__);
+    var core_js_modules_es_map__WEBPACK_IMPORTED_MODULE_77___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_map__WEBPACK_IMPORTED_MODULE_77__);
     /* harmony import */
 
 
@@ -965,9 +836,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_weak_map__WEBPACK_IMPORTED_MODULE_78___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_weak_map__WEBPACK_IMPORTED_MODULE_78__);
+    var core_js_modules_es_weak_map__WEBPACK_IMPORTED_MODULE_78___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_weak_map__WEBPACK_IMPORTED_MODULE_78__);
     /* harmony import */
 
 
@@ -977,9 +846,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_set__WEBPACK_IMPORTED_MODULE_79___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_set__WEBPACK_IMPORTED_MODULE_79__);
+    var core_js_modules_es_set__WEBPACK_IMPORTED_MODULE_79___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_set__WEBPACK_IMPORTED_MODULE_79__);
     /* harmony import */
 
 
@@ -989,9 +856,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_80___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_80__);
+    var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_80___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_80__);
     /* harmony import */
 
 
@@ -1001,9 +866,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_web_dom_collections_iterator__WEBPACK_IMPORTED_MODULE_81___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_web_dom_collections_iterator__WEBPACK_IMPORTED_MODULE_81__);
+    var core_js_modules_web_dom_collections_iterator__WEBPACK_IMPORTED_MODULE_81___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_iterator__WEBPACK_IMPORTED_MODULE_81__);
     /* harmony import */
 
 
@@ -1013,9 +876,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_82___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_82__);
+    var core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_82___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_promise__WEBPACK_IMPORTED_MODULE_82__);
     /* harmony import */
 
 
@@ -1025,9 +886,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var core_js_modules_es_json_to_string_tag__WEBPACK_IMPORTED_MODULE_83___default =
-    /*#__PURE__*/
-    __webpack_require__.n(core_js_modules_es_json_to_string_tag__WEBPACK_IMPORTED_MODULE_83__);
+    var core_js_modules_es_json_to_string_tag__WEBPACK_IMPORTED_MODULE_83___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_json_to_string_tag__WEBPACK_IMPORTED_MODULE_83__);
     /* harmony import */
 
 
@@ -1037,9 +896,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_84___default =
-    /*#__PURE__*/
-    __webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_84__);
+    var regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_84___default = /*#__PURE__*/__webpack_require__.n(regenerator_runtime_runtime__WEBPACK_IMPORTED_MODULE_84__);
     /**
      * @license
      * Copyright Google Inc. All Rights Reserved.
@@ -1052,6 +909,41 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     // ES2015 object capabilities
     // ES2015 array capabilities
     // ES2015 string capabilities
+
+    /***/
+
+  },
+
+  /***/
+  "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js":
+  /*!**************************************************************************************************!*\
+    !*** ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js ***!
+    \**************************************************************************************************/
+
+  /*! no exports provided */
+
+  /***/
+  function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesModelsJitPolyfillsJs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony import */
+
+
+    var core_js_proposals_reflect_metadata__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! core-js/proposals/reflect-metadata */
+    "./node_modules/core-js/proposals/reflect-metadata.js");
+    /* harmony import */
+
+
+    var core_js_proposals_reflect_metadata__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(core_js_proposals_reflect_metadata__WEBPACK_IMPORTED_MODULE_0__);
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
 
     /***/
 
@@ -1248,6 +1140,76 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     "./node_modules/core-js/internals/path.js");
 
     module.exports = path.Number;
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/es/reflect/index.js":
+  /*!**************************************************!*\
+    !*** ./node_modules/core-js/es/reflect/index.js ***!
+    \**************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsEsReflectIndexJs(module, exports, __webpack_require__) {
+    __webpack_require__(
+    /*! ../../modules/es.reflect.apply */
+    "./node_modules/core-js/modules/es.reflect.apply.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.construct */
+    "./node_modules/core-js/modules/es.reflect.construct.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.define-property */
+    "./node_modules/core-js/modules/es.reflect.define-property.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.delete-property */
+    "./node_modules/core-js/modules/es.reflect.delete-property.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.get */
+    "./node_modules/core-js/modules/es.reflect.get.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.get-own-property-descriptor */
+    "./node_modules/core-js/modules/es.reflect.get-own-property-descriptor.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.get-prototype-of */
+    "./node_modules/core-js/modules/es.reflect.get-prototype-of.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.has */
+    "./node_modules/core-js/modules/es.reflect.has.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.is-extensible */
+    "./node_modules/core-js/modules/es.reflect.is-extensible.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.own-keys */
+    "./node_modules/core-js/modules/es.reflect.own-keys.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.prevent-extensions */
+    "./node_modules/core-js/modules/es.reflect.prevent-extensions.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.set */
+    "./node_modules/core-js/modules/es.reflect.set.js");
+
+    __webpack_require__(
+    /*! ../../modules/es.reflect.set-prototype-of */
+    "./node_modules/core-js/modules/es.reflect.set-prototype-of.js");
+
+    var path = __webpack_require__(
+    /*! ../../internals/path */
+    "./node_modules/core-js/internals/path.js");
+
+    module.exports = path.Reflect;
     /***/
   },
 
@@ -1597,9 +1559,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       var end = argumentsLength > 2 ? arguments[2] : undefined;
       var endPos = end === undefined ? length : toAbsoluteIndex(end, length);
 
-      while (endPos > index) {
-        O[index++] = value;
-      }
+      while (endPos > index) O[index++] = value;
 
       return O;
     };
@@ -1826,31 +1786,29 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         var target = IS_MAP ? create($this, length) : IS_FILTER ? create($this, 0) : undefined;
         var value, result;
 
-        for (; length > index; index++) {
-          if (NO_HOLES || index in self) {
-            value = self[index];
-            result = boundFunction(value, index, O);
+        for (; length > index; index++) if (NO_HOLES || index in self) {
+          value = self[index];
+          result = boundFunction(value, index, O);
 
-            if (TYPE) {
-              if (IS_MAP) target[index] = result; // map
-              else if (result) switch (TYPE) {
-                  case 3:
-                    return true;
-                  // some
+          if (TYPE) {
+            if (IS_MAP) target[index] = result; // map
+            else if (result) switch (TYPE) {
+                case 3:
+                  return true;
+                // some
 
-                  case 5:
-                    return value;
-                  // find
+                case 5:
+                  return value;
+                // find
 
-                  case 6:
-                    return index;
-                  // findIndex
+                case 6:
+                  return index;
+                // findIndex
 
-                  case 2:
-                    push.call(target, value);
-                  // filter
-                } else if (IS_EVERY) return false; // every
-            }
+                case 2:
+                  push.call(target, value);
+                // filter
+              } else if (IS_EVERY) return false; // every
           }
         }
 
@@ -1939,9 +1897,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       if (arguments.length > 1) index = min(index, toInteger(arguments[1]));
       if (index < 0) index = length + index;
 
-      for (; index >= 0; index--) {
-        if (index in O && O[index] === searchElement) return index || 0;
-      }
+      for (; index >= 0; index--) if (index in O && O[index] === searchElement) return index || 0;
 
       return -1;
     } : nativeLastIndexOf;
@@ -2123,10 +2079,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
         }
 
-        for (; IS_RIGHT ? index >= 0 : length > index; index += i) {
-          if (index in self) {
-            memo = callbackfn(memo, self[index], index, O);
-          }
+        for (; IS_RIGHT ? index >= 0 : length > index; index += i) if (index in self) {
+          memo = callbackfn(memo, self[index], index, O);
         }
 
         return memo;
@@ -2515,9 +2469,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             while (entry = entry ? entry.next : state.first) {
               boundFunction(entry.value, entry.key, this); // revert to the last existing entry
 
-              while (entry && entry.removed) {
-                entry = entry.previous;
-              }
+              while (entry && entry.removed) entry = entry.previous;
             }
           },
           // 23.1.3.7 Map.prototype.has(key)
@@ -2568,9 +2520,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           var kind = state.kind;
           var entry = state.last; // revert to the last existing entry
 
-          while (entry && entry.removed) {
-            entry = entry.previous;
-          } // get next entry
+          while (entry && entry.removed) entry = entry.previous; // get next entry
 
 
           if (!state.target || !(state.last = entry = entry ? entry.next : state.state.first)) {
@@ -2870,9 +2820,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           var $instance = new NativeConstructor();
           var index = 5;
 
-          while (index--) {
-            $instance[ADDER](index, index);
-          }
+          while (index--) $instance[ADDER](index, index);
 
           return !$instance.has(-0);
         });
@@ -4021,9 +3969,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
     var construct = function construct(C, argsLength, args) {
       if (!(argsLength in factories)) {
-        for (var list = [], i = 0; i < argsLength; i++) {
-          list[i] = 'a[' + i + ']';
-        } // eslint-disable-next-line no-new-func
+        for (var list = [], i = 0; i < argsLength; i++) list[i] = 'a[' + i + ']'; // eslint-disable-next-line no-new-func
 
 
         factories[argsLength] = Function('C,a', 'return new C(' + list.join(',') + ')');
@@ -5487,9 +5433,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       _NullProtoObject = activeXDocument ? NullProtoObjectViaActiveX(activeXDocument) : NullProtoObjectViaIFrame();
       var length = enumBugKeys.length;
 
-      while (length--) {
-        delete _NullProtoObject[PROTOTYPE][enumBugKeys[length]];
-      }
+      while (length--) delete _NullProtoObject[PROTOTYPE][enumBugKeys[length]];
 
       return _NullProtoObject();
     };
@@ -5549,9 +5493,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       var index = 0;
       var key;
 
-      while (length > index) {
-        definePropertyModule.f(O, key = keys[index++], Properties[key]);
-      }
+      while (length > index) definePropertyModule.f(O, key = keys[index++], Properties[key]);
 
       return O;
     };
@@ -5811,15 +5753,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       var result = [];
       var key;
 
-      for (key in O) {
-        !has(hiddenKeys, key) && has(O, key) && result.push(key);
-      } // Don't enum bug & hidden keys
+      for (key in O) !has(hiddenKeys, key) && has(O, key) && result.push(key); // Don't enum bug & hidden keys
 
 
-      while (names.length > i) {
-        if (has(O, key = names[i++])) {
-          ~indexOf(result, key) || result.push(key);
-        }
+      while (names.length > i) if (has(O, key = names[i++])) {
+        ~indexOf(result, key) || result.push(key);
       }
 
       return result;
@@ -6086,9 +6024,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     "./node_modules/core-js/internals/redefine.js");
 
     module.exports = function (target, src, options) {
-      for (var key in src) {
-        redefine(target, key, src[key], options);
-      }
+      for (var key in src) redefine(target, key, src[key], options);
 
       return target;
     };
@@ -6156,6 +6092,89 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     })(Function.prototype, 'toString', function toString() {
       return typeof this == 'function' && getInternalState(this).source || inspectSource(this);
     });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/internals/reflect-metadata.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/core-js/internals/reflect-metadata.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsInternalsReflectMetadataJs(module, exports, __webpack_require__) {
+    // TODO: in core-js@4, move /modules/ dependencies to public entries for better optimization by tools like `preset-env`
+    var Map = __webpack_require__(
+    /*! ../modules/es.map */
+    "./node_modules/core-js/modules/es.map.js");
+
+    var WeakMap = __webpack_require__(
+    /*! ../modules/es.weak-map */
+    "./node_modules/core-js/modules/es.weak-map.js");
+
+    var shared = __webpack_require__(
+    /*! ../internals/shared */
+    "./node_modules/core-js/internals/shared.js");
+
+    var metadata = shared('metadata');
+    var store = metadata.store || (metadata.store = new WeakMap());
+
+    var getOrCreateMetadataMap = function getOrCreateMetadataMap(target, targetKey, create) {
+      var targetMetadata = store.get(target);
+
+      if (!targetMetadata) {
+        if (!create) return;
+        store.set(target, targetMetadata = new Map());
+      }
+
+      var keyMetadata = targetMetadata.get(targetKey);
+
+      if (!keyMetadata) {
+        if (!create) return;
+        targetMetadata.set(targetKey, keyMetadata = new Map());
+      }
+
+      return keyMetadata;
+    };
+
+    var ordinaryHasOwnMetadata = function ordinaryHasOwnMetadata(MetadataKey, O, P) {
+      var metadataMap = getOrCreateMetadataMap(O, P, false);
+      return metadataMap === undefined ? false : metadataMap.has(MetadataKey);
+    };
+
+    var ordinaryGetOwnMetadata = function ordinaryGetOwnMetadata(MetadataKey, O, P) {
+      var metadataMap = getOrCreateMetadataMap(O, P, false);
+      return metadataMap === undefined ? undefined : metadataMap.get(MetadataKey);
+    };
+
+    var ordinaryDefineOwnMetadata = function ordinaryDefineOwnMetadata(MetadataKey, MetadataValue, O, P) {
+      getOrCreateMetadataMap(O, P, true).set(MetadataKey, MetadataValue);
+    };
+
+    var ordinaryOwnMetadataKeys = function ordinaryOwnMetadataKeys(target, targetKey) {
+      var metadataMap = getOrCreateMetadataMap(target, targetKey, false);
+      var keys = [];
+      if (metadataMap) metadataMap.forEach(function (_, key) {
+        keys.push(key);
+      });
+      return keys;
+    };
+
+    var toMetadataKey = function toMetadataKey(it) {
+      return it === undefined || typeof it == 'symbol' ? it : String(it);
+    };
+
+    module.exports = {
+      store: store,
+      getMap: getOrCreateMetadataMap,
+      has: ordinaryHasOwnMetadata,
+      get: ordinaryGetOwnMetadata,
+      set: ordinaryDefineOwnMetadata,
+      keys: ordinaryOwnMetadataKeys,
+      toKey: toMetadataKey
+    };
     /***/
   },
 
@@ -6792,9 +6811,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       var n = toInteger(count);
       if (n < 0 || n == Infinity) throw RangeError('Wrong number of repetitions');
 
-      for (; n > 0; (n >>>= 1) && (str += str)) {
-        if (n & 1) result += str;
-      }
+      for (; n > 0; (n >>>= 1) && (str += str)) if (n & 1) result += str;
 
       return result;
     };
@@ -6820,7 +6837,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /*! ../internals/whitespaces */
     "./node_modules/core-js/internals/whitespaces.js");
 
-    var non = "\u200B\x85\u180E"; // check that a method works with the correct list
+    var non = '\u200B\u0085\u180E'; // check that a method works with the correct list
     // of whitespaces and has a correct name
 
     module.exports = function (METHOD_NAME) {
@@ -6956,9 +6973,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         var args = [];
         var i = 1;
 
-        while (arguments.length > i) {
-          args.push(arguments[i++]);
-        }
+        while (arguments.length > i) args.push(arguments[i++]);
 
         queue[++counter] = function () {
           // eslint-disable-next-line no-new-func
@@ -7334,7 +7349,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
   function node_modulesCoreJsInternalsWhitespacesJs(module, exports) {
     // a string of all valid unicode whitespaces
     // eslint-disable-next-line max-len
-    module.exports = "\t\n\x0B\f\r \xA0\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF";
+    module.exports = '\u0009\u000A\u000B\u000C\u000D\u0020\u00A0\u1680\u2000\u2001\u2002\u2003\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
     /***/
   },
 
@@ -7436,9 +7451,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             len = toLength(E.length);
             if (n + len > MAX_SAFE_INTEGER) throw TypeError(MAXIMUM_ALLOWED_INDEX_EXCEEDED);
 
-            for (k = 0; k < len; k++, n++) {
-              if (k in E) createProperty(A, n, E[k]);
-            }
+            for (k = 0; k < len; k++, n++) if (k in E) createProperty(A, n, E[k]);
           } else {
             if (n >= MAX_SAFE_INTEGER) throw TypeError(MAXIMUM_ALLOWED_INDEX_EXCEEDED);
             createProperty(A, n++, E);
@@ -8135,9 +8148,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         var argumentsLength = arguments.length;
         var result = new (typeof this == 'function' ? this : Array)(argumentsLength);
 
-        while (argumentsLength > index) {
-          createProperty(result, index, arguments[index++]);
-        }
+        while (argumentsLength > index) createProperty(result, index, arguments[index++]);
 
         result.length = argumentsLength;
         return result;
@@ -8337,9 +8348,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         result = new (Constructor === undefined ? Array : Constructor)(max(fin - k, 0));
 
-        for (n = 0; k < fin; k++, n++) {
-          if (k in O) createProperty(result, n, O[k]);
-        }
+        for (n = 0; k < fin; k++, n++) if (k in O) createProperty(result, n, O[k]);
 
         result.length = n;
         return result;
@@ -8558,9 +8567,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             if (from in O) O[to] = O[from];else delete O[to];
           }
 
-          for (k = len; k > len - actualDeleteCount + insertCount; k--) {
-            delete O[k - 1];
-          }
+          for (k = len; k > len - actualDeleteCount + insertCount; k--) delete O[k - 1];
         } else if (insertCount > actualDeleteCount) {
           for (k = len - actualDeleteCount; k > actualStart; k--) {
             from = k + actualDeleteCount - 1;
@@ -8822,9 +8829,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           if (typeof this != 'function' || !isObject(O)) return false;
           if (!isObject(this.prototype)) return O instanceof this; // for environment w/o native `@@hasInstance` logic enough `instanceof`, but add this:
 
-          while (O = getPrototypeOf(O)) {
-            if (this.prototype === O) return true;
-          }
+          while (O = getPrototypeOf(O)) if (this.prototype === O) return true;
 
           return false;
         }
@@ -11390,6 +11395,690 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
   },
 
   /***/
+  "./node_modules/core-js/modules/es.reflect.apply.js":
+  /*!**********************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.apply.js ***!
+    \**********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectApplyJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var getBuiltIn = __webpack_require__(
+    /*! ../internals/get-built-in */
+    "./node_modules/core-js/internals/get-built-in.js");
+
+    var aFunction = __webpack_require__(
+    /*! ../internals/a-function */
+    "./node_modules/core-js/internals/a-function.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var fails = __webpack_require__(
+    /*! ../internals/fails */
+    "./node_modules/core-js/internals/fails.js");
+
+    var nativeApply = getBuiltIn('Reflect', 'apply');
+    var functionApply = Function.apply; // MS Edge argumentsList argument is optional
+
+    var OPTIONAL_ARGUMENTS_LIST = !fails(function () {
+      nativeApply(function () {
+        /* empty */
+      });
+    }); // `Reflect.apply` method
+    // https://tc39.github.io/ecma262/#sec-reflect.apply
+
+    $({
+      target: 'Reflect',
+      stat: true,
+      forced: OPTIONAL_ARGUMENTS_LIST
+    }, {
+      apply: function apply(target, thisArgument, argumentsList) {
+        aFunction(target);
+        anObject(argumentsList);
+        return nativeApply ? nativeApply(target, thisArgument, argumentsList) : functionApply.call(target, thisArgument, argumentsList);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.construct.js":
+  /*!**************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.construct.js ***!
+    \**************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectConstructJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var getBuiltIn = __webpack_require__(
+    /*! ../internals/get-built-in */
+    "./node_modules/core-js/internals/get-built-in.js");
+
+    var aFunction = __webpack_require__(
+    /*! ../internals/a-function */
+    "./node_modules/core-js/internals/a-function.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var isObject = __webpack_require__(
+    /*! ../internals/is-object */
+    "./node_modules/core-js/internals/is-object.js");
+
+    var create = __webpack_require__(
+    /*! ../internals/object-create */
+    "./node_modules/core-js/internals/object-create.js");
+
+    var bind = __webpack_require__(
+    /*! ../internals/function-bind */
+    "./node_modules/core-js/internals/function-bind.js");
+
+    var fails = __webpack_require__(
+    /*! ../internals/fails */
+    "./node_modules/core-js/internals/fails.js");
+
+    var nativeConstruct = getBuiltIn('Reflect', 'construct'); // `Reflect.construct` method
+    // https://tc39.github.io/ecma262/#sec-reflect.construct
+    // MS Edge supports only 2 arguments and argumentsList argument is optional
+    // FF Nightly sets third argument as `new.target`, but does not create `this` from it
+
+    var NEW_TARGET_BUG = fails(function () {
+      function F() {
+        /* empty */
+      }
+
+      return !(nativeConstruct(function () {
+        /* empty */
+      }, [], F) instanceof F);
+    });
+    var ARGS_BUG = !fails(function () {
+      nativeConstruct(function () {
+        /* empty */
+      });
+    });
+    var FORCED = NEW_TARGET_BUG || ARGS_BUG;
+    $({
+      target: 'Reflect',
+      stat: true,
+      forced: FORCED,
+      sham: FORCED
+    }, {
+      construct: function construct(Target, args
+      /* , newTarget */
+      ) {
+        aFunction(Target);
+        anObject(args);
+        var newTarget = arguments.length < 3 ? Target : aFunction(arguments[2]);
+        if (ARGS_BUG && !NEW_TARGET_BUG) return nativeConstruct(Target, args, newTarget);
+
+        if (Target == newTarget) {
+          // w/o altered newTarget, optimization for 0-4 arguments
+          switch (args.length) {
+            case 0:
+              return new Target();
+
+            case 1:
+              return new Target(args[0]);
+
+            case 2:
+              return new Target(args[0], args[1]);
+
+            case 3:
+              return new Target(args[0], args[1], args[2]);
+
+            case 4:
+              return new Target(args[0], args[1], args[2], args[3]);
+          } // w/o altered newTarget, lot of arguments case
+
+
+          var $args = [null];
+          $args.push.apply($args, args);
+          return new (bind.apply(Target, $args))();
+        } // with altered newTarget, not support built-in constructors
+
+
+        var proto = newTarget.prototype;
+        var instance = create(isObject(proto) ? proto : Object.prototype);
+        var result = Function.apply.call(Target, instance, args);
+        return isObject(result) ? result : instance;
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.define-property.js":
+  /*!********************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.define-property.js ***!
+    \********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectDefinePropertyJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var DESCRIPTORS = __webpack_require__(
+    /*! ../internals/descriptors */
+    "./node_modules/core-js/internals/descriptors.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var toPrimitive = __webpack_require__(
+    /*! ../internals/to-primitive */
+    "./node_modules/core-js/internals/to-primitive.js");
+
+    var definePropertyModule = __webpack_require__(
+    /*! ../internals/object-define-property */
+    "./node_modules/core-js/internals/object-define-property.js");
+
+    var fails = __webpack_require__(
+    /*! ../internals/fails */
+    "./node_modules/core-js/internals/fails.js"); // MS Edge has broken Reflect.defineProperty - throwing instead of returning false
+
+
+    var ERROR_INSTEAD_OF_FALSE = fails(function () {
+      // eslint-disable-next-line no-undef
+      Reflect.defineProperty(definePropertyModule.f({}, 1, {
+        value: 1
+      }), 1, {
+        value: 2
+      });
+    }); // `Reflect.defineProperty` method
+    // https://tc39.github.io/ecma262/#sec-reflect.defineproperty
+
+    $({
+      target: 'Reflect',
+      stat: true,
+      forced: ERROR_INSTEAD_OF_FALSE,
+      sham: !DESCRIPTORS
+    }, {
+      defineProperty: function defineProperty(target, propertyKey, attributes) {
+        anObject(target);
+        var key = toPrimitive(propertyKey, true);
+        anObject(attributes);
+
+        try {
+          definePropertyModule.f(target, key, attributes);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.delete-property.js":
+  /*!********************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.delete-property.js ***!
+    \********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectDeletePropertyJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var getOwnPropertyDescriptor = __webpack_require__(
+    /*! ../internals/object-get-own-property-descriptor */
+    "./node_modules/core-js/internals/object-get-own-property-descriptor.js").f; // `Reflect.deleteProperty` method
+    // https://tc39.github.io/ecma262/#sec-reflect.deleteproperty
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      deleteProperty: function deleteProperty(target, propertyKey) {
+        var descriptor = getOwnPropertyDescriptor(anObject(target), propertyKey);
+        return descriptor && !descriptor.configurable ? false : delete target[propertyKey];
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.get-own-property-descriptor.js":
+  /*!********************************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.get-own-property-descriptor.js ***!
+    \********************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectGetOwnPropertyDescriptorJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var DESCRIPTORS = __webpack_require__(
+    /*! ../internals/descriptors */
+    "./node_modules/core-js/internals/descriptors.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var getOwnPropertyDescriptorModule = __webpack_require__(
+    /*! ../internals/object-get-own-property-descriptor */
+    "./node_modules/core-js/internals/object-get-own-property-descriptor.js"); // `Reflect.getOwnPropertyDescriptor` method
+    // https://tc39.github.io/ecma262/#sec-reflect.getownpropertydescriptor
+
+
+    $({
+      target: 'Reflect',
+      stat: true,
+      sham: !DESCRIPTORS
+    }, {
+      getOwnPropertyDescriptor: function getOwnPropertyDescriptor(target, propertyKey) {
+        return getOwnPropertyDescriptorModule.f(anObject(target), propertyKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.get-prototype-of.js":
+  /*!*********************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.get-prototype-of.js ***!
+    \*********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectGetPrototypeOfJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var objectGetPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js");
+
+    var CORRECT_PROTOTYPE_GETTER = __webpack_require__(
+    /*! ../internals/correct-prototype-getter */
+    "./node_modules/core-js/internals/correct-prototype-getter.js"); // `Reflect.getPrototypeOf` method
+    // https://tc39.github.io/ecma262/#sec-reflect.getprototypeof
+
+
+    $({
+      target: 'Reflect',
+      stat: true,
+      sham: !CORRECT_PROTOTYPE_GETTER
+    }, {
+      getPrototypeOf: function getPrototypeOf(target) {
+        return objectGetPrototypeOf(anObject(target));
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.get.js":
+  /*!********************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.get.js ***!
+    \********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectGetJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var isObject = __webpack_require__(
+    /*! ../internals/is-object */
+    "./node_modules/core-js/internals/is-object.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var has = __webpack_require__(
+    /*! ../internals/has */
+    "./node_modules/core-js/internals/has.js");
+
+    var getOwnPropertyDescriptorModule = __webpack_require__(
+    /*! ../internals/object-get-own-property-descriptor */
+    "./node_modules/core-js/internals/object-get-own-property-descriptor.js");
+
+    var getPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js"); // `Reflect.get` method
+    // https://tc39.github.io/ecma262/#sec-reflect.get
+
+
+    function get(target, propertyKey
+    /* , receiver */
+    ) {
+      var receiver = arguments.length < 3 ? target : arguments[2];
+      var descriptor, prototype;
+      if (anObject(target) === receiver) return target[propertyKey];
+      if (descriptor = getOwnPropertyDescriptorModule.f(target, propertyKey)) return has(descriptor, 'value') ? descriptor.value : descriptor.get === undefined ? undefined : descriptor.get.call(receiver);
+      if (isObject(prototype = getPrototypeOf(target))) return get(prototype, propertyKey, receiver);
+    }
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      get: get
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.has.js":
+  /*!********************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.has.js ***!
+    \********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectHasJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js"); // `Reflect.has` method
+    // https://tc39.github.io/ecma262/#sec-reflect.has
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      has: function has(target, propertyKey) {
+        return propertyKey in target;
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.is-extensible.js":
+  /*!******************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.is-extensible.js ***!
+    \******************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectIsExtensibleJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var objectIsExtensible = Object.isExtensible; // `Reflect.isExtensible` method
+    // https://tc39.github.io/ecma262/#sec-reflect.isextensible
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      isExtensible: function isExtensible(target) {
+        anObject(target);
+        return objectIsExtensible ? objectIsExtensible(target) : true;
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.own-keys.js":
+  /*!*************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.own-keys.js ***!
+    \*************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectOwnKeysJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ownKeys = __webpack_require__(
+    /*! ../internals/own-keys */
+    "./node_modules/core-js/internals/own-keys.js"); // `Reflect.ownKeys` method
+    // https://tc39.github.io/ecma262/#sec-reflect.ownkeys
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      ownKeys: ownKeys
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.prevent-extensions.js":
+  /*!***********************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.prevent-extensions.js ***!
+    \***********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectPreventExtensionsJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var getBuiltIn = __webpack_require__(
+    /*! ../internals/get-built-in */
+    "./node_modules/core-js/internals/get-built-in.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var FREEZING = __webpack_require__(
+    /*! ../internals/freezing */
+    "./node_modules/core-js/internals/freezing.js"); // `Reflect.preventExtensions` method
+    // https://tc39.github.io/ecma262/#sec-reflect.preventextensions
+
+
+    $({
+      target: 'Reflect',
+      stat: true,
+      sham: !FREEZING
+    }, {
+      preventExtensions: function preventExtensions(target) {
+        anObject(target);
+
+        try {
+          var objectPreventExtensions = getBuiltIn('Object', 'preventExtensions');
+          if (objectPreventExtensions) objectPreventExtensions(target);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.set-prototype-of.js":
+  /*!*********************************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.set-prototype-of.js ***!
+    \*********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectSetPrototypeOfJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var aPossiblePrototype = __webpack_require__(
+    /*! ../internals/a-possible-prototype */
+    "./node_modules/core-js/internals/a-possible-prototype.js");
+
+    var objectSetPrototypeOf = __webpack_require__(
+    /*! ../internals/object-set-prototype-of */
+    "./node_modules/core-js/internals/object-set-prototype-of.js"); // `Reflect.setPrototypeOf` method
+    // https://tc39.github.io/ecma262/#sec-reflect.setprototypeof
+
+
+    if (objectSetPrototypeOf) $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      setPrototypeOf: function setPrototypeOf(target, proto) {
+        anObject(target);
+        aPossiblePrototype(proto);
+
+        try {
+          objectSetPrototypeOf(target, proto);
+          return true;
+        } catch (error) {
+          return false;
+        }
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/es.reflect.set.js":
+  /*!********************************************************!*\
+    !*** ./node_modules/core-js/modules/es.reflect.set.js ***!
+    \********************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsReflectSetJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var isObject = __webpack_require__(
+    /*! ../internals/is-object */
+    "./node_modules/core-js/internals/is-object.js");
+
+    var has = __webpack_require__(
+    /*! ../internals/has */
+    "./node_modules/core-js/internals/has.js");
+
+    var fails = __webpack_require__(
+    /*! ../internals/fails */
+    "./node_modules/core-js/internals/fails.js");
+
+    var definePropertyModule = __webpack_require__(
+    /*! ../internals/object-define-property */
+    "./node_modules/core-js/internals/object-define-property.js");
+
+    var getOwnPropertyDescriptorModule = __webpack_require__(
+    /*! ../internals/object-get-own-property-descriptor */
+    "./node_modules/core-js/internals/object-get-own-property-descriptor.js");
+
+    var getPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js");
+
+    var createPropertyDescriptor = __webpack_require__(
+    /*! ../internals/create-property-descriptor */
+    "./node_modules/core-js/internals/create-property-descriptor.js"); // `Reflect.set` method
+    // https://tc39.github.io/ecma262/#sec-reflect.set
+
+
+    function set(target, propertyKey, V
+    /* , receiver */
+    ) {
+      var receiver = arguments.length < 4 ? target : arguments[3];
+      var ownDescriptor = getOwnPropertyDescriptorModule.f(anObject(target), propertyKey);
+      var existingDescriptor, prototype;
+
+      if (!ownDescriptor) {
+        if (isObject(prototype = getPrototypeOf(target))) {
+          return set(prototype, propertyKey, V, receiver);
+        }
+
+        ownDescriptor = createPropertyDescriptor(0);
+      }
+
+      if (has(ownDescriptor, 'value')) {
+        if (ownDescriptor.writable === false || !isObject(receiver)) return false;
+
+        if (existingDescriptor = getOwnPropertyDescriptorModule.f(receiver, propertyKey)) {
+          if (existingDescriptor.get || existingDescriptor.set || existingDescriptor.writable === false) return false;
+          existingDescriptor.value = V;
+          definePropertyModule.f(receiver, propertyKey, existingDescriptor);
+        } else definePropertyModule.f(receiver, propertyKey, createPropertyDescriptor(0, V));
+
+        return true;
+      }
+
+      return ownDescriptor.set === undefined ? false : (ownDescriptor.set.call(receiver, V), true);
+    } // MS Edge 17-18 Reflect.set allows setting the property to object
+    // with non-writable property on the prototype
+
+
+    var MS_EDGE_BUG = fails(function () {
+      var object = definePropertyModule.f({}, 'a', {
+        configurable: true
+      }); // eslint-disable-next-line no-undef
+
+      return Reflect.set(getPrototypeOf(object), 'a', 1, object) !== false;
+    });
+    $({
+      target: 'Reflect',
+      stat: true,
+      forced: MS_EDGE_BUG
+    }, {
+      set: set
+    });
+    /***/
+  },
+
+  /***/
   "./node_modules/core-js/modules/es.regexp.constructor.js":
   /*!***************************************************************!*\
     !*** ./node_modules/core-js/modules/es.regexp.constructor.js ***!
@@ -11515,9 +12204,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       var keys = getOwnPropertyNames(NativeRegExp);
       var index = 0;
 
-      while (keys.length > index) {
-        proxy(keys[index++]);
-      }
+      while (keys.length > index) proxy(keys[index++]);
 
       RegExpPrototype.constructor = RegExpWrapper;
       RegExpWrapper.prototype = RegExpPrototype;
@@ -12529,9 +13216,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // the slice polyfill when slicing native arrays) "doesn't work" in safari 9 and
           // causes a crash (https://pastebin.com/N21QzeQA) when trying to debug it.
 
-          for (var j = 1; j < result.length; j++) {
-            captures.push(maybeToString(result[j]));
-          }
+          for (var j = 1; j < result.length; j++) captures.push(maybeToString(result[j]));
 
           var namedCaptures = result.groups;
 
@@ -13697,9 +14382,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           var index = 1;
           var $replacer;
 
-          while (arguments.length > index) {
-            args.push(arguments[index++]);
-          }
+          while (arguments.length > index) args.push(arguments[index++]);
 
           $replacer = replacer;
           if (!isObject(replacer) && it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
@@ -14018,6 +14701,424 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
   },
 
   /***/
+  "./node_modules/core-js/modules/esnext.reflect.define-metadata.js":
+  /*!************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.define-metadata.js ***!
+    \************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectDefineMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var toMetadataKey = ReflectMetadataModule.toKey;
+    var ordinaryDefineOwnMetadata = ReflectMetadataModule.set; // `Reflect.defineMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      defineMetadata: function defineMetadata(metadataKey, metadataValue, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 4 ? undefined : toMetadataKey(arguments[3]);
+        ordinaryDefineOwnMetadata(metadataKey, metadataValue, anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.delete-metadata.js":
+  /*!************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.delete-metadata.js ***!
+    \************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectDeleteMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var toMetadataKey = ReflectMetadataModule.toKey;
+    var getOrCreateMetadataMap = ReflectMetadataModule.getMap;
+    var store = ReflectMetadataModule.store; // `Reflect.deleteMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      deleteMetadata: function deleteMetadata(metadataKey, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 3 ? undefined : toMetadataKey(arguments[2]);
+        var metadataMap = getOrCreateMetadataMap(anObject(target), targetKey, false);
+        if (metadataMap === undefined || !metadataMap['delete'](metadataKey)) return false;
+        if (metadataMap.size) return true;
+        var targetMetadata = store.get(target);
+        targetMetadata['delete'](targetKey);
+        return !!targetMetadata.size || store['delete'](target);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js":
+  /*!**************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js ***!
+    \**************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectGetMetadataKeysJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js"); // TODO: in core-js@4, move /modules/ dependencies to public entries for better optimization by tools like `preset-env`
+
+
+    var Set = __webpack_require__(
+    /*! ../modules/es.set */
+    "./node_modules/core-js/modules/es.set.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var getPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js");
+
+    var iterate = __webpack_require__(
+    /*! ../internals/iterate */
+    "./node_modules/core-js/internals/iterate.js");
+
+    var ordinaryOwnMetadataKeys = ReflectMetadataModule.keys;
+    var toMetadataKey = ReflectMetadataModule.toKey;
+
+    var from = function from(iter) {
+      var result = [];
+      iterate(iter, result.push, result);
+      return result;
+    };
+
+    var ordinaryMetadataKeys = function ordinaryMetadataKeys(O, P) {
+      var oKeys = ordinaryOwnMetadataKeys(O, P);
+      var parent = getPrototypeOf(O);
+      if (parent === null) return oKeys;
+      var pKeys = ordinaryMetadataKeys(parent, P);
+      return pKeys.length ? oKeys.length ? from(new Set(oKeys.concat(pKeys))) : pKeys : oKeys;
+    }; // `Reflect.getMetadataKeys` method
+    // https://github.com/rbuckton/reflect-metadata
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      getMetadataKeys: function getMetadataKeys(target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 2 ? undefined : toMetadataKey(arguments[1]);
+        return ordinaryMetadataKeys(anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.get-metadata.js":
+  /*!*********************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.get-metadata.js ***!
+    \*********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectGetMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var getPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js");
+
+    var ordinaryHasOwnMetadata = ReflectMetadataModule.has;
+    var ordinaryGetOwnMetadata = ReflectMetadataModule.get;
+    var toMetadataKey = ReflectMetadataModule.toKey;
+
+    var ordinaryGetMetadata = function ordinaryGetMetadata(MetadataKey, O, P) {
+      var hasOwn = ordinaryHasOwnMetadata(MetadataKey, O, P);
+      if (hasOwn) return ordinaryGetOwnMetadata(MetadataKey, O, P);
+      var parent = getPrototypeOf(O);
+      return parent !== null ? ordinaryGetMetadata(MetadataKey, parent, P) : undefined;
+    }; // `Reflect.getMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      getMetadata: function getMetadata(metadataKey, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 3 ? undefined : toMetadataKey(arguments[2]);
+        return ordinaryGetMetadata(metadataKey, anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js":
+  /*!******************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js ***!
+    \******************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectGetOwnMetadataKeysJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var ordinaryOwnMetadataKeys = ReflectMetadataModule.keys;
+    var toMetadataKey = ReflectMetadataModule.toKey; // `Reflect.getOwnMetadataKeys` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      getOwnMetadataKeys: function getOwnMetadataKeys(target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 2 ? undefined : toMetadataKey(arguments[1]);
+        return ordinaryOwnMetadataKeys(anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.get-own-metadata.js":
+  /*!*************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.get-own-metadata.js ***!
+    \*************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectGetOwnMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var ordinaryGetOwnMetadata = ReflectMetadataModule.get;
+    var toMetadataKey = ReflectMetadataModule.toKey; // `Reflect.getOwnMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      getOwnMetadata: function getOwnMetadata(metadataKey, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 3 ? undefined : toMetadataKey(arguments[2]);
+        return ordinaryGetOwnMetadata(metadataKey, anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.has-metadata.js":
+  /*!*********************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.has-metadata.js ***!
+    \*********************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectHasMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var getPrototypeOf = __webpack_require__(
+    /*! ../internals/object-get-prototype-of */
+    "./node_modules/core-js/internals/object-get-prototype-of.js");
+
+    var ordinaryHasOwnMetadata = ReflectMetadataModule.has;
+    var toMetadataKey = ReflectMetadataModule.toKey;
+
+    var ordinaryHasMetadata = function ordinaryHasMetadata(MetadataKey, O, P) {
+      var hasOwn = ordinaryHasOwnMetadata(MetadataKey, O, P);
+      if (hasOwn) return true;
+      var parent = getPrototypeOf(O);
+      return parent !== null ? ordinaryHasMetadata(MetadataKey, parent, P) : false;
+    }; // `Reflect.hasMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      hasMetadata: function hasMetadata(metadataKey, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 3 ? undefined : toMetadataKey(arguments[2]);
+        return ordinaryHasMetadata(metadataKey, anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.has-own-metadata.js":
+  /*!*************************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.has-own-metadata.js ***!
+    \*************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectHasOwnMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var ordinaryHasOwnMetadata = ReflectMetadataModule.has;
+    var toMetadataKey = ReflectMetadataModule.toKey; // `Reflect.hasOwnMetadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      hasOwnMetadata: function hasOwnMetadata(metadataKey, target
+      /* , targetKey */
+      ) {
+        var targetKey = arguments.length < 3 ? undefined : toMetadataKey(arguments[2]);
+        return ordinaryHasOwnMetadata(metadataKey, anObject(target), targetKey);
+      }
+    });
+    /***/
+  },
+
+  /***/
+  "./node_modules/core-js/modules/esnext.reflect.metadata.js":
+  /*!*****************************************************************!*\
+    !*** ./node_modules/core-js/modules/esnext.reflect.metadata.js ***!
+    \*****************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsModulesEsnextReflectMetadataJs(module, exports, __webpack_require__) {
+    var $ = __webpack_require__(
+    /*! ../internals/export */
+    "./node_modules/core-js/internals/export.js");
+
+    var ReflectMetadataModule = __webpack_require__(
+    /*! ../internals/reflect-metadata */
+    "./node_modules/core-js/internals/reflect-metadata.js");
+
+    var anObject = __webpack_require__(
+    /*! ../internals/an-object */
+    "./node_modules/core-js/internals/an-object.js");
+
+    var toMetadataKey = ReflectMetadataModule.toKey;
+    var ordinaryDefineOwnMetadata = ReflectMetadataModule.set; // `Reflect.metadata` method
+    // https://github.com/rbuckton/reflect-metadata
+
+    $({
+      target: 'Reflect',
+      stat: true
+    }, {
+      metadata: function metadata(metadataKey, metadataValue) {
+        return function decorator(target, key) {
+          ordinaryDefineOwnMetadata(metadataKey, metadataValue, anObject(target), toMetadataKey(key));
+        };
+      }
+    });
+    /***/
+  },
+
+  /***/
   "./node_modules/core-js/modules/web.dom-collections.for-each.js":
   /*!**********************************************************************!*\
     !*** ./node_modules/core-js/modules/web.dom-collections.for-each.js ***!
@@ -14117,6 +15218,55 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
       }
     }
+    /***/
+
+  },
+
+  /***/
+  "./node_modules/core-js/proposals/reflect-metadata.js":
+  /*!************************************************************!*\
+    !*** ./node_modules/core-js/proposals/reflect-metadata.js ***!
+    \************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesCoreJsProposalsReflectMetadataJs(module, exports, __webpack_require__) {
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.define-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.define-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.delete-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.delete-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.get-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.get-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.get-metadata-keys */
+    "./node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.get-own-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.get-own-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.get-own-metadata-keys */
+    "./node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.has-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.has-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.has-own-metadata */
+    "./node_modules/core-js/modules/esnext.reflect.has-own-metadata.js");
+
+    __webpack_require__(
+    /*! ../modules/esnext.reflect.metadata */
+    "./node_modules/core-js/modules/esnext.reflect.metadata.js");
     /***/
 
   },
@@ -17508,6 +18658,575 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
   },
 
   /***/
+  "./node_modules/tslib/tslib.es6.js":
+  /*!*****************************************!*\
+    !*** ./node_modules/tslib/tslib.es6.js ***!
+    \*****************************************/
+
+  /*! exports provided: __extends, __assign, __rest, __decorate, __param, __metadata, __awaiter, __generator, __exportStar, __values, __read, __spread, __spreadArrays, __await, __asyncGenerator, __asyncDelegator, __asyncValues, __makeTemplateObject, __importStar, __importDefault, __classPrivateFieldGet, __classPrivateFieldSet */
+
+  /***/
+  function node_modulesTslibTslibEs6Js(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__extends", function () {
+      return __extends;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__assign", function () {
+      return _assign;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__rest", function () {
+      return __rest;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__decorate", function () {
+      return __decorate;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__param", function () {
+      return __param;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__metadata", function () {
+      return __metadata;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__awaiter", function () {
+      return __awaiter;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__generator", function () {
+      return __generator;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__exportStar", function () {
+      return __exportStar;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__values", function () {
+      return __values;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__read", function () {
+      return __read;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__spread", function () {
+      return __spread;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__spreadArrays", function () {
+      return __spreadArrays;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__await", function () {
+      return __await;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__asyncGenerator", function () {
+      return __asyncGenerator;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__asyncDelegator", function () {
+      return __asyncDelegator;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__asyncValues", function () {
+      return __asyncValues;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__makeTemplateObject", function () {
+      return __makeTemplateObject;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__importStar", function () {
+      return __importStar;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__importDefault", function () {
+      return __importDefault;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__classPrivateFieldGet", function () {
+      return __classPrivateFieldGet;
+    });
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "__classPrivateFieldSet", function () {
+      return __classPrivateFieldSet;
+    });
+    /*! *****************************************************************************
+    Copyright (c) Microsoft Corporation. All rights reserved.
+    Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+    this file except in compliance with the License. You may obtain a copy of the
+    License at http://www.apache.org/licenses/LICENSE-2.0
+    
+    THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+    KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+    WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+    MERCHANTABLITY OR NON-INFRINGEMENT.
+    
+    See the Apache Version 2.0 License for specific language governing permissions
+    and limitations under the License.
+    ***************************************************************************** */
+
+    /* global Reflect, Promise */
+
+
+    var _extendStatics = function extendStatics(d, b) {
+      _extendStatics = Object.setPrototypeOf || {
+        __proto__: []
+      } instanceof Array && function (d, b) {
+        d.__proto__ = b;
+      } || function (d, b) {
+        for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+      };
+
+      return _extendStatics(d, b);
+    };
+
+    function __extends(d, b) {
+      _extendStatics(d, b);
+
+      function __() {
+        this.constructor = d;
+      }
+
+      d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    }
+
+    var _assign = function __assign() {
+      _assign = Object.assign || function __assign(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+          s = arguments[i];
+
+          for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
+        }
+
+        return t;
+      };
+
+      return _assign.apply(this, arguments);
+    };
+
+    function __rest(s, e) {
+      var t = {};
+
+      for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
+
+      if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
+        if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
+      }
+      return t;
+    }
+
+    function __decorate(decorators, target, key, desc) {
+      var c = arguments.length,
+          r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc,
+          d;
+      if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+      return c > 3 && r && Object.defineProperty(target, key, r), r;
+    }
+
+    function __param(paramIndex, decorator) {
+      return function (target, key) {
+        decorator(target, key, paramIndex);
+      };
+    }
+
+    function __metadata(metadataKey, metadataValue) {
+      if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(metadataKey, metadataValue);
+    }
+
+    function __awaiter(thisArg, _arguments, P, generator) {
+      function adopt(value) {
+        return value instanceof P ? value : new P(function (resolve) {
+          resolve(value);
+        });
+      }
+
+      return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) {
+          try {
+            step(generator.next(value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+
+        function rejected(value) {
+          try {
+            step(generator["throw"](value));
+          } catch (e) {
+            reject(e);
+          }
+        }
+
+        function step(result) {
+          result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected);
+        }
+
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+      });
+    }
+
+    function __generator(thisArg, body) {
+      var _ = {
+        label: 0,
+        sent: function sent() {
+          if (t[0] & 1) throw t[1];
+          return t[1];
+        },
+        trys: [],
+        ops: []
+      },
+          f,
+          y,
+          t,
+          g;
+      return g = {
+        next: verb(0),
+        "throw": verb(1),
+        "return": verb(2)
+      }, typeof Symbol === "function" && (g[Symbol.iterator] = function () {
+        return this;
+      }), g;
+
+      function verb(n) {
+        return function (v) {
+          return step([n, v]);
+        };
+      }
+
+      function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+
+        while (_) try {
+          if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+          if (y = 0, t) op = [op[0] & 2, t.value];
+
+          switch (op[0]) {
+            case 0:
+            case 1:
+              t = op;
+              break;
+
+            case 4:
+              _.label++;
+              return {
+                value: op[1],
+                done: false
+              };
+
+            case 5:
+              _.label++;
+              y = op[1];
+              op = [0];
+              continue;
+
+            case 7:
+              op = _.ops.pop();
+
+              _.trys.pop();
+
+              continue;
+
+            default:
+              if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) {
+                _ = 0;
+                continue;
+              }
+
+              if (op[0] === 3 && (!t || op[1] > t[0] && op[1] < t[3])) {
+                _.label = op[1];
+                break;
+              }
+
+              if (op[0] === 6 && _.label < t[1]) {
+                _.label = t[1];
+                t = op;
+                break;
+              }
+
+              if (t && _.label < t[2]) {
+                _.label = t[2];
+
+                _.ops.push(op);
+
+                break;
+              }
+
+              if (t[2]) _.ops.pop();
+
+              _.trys.pop();
+
+              continue;
+          }
+
+          op = body.call(thisArg, _);
+        } catch (e) {
+          op = [6, e];
+          y = 0;
+        } finally {
+          f = t = 0;
+        }
+
+        if (op[0] & 5) throw op[1];
+        return {
+          value: op[0] ? op[1] : void 0,
+          done: true
+        };
+      }
+    }
+
+    function __exportStar(m, exports) {
+      for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
+    }
+
+    function __values(o) {
+      var s = typeof Symbol === "function" && Symbol.iterator,
+          m = s && o[s],
+          i = 0;
+      if (m) return m.call(o);
+      if (o && typeof o.length === "number") return {
+        next: function next() {
+          if (o && i >= o.length) o = void 0;
+          return {
+            value: o && o[i++],
+            done: !o
+          };
+        }
+      };
+      throw new TypeError(s ? "Object is not iterable." : "Symbol.iterator is not defined.");
+    }
+
+    function __read(o, n) {
+      var m = typeof Symbol === "function" && o[Symbol.iterator];
+      if (!m) return o;
+      var i = m.call(o),
+          r,
+          ar = [],
+          e;
+
+      try {
+        while ((n === void 0 || n-- > 0) && !(r = i.next()).done) ar.push(r.value);
+      } catch (error) {
+        e = {
+          error: error
+        };
+      } finally {
+        try {
+          if (r && !r.done && (m = i["return"])) m.call(i);
+        } finally {
+          if (e) throw e.error;
+        }
+      }
+
+      return ar;
+    }
+
+    function __spread() {
+      for (var ar = [], i = 0; i < arguments.length; i++) ar = ar.concat(__read(arguments[i]));
+
+      return ar;
+    }
+
+    function __spreadArrays() {
+      for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
+
+      for (var r = Array(s), k = 0, i = 0; i < il; i++) for (var a = arguments[i], j = 0, jl = a.length; j < jl; j++, k++) r[k] = a[j];
+
+      return r;
+    }
+
+    ;
+
+    function __await(v) {
+      return this instanceof __await ? (this.v = v, this) : new __await(v);
+    }
+
+    function __asyncGenerator(thisArg, _arguments, generator) {
+      if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+      var g = generator.apply(thisArg, _arguments || []),
+          i,
+          q = [];
+      return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () {
+        return this;
+      }, i;
+
+      function verb(n) {
+        if (g[n]) i[n] = function (v) {
+          return new Promise(function (a, b) {
+            q.push([n, v, a, b]) > 1 || resume(n, v);
+          });
+        };
+      }
+
+      function resume(n, v) {
+        try {
+          step(g[n](v));
+        } catch (e) {
+          settle(q[0][3], e);
+        }
+      }
+
+      function step(r) {
+        r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r);
+      }
+
+      function fulfill(value) {
+        resume("next", value);
+      }
+
+      function reject(value) {
+        resume("throw", value);
+      }
+
+      function settle(f, v) {
+        if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]);
+      }
+    }
+
+    function __asyncDelegator(o) {
+      var i, p;
+      return i = {}, verb("next"), verb("throw", function (e) {
+        throw e;
+      }), verb("return"), i[Symbol.iterator] = function () {
+        return this;
+      }, i;
+
+      function verb(n, f) {
+        i[n] = o[n] ? function (v) {
+          return (p = !p) ? {
+            value: __await(o[n](v)),
+            done: n === "return"
+          } : f ? f(v) : v;
+        } : f;
+      }
+    }
+
+    function __asyncValues(o) {
+      if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+      var m = o[Symbol.asyncIterator],
+          i;
+      return m ? m.call(o) : (o = typeof __values === "function" ? __values(o) : o[Symbol.iterator](), i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () {
+        return this;
+      }, i);
+
+      function verb(n) {
+        i[n] = o[n] && function (v) {
+          return new Promise(function (resolve, reject) {
+            v = o[n](v), settle(resolve, reject, v.done, v.value);
+          });
+        };
+      }
+
+      function settle(resolve, reject, d, v) {
+        Promise.resolve(v).then(function (v) {
+          resolve({
+            value: v,
+            done: d
+          });
+        }, reject);
+      }
+    }
+
+    function __makeTemplateObject(cooked, raw) {
+      if (Object.defineProperty) {
+        Object.defineProperty(cooked, "raw", {
+          value: raw
+        });
+      } else {
+        cooked.raw = raw;
+      }
+
+      return cooked;
+    }
+
+    ;
+
+    function __importStar(mod) {
+      if (mod && mod.__esModule) return mod;
+      var result = {};
+      if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+      result.default = mod;
+      return result;
+    }
+
+    function __importDefault(mod) {
+      return mod && mod.__esModule ? mod : {
+        default: mod
+      };
+    }
+
+    function __classPrivateFieldGet(receiver, privateMap) {
+      if (!privateMap.has(receiver)) {
+        throw new TypeError("attempted to get private field on non-instance");
+      }
+
+      return privateMap.get(receiver);
+    }
+
+    function __classPrivateFieldSet(receiver, privateMap, value) {
+      if (!privateMap.has(receiver)) {
+        throw new TypeError("attempted to set private field on non-instance");
+      }
+
+      privateMap.set(receiver, value);
+      return value;
+    }
+    /***/
+
+  },
+
+  /***/
   "./node_modules/webrtc-adapter/src/js/adapter_core.js":
   /*!************************************************************!*\
     !*** ./node_modules/webrtc-adapter/src/js/adapter_core.js ***!
@@ -17537,8 +19256,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* eslint-env node */
 
 
-    var adapter = Object(_adapter_factory_js__WEBPACK_IMPORTED_MODULE_0__["adapterFactory"])({
-      window: window
+    const adapter = Object(_adapter_factory_js__WEBPACK_IMPORTED_MODULE_0__["adapterFactory"])({
+      window
     });
     /* harmony default export */
 
@@ -17612,23 +19331,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     // Shimming starts here.
 
 
-    function adapterFactory() {
-      var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
-          window = _ref.window;
-
-      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {
-        shimChrome: true,
-        shimFirefox: true,
-        shimEdge: true,
-        shimSafari: true
-      };
+    function adapterFactory({
+      window
+    } = {}, options = {
+      shimChrome: true,
+      shimFirefox: true,
+      shimEdge: true,
+      shimSafari: true
+    }) {
       // Utils.
-      var logging = _utils__WEBPACK_IMPORTED_MODULE_0__["log"];
+      const logging = _utils__WEBPACK_IMPORTED_MODULE_0__["log"];
 
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
-      var adapter = {
-        browserDetails: browserDetails,
+      const adapter = {
+        browserDetails,
         commonShim: _common_shim__WEBPACK_IMPORTED_MODULE_5__,
         extractVersion: _utils__WEBPACK_IMPORTED_MODULE_0__["extractVersion"],
         disableLog: _utils__WEBPACK_IMPORTED_MODULE_0__["disableLog"],
@@ -17901,73 +19618,67 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     function shimOnTrack(window) {
       if (typeof window === 'object' && window.RTCPeerConnection && !('ontrack' in window.RTCPeerConnection.prototype)) {
         Object.defineProperty(window.RTCPeerConnection.prototype, 'ontrack', {
-          get: function get() {
+          get() {
             return this._ontrack;
           },
-          set: function set(f) {
+
+          set(f) {
             if (this._ontrack) {
               this.removeEventListener('track', this._ontrack);
             }
 
             this.addEventListener('track', this._ontrack = f);
           },
+
           enumerable: true,
           configurable: true
         });
-        var origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
+        const origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
 
         window.RTCPeerConnection.prototype.setRemoteDescription = function setRemoteDescription() {
-          var _this = this;
-
           if (!this._ontrackpoly) {
-            this._ontrackpoly = function (e) {
+            this._ontrackpoly = e => {
               // onaddstream does not fire when a track is added to an existing
               // stream. But stream.onaddtrack is implemented so we use that.
-              e.stream.addEventListener('addtrack', function (te) {
-                var receiver;
+              e.stream.addEventListener('addtrack', te => {
+                let receiver;
 
                 if (window.RTCPeerConnection.prototype.getReceivers) {
-                  receiver = _this.getReceivers().find(function (r) {
-                    return r.track && r.track.id === te.track.id;
-                  });
+                  receiver = this.getReceivers().find(r => r.track && r.track.id === te.track.id);
                 } else {
                   receiver = {
                     track: te.track
                   };
                 }
 
-                var event = new Event('track');
+                const event = new Event('track');
                 event.track = te.track;
                 event.receiver = receiver;
                 event.transceiver = {
-                  receiver: receiver
+                  receiver
                 };
                 event.streams = [e.stream];
-
-                _this.dispatchEvent(event);
+                this.dispatchEvent(event);
               });
-              e.stream.getTracks().forEach(function (track) {
-                var receiver;
+              e.stream.getTracks().forEach(track => {
+                let receiver;
 
                 if (window.RTCPeerConnection.prototype.getReceivers) {
-                  receiver = _this.getReceivers().find(function (r) {
-                    return r.track && r.track.id === track.id;
-                  });
+                  receiver = this.getReceivers().find(r => r.track && r.track.id === track.id);
                 } else {
                   receiver = {
-                    track: track
+                    track
                   };
                 }
 
-                var event = new Event('track');
+                const event = new Event('track');
                 event.track = track;
                 event.receiver = receiver;
                 event.transceiver = {
-                  receiver: receiver
+                  receiver
                 };
                 event.streams = [e.stream];
-
-                _this.dispatchEvent(event);
+                this.dispatchEvent(event);
               });
             };
 
@@ -17980,7 +19691,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         // even if RTCRtpTransceiver is in window, it is only used and
         // emitted in unified-plan. Unfortunately this means we need
         // to unconditionally wrap the event.
-        _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', function (e) {
+        _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', e => {
           if (!e.transceiver) {
             Object.defineProperty(e, 'transceiver', {
               value: {
@@ -17997,9 +19708,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     function shimGetSendersWithDtmf(window) {
       // Overrides addTrack/removeTrack, depends on shimAddTrackRemoveTrack.
       if (typeof window === 'object' && window.RTCPeerConnection && !('getSenders' in window.RTCPeerConnection.prototype) && 'createDTMFSender' in window.RTCPeerConnection.prototype) {
-        var shimSenderWithDtmf = function shimSenderWithDtmf(pc, track) {
+        const shimSenderWithDtmf = function shimSenderWithDtmf(pc, track) {
           return {
-            track: track,
+            track,
 
             get dtmf() {
               if (this._dtmf === undefined) {
@@ -18024,10 +19735,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             return this._senders.slice(); // return a copy of the internal state.
           };
 
-          var origAddTrack = window.RTCPeerConnection.prototype.addTrack;
+          const origAddTrack = window.RTCPeerConnection.prototype.addTrack;
 
           window.RTCPeerConnection.prototype.addTrack = function addTrack(track, stream) {
-            var sender = origAddTrack.apply(this, arguments);
+            let sender = origAddTrack.apply(this, arguments);
 
             if (!sender) {
               sender = shimSenderWithDtmf(this, track);
@@ -18038,12 +19749,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             return sender;
           };
 
-          var origRemoveTrack = window.RTCPeerConnection.prototype.removeTrack;
+          const origRemoveTrack = window.RTCPeerConnection.prototype.removeTrack;
 
           window.RTCPeerConnection.prototype.removeTrack = function removeTrack(sender) {
             origRemoveTrack.apply(this, arguments);
 
-            var idx = this._senders.indexOf(sender);
+            const idx = this._senders.indexOf(sender);
 
             if (idx !== -1) {
               this._senders.splice(idx, 1);
@@ -18051,51 +19762,41 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           };
         }
 
-        var origAddStream = window.RTCPeerConnection.prototype.addStream;
+        const origAddStream = window.RTCPeerConnection.prototype.addStream;
 
         window.RTCPeerConnection.prototype.addStream = function addStream(stream) {
-          var _this2 = this;
-
           this._senders = this._senders || [];
           origAddStream.apply(this, [stream]);
-          stream.getTracks().forEach(function (track) {
-            _this2._senders.push(shimSenderWithDtmf(_this2, track));
+          stream.getTracks().forEach(track => {
+            this._senders.push(shimSenderWithDtmf(this, track));
           });
         };
 
-        var origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
+        const origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
 
         window.RTCPeerConnection.prototype.removeStream = function removeStream(stream) {
-          var _this3 = this;
-
           this._senders = this._senders || [];
           origRemoveStream.apply(this, [stream]);
-          stream.getTracks().forEach(function (track) {
-            var sender = _this3._senders.find(function (s) {
-              return s.track === track;
-            });
+          stream.getTracks().forEach(track => {
+            const sender = this._senders.find(s => s.track === track);
 
             if (sender) {
               // remove sender
-              _this3._senders.splice(_this3._senders.indexOf(sender), 1);
+              this._senders.splice(this._senders.indexOf(sender), 1);
             }
           });
         };
       } else if (typeof window === 'object' && window.RTCPeerConnection && 'getSenders' in window.RTCPeerConnection.prototype && 'createDTMFSender' in window.RTCPeerConnection.prototype && window.RTCRtpSender && !('dtmf' in window.RTCRtpSender.prototype)) {
-        var origGetSenders = window.RTCPeerConnection.prototype.getSenders;
+        const origGetSenders = window.RTCPeerConnection.prototype.getSenders;
 
         window.RTCPeerConnection.prototype.getSenders = function getSenders() {
-          var _this4 = this;
-
-          var senders = origGetSenders.apply(this, []);
-          senders.forEach(function (sender) {
-            return sender._pc = _this4;
-          });
+          const senders = origGetSenders.apply(this, []);
+          senders.forEach(sender => sender._pc = this);
           return senders;
         };
 
         Object.defineProperty(window.RTCRtpSender.prototype, 'dtmf', {
-          get: function get() {
+          get() {
             if (this._dtmf === undefined) {
               if (this.track.kind === 'audio') {
                 this._dtmf = this._pc.createDTMFSender(this.track);
@@ -18106,6 +19807,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
             return this._dtmf;
           }
+
         });
       }
     }
@@ -18115,17 +19817,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origGetStats = window.RTCPeerConnection.prototype.getStats;
+      const origGetStats = window.RTCPeerConnection.prototype.getStats;
 
       window.RTCPeerConnection.prototype.getStats = function getStats() {
-        var _this5 = this;
-
-        var _arguments = Array.prototype.slice.call(arguments),
-            selector = _arguments[0],
-            onSucc = _arguments[1],
-            onErr = _arguments[2]; // If selector is a function then we are in the old style stats so just
+        const [selector, onSucc, onErr] = arguments; // If selector is a function then we are in the old style stats so just
         // pass back the original getStats format to avoid breaking old users.
-
 
         if (arguments.length > 0 && typeof selector === 'function') {
           return origGetStats.apply(this, arguments);
@@ -18137,11 +19833,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return origGetStats.apply(this, []);
         }
 
-        var fixChromeStats_ = function fixChromeStats_(response) {
-          var standardReport = {};
-          var reports = response.result();
-          reports.forEach(function (report) {
-            var standardStats = {
+        const fixChromeStats_ = function fixChromeStats_(response) {
+          const standardReport = {};
+          const reports = response.result();
+          reports.forEach(report => {
+            const standardStats = {
               id: report.id,
               timestamp: report.timestamp,
               type: {
@@ -18149,7 +19845,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
                 remotecandidate: 'remote-candidate'
               }[report.type] || report.type
             };
-            report.names().forEach(function (name) {
+            report.names().forEach(name => {
               standardStats[name] = report.stat(name);
             });
             standardReport[standardStats.id] = standardStats;
@@ -18158,14 +19854,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }; // shim getStats with maplike support
 
 
-        var makeMapStats = function makeMapStats(stats) {
-          return new Map(Object.keys(stats).map(function (key) {
-            return [key, stats[key]];
-          }));
+        const makeMapStats = function makeMapStats(stats) {
+          return new Map(Object.keys(stats).map(key => [key, stats[key]]));
         };
 
         if (arguments.length >= 2) {
-          var successCallbackWrapper_ = function successCallbackWrapper_(response) {
+          const successCallbackWrapper_ = function successCallbackWrapper_(response) {
             onSucc(makeMapStats(fixChromeStats_(response)));
           };
 
@@ -18173,8 +19867,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         } // promise-support
 
 
-        return new Promise(function (resolve, reject) {
-          origGetStats.apply(_this5, [function (response) {
+        return new Promise((resolve, reject) => {
+          origGetStats.apply(this, [function (response) {
             resolve(makeMapStats(fixChromeStats_(response)));
           }, reject]);
         }).then(onSucc, onErr);
@@ -18188,70 +19882,57 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
       if (!('getStats' in window.RTCRtpSender.prototype)) {
-        var origGetSenders = window.RTCPeerConnection.prototype.getSenders;
+        const origGetSenders = window.RTCPeerConnection.prototype.getSenders;
 
         if (origGetSenders) {
           window.RTCPeerConnection.prototype.getSenders = function getSenders() {
-            var _this6 = this;
-
-            var senders = origGetSenders.apply(this, []);
-            senders.forEach(function (sender) {
-              return sender._pc = _this6;
-            });
+            const senders = origGetSenders.apply(this, []);
+            senders.forEach(sender => sender._pc = this);
             return senders;
           };
         }
 
-        var origAddTrack = window.RTCPeerConnection.prototype.addTrack;
+        const origAddTrack = window.RTCPeerConnection.prototype.addTrack;
 
         if (origAddTrack) {
           window.RTCPeerConnection.prototype.addTrack = function addTrack() {
-            var sender = origAddTrack.apply(this, arguments);
+            const sender = origAddTrack.apply(this, arguments);
             sender._pc = this;
             return sender;
           };
         }
 
         window.RTCRtpSender.prototype.getStats = function getStats() {
-          var sender = this;
-          return this._pc.getStats().then(function (result) {
-            return (
-              /* Note: this will include stats of all senders that
-               *   send a track with the same id as sender.track as
-               *   it is not possible to identify the RTCRtpSender.
-               */
-              _utils_js__WEBPACK_IMPORTED_MODULE_0__["filterStats"](result, sender.track, true)
-            );
-          });
+          const sender = this;
+          return this._pc.getStats().then(result =>
+          /* Note: this will include stats of all senders that
+           *   send a track with the same id as sender.track as
+           *   it is not possible to identify the RTCRtpSender.
+           */
+          _utils_js__WEBPACK_IMPORTED_MODULE_0__["filterStats"](result, sender.track, true));
         };
       } // shim receiver stats.
 
 
       if (!('getStats' in window.RTCRtpReceiver.prototype)) {
-        var origGetReceivers = window.RTCPeerConnection.prototype.getReceivers;
+        const origGetReceivers = window.RTCPeerConnection.prototype.getReceivers;
 
         if (origGetReceivers) {
           window.RTCPeerConnection.prototype.getReceivers = function getReceivers() {
-            var _this7 = this;
-
-            var receivers = origGetReceivers.apply(this, []);
-            receivers.forEach(function (receiver) {
-              return receiver._pc = _this7;
-            });
+            const receivers = origGetReceivers.apply(this, []);
+            receivers.forEach(receiver => receiver._pc = this);
             return receivers;
           };
         }
 
-        _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', function (e) {
+        _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', e => {
           e.receiver._pc = e.srcElement;
           return e;
         });
 
         window.RTCRtpReceiver.prototype.getStats = function getStats() {
-          var receiver = this;
-          return this._pc.getStats().then(function (result) {
-            return _utils_js__WEBPACK_IMPORTED_MODULE_0__["filterStats"](result, receiver.track, false);
-          });
+          const receiver = this;
+          return this._pc.getStats().then(result => _utils_js__WEBPACK_IMPORTED_MODULE_0__["filterStats"](result, receiver.track, false));
         };
       }
 
@@ -18260,15 +19941,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       } // shim RTCPeerConnection.getStats(track).
 
 
-      var origGetStats = window.RTCPeerConnection.prototype.getStats;
+      const origGetStats = window.RTCPeerConnection.prototype.getStats;
 
       window.RTCPeerConnection.prototype.getStats = function getStats() {
         if (arguments.length > 0 && arguments[0] instanceof window.MediaStreamTrack) {
-          var track = arguments[0];
-          var sender;
-          var receiver;
-          var err;
-          this.getSenders().forEach(function (s) {
+          const track = arguments[0];
+          let sender;
+          let receiver;
+          let err;
+          this.getSenders().forEach(s => {
             if (s.track === track) {
               if (sender) {
                 err = true;
@@ -18277,7 +19958,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               }
             }
           });
-          this.getReceivers().forEach(function (r) {
+          this.getReceivers().forEach(r => {
             if (r.track === track) {
               if (receiver) {
                 err = true;
@@ -18309,15 +19990,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       // the interactions with legacy getLocalStreams behave as in other browsers.
       // Keeps a mapping stream.id => [stream, rtpsenders...]
       window.RTCPeerConnection.prototype.getLocalStreams = function getLocalStreams() {
-        var _this8 = this;
-
         this._shimmedLocalStreams = this._shimmedLocalStreams || {};
-        return Object.keys(this._shimmedLocalStreams).map(function (streamId) {
-          return _this8._shimmedLocalStreams[streamId][0];
-        });
+        return Object.keys(this._shimmedLocalStreams).map(streamId => this._shimmedLocalStreams[streamId][0]);
       };
 
-      var origAddTrack = window.RTCPeerConnection.prototype.addTrack;
+      const origAddTrack = window.RTCPeerConnection.prototype.addTrack;
 
       window.RTCPeerConnection.prototype.addTrack = function addTrack(track, stream) {
         if (!stream) {
@@ -18325,7 +20002,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
 
         this._shimmedLocalStreams = this._shimmedLocalStreams || {};
-        var sender = origAddTrack.apply(this, arguments);
+        const sender = origAddTrack.apply(this, arguments);
 
         if (!this._shimmedLocalStreams[stream.id]) {
           this._shimmedLocalStreams[stream.id] = [stream, sender];
@@ -18336,30 +20013,24 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return sender;
       };
 
-      var origAddStream = window.RTCPeerConnection.prototype.addStream;
+      const origAddStream = window.RTCPeerConnection.prototype.addStream;
 
       window.RTCPeerConnection.prototype.addStream = function addStream(stream) {
-        var _this9 = this;
-
         this._shimmedLocalStreams = this._shimmedLocalStreams || {};
-        stream.getTracks().forEach(function (track) {
-          var alreadyExists = _this9.getSenders().find(function (s) {
-            return s.track === track;
-          });
+        stream.getTracks().forEach(track => {
+          const alreadyExists = this.getSenders().find(s => s.track === track);
 
           if (alreadyExists) {
             throw new DOMException('Track already exists.', 'InvalidAccessError');
           }
         });
-        var existingSenders = this.getSenders();
+        const existingSenders = this.getSenders();
         origAddStream.apply(this, arguments);
-        var newSenders = this.getSenders().filter(function (newSender) {
-          return existingSenders.indexOf(newSender) === -1;
-        });
+        const newSenders = this.getSenders().filter(newSender => existingSenders.indexOf(newSender) === -1);
         this._shimmedLocalStreams[stream.id] = [stream].concat(newSenders);
       };
 
-      var origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
+      const origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
 
       window.RTCPeerConnection.prototype.removeStream = function removeStream(stream) {
         this._shimmedLocalStreams = this._shimmedLocalStreams || {};
@@ -18367,23 +20038,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return origRemoveStream.apply(this, arguments);
       };
 
-      var origRemoveTrack = window.RTCPeerConnection.prototype.removeTrack;
+      const origRemoveTrack = window.RTCPeerConnection.prototype.removeTrack;
 
       window.RTCPeerConnection.prototype.removeTrack = function removeTrack(sender) {
-        var _this10 = this;
-
         this._shimmedLocalStreams = this._shimmedLocalStreams || {};
 
         if (sender) {
-          Object.keys(this._shimmedLocalStreams).forEach(function (streamId) {
-            var idx = _this10._shimmedLocalStreams[streamId].indexOf(sender);
+          Object.keys(this._shimmedLocalStreams).forEach(streamId => {
+            const idx = this._shimmedLocalStreams[streamId].indexOf(sender);
 
             if (idx !== -1) {
-              _this10._shimmedLocalStreams[streamId].splice(idx, 1);
+              this._shimmedLocalStreams[streamId].splice(idx, 1);
             }
 
-            if (_this10._shimmedLocalStreams[streamId].length === 1) {
-              delete _this10._shimmedLocalStreams[streamId];
+            if (this._shimmedLocalStreams[streamId].length === 1) {
+              delete this._shimmedLocalStreams[streamId];
             }
           });
         }
@@ -18397,7 +20066,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window); // shim addTrack and removeTrack.
+      const browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window); // shim addTrack and removeTrack.
 
 
       if (window.RTCPeerConnection.prototype.addTrack && browserDetails.version >= 65) {
@@ -18406,29 +20075,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       // to return the original streams.
 
 
-      var origGetLocalStreams = window.RTCPeerConnection.prototype.getLocalStreams;
+      const origGetLocalStreams = window.RTCPeerConnection.prototype.getLocalStreams;
 
       window.RTCPeerConnection.prototype.getLocalStreams = function getLocalStreams() {
-        var _this11 = this;
-
-        var nativeStreams = origGetLocalStreams.apply(this);
+        const nativeStreams = origGetLocalStreams.apply(this);
         this._reverseStreams = this._reverseStreams || {};
-        return nativeStreams.map(function (stream) {
-          return _this11._reverseStreams[stream.id];
-        });
+        return nativeStreams.map(stream => this._reverseStreams[stream.id]);
       };
 
-      var origAddStream = window.RTCPeerConnection.prototype.addStream;
+      const origAddStream = window.RTCPeerConnection.prototype.addStream;
 
       window.RTCPeerConnection.prototype.addStream = function addStream(stream) {
-        var _this12 = this;
-
         this._streams = this._streams || {};
         this._reverseStreams = this._reverseStreams || {};
-        stream.getTracks().forEach(function (track) {
-          var alreadyExists = _this12.getSenders().find(function (s) {
-            return s.track === track;
-          });
+        stream.getTracks().forEach(track => {
+          const alreadyExists = this.getSenders().find(s => s.track === track);
 
           if (alreadyExists) {
             throw new DOMException('Track already exists.', 'InvalidAccessError');
@@ -18437,7 +20098,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         // Unless this is being used with a stream from addTrack.
 
         if (!this._reverseStreams[stream.id]) {
-          var newStream = new window.MediaStream(stream.getTracks());
+          const newStream = new window.MediaStream(stream.getTracks());
           this._streams[stream.id] = newStream;
           this._reverseStreams[newStream.id] = stream;
           stream = newStream;
@@ -18446,7 +20107,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         origAddStream.apply(this, [stream]);
       };
 
-      var origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
+      const origRemoveStream = window.RTCPeerConnection.prototype.removeStream;
 
       window.RTCPeerConnection.prototype.removeStream = function removeStream(stream) {
         this._streams = this._streams || {};
@@ -18457,25 +20118,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       };
 
       window.RTCPeerConnection.prototype.addTrack = function addTrack(track, stream) {
-        var _this13 = this;
-
         if (this.signalingState === 'closed') {
           throw new DOMException('The RTCPeerConnection\'s signalingState is \'closed\'.', 'InvalidStateError');
         }
 
-        var streams = [].slice.call(arguments, 1);
+        const streams = [].slice.call(arguments, 1);
 
-        if (streams.length !== 1 || !streams[0].getTracks().find(function (t) {
-          return t === track;
-        })) {
+        if (streams.length !== 1 || !streams[0].getTracks().find(t => t === track)) {
           // this is not fully correct but all we can manage without
           // [[associated MediaStreams]] internal slot.
           throw new DOMException('The adapter.js addTrack polyfill only supports a single ' + ' stream which is associated with the specified track.', 'NotSupportedError');
         }
 
-        var alreadyExists = this.getSenders().find(function (s) {
-          return s.track === track;
-        });
+        const alreadyExists = this.getSenders().find(s => s.track === track);
 
         if (alreadyExists) {
           throw new DOMException('Track already exists.', 'InvalidAccessError');
@@ -18483,7 +20138,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         this._streams = this._streams || {};
         this._reverseStreams = this._reverseStreams || {};
-        var oldStream = this._streams[stream.id];
+        const oldStream = this._streams[stream.id];
 
         if (oldStream) {
           // this is using odd Chrome behaviour, use with caution:
@@ -18492,77 +20147,72 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // create the sender with a dtmf sender.
           oldStream.addTrack(track); // Trigger ONN async.
 
-          Promise.resolve().then(function () {
-            _this13.dispatchEvent(new Event('negotiationneeded'));
+          Promise.resolve().then(() => {
+            this.dispatchEvent(new Event('negotiationneeded'));
           });
         } else {
-          var newStream = new window.MediaStream([track]);
+          const newStream = new window.MediaStream([track]);
           this._streams[stream.id] = newStream;
           this._reverseStreams[newStream.id] = stream;
           this.addStream(newStream);
         }
 
-        return this.getSenders().find(function (s) {
-          return s.track === track;
-        });
+        return this.getSenders().find(s => s.track === track);
       }; // replace the internal stream id with the external one and
       // vice versa.
 
 
       function replaceInternalStreamId(pc, description) {
-        var sdp = description.sdp;
-        Object.keys(pc._reverseStreams || []).forEach(function (internalId) {
-          var externalStream = pc._reverseStreams[internalId];
-          var internalStream = pc._streams[externalStream.id];
+        let sdp = description.sdp;
+        Object.keys(pc._reverseStreams || []).forEach(internalId => {
+          const externalStream = pc._reverseStreams[internalId];
+          const internalStream = pc._streams[externalStream.id];
           sdp = sdp.replace(new RegExp(internalStream.id, 'g'), externalStream.id);
         });
         return new RTCSessionDescription({
           type: description.type,
-          sdp: sdp
+          sdp
         });
       }
 
       function replaceExternalStreamId(pc, description) {
-        var sdp = description.sdp;
-        Object.keys(pc._reverseStreams || []).forEach(function (internalId) {
-          var externalStream = pc._reverseStreams[internalId];
-          var internalStream = pc._streams[externalStream.id];
+        let sdp = description.sdp;
+        Object.keys(pc._reverseStreams || []).forEach(internalId => {
+          const externalStream = pc._reverseStreams[internalId];
+          const internalStream = pc._streams[externalStream.id];
           sdp = sdp.replace(new RegExp(externalStream.id, 'g'), internalStream.id);
         });
         return new RTCSessionDescription({
           type: description.type,
-          sdp: sdp
+          sdp
         });
       }
 
       ['createOffer', 'createAnswer'].forEach(function (method) {
-        var nativeMethod = window.RTCPeerConnection.prototype[method];
+        const nativeMethod = window.RTCPeerConnection.prototype[method];
+        const methodObj = {
+          [method]() {
+            const args = arguments;
+            const isLegacyCall = arguments.length && typeof arguments[0] === 'function';
 
-        var methodObj = _defineProperty2({}, method, function () {
-          var _this14 = this;
+            if (isLegacyCall) {
+              return nativeMethod.apply(this, [description => {
+                const desc = replaceInternalStreamId(this, description);
+                args[0].apply(null, [desc]);
+              }, err => {
+                if (args[1]) {
+                  args[1].apply(null, err);
+                }
+              }, arguments[2]]);
+            }
 
-          var args = arguments;
-          var isLegacyCall = arguments.length && typeof arguments[0] === 'function';
-
-          if (isLegacyCall) {
-            return nativeMethod.apply(this, [function (description) {
-              var desc = replaceInternalStreamId(_this14, description);
-              args[0].apply(null, [desc]);
-            }, function (err) {
-              if (args[1]) {
-                args[1].apply(null, err);
-              }
-            }, arguments[2]]);
+            return nativeMethod.apply(this, arguments).then(description => replaceInternalStreamId(this, description));
           }
 
-          return nativeMethod.apply(this, arguments).then(function (description) {
-            return replaceInternalStreamId(_this14, description);
-          });
-        });
-
+        };
         window.RTCPeerConnection.prototype[method] = methodObj[method];
       });
-      var origSetLocalDescription = window.RTCPeerConnection.prototype.setLocalDescription;
+      const origSetLocalDescription = window.RTCPeerConnection.prototype.setLocalDescription;
 
       window.RTCPeerConnection.prototype.setLocalDescription = function setLocalDescription() {
         if (!arguments.length || !arguments[0].type) {
@@ -18574,10 +20224,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }; // TODO: mangle getStats: https://w3c.github.io/webrtc-stats/#dom-rtcmediastreamstats-streamidentifier
 
 
-      var origLocalDescription = Object.getOwnPropertyDescriptor(window.RTCPeerConnection.prototype, 'localDescription');
+      const origLocalDescription = Object.getOwnPropertyDescriptor(window.RTCPeerConnection.prototype, 'localDescription');
       Object.defineProperty(window.RTCPeerConnection.prototype, 'localDescription', {
-        get: function get() {
-          var description = origLocalDescription.get.apply(this);
+        get() {
+          const description = origLocalDescription.get.apply(this);
 
           if (description.type === '') {
             return description;
@@ -18585,11 +20235,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
           return replaceInternalStreamId(this, description);
         }
+
       });
 
       window.RTCPeerConnection.prototype.removeTrack = function removeTrack(sender) {
-        var _this15 = this;
-
         if (this.signalingState === 'closed') {
           throw new DOMException('The RTCPeerConnection\'s signalingState is \'closed\'.', 'InvalidStateError');
         } // We can not yet check for sender instanceof RTCRtpSender
@@ -18600,7 +20249,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           throw new DOMException('Argument 1 of RTCPeerConnection.removeTrack ' + 'does not implement interface RTCRtpSender.', 'TypeError');
         }
 
-        var isLocal = sender._pc === this;
+        const isLocal = sender._pc === this;
 
         if (!isLocal) {
           throw new DOMException('Sender was not created by this connection.', 'InvalidAccessError');
@@ -18608,14 +20257,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
         this._streams = this._streams || {};
-        var stream;
-        Object.keys(this._streams).forEach(function (streamid) {
-          var hasTrack = _this15._streams[streamid].getTracks().find(function (track) {
-            return sender.track === track;
-          });
+        let stream;
+        Object.keys(this._streams).forEach(streamid => {
+          const hasTrack = this._streams[streamid].getTracks().find(track => sender.track === track);
 
           if (hasTrack) {
-            stream = _this15._streams[streamid];
+            stream = this._streams[streamid];
           }
         });
 
@@ -18635,7 +20282,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function shimPeerConnection(window) {
-      var browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
       if (!window.RTCPeerConnection && window.webkitRTCPeerConnection) {
         // very basic support for old versions.
@@ -18646,23 +20293,24 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var addIceCandidateNullSupported = window.RTCPeerConnection.prototype.addIceCandidate.length === 0; // shim implicit creation of RTCSessionDescription/RTCIceCandidate
+      const addIceCandidateNullSupported = window.RTCPeerConnection.prototype.addIceCandidate.length === 0; // shim implicit creation of RTCSessionDescription/RTCIceCandidate
 
       if (browserDetails.version < 53) {
         ['setLocalDescription', 'setRemoteDescription', 'addIceCandidate'].forEach(function (method) {
-          var nativeMethod = window.RTCPeerConnection.prototype[method];
+          const nativeMethod = window.RTCPeerConnection.prototype[method];
+          const methodObj = {
+            [method]() {
+              arguments[0] = new (method === 'addIceCandidate' ? window.RTCIceCandidate : window.RTCSessionDescription)(arguments[0]);
+              return nativeMethod.apply(this, arguments);
+            }
 
-          var methodObj = _defineProperty2({}, method, function () {
-            arguments[0] = new (method === 'addIceCandidate' ? window.RTCIceCandidate : window.RTCSessionDescription)(arguments[0]);
-            return nativeMethod.apply(this, arguments);
-          });
-
+          };
           window.RTCPeerConnection.prototype[method] = methodObj[method];
         });
       } // support for addIceCandidate(null or undefined)
 
 
-      var nativeAddIceCandidate = window.RTCPeerConnection.prototype.addIceCandidate;
+      const nativeAddIceCandidate = window.RTCPeerConnection.prototype.addIceCandidate;
 
       window.RTCPeerConnection.prototype.addIceCandidate = function addIceCandidate() {
         if (!addIceCandidateNullSupported && !arguments[0]) {
@@ -18684,8 +20332,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function fixNegotiationNeeded(window) {
-      _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'negotiationneeded', function (e) {
-        var pc = e.target;
+      _utils_js__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'negotiationneeded', e => {
+        const pc = e.target;
 
         if (pc.signalingState !== 'stable') {
           return;
@@ -18745,10 +20393,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       window.navigator.mediaDevices.getDisplayMedia = function getDisplayMedia(constraints) {
-        return getSourceId(constraints).then(function (sourceId) {
-          var widthSpecified = constraints.video && constraints.video.width;
-          var heightSpecified = constraints.video && constraints.video.height;
-          var frameRateSpecified = constraints.video && constraints.video.frameRate;
+        return getSourceId(constraints).then(sourceId => {
+          const widthSpecified = constraints.video && constraints.video.width;
+          const heightSpecified = constraints.video && constraints.video.height;
+          const frameRateSpecified = constraints.video && constraints.video.frameRate;
           constraints.video = {
             mandatory: {
               chromeMediaSource: 'desktop',
@@ -18809,29 +20457,29 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* eslint-env node */
 
 
-    var logging = _utils_js__WEBPACK_IMPORTED_MODULE_0__["log"];
+    const logging = _utils_js__WEBPACK_IMPORTED_MODULE_0__["log"];
 
     function shimGetUserMedia(window) {
-      var navigator = window && window.navigator;
+      const navigator = window && window.navigator;
 
       if (!navigator.mediaDevices) {
         return;
       }
 
-      var browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils_js__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
-      var constraintsToChrome_ = function constraintsToChrome_(c) {
+      const constraintsToChrome_ = function constraintsToChrome_(c) {
         if (typeof c !== 'object' || c.mandatory || c.optional) {
           return c;
         }
 
-        var cc = {};
-        Object.keys(c).forEach(function (key) {
+        const cc = {};
+        Object.keys(c).forEach(key => {
           if (key === 'require' || key === 'advanced' || key === 'mediaSource') {
             return;
           }
 
-          var r = typeof c[key] === 'object' ? c[key] : {
+          const r = typeof c[key] === 'object' ? c[key] : {
             ideal: c[key]
           };
 
@@ -18839,7 +20487,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             r.min = r.max = r.exact;
           }
 
-          var oldname_ = function oldname_(prefix, name) {
+          const oldname_ = function oldname_(prefix, name) {
             if (prefix) {
               return prefix + name.charAt(0).toUpperCase() + name.slice(1);
             }
@@ -18849,7 +20497,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
           if (r.ideal !== undefined) {
             cc.optional = cc.optional || [];
-            var oc = {};
+            let oc = {};
 
             if (typeof r.ideal === 'number') {
               oc[oldname_('min', key)] = r.ideal;
@@ -18867,7 +20515,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             cc.mandatory = cc.mandatory || {};
             cc.mandatory[oldname_('', key)] = r.exact;
           } else {
-            ['min', 'max'].forEach(function (mix) {
+            ['min', 'max'].forEach(mix => {
               if (r[mix] !== undefined) {
                 cc.mandatory = cc.mandatory || {};
                 cc.mandatory[oldname_(mix, key)] = r[mix];
@@ -18883,7 +20531,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return cc;
       };
 
-      var shimConstraints_ = function shimConstraints_(constraints, func) {
+      const shimConstraints_ = function shimConstraints_(constraints, func) {
         if (browserDetails.version >= 61) {
           return func(constraints);
         }
@@ -18891,7 +20539,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         constraints = JSON.parse(JSON.stringify(constraints));
 
         if (constraints && typeof constraints.audio === 'object') {
-          var remap = function remap(obj, a, b) {
+          const remap = function remap(obj, a, b) {
             if (a in obj && !(b in obj)) {
               obj[b] = obj[a];
               delete obj[a];
@@ -18906,15 +20554,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         if (constraints && typeof constraints.video === 'object') {
           // Shim facingMode for mobile & surface pro.
-          var face = constraints.video.facingMode;
+          let face = constraints.video.facingMode;
           face = face && (typeof face === 'object' ? face : {
             ideal: face
           });
-          var getSupportedFacingModeLies = browserDetails.version < 66;
+          const getSupportedFacingModeLies = browserDetails.version < 66;
 
           if (face && (face.exact === 'user' || face.exact === 'environment' || face.ideal === 'user' || face.ideal === 'environment') && !(navigator.mediaDevices.getSupportedConstraints && navigator.mediaDevices.getSupportedConstraints().facingMode && !getSupportedFacingModeLies)) {
             delete constraints.video.facingMode;
-            var matches;
+            let matches;
 
             if (face.exact === 'environment' || face.ideal === 'environment') {
               matches = ['back', 'rear'];
@@ -18924,15 +20572,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
             if (matches) {
               // Look for matches in label, or use last cam for back (typical).
-              return navigator.mediaDevices.enumerateDevices().then(function (devices) {
-                devices = devices.filter(function (d) {
-                  return d.kind === 'videoinput';
-                });
-                var dev = devices.find(function (d) {
-                  return matches.some(function (match) {
-                    return d.label.toLowerCase().includes(match);
-                  });
-                });
+              return navigator.mediaDevices.enumerateDevices().then(devices => {
+                devices = devices.filter(d => d.kind === 'videoinput');
+                let dev = devices.find(d => matches.some(match => d.label.toLowerCase().includes(match)));
 
                 if (!dev && devices.length && matches.includes('back')) {
                   dev = devices[devices.length - 1]; // more likely the back cam
@@ -18960,7 +20602,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return func(constraints);
       };
 
-      var shimError_ = function shimError_(e) {
+      const shimError_ = function shimError_(e) {
         if (browserDetails.version >= 64) {
           return e;
         }
@@ -18981,15 +20623,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }[e.name] || e.name,
           message: e.message,
           constraint: e.constraint || e.constraintName,
-          toString: function toString() {
+
+          toString() {
             return this.name + (this.message && ': ') + this.message;
           }
+
         };
       };
 
-      var getUserMedia_ = function getUserMedia_(constraints, onSuccess, onError) {
-        shimConstraints_(constraints, function (c) {
-          navigator.webkitGetUserMedia(c, onSuccess, function (e) {
+      const getUserMedia_ = function getUserMedia_(constraints, onSuccess, onError) {
+        shimConstraints_(constraints, c => {
+          navigator.webkitGetUserMedia(c, onSuccess, e => {
             if (onError) {
               onError(shimError_(e));
             }
@@ -19002,23 +20646,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       // constraints.
 
       if (navigator.mediaDevices.getUserMedia) {
-        var origGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+        const origGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
 
         navigator.mediaDevices.getUserMedia = function (cs) {
-          return shimConstraints_(cs, function (c) {
-            return origGetUserMedia(c).then(function (stream) {
-              if (c.audio && !stream.getAudioTracks().length || c.video && !stream.getVideoTracks().length) {
-                stream.getTracks().forEach(function (track) {
-                  track.stop();
-                });
-                throw new DOMException('', 'NotFoundError');
-              }
+          return shimConstraints_(cs, c => origGetUserMedia(c).then(stream => {
+            if (c.audio && !stream.getAudioTracks().length || c.video && !stream.getVideoTracks().length) {
+              stream.getTracks().forEach(track => {
+                track.stop();
+              });
+              throw new DOMException('', 'NotFoundError');
+            }
 
-              return stream;
-            }, function (e) {
-              return Promise.reject(shimError_(e));
-            });
-          });
+            return stream;
+          }, e => Promise.reject(shimError_(e))));
         };
       }
     }
@@ -19078,9 +20718,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var sdp__WEBPACK_IMPORTED_MODULE_0___default =
-    /*#__PURE__*/
-    __webpack_require__.n(sdp__WEBPACK_IMPORTED_MODULE_0__);
+    var sdp__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(sdp__WEBPACK_IMPORTED_MODULE_0__);
     /* harmony import */
 
 
@@ -19105,7 +20743,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var NativeRTCIceCandidate = window.RTCIceCandidate;
+      const NativeRTCIceCandidate = window.RTCIceCandidate;
 
       window.RTCIceCandidate = function RTCIceCandidate(args) {
         // Remove the a= which shouldn't be part of the candidate string.
@@ -19116,9 +20754,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         if (args.candidate && args.candidate.length) {
           // Augment the native candidate with the parsed fields.
-          var nativeCandidate = new NativeRTCIceCandidate(args);
-          var parsedCandidate = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.parseCandidate(args.candidate);
-          var augmentedCandidate = Object.assign(nativeCandidate, parsedCandidate); // Add a serializer that does not serialize the extra attributes.
+          const nativeCandidate = new NativeRTCIceCandidate(args);
+          const parsedCandidate = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.parseCandidate(args.candidate);
+          const augmentedCandidate = Object.assign(nativeCandidate, parsedCandidate); // Add a serializer that does not serialize the extra attributes.
 
           augmentedCandidate.toJSON = function toJSON() {
             return {
@@ -19138,7 +20776,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       window.RTCIceCandidate.prototype = NativeRTCIceCandidate.prototype; // Hook up the augmented candidate in onicecandidate and
       // addEventListener('icecandidate', ...)
 
-      _utils__WEBPACK_IMPORTED_MODULE_1__["wrapPeerConnectionEvent"](window, 'icecandidate', function (e) {
+      _utils__WEBPACK_IMPORTED_MODULE_1__["wrapPeerConnectionEvent"](window, 'icecandidate', e => {
         if (e.candidate) {
           Object.defineProperty(e, 'candidate', {
             value: new window.RTCIceCandidate(e.candidate),
@@ -19155,48 +20793,49 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_1__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_1__["detectBrowser"](window);
 
       if (!('sctp' in window.RTCPeerConnection.prototype)) {
         Object.defineProperty(window.RTCPeerConnection.prototype, 'sctp', {
-          get: function get() {
+          get() {
             return typeof this._sctp === 'undefined' ? null : this._sctp;
           }
+
         });
       }
 
-      var sctpInDescription = function sctpInDescription(description) {
+      const sctpInDescription = function sctpInDescription(description) {
         if (!description || !description.sdp) {
           return false;
         }
 
-        var sections = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.splitSections(description.sdp);
+        const sections = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.splitSections(description.sdp);
         sections.shift();
-        return sections.some(function (mediaSection) {
-          var mLine = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.parseMLine(mediaSection);
+        return sections.some(mediaSection => {
+          const mLine = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.parseMLine(mediaSection);
           return mLine && mLine.kind === 'application' && mLine.protocol.indexOf('SCTP') !== -1;
         });
       };
 
-      var getRemoteFirefoxVersion = function getRemoteFirefoxVersion(description) {
+      const getRemoteFirefoxVersion = function getRemoteFirefoxVersion(description) {
         // TODO: Is there a better solution for detecting Firefox?
-        var match = description.sdp.match(/mozilla...THIS_IS_SDPARTA-(\d+)/);
+        const match = description.sdp.match(/mozilla...THIS_IS_SDPARTA-(\d+)/);
 
         if (match === null || match.length < 2) {
           return -1;
         }
 
-        var version = parseInt(match[1], 10); // Test for NaN (yes, this is ugly)
+        const version = parseInt(match[1], 10); // Test for NaN (yes, this is ugly)
 
         return version !== version ? -1 : version;
       };
 
-      var getCanSendMaxMessageSize = function getCanSendMaxMessageSize(remoteIsFirefox) {
+      const getCanSendMaxMessageSize = function getCanSendMaxMessageSize(remoteIsFirefox) {
         // Every implementation we know can send at least 64 KiB.
         // Note: Although Chrome is technically able to send up to 256 KiB, the
         //       data does not reach the other peer reliably.
         //       See: https://bugs.chromium.org/p/webrtc/issues/detail?id=8419
-        var canSendMaxMessageSize = 65536;
+        let canSendMaxMessageSize = 65536;
 
         if (browserDetails.browser === 'firefox') {
           if (browserDetails.version < 57) {
@@ -19224,10 +20863,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return canSendMaxMessageSize;
       };
 
-      var getMaxMessageSize = function getMaxMessageSize(description, remoteIsFirefox) {
+      const getMaxMessageSize = function getMaxMessageSize(description, remoteIsFirefox) {
         // Note: 65536 bytes is the default value from the SDP spec. Also,
         //       every implementation we know supports receiving 65536 bytes.
-        var maxMessageSize = 65536; // FF 57 has a slightly incorrect default remote max message size, so
+        let maxMessageSize = 65536; // FF 57 has a slightly incorrect default remote max message size, so
         // we need to adjust it here to avoid a failure when sending.
         // See: https://bugzilla.mozilla.org/show_bug.cgi?id=1425697
 
@@ -19235,7 +20874,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           maxMessageSize = 65535;
         }
 
-        var match = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.matchPrefix(description.sdp, 'a=max-message-size:');
+        const match = sdp__WEBPACK_IMPORTED_MODULE_0___default.a.matchPrefix(description.sdp, 'a=max-message-size:');
 
         if (match.length > 0) {
           maxMessageSize = parseInt(match[0].substr(19), 10);
@@ -19249,7 +20888,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return maxMessageSize;
       };
 
-      var origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
+      const origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
 
       window.RTCPeerConnection.prototype.setRemoteDescription = function setRemoteDescription() {
         this._sctp = null; // Chrome decided to not expose .sctp in plan-b mode.
@@ -19257,14 +20896,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         // to cover up the mess.
 
         if (browserDetails.browser === 'chrome' && browserDetails.version >= 76) {
-          var _this$getConfiguratio = this.getConfiguration(),
-              sdpSemantics = _this$getConfiguratio.sdpSemantics;
+          const {
+            sdpSemantics
+          } = this.getConfiguration();
 
           if (sdpSemantics === 'plan-b') {
             Object.defineProperty(this, 'sctp', {
-              get: function get() {
+              get() {
                 return typeof this._sctp === 'undefined' ? null : this._sctp;
               },
+
               enumerable: true,
               configurable: true
             });
@@ -19273,13 +20914,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         if (sctpInDescription(arguments[0])) {
           // Check if the remote is FF.
-          var isFirefox = getRemoteFirefoxVersion(arguments[0]); // Get the maximum message size the local peer is capable of sending
+          const isFirefox = getRemoteFirefoxVersion(arguments[0]); // Get the maximum message size the local peer is capable of sending
 
-          var canSendMMS = getCanSendMaxMessageSize(isFirefox); // Get the maximum message size of the remote peer.
+          const canSendMMS = getCanSendMaxMessageSize(isFirefox); // Get the maximum message size of the remote peer.
 
-          var remoteMMS = getMaxMessageSize(arguments[0], isFirefox); // Determine final maximum message size
+          const remoteMMS = getMaxMessageSize(arguments[0], isFirefox); // Determine final maximum message size
 
-          var maxMessageSize;
+          let maxMessageSize;
 
           if (canSendMMS === 0 && remoteMMS === 0) {
             maxMessageSize = Number.POSITIVE_INFINITY;
@@ -19291,11 +20932,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // attribute.
 
 
-          var sctp = {};
+          const sctp = {};
           Object.defineProperty(sctp, 'maxMessageSize', {
-            get: function get() {
+            get() {
               return maxMessageSize;
             }
+
           });
           this._sctp = sctp;
         }
@@ -19313,11 +20955,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
       function wrapDcSend(dc, pc) {
-        var origDataChannelSend = dc.send;
+        const origDataChannelSend = dc.send;
 
         dc.send = function send() {
-          var data = arguments[0];
-          var length = data.length || data.size || data.byteLength;
+          const data = arguments[0];
+          const length = data.length || data.size || data.byteLength;
 
           if (dc.readyState === 'open' && pc.sctp && length > pc.sctp.maxMessageSize) {
             throw new TypeError('Message too large (can send a maximum of ' + pc.sctp.maxMessageSize + ' bytes)');
@@ -19327,15 +20969,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
       }
 
-      var origCreateDataChannel = window.RTCPeerConnection.prototype.createDataChannel;
+      const origCreateDataChannel = window.RTCPeerConnection.prototype.createDataChannel;
 
       window.RTCPeerConnection.prototype.createDataChannel = function createDataChannel() {
-        var dataChannel = origCreateDataChannel.apply(this, arguments);
+        const dataChannel = origCreateDataChannel.apply(this, arguments);
         wrapDcSend(dataChannel, this);
         return dataChannel;
       };
 
-      _utils__WEBPACK_IMPORTED_MODULE_1__["wrapPeerConnectionEvent"](window, 'datachannel', function (e) {
+      _utils__WEBPACK_IMPORTED_MODULE_1__["wrapPeerConnectionEvent"](window, 'datachannel', e => {
         wrapDcSend(e.channel, e.target);
         return e;
       });
@@ -19354,22 +20996,24 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var proto = window.RTCPeerConnection.prototype;
+      const proto = window.RTCPeerConnection.prototype;
       Object.defineProperty(proto, 'connectionState', {
-        get: function get() {
+        get() {
           return {
             completed: 'connected',
             checking: 'connecting'
           }[this.iceConnectionState] || this.iceConnectionState;
         },
+
         enumerable: true,
         configurable: true
       });
       Object.defineProperty(proto, 'onconnectionstatechange', {
-        get: function get() {
+        get() {
           return this._onconnectionstatechange || null;
         },
-        set: function set(cb) {
+
+        set(cb) {
           if (this._onconnectionstatechange) {
             this.removeEventListener('connectionstatechange', this._onconnectionstatechange);
             delete this._onconnectionstatechange;
@@ -19379,20 +21023,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             this.addEventListener('connectionstatechange', this._onconnectionstatechange = cb);
           }
         },
+
         enumerable: true,
         configurable: true
       });
-      ['setLocalDescription', 'setRemoteDescription'].forEach(function (method) {
-        var origMethod = proto[method];
+      ['setLocalDescription', 'setRemoteDescription'].forEach(method => {
+        const origMethod = proto[method];
 
         proto[method] = function () {
           if (!this._connectionstatechangepoly) {
-            this._connectionstatechangepoly = function (e) {
-              var pc = e.target;
+            this._connectionstatechangepoly = e => {
+              const pc = e.target;
 
               if (pc._lastConnectionState !== pc.connectionState) {
                 pc._lastConnectionState = pc.connectionState;
-                var newEvent = new Event('connectionstatechange', e);
+                const newEvent = new Event('connectionstatechange', e);
                 pc.dispatchEvent(newEvent);
               }
 
@@ -19413,17 +21058,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_1__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_1__["detectBrowser"](window);
 
       if (browserDetails.browser === 'chrome' && browserDetails.version >= 71) {
         return;
       }
 
-      var nativeSRD = window.RTCPeerConnection.prototype.setRemoteDescription;
+      const nativeSRD = window.RTCPeerConnection.prototype.setRemoteDescription;
 
       window.RTCPeerConnection.prototype.setRemoteDescription = function setRemoteDescription(desc) {
         if (desc && desc.sdp && desc.sdp.indexOf('\na=extmap-allow-mixed') !== -1) {
-          desc.sdp = desc.sdp.split('\n').filter(function (line) {
+          desc.sdp = desc.sdp.split('\n').filter(line => {
             return line.trim() !== 'a=extmap-allow-mixed';
           }).join('\n');
         }
@@ -19481,9 +21126,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2___default =
-    /*#__PURE__*/
-    __webpack_require__.n(rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2__);
+    var rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2__);
     /* harmony import */
 
 
@@ -19520,7 +21163,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function shimPeerConnection(window) {
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
       if (window.RTCIceGatherer) {
         if (!window.RTCIceCandidate) {
@@ -19539,14 +21182,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
         if (browserDetails.version < 15025) {
-          var origMSTEnabled = Object.getOwnPropertyDescriptor(window.MediaStreamTrack.prototype, 'enabled');
+          const origMSTEnabled = Object.getOwnPropertyDescriptor(window.MediaStreamTrack.prototype, 'enabled');
           Object.defineProperty(window.MediaStreamTrack.prototype, 'enabled', {
-            set: function set(value) {
+            set(value) {
               origMSTEnabled.set.call(this, value);
-              var ev = new Event('enabled');
+              const ev = new Event('enabled');
               ev.enabled = value;
               this.dispatchEvent(ev);
             }
+
           });
         }
       } // ORTC defines the DTMF sender a bit different.
@@ -19555,7 +21199,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       if (window.RTCRtpSender && !('dtmf' in window.RTCRtpSender.prototype)) {
         Object.defineProperty(window.RTCRtpSender.prototype, 'dtmf', {
-          get: function get() {
+          get() {
             if (this._dtmf === undefined) {
               if (this.track.kind === 'audio') {
                 this._dtmf = new window.RTCDtmfSender(this);
@@ -19566,6 +21210,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
             return this._dtmf;
           }
+
         });
       } // Edge currently only implements the RTCDtmfSender, not the
       // RTCDTMFSender alias. See http://draft.ortc.org/#rtcdtmfsender2*
@@ -19575,7 +21220,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         window.RTCDTMFSender = window.RTCDtmfSender;
       }
 
-      var RTCPeerConnectionShim = rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2___default()(window, browserDetails.version);
+      const RTCPeerConnectionShim = rtcpeerconnection_shim__WEBPACK_IMPORTED_MODULE_2___default()(window, browserDetails.version);
 
       window.RTCPeerConnection = function RTCPeerConnection(config) {
         if (config && config.iceServers) {
@@ -19642,9 +21287,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function filterIceServers(iceServers, edgeVersion) {
-      var hasTurn = false;
+      let hasTurn = false;
       iceServers = JSON.parse(JSON.stringify(iceServers));
-      return iceServers.filter(function (server) {
+      return iceServers.filter(server => {
         if (server && (server.urls || server.url)) {
           var urls = server.urls || server.url;
 
@@ -19652,19 +21297,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             _utils__WEBPACK_IMPORTED_MODULE_0__["deprecated"]('RTCIceServer.url', 'RTCIceServer.urls');
           }
 
-          var isString = typeof urls === 'string';
+          const isString = typeof urls === 'string';
 
           if (isString) {
             urls = [urls];
           }
 
-          urls = urls.filter(function (url) {
+          urls = urls.filter(url => {
             // filter STUN unconditionally.
             if (url.indexOf('stun:') === 0) {
               return false;
             }
 
-            var validTurn = url.startsWith('turn') && !url.startsWith('turn:[') && url.includes('transport=udp');
+            const validTurn = url.startsWith('turn') && !url.startsWith('turn:[') && url.includes('transport=udp');
 
             if (validTurn && !hasTurn) {
               hasTurn = true;
@@ -19763,28 +21408,28 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function shimGetUserMedia(window) {
-      var navigator = window && window.navigator;
+      const navigator = window && window.navigator;
 
-      var shimError_ = function shimError_(e) {
+      const shimError_ = function shimError_(e) {
         return {
           name: {
             PermissionDeniedError: 'NotAllowedError'
           }[e.name] || e.name,
           message: e.message,
           constraint: e.constraint,
-          toString: function toString() {
+
+          toString() {
             return this.name;
           }
+
         };
       }; // getUserMedia error shim.
 
 
-      var origGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+      const origGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
 
       navigator.mediaDevices.getUserMedia = function (c) {
-        return origGetUserMedia(c).catch(function (e) {
-          return Promise.reject(shimError_(e));
-        });
+        return origGetUserMedia(c).catch(e => Promise.reject(shimError_(e)));
       };
     }
     /***/
@@ -19902,17 +21547,18 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     function shimOnTrack(window) {
       if (typeof window === 'object' && window.RTCTrackEvent && 'receiver' in window.RTCTrackEvent.prototype && !('transceiver' in window.RTCTrackEvent.prototype)) {
         Object.defineProperty(window.RTCTrackEvent.prototype, 'transceiver', {
-          get: function get() {
+          get() {
             return {
               receiver: this.receiver
             };
           }
+
         });
       }
     }
 
     function shimPeerConnection(window) {
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
       if (typeof window !== 'object' || !(window.RTCPeerConnection || window.mozRTCPeerConnection)) {
         return; // probably media.peerconnection.enabled=false in about:config
@@ -19926,13 +21572,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       if (browserDetails.version < 53) {
         // shim away need for obsolete RTCIceCandidate/RTCSessionDescription.
         ['setLocalDescription', 'setRemoteDescription', 'addIceCandidate'].forEach(function (method) {
-          var nativeMethod = window.RTCPeerConnection.prototype[method];
+          const nativeMethod = window.RTCPeerConnection.prototype[method];
+          const methodObj = {
+            [method]() {
+              arguments[0] = new (method === 'addIceCandidate' ? window.RTCIceCandidate : window.RTCSessionDescription)(arguments[0]);
+              return nativeMethod.apply(this, arguments);
+            }
 
-          var methodObj = _defineProperty2({}, method, function () {
-            arguments[0] = new (method === 'addIceCandidate' ? window.RTCIceCandidate : window.RTCSessionDescription)(arguments[0]);
-            return nativeMethod.apply(this, arguments);
-          });
-
+          };
           window.RTCPeerConnection.prototype[method] = methodObj[method];
         });
       } // support for addIceCandidate(null or undefined)
@@ -19940,7 +21587,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
       if (browserDetails.version < 68) {
-        var nativeAddIceCandidate = window.RTCPeerConnection.prototype.addIceCandidate;
+        const nativeAddIceCandidate = window.RTCPeerConnection.prototype.addIceCandidate;
 
         window.RTCPeerConnection.prototype.addIceCandidate = function addIceCandidate() {
           if (!arguments[0]) {
@@ -19961,27 +21608,23 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
       }
 
-      var modernStatsTypes = {
+      const modernStatsTypes = {
         inboundrtp: 'inbound-rtp',
         outboundrtp: 'outbound-rtp',
         candidatepair: 'candidate-pair',
         localcandidate: 'local-candidate',
         remotecandidate: 'remote-candidate'
       };
-      var nativeGetStats = window.RTCPeerConnection.prototype.getStats;
+      const nativeGetStats = window.RTCPeerConnection.prototype.getStats;
 
       window.RTCPeerConnection.prototype.getStats = function getStats() {
-        var _arguments2 = Array.prototype.slice.call(arguments),
-            selector = _arguments2[0],
-            onSucc = _arguments2[1],
-            onErr = _arguments2[2];
-
-        return nativeGetStats.apply(this, [selector || null]).then(function (stats) {
+        const [selector, onSucc, onErr] = arguments;
+        return nativeGetStats.apply(this, [selector || null]).then(stats => {
           if (browserDetails.version < 53 && !onSucc) {
             // Shim only promise getStats with spec-hyphens in type names
             // Leave callback version alone; misc old uses of forEach before Map
             try {
-              stats.forEach(function (stat) {
+              stats.forEach(stat => {
                 stat.type = modernStatsTypes[stat.type] || stat.type;
               });
             } catch (e) {
@@ -19990,7 +21633,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               } // Avoid TypeError: "type" is read-only, in old versions. 34-43ish
 
 
-              stats.forEach(function (stat, i) {
+              stats.forEach((stat, i) => {
                 stats.set(i, Object.assign({}, stat, {
                   type: modernStatsTypes[stat.type] || stat.type
                 }));
@@ -20012,25 +21655,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origGetSenders = window.RTCPeerConnection.prototype.getSenders;
+      const origGetSenders = window.RTCPeerConnection.prototype.getSenders;
 
       if (origGetSenders) {
         window.RTCPeerConnection.prototype.getSenders = function getSenders() {
-          var _this16 = this;
-
-          var senders = origGetSenders.apply(this, []);
-          senders.forEach(function (sender) {
-            return sender._pc = _this16;
-          });
+          const senders = origGetSenders.apply(this, []);
+          senders.forEach(sender => sender._pc = this);
           return senders;
         };
       }
 
-      var origAddTrack = window.RTCPeerConnection.prototype.addTrack;
+      const origAddTrack = window.RTCPeerConnection.prototype.addTrack;
 
       if (origAddTrack) {
         window.RTCPeerConnection.prototype.addTrack = function addTrack() {
-          var sender = origAddTrack.apply(this, arguments);
+          const sender = origAddTrack.apply(this, arguments);
           sender._pc = this;
           return sender;
         };
@@ -20050,21 +21689,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origGetReceivers = window.RTCPeerConnection.prototype.getReceivers;
+      const origGetReceivers = window.RTCPeerConnection.prototype.getReceivers;
 
       if (origGetReceivers) {
         window.RTCPeerConnection.prototype.getReceivers = function getReceivers() {
-          var _this17 = this;
-
-          var receivers = origGetReceivers.apply(this, []);
-          receivers.forEach(function (receiver) {
-            return receiver._pc = _this17;
-          });
+          const receivers = origGetReceivers.apply(this, []);
+          receivers.forEach(receiver => receiver._pc = this);
           return receivers;
         };
       }
 
-      _utils__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', function (e) {
+      _utils__WEBPACK_IMPORTED_MODULE_0__["wrapPeerConnectionEvent"](window, 'track', e => {
         e.receiver._pc = e.srcElement;
         return e;
       });
@@ -20080,13 +21715,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       window.RTCPeerConnection.prototype.removeStream = function removeStream(stream) {
-        var _this18 = this;
-
         _utils__WEBPACK_IMPORTED_MODULE_0__["deprecated"]('removeStream', 'removeTrack');
 
-        this.getSenders().forEach(function (sender) {
+        this.getSenders().forEach(sender => {
           if (sender.track && stream.getTracks().includes(sender.track)) {
-            _this18.removeTrack(sender);
+            this.removeTrack(sender);
           }
         });
       };
@@ -20108,19 +21741,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origAddTransceiver = window.RTCPeerConnection.prototype.addTransceiver;
+      const origAddTransceiver = window.RTCPeerConnection.prototype.addTransceiver;
 
       if (origAddTransceiver) {
         window.RTCPeerConnection.prototype.addTransceiver = function addTransceiver() {
           this.setParametersPromises = [];
-          var initParameters = arguments[1];
-          var shouldPerformCheck = initParameters && 'sendEncodings' in initParameters;
+          const initParameters = arguments[1];
+          const shouldPerformCheck = initParameters && 'sendEncodings' in initParameters;
 
           if (shouldPerformCheck) {
             // If sendEncodings params are provided, validate grammar
-            initParameters.sendEncodings.forEach(function (encodingParam) {
+            initParameters.sendEncodings.forEach(encodingParam => {
               if ('rid' in encodingParam) {
-                var ridRegex = /^[a-z0-9]{0,16}$/i;
+                const ridRegex = /^[a-z0-9]{0,16}$/i;
 
                 if (!ridRegex.test(encodingParam.rid)) {
                   throw new TypeError('Invalid RID value provided.');
@@ -20141,7 +21774,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             });
           }
 
-          var transceiver = origAddTransceiver.apply(this, arguments);
+          const transceiver = origAddTransceiver.apply(this, arguments);
 
           if (shouldPerformCheck) {
             // Check if the init options were applied. If not we do this in an
@@ -20151,12 +21784,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             // Also note that after the createoffer we are not 100% sure that
             // the params were asynchronously applied so we might miss the
             // opportunity to recreate offer.
-            var sender = transceiver.sender;
-            var params = sender.getParameters();
+            const {
+              sender
+            } = transceiver;
+            const params = sender.getParameters();
 
             if (!('encodings' in params)) {
               params.encodings = initParameters.sendEncodings;
-              this.setParametersPromises.push(sender.setParameters(params).catch(function () {}));
+              this.setParametersPromises.push(sender.setParameters(params).catch(() => {}));
             }
           }
 
@@ -20173,17 +21808,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origCreateOffer = window.RTCPeerConnection.prototype.createOffer;
+      const origCreateOffer = window.RTCPeerConnection.prototype.createOffer;
 
       window.RTCPeerConnection.prototype.createOffer = function createOffer() {
-        var _arguments3 = arguments,
-            _this19 = this;
-
         if (this.setParametersPromises && this.setParametersPromises.length) {
-          return Promise.all(this.setParametersPromises).then(function () {
-            return origCreateOffer.apply(_this19, _arguments3);
-          }).finally(function () {
-            _this19.setParametersPromises = [];
+          return Promise.all(this.setParametersPromises).then(() => {
+            return origCreateOffer.apply(this, arguments);
+          }).finally(() => {
+            this.setParametersPromises = [];
           });
         }
 
@@ -20199,17 +21831,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var origCreateAnswer = window.RTCPeerConnection.prototype.createAnswer;
+      const origCreateAnswer = window.RTCPeerConnection.prototype.createAnswer;
 
       window.RTCPeerConnection.prototype.createAnswer = function createAnswer() {
-        var _arguments4 = arguments,
-            _this20 = this;
-
         if (this.setParametersPromises && this.setParametersPromises.length) {
-          return Promise.all(this.setParametersPromises).then(function () {
-            return origCreateAnswer.apply(_this20, _arguments4);
-          }).finally(function () {
-            _this20.setParametersPromises = [];
+          return Promise.all(this.setParametersPromises).then(() => {
+            return origCreateAnswer.apply(this, arguments);
+          }).finally(() => {
+            this.setParametersPromises = [];
           });
         }
 
@@ -20261,7 +21890,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       window.navigator.mediaDevices.getDisplayMedia = function getDisplayMedia(constraints) {
         if (!(constraints && constraints.video)) {
-          var err = new DOMException('getDisplayMedia without video ' + 'constraints is undefined');
+          const err = new DOMException('getDisplayMedia without video ' + 'constraints is undefined');
           err.name = 'NotFoundError'; // from https://heycam.github.io/webidl/#idl-DOMException-error-names
 
           err.code = 8;
@@ -20320,10 +21949,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function shimGetUserMedia(window) {
-      var browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
+      const browserDetails = _utils__WEBPACK_IMPORTED_MODULE_0__["detectBrowser"](window);
 
-      var navigator = window && window.navigator;
-      var MediaStreamTrack = window && window.MediaStreamTrack;
+      const navigator = window && window.navigator;
+      const MediaStreamTrack = window && window.MediaStreamTrack;
 
       navigator.getUserMedia = function (constraints, onSuccess, onError) {
         // Replace Firefox 44+'s deprecation warning with unprefixed version.
@@ -20333,14 +21962,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       };
 
       if (!(browserDetails.version > 55 && 'autoGainControl' in navigator.mediaDevices.getSupportedConstraints())) {
-        var remap = function remap(obj, a, b) {
+        const remap = function remap(obj, a, b) {
           if (a in obj && !(b in obj)) {
             obj[b] = obj[a];
             delete obj[a];
           }
         };
 
-        var nativeGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+        const nativeGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
 
         navigator.mediaDevices.getUserMedia = function (c) {
           if (typeof c === 'object' && typeof c.audio === 'object') {
@@ -20353,10 +21982,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
 
         if (MediaStreamTrack && MediaStreamTrack.prototype.getSettings) {
-          var nativeGetSettings = MediaStreamTrack.prototype.getSettings;
+          const nativeGetSettings = MediaStreamTrack.prototype.getSettings;
 
           MediaStreamTrack.prototype.getSettings = function () {
-            var obj = nativeGetSettings.apply(this, arguments);
+            const obj = nativeGetSettings.apply(this, arguments);
             remap(obj, 'mozAutoGainControl', 'autoGainControl');
             remap(obj, 'mozNoiseSuppression', 'noiseSuppression');
             return obj;
@@ -20364,7 +21993,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
 
         if (MediaStreamTrack && MediaStreamTrack.prototype.applyConstraints) {
-          var nativeApplyConstraints = MediaStreamTrack.prototype.applyConstraints;
+          const nativeApplyConstraints = MediaStreamTrack.prototype.applyConstraints;
 
           MediaStreamTrack.prototype.applyConstraints = function (c) {
             if (this.kind === 'audio' && typeof c === 'object') {
@@ -20474,11 +22103,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       if (!('addStream' in window.RTCPeerConnection.prototype)) {
-        var _addTrack = window.RTCPeerConnection.prototype.addTrack;
+        const _addTrack = window.RTCPeerConnection.prototype.addTrack;
 
         window.RTCPeerConnection.prototype.addStream = function addStream(stream) {
-          var _this21 = this;
-
           if (!this._localStreams) {
             this._localStreams = [];
           }
@@ -20489,23 +22116,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // Safari orders by track id.
 
 
-          stream.getAudioTracks().forEach(function (track) {
-            return _addTrack.call(_this21, track, stream);
-          });
-          stream.getVideoTracks().forEach(function (track) {
-            return _addTrack.call(_this21, track, stream);
-          });
+          stream.getAudioTracks().forEach(track => _addTrack.call(this, track, stream));
+          stream.getVideoTracks().forEach(track => _addTrack.call(this, track, stream));
         };
 
-        window.RTCPeerConnection.prototype.addTrack = function addTrack(track) {
-          var stream = arguments[1];
-
-          if (stream) {
-            if (!this._localStreams) {
-              this._localStreams = [stream];
-            } else if (!this._localStreams.includes(stream)) {
-              this._localStreams.push(stream);
-            }
+        window.RTCPeerConnection.prototype.addTrack = function addTrack(track, ...streams) {
+          if (streams) {
+            streams.forEach(stream => {
+              if (!this._localStreams) {
+                this._localStreams = [stream];
+              } else if (!this._localStreams.includes(stream)) {
+                this._localStreams.push(stream);
+              }
+            });
           }
 
           return _addTrack.apply(this, arguments);
@@ -20514,13 +22137,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       if (!('removeStream' in window.RTCPeerConnection.prototype)) {
         window.RTCPeerConnection.prototype.removeStream = function removeStream(stream) {
-          var _this22 = this;
-
           if (!this._localStreams) {
             this._localStreams = [];
           }
 
-          var index = this._localStreams.indexOf(stream);
+          const index = this._localStreams.indexOf(stream);
 
           if (index === -1) {
             return;
@@ -20528,10 +22149,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
           this._localStreams.splice(index, 1);
 
-          var tracks = stream.getTracks();
-          this.getSenders().forEach(function (sender) {
+          const tracks = stream.getTracks();
+          this.getSenders().forEach(sender => {
             if (tracks.includes(sender.track)) {
-              _this22.removeTrack(sender);
+              this.removeTrack(sender);
             }
           });
         };
@@ -20551,46 +22172,45 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       if (!('onaddstream' in window.RTCPeerConnection.prototype)) {
         Object.defineProperty(window.RTCPeerConnection.prototype, 'onaddstream', {
-          get: function get() {
+          get() {
             return this._onaddstream;
           },
-          set: function set(f) {
-            var _this23 = this;
 
+          set(f) {
             if (this._onaddstream) {
               this.removeEventListener('addstream', this._onaddstream);
               this.removeEventListener('track', this._onaddstreampoly);
             }
 
             this.addEventListener('addstream', this._onaddstream = f);
-            this.addEventListener('track', this._onaddstreampoly = function (e) {
-              e.streams.forEach(function (stream) {
-                if (!_this23._remoteStreams) {
-                  _this23._remoteStreams = [];
+            this.addEventListener('track', this._onaddstreampoly = e => {
+              e.streams.forEach(stream => {
+                if (!this._remoteStreams) {
+                  this._remoteStreams = [];
                 }
 
-                if (_this23._remoteStreams.includes(stream)) {
+                if (this._remoteStreams.includes(stream)) {
                   return;
                 }
 
-                _this23._remoteStreams.push(stream);
+                this._remoteStreams.push(stream);
 
-                var event = new Event('addstream');
+                const event = new Event('addstream');
                 event.stream = stream;
-
-                _this23.dispatchEvent(event);
+                this.dispatchEvent(event);
               });
             });
           }
+
         });
-        var origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
+        const origSetRemoteDescription = window.RTCPeerConnection.prototype.setRemoteDescription;
 
         window.RTCPeerConnection.prototype.setRemoteDescription = function setRemoteDescription() {
-          var pc = this;
+          const pc = this;
 
           if (!this._onaddstreampoly) {
             this.addEventListener('track', this._onaddstreampoly = function (e) {
-              e.streams.forEach(function (stream) {
+              e.streams.forEach(stream => {
                 if (!pc._remoteStreams) {
                   pc._remoteStreams = [];
                 }
@@ -20601,7 +22221,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
                 pc._remoteStreams.push(stream);
 
-                var event = new Event('addstream');
+                const event = new Event('addstream');
                 event.stream = stream;
                 pc.dispatchEvent(event);
               });
@@ -20618,16 +22238,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var prototype = window.RTCPeerConnection.prototype;
-      var origCreateOffer = prototype.createOffer;
-      var origCreateAnswer = prototype.createAnswer;
-      var setLocalDescription = prototype.setLocalDescription;
-      var setRemoteDescription = prototype.setRemoteDescription;
-      var addIceCandidate = prototype.addIceCandidate;
+      const prototype = window.RTCPeerConnection.prototype;
+      const origCreateOffer = prototype.createOffer;
+      const origCreateAnswer = prototype.createAnswer;
+      const setLocalDescription = prototype.setLocalDescription;
+      const setRemoteDescription = prototype.setRemoteDescription;
+      const addIceCandidate = prototype.addIceCandidate;
 
       prototype.createOffer = function createOffer(successCallback, failureCallback) {
-        var options = arguments.length >= 2 ? arguments[2] : arguments[0];
-        var promise = origCreateOffer.apply(this, [options]);
+        const options = arguments.length >= 2 ? arguments[2] : arguments[0];
+        const promise = origCreateOffer.apply(this, [options]);
 
         if (!failureCallback) {
           return promise;
@@ -20638,8 +22258,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       };
 
       prototype.createAnswer = function createAnswer(successCallback, failureCallback) {
-        var options = arguments.length >= 2 ? arguments[2] : arguments[0];
-        var promise = origCreateAnswer.apply(this, [options]);
+        const options = arguments.length >= 2 ? arguments[2] : arguments[0];
+        const promise = origCreateAnswer.apply(this, [options]);
 
         if (!failureCallback) {
           return promise;
@@ -20649,8 +22269,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return Promise.resolve();
       };
 
-      var withCallback = function withCallback(description, successCallback, failureCallback) {
-        var promise = setLocalDescription.apply(this, [description]);
+      let withCallback = function withCallback(description, successCallback, failureCallback) {
+        const promise = setLocalDescription.apply(this, [description]);
 
         if (!failureCallback) {
           return promise;
@@ -20663,7 +22283,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       prototype.setLocalDescription = withCallback;
 
       withCallback = function withCallback(description, successCallback, failureCallback) {
-        var promise = setRemoteDescription.apply(this, [description]);
+        const promise = setRemoteDescription.apply(this, [description]);
 
         if (!failureCallback) {
           return promise;
@@ -20676,7 +22296,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       prototype.setRemoteDescription = withCallback;
 
       withCallback = function withCallback(candidate, successCallback, failureCallback) {
-        var promise = addIceCandidate.apply(this, [candidate]);
+        const promise = addIceCandidate.apply(this, [candidate]);
 
         if (!failureCallback) {
           return promise;
@@ -20690,15 +22310,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function shimGetUserMedia(window) {
-      var navigator = window && window.navigator;
+      const navigator = window && window.navigator;
 
       if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
         // shim not needed in Safari 12.1
-        var mediaDevices = navigator.mediaDevices;
+        const mediaDevices = navigator.mediaDevices;
 
-        var _getUserMedia = mediaDevices.getUserMedia.bind(mediaDevices);
+        const _getUserMedia = mediaDevices.getUserMedia.bind(mediaDevices);
 
-        navigator.mediaDevices.getUserMedia = function (constraints) {
+        navigator.mediaDevices.getUserMedia = constraints => {
           return _getUserMedia(shimConstraints(constraints));
         };
       }
@@ -20722,14 +22342,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
     function shimRTCIceServerUrls(window) {
       // migrate from non-spec RTCIceServer.url to RTCIceServer.urls
-      var OrigPeerConnection = window.RTCPeerConnection;
+      const OrigPeerConnection = window.RTCPeerConnection;
 
       window.RTCPeerConnection = function RTCPeerConnection(pcConfig, pcConstraints) {
         if (pcConfig && pcConfig.iceServers) {
-          var newIceServers = [];
+          const newIceServers = [];
 
-          for (var i = 0; i < pcConfig.iceServers.length; i++) {
-            var server = pcConfig.iceServers[i];
+          for (let i = 0; i < pcConfig.iceServers.length; i++) {
+            let server = pcConfig.iceServers[i];
 
             if (!server.hasOwnProperty('urls') && server.hasOwnProperty('url')) {
               _utils__WEBPACK_IMPORTED_MODULE_0__["deprecated"]('RTCIceServer.url', 'RTCIceServer.urls');
@@ -20753,9 +22373,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       if ('generateCertificate' in window.RTCPeerConnection) {
         Object.defineProperty(window.RTCPeerConnection, 'generateCertificate', {
-          get: function get() {
+          get() {
             return OrigPeerConnection.generateCertificate;
           }
+
         });
       }
     }
@@ -20764,17 +22385,18 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       // Add event.transceiver member over deprecated event.receiver
       if (typeof window === 'object' && window.RTCTrackEvent && 'receiver' in window.RTCTrackEvent.prototype && !('transceiver' in window.RTCTrackEvent.prototype)) {
         Object.defineProperty(window.RTCTrackEvent.prototype, 'transceiver', {
-          get: function get() {
+          get() {
             return {
               receiver: this.receiver
             };
           }
+
         });
       }
     }
 
     function shimCreateOfferLegacy(window) {
-      var origCreateOffer = window.RTCPeerConnection.prototype.createOffer;
+      const origCreateOffer = window.RTCPeerConnection.prototype.createOffer;
 
       window.RTCPeerConnection.prototype.createOffer = function createOffer(offerOptions) {
         if (offerOptions) {
@@ -20783,9 +22405,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             offerOptions.offerToReceiveAudio = !!offerOptions.offerToReceiveAudio;
           }
 
-          var audioTransceiver = this.getTransceivers().find(function (transceiver) {
-            return transceiver.receiver.track.kind === 'audio';
-          });
+          const audioTransceiver = this.getTransceivers().find(transceiver => transceiver.receiver.track.kind === 'audio');
 
           if (offerOptions.offerToReceiveAudio === false && audioTransceiver) {
             if (audioTransceiver.direction === 'sendrecv') {
@@ -20810,9 +22430,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             offerOptions.offerToReceiveVideo = !!offerOptions.offerToReceiveVideo;
           }
 
-          var videoTransceiver = this.getTransceivers().find(function (transceiver) {
-            return transceiver.receiver.track.kind === 'video';
-          });
+          const videoTransceiver = this.getTransceivers().find(transceiver => transceiver.receiver.track.kind === 'video');
 
           if (offerOptions.offerToReceiveVideo === false && videoTransceiver) {
             if (videoTransceiver.direction === 'sendrecv') {
@@ -20924,8 +22542,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* eslint-env node */
 
 
-    var logDisabled_ = true;
-    var deprecationWarnings_ = true;
+    let logDisabled_ = true;
+    let deprecationWarnings_ = true;
     /**
      * Extract browser version out of the provided user agent string.
      *
@@ -20936,7 +22554,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
     function extractVersion(uastring, expr, pos) {
-      var match = uastring.match(expr);
+      const match = uastring.match(expr);
       return match && match.length >= pos && parseInt(match[pos], 10);
     } // Wraps the peerconnection event eventNameToWrap in a function
     // which returns the modified event object (or false to prevent
@@ -20948,16 +22566,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var proto = window.RTCPeerConnection.prototype;
-      var nativeAddEventListener = proto.addEventListener;
+      const proto = window.RTCPeerConnection.prototype;
+      const nativeAddEventListener = proto.addEventListener;
 
       proto.addEventListener = function (nativeEventName, cb) {
         if (nativeEventName !== eventNameToWrap) {
           return nativeAddEventListener.apply(this, arguments);
         }
 
-        var wrappedCallback = function wrappedCallback(e) {
-          var modifiedEvent = wrapper(e);
+        const wrappedCallback = e => {
+          const modifiedEvent = wrapper(e);
 
           if (modifiedEvent) {
             cb(modifiedEvent);
@@ -20969,23 +22587,24 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return nativeAddEventListener.apply(this, [nativeEventName, wrappedCallback]);
       };
 
-      var nativeRemoveEventListener = proto.removeEventListener;
+      const nativeRemoveEventListener = proto.removeEventListener;
 
       proto.removeEventListener = function (nativeEventName, cb) {
         if (nativeEventName !== eventNameToWrap || !this._eventMap || !this._eventMap[cb]) {
           return nativeRemoveEventListener.apply(this, arguments);
         }
 
-        var unwrappedCb = this._eventMap[cb];
+        const unwrappedCb = this._eventMap[cb];
         delete this._eventMap[cb];
         return nativeRemoveEventListener.apply(this, [nativeEventName, unwrappedCb]);
       };
 
       Object.defineProperty(proto, 'on' + eventNameToWrap, {
-        get: function get() {
+        get() {
           return this['_on' + eventNameToWrap];
         },
-        set: function set(cb) {
+
+        set(cb) {
           if (this['_on' + eventNameToWrap]) {
             this.removeEventListener(eventNameToWrap, this['_on' + eventNameToWrap]);
             delete this['_on' + eventNameToWrap];
@@ -20995,6 +22614,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             this.addEventListener(eventNameToWrap, this['_on' + eventNameToWrap] = cb);
           }
         },
+
         enumerable: true,
         configurable: true
       });
@@ -21055,9 +22675,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function detectBrowser(window) {
-      var navigator = window.navigator; // Returned result object.
+      const {
+        navigator
+      } = window; // Returned result object.
 
-      var result = {
+      const result = {
         browser: null,
         version: null
       }; // Fail early if it's not a browser
@@ -21119,15 +22741,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       return Object.keys(data).reduce(function (accumulator, key) {
-        var isObj = isObject(data[key]);
-        var value = isObj ? compactObject(data[key]) : data[key];
-        var isEmptyObject = isObj && !Object.keys(value).length;
+        const isObj = isObject(data[key]);
+        const value = isObj ? compactObject(data[key]) : data[key];
+        const isEmptyObject = isObj && !Object.keys(value).length;
 
         if (value === undefined || isEmptyObject) {
           return accumulator;
         }
 
-        return Object.assign(accumulator, _defineProperty2({}, key, value));
+        return Object.assign(accumulator, {
+          [key]: value
+        });
       }, {});
     }
     /* iterates the stats graph recursively. */
@@ -21139,11 +22763,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       resultSet.set(base.id, base);
-      Object.keys(base).forEach(function (name) {
+      Object.keys(base).forEach(name => {
         if (name.endsWith('Id')) {
           walkStats(stats, stats.get(base[name]), resultSet);
         } else if (name.endsWith('Ids')) {
-          base[name].forEach(function (id) {
+          base[name].forEach(id => {
             walkStats(stats, stats.get(id), resultSet);
           });
         }
@@ -21153,21 +22777,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function filterStats(result, track, outbound) {
-      var streamStatsType = outbound ? 'outbound-rtp' : 'inbound-rtp';
-      var filteredResult = new Map();
+      const streamStatsType = outbound ? 'outbound-rtp' : 'inbound-rtp';
+      const filteredResult = new Map();
 
       if (track === null) {
         return filteredResult;
       }
 
-      var trackStats = [];
-      result.forEach(function (value) {
+      const trackStats = [];
+      result.forEach(value => {
         if (value.type === 'track' && value.trackIdentifier === track.id) {
           trackStats.push(value);
         }
       });
-      trackStats.forEach(function (trackStat) {
-        result.forEach(function (stats) {
+      trackStats.forEach(trackStat => {
+        result.forEach(stats => {
           if (stats.type === streamStatsType && stats.trackId === trackStat.id) {
             walkStats(result, stats, filteredResult);
           }
@@ -21257,8 +22881,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      * Use of this source code is governed by an MIT-style license that can be
      * found in the LICENSE file at https://angular.io/license
      */
-    var Zone$1 = function (global) {
-      var performance = global['performance'];
+    const Zone$1 = function (global) {
+      const performance = global['performance'];
 
       function mark(name) {
         performance && performance['mark'] && performance['mark'](name);
@@ -21269,7 +22893,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
 
       mark('Zone');
-      var checkDuplicate = global['__zone_symbol__forceDuplicateZoneCheck'] === true;
+      const checkDuplicate = global['__zone_symbol__forceDuplicateZoneCheck'] === true;
 
       if (global['Zone']) {
         // if global['Zone'] already exists (maybe zone.js was already loaded or
@@ -21288,331 +22912,289 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
       }
 
-      var Zone =
-      /*#__PURE__*/
-      function () {
-        function Zone(parent, zoneSpec) {
-          _classCallCheck(this, Zone);
-
+      class Zone {
+        constructor(parent, zoneSpec) {
           this._parent = parent;
           this._name = zoneSpec ? zoneSpec.name || 'unnamed' : '<root>';
           this._properties = zoneSpec && zoneSpec.properties || {};
           this._zoneDelegate = new ZoneDelegate(this, this._parent && this._parent._zoneDelegate, zoneSpec);
         }
 
-        _createClass(Zone, [{
-          key: "get",
-          value: function get(key) {
-            var zone = this.getZoneWith(key);
-            if (zone) return zone._properties[key];
+        static assertZonePatched() {
+          if (global['Promise'] !== patches['ZoneAwarePromise']) {
+            throw new Error('Zone.js has detected that ZoneAwarePromise `(window|global).Promise` ' + 'has been overwritten.\n' + 'Most likely cause is that a Promise polyfill has been loaded ' + 'after Zone.js (Polyfilling Promise api is not necessary when zone.js is loaded. ' + 'If you must load one, do so before loading zone.js.)');
           }
-        }, {
-          key: "getZoneWith",
-          value: function getZoneWith(key) {
-            var current = this;
+        }
 
-            while (current) {
-              if (current._properties.hasOwnProperty(key)) {
-                return current;
-              }
+        static get root() {
+          let zone = Zone.current;
 
-              current = current._parent;
+          while (zone.parent) {
+            zone = zone.parent;
+          }
+
+          return zone;
+        }
+
+        static get current() {
+          return _currentZoneFrame.zone;
+        }
+
+        static get currentTask() {
+          return _currentTask;
+        }
+
+        static __load_patch(name, fn) {
+          if (patches.hasOwnProperty(name)) {
+            if (checkDuplicate) {
+              throw Error('Already loaded patch: ' + name);
+            }
+          } else if (!global['__Zone_disable_' + name]) {
+            const perfName = 'Zone:' + name;
+            mark(perfName);
+            patches[name] = fn(global, Zone, _api);
+            performanceMeasure(perfName, perfName);
+          }
+        }
+
+        get parent() {
+          return this._parent;
+        }
+
+        get name() {
+          return this._name;
+        }
+
+        get(key) {
+          const zone = this.getZoneWith(key);
+          if (zone) return zone._properties[key];
+        }
+
+        getZoneWith(key) {
+          let current = this;
+
+          while (current) {
+            if (current._properties.hasOwnProperty(key)) {
+              return current;
             }
 
-            return null;
+            current = current._parent;
           }
-        }, {
-          key: "fork",
-          value: function fork(zoneSpec) {
-            if (!zoneSpec) throw new Error('ZoneSpec required!');
-            return this._zoneDelegate.fork(this, zoneSpec);
+
+          return null;
+        }
+
+        fork(zoneSpec) {
+          if (!zoneSpec) throw new Error('ZoneSpec required!');
+          return this._zoneDelegate.fork(this, zoneSpec);
+        }
+
+        wrap(callback, source) {
+          if (typeof callback !== 'function') {
+            throw new Error('Expecting function got: ' + callback);
           }
-        }, {
-          key: "wrap",
-          value: function wrap(callback, source) {
-            if (typeof callback !== 'function') {
-              throw new Error('Expecting function got: ' + callback);
-            }
 
-            var _callback = this._zoneDelegate.intercept(this, callback, source);
+          const _callback = this._zoneDelegate.intercept(this, callback, source);
 
-            var zone = this;
-            return function () {
-              return zone.runGuarded(_callback, this, arguments, source);
-            };
+          const zone = this;
+          return function () {
+            return zone.runGuarded(_callback, this, arguments, source);
+          };
+        }
+
+        run(callback, applyThis, applyArgs, source) {
+          _currentZoneFrame = {
+            parent: _currentZoneFrame,
+            zone: this
+          };
+
+          try {
+            return this._zoneDelegate.invoke(this, callback, applyThis, applyArgs, source);
+          } finally {
+            _currentZoneFrame = _currentZoneFrame.parent;
           }
-        }, {
-          key: "run",
-          value: function run(callback, applyThis, applyArgs, source) {
-            _currentZoneFrame = {
-              parent: _currentZoneFrame,
-              zone: this
-            };
+        }
 
+        runGuarded(callback, applyThis = null, applyArgs, source) {
+          _currentZoneFrame = {
+            parent: _currentZoneFrame,
+            zone: this
+          };
+
+          try {
             try {
               return this._zoneDelegate.invoke(this, callback, applyThis, applyArgs, source);
-            } finally {
-              _currentZoneFrame = _currentZoneFrame.parent;
+            } catch (error) {
+              if (this._zoneDelegate.handleError(this, error)) {
+                throw error;
+              }
             }
+          } finally {
+            _currentZoneFrame = _currentZoneFrame.parent;
           }
-        }, {
-          key: "runGuarded",
-          value: function runGuarded(callback) {
-            var applyThis = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
-            var applyArgs = arguments.length > 2 ? arguments[2] : undefined;
-            var source = arguments.length > 3 ? arguments[3] : undefined;
-            _currentZoneFrame = {
-              parent: _currentZoneFrame,
-              zone: this
-            };
+        }
+
+        runTask(task, applyThis, applyArgs) {
+          if (task.zone != this) {
+            throw new Error('A task can only be run in the zone of creation! (Creation: ' + (task.zone || NO_ZONE).name + '; Execution: ' + this.name + ')');
+          } // https://github.com/angular/zone.js/issues/778, sometimes eventTask
+          // will run in notScheduled(canceled) state, we should not try to
+          // run such kind of task but just return
+
+
+          if (task.state === notScheduled && (task.type === eventTask || task.type === macroTask)) {
+            return;
+          }
+
+          const reEntryGuard = task.state != running;
+          reEntryGuard && task._transitionTo(running, scheduled);
+          task.runCount++;
+          const previousTask = _currentTask;
+          _currentTask = task;
+          _currentZoneFrame = {
+            parent: _currentZoneFrame,
+            zone: this
+          };
+
+          try {
+            if (task.type == macroTask && task.data && !task.data.isPeriodic) {
+              task.cancelFn = undefined;
+            }
 
             try {
-              try {
-                return this._zoneDelegate.invoke(this, callback, applyThis, applyArgs, source);
-              } catch (error) {
-                if (this._zoneDelegate.handleError(this, error)) {
-                  throw error;
-                }
+              return this._zoneDelegate.invokeTask(this, task, applyThis, applyArgs);
+            } catch (error) {
+              if (this._zoneDelegate.handleError(this, error)) {
+                throw error;
               }
-            } finally {
-              _currentZoneFrame = _currentZoneFrame.parent;
             }
-          }
-        }, {
-          key: "runTask",
-          value: function runTask(task, applyThis, applyArgs) {
-            if (task.zone != this) {
-              throw new Error('A task can only be run in the zone of creation! (Creation: ' + (task.zone || NO_ZONE).name + '; Execution: ' + this.name + ')');
-            } // https://github.com/angular/zone.js/issues/778, sometimes eventTask
-            // will run in notScheduled(canceled) state, we should not try to
-            // run such kind of task but just return
+          } finally {
+            // if the task's state is notScheduled or unknown, then it has already been cancelled
+            // we should not reset the state to scheduled
+            if (task.state !== notScheduled && task.state !== unknown) {
+              if (task.type == eventTask || task.data && task.data.isPeriodic) {
+                reEntryGuard && task._transitionTo(scheduled, running);
+              } else {
+                task.runCount = 0;
 
+                this._updateTaskCount(task, -1);
 
-            if (task.state === notScheduled && (task.type === eventTask || task.type === macroTask)) {
-              return;
-            }
-
-            var reEntryGuard = task.state != running;
-            reEntryGuard && task._transitionTo(running, scheduled);
-            task.runCount++;
-            var previousTask = _currentTask;
-            _currentTask = task;
-            _currentZoneFrame = {
-              parent: _currentZoneFrame,
-              zone: this
-            };
-
-            try {
-              if (task.type == macroTask && task.data && !task.data.isPeriodic) {
-                task.cancelFn = undefined;
-              }
-
-              try {
-                return this._zoneDelegate.invokeTask(this, task, applyThis, applyArgs);
-              } catch (error) {
-                if (this._zoneDelegate.handleError(this, error)) {
-                  throw error;
-                }
-              }
-            } finally {
-              // if the task's state is notScheduled or unknown, then it has already been cancelled
-              // we should not reset the state to scheduled
-              if (task.state !== notScheduled && task.state !== unknown) {
-                if (task.type == eventTask || task.data && task.data.isPeriodic) {
-                  reEntryGuard && task._transitionTo(scheduled, running);
-                } else {
-                  task.runCount = 0;
-
-                  this._updateTaskCount(task, -1);
-
-                  reEntryGuard && task._transitionTo(notScheduled, running, notScheduled);
-                }
-              }
-
-              _currentZoneFrame = _currentZoneFrame.parent;
-              _currentTask = previousTask;
-            }
-          }
-        }, {
-          key: "scheduleTask",
-          value: function scheduleTask(task) {
-            if (task.zone && task.zone !== this) {
-              // check if the task was rescheduled, the newZone
-              // should not be the children of the original zone
-              var newZone = this;
-
-              while (newZone) {
-                if (newZone === task.zone) {
-                  throw Error("can not reschedule task to ".concat(this.name, " which is descendants of the original zone ").concat(task.zone.name));
-                }
-
-                newZone = newZone.parent;
+                reEntryGuard && task._transitionTo(notScheduled, running, notScheduled);
               }
             }
 
-            task._transitionTo(scheduling, notScheduled);
-
-            var zoneDelegates = [];
-            task._zoneDelegates = zoneDelegates;
-            task._zone = this;
-
-            try {
-              task = this._zoneDelegate.scheduleTask(this, task);
-            } catch (err) {
-              // should set task's state to unknown when scheduleTask throw error
-              // because the err may from reschedule, so the fromState maybe notScheduled
-              task._transitionTo(unknown, scheduling, notScheduled); // TODO: @JiaLiPassion, should we check the result from handleError?
-
-
-              this._zoneDelegate.handleError(this, err);
-
-              throw err;
-            }
-
-            if (task._zoneDelegates === zoneDelegates) {
-              // we have to check because internally the delegate can reschedule the task.
-              this._updateTaskCount(task, 1);
-            }
-
-            if (task.state == scheduling) {
-              task._transitionTo(scheduled, scheduling);
-            }
-
-            return task;
+            _currentZoneFrame = _currentZoneFrame.parent;
+            _currentTask = previousTask;
           }
-        }, {
-          key: "scheduleMicroTask",
-          value: function scheduleMicroTask(source, callback, data, customSchedule) {
-            return this.scheduleTask(new ZoneTask(microTask, source, callback, data, customSchedule, undefined));
-          }
-        }, {
-          key: "scheduleMacroTask",
-          value: function scheduleMacroTask(source, callback, data, customSchedule, customCancel) {
-            return this.scheduleTask(new ZoneTask(macroTask, source, callback, data, customSchedule, customCancel));
-          }
-        }, {
-          key: "scheduleEventTask",
-          value: function scheduleEventTask(source, callback, data, customSchedule, customCancel) {
-            return this.scheduleTask(new ZoneTask(eventTask, source, callback, data, customSchedule, customCancel));
-          }
-        }, {
-          key: "cancelTask",
-          value: function cancelTask(task) {
-            if (task.zone != this) throw new Error('A task can only be cancelled in the zone of creation! (Creation: ' + (task.zone || NO_ZONE).name + '; Execution: ' + this.name + ')');
+        }
 
-            task._transitionTo(canceling, scheduled, running);
+        scheduleTask(task) {
+          if (task.zone && task.zone !== this) {
+            // check if the task was rescheduled, the newZone
+            // should not be the children of the original zone
+            let newZone = this;
 
-            try {
-              this._zoneDelegate.cancelTask(this, task);
-            } catch (err) {
-              // if error occurs when cancelTask, transit the state to unknown
-              task._transitionTo(unknown, canceling);
-
-              this._zoneDelegate.handleError(this, err);
-
-              throw err;
-            }
-
-            this._updateTaskCount(task, -1);
-
-            task._transitionTo(notScheduled, canceling);
-
-            task.runCount = 0;
-            return task;
-          }
-        }, {
-          key: "_updateTaskCount",
-          value: function _updateTaskCount(task, count) {
-            var zoneDelegates = task._zoneDelegates;
-
-            if (count == -1) {
-              task._zoneDelegates = null;
-            }
-
-            for (var i = 0; i < zoneDelegates.length; i++) {
-              zoneDelegates[i]._updateTaskCount(task.type, count);
-            }
-          }
-        }, {
-          key: "parent",
-          get: function get() {
-            return this._parent;
-          }
-        }, {
-          key: "name",
-          get: function get() {
-            return this._name;
-          }
-        }], [{
-          key: "assertZonePatched",
-          value: function assertZonePatched() {
-            if (global['Promise'] !== patches['ZoneAwarePromise']) {
-              throw new Error('Zone.js has detected that ZoneAwarePromise `(window|global).Promise` ' + 'has been overwritten.\n' + 'Most likely cause is that a Promise polyfill has been loaded ' + 'after Zone.js (Polyfilling Promise api is not necessary when zone.js is loaded. ' + 'If you must load one, do so before loading zone.js.)');
-            }
-          }
-        }, {
-          key: "__load_patch",
-          value: function __load_patch(name, fn) {
-            if (patches.hasOwnProperty(name)) {
-              if (checkDuplicate) {
-                throw Error('Already loaded patch: ' + name);
+            while (newZone) {
+              if (newZone === task.zone) {
+                throw Error("can not reschedule task to ".concat(this.name, " which is descendants of the original zone ").concat(task.zone.name));
               }
-            } else if (!global['__Zone_disable_' + name]) {
-              var perfName = 'Zone:' + name;
-              mark(perfName);
-              patches[name] = fn(global, Zone, _api);
-              performanceMeasure(perfName, perfName);
+
+              newZone = newZone.parent;
             }
           }
-        }, {
-          key: "root",
-          get: function get() {
-            var zone = Zone.current;
 
-            while (zone.parent) {
-              zone = zone.parent;
-            }
+          task._transitionTo(scheduling, notScheduled);
 
-            return zone;
-          }
-        }, {
-          key: "current",
-          get: function get() {
-            return _currentZoneFrame.zone;
-          }
-        }, {
-          key: "currentTask",
-          get: function get() {
-            return _currentTask;
-          }
-        }]);
+          const zoneDelegates = [];
+          task._zoneDelegates = zoneDelegates;
+          task._zone = this;
 
-        return Zone;
-      }();
+          try {
+            task = this._zoneDelegate.scheduleTask(this, task);
+          } catch (err) {
+            // should set task's state to unknown when scheduleTask throw error
+            // because the err may from reschedule, so the fromState maybe notScheduled
+            task._transitionTo(unknown, scheduling, notScheduled); // TODO: @JiaLiPassion, should we check the result from handleError?
+
+
+            this._zoneDelegate.handleError(this, err);
+
+            throw err;
+          }
+
+          if (task._zoneDelegates === zoneDelegates) {
+            // we have to check because internally the delegate can reschedule the task.
+            this._updateTaskCount(task, 1);
+          }
+
+          if (task.state == scheduling) {
+            task._transitionTo(scheduled, scheduling);
+          }
+
+          return task;
+        }
+
+        scheduleMicroTask(source, callback, data, customSchedule) {
+          return this.scheduleTask(new ZoneTask(microTask, source, callback, data, customSchedule, undefined));
+        }
+
+        scheduleMacroTask(source, callback, data, customSchedule, customCancel) {
+          return this.scheduleTask(new ZoneTask(macroTask, source, callback, data, customSchedule, customCancel));
+        }
+
+        scheduleEventTask(source, callback, data, customSchedule, customCancel) {
+          return this.scheduleTask(new ZoneTask(eventTask, source, callback, data, customSchedule, customCancel));
+        }
+
+        cancelTask(task) {
+          if (task.zone != this) throw new Error('A task can only be cancelled in the zone of creation! (Creation: ' + (task.zone || NO_ZONE).name + '; Execution: ' + this.name + ')');
+
+          task._transitionTo(canceling, scheduled, running);
+
+          try {
+            this._zoneDelegate.cancelTask(this, task);
+          } catch (err) {
+            // if error occurs when cancelTask, transit the state to unknown
+            task._transitionTo(unknown, canceling);
+
+            this._zoneDelegate.handleError(this, err);
+
+            throw err;
+          }
+
+          this._updateTaskCount(task, -1);
+
+          task._transitionTo(notScheduled, canceling);
+
+          task.runCount = 0;
+          return task;
+        }
+
+        _updateTaskCount(task, count) {
+          const zoneDelegates = task._zoneDelegates;
+
+          if (count == -1) {
+            task._zoneDelegates = null;
+          }
+
+          for (let i = 0; i < zoneDelegates.length; i++) {
+            zoneDelegates[i]._updateTaskCount(task.type, count);
+          }
+        }
+
+      }
 
       Zone.__symbol__ = __symbol__;
-      var DELEGATE_ZS = {
+      const DELEGATE_ZS = {
         name: '',
-        onHasTask: function onHasTask(delegate, _, target, hasTaskState) {
-          return delegate.hasTask(target, hasTaskState);
-        },
-        onScheduleTask: function onScheduleTask(delegate, _, target, task) {
-          return delegate.scheduleTask(target, task);
-        },
-        onInvokeTask: function onInvokeTask(delegate, _, target, task, applyThis, applyArgs) {
-          return delegate.invokeTask(target, task, applyThis, applyArgs);
-        },
-        onCancelTask: function onCancelTask(delegate, _, target, task) {
-          return delegate.cancelTask(target, task);
-        }
+        onHasTask: (delegate, _, target, hasTaskState) => delegate.hasTask(target, hasTaskState),
+        onScheduleTask: (delegate, _, target, task) => delegate.scheduleTask(target, task),
+        onInvokeTask: (delegate, _, target, task, applyThis, applyArgs) => delegate.invokeTask(target, task, applyThis, applyArgs),
+        onCancelTask: (delegate, _, target, task) => delegate.cancelTask(target, task)
       };
 
-      var ZoneDelegate =
-      /*#__PURE__*/
-      function () {
-        function ZoneDelegate(zone, parentDelegate, zoneSpec) {
-          _classCallCheck(this, ZoneDelegate);
-
+      class ZoneDelegate {
+        constructor(zone, parentDelegate, zoneSpec) {
           this._taskCounts = {
             'microTask': 0,
             'macroTask': 0,
@@ -21645,8 +23227,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           this._hasTaskDlgt = null;
           this._hasTaskDlgtOwner = null;
           this._hasTaskCurrZone = null;
-          var zoneSpecHasTask = zoneSpec && zoneSpec.onHasTask;
-          var parentHasTask = parentDelegate && parentDelegate._hasTaskZS;
+          const zoneSpecHasTask = zoneSpec && zoneSpec.onHasTask;
+          const parentHasTask = parentDelegate && parentDelegate._hasTaskZS;
 
           if (zoneSpecHasTask || parentHasTask) {
             // If we need to report hasTask, than this ZS needs to do ref counting on tasks. In such
@@ -21676,115 +23258,99 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
         }
 
-        _createClass(ZoneDelegate, [{
-          key: "fork",
-          value: function fork(targetZone, zoneSpec) {
-            return this._forkZS ? this._forkZS.onFork(this._forkDlgt, this.zone, targetZone, zoneSpec) : new Zone(targetZone, zoneSpec);
-          }
-        }, {
-          key: "intercept",
-          value: function intercept(targetZone, callback, source) {
-            return this._interceptZS ? this._interceptZS.onIntercept(this._interceptDlgt, this._interceptCurrZone, targetZone, callback, source) : callback;
-          }
-        }, {
-          key: "invoke",
-          value: function invoke(targetZone, callback, applyThis, applyArgs, source) {
-            return this._invokeZS ? this._invokeZS.onInvoke(this._invokeDlgt, this._invokeCurrZone, targetZone, callback, applyThis, applyArgs, source) : callback.apply(applyThis, applyArgs);
-          }
-        }, {
-          key: "handleError",
-          value: function handleError(targetZone, error) {
-            return this._handleErrorZS ? this._handleErrorZS.onHandleError(this._handleErrorDlgt, this._handleErrorCurrZone, targetZone, error) : true;
-          }
-        }, {
-          key: "scheduleTask",
-          value: function scheduleTask(targetZone, task) {
-            var returnTask = task;
+        fork(targetZone, zoneSpec) {
+          return this._forkZS ? this._forkZS.onFork(this._forkDlgt, this.zone, targetZone, zoneSpec) : new Zone(targetZone, zoneSpec);
+        }
 
-            if (this._scheduleTaskZS) {
-              if (this._hasTaskZS) {
-                returnTask._zoneDelegates.push(this._hasTaskDlgtOwner);
-              }
+        intercept(targetZone, callback, source) {
+          return this._interceptZS ? this._interceptZS.onIntercept(this._interceptDlgt, this._interceptCurrZone, targetZone, callback, source) : callback;
+        }
 
-              returnTask = this._scheduleTaskZS.onScheduleTask(this._scheduleTaskDlgt, this._scheduleTaskCurrZone, targetZone, task);
-              if (!returnTask) returnTask = task;
+        invoke(targetZone, callback, applyThis, applyArgs, source) {
+          return this._invokeZS ? this._invokeZS.onInvoke(this._invokeDlgt, this._invokeCurrZone, targetZone, callback, applyThis, applyArgs, source) : callback.apply(applyThis, applyArgs);
+        }
+
+        handleError(targetZone, error) {
+          return this._handleErrorZS ? this._handleErrorZS.onHandleError(this._handleErrorDlgt, this._handleErrorCurrZone, targetZone, error) : true;
+        }
+
+        scheduleTask(targetZone, task) {
+          let returnTask = task;
+
+          if (this._scheduleTaskZS) {
+            if (this._hasTaskZS) {
+              returnTask._zoneDelegates.push(this._hasTaskDlgtOwner);
+            }
+
+            returnTask = this._scheduleTaskZS.onScheduleTask(this._scheduleTaskDlgt, this._scheduleTaskCurrZone, targetZone, task);
+            if (!returnTask) returnTask = task;
+          } else {
+            if (task.scheduleFn) {
+              task.scheduleFn(task);
+            } else if (task.type == microTask) {
+              scheduleMicroTask(task);
             } else {
-              if (task.scheduleFn) {
-                task.scheduleFn(task);
-              } else if (task.type == microTask) {
-                scheduleMicroTask(task);
-              } else {
-                throw new Error('Task is missing scheduleFn.');
-              }
-            }
-
-            return returnTask;
-          }
-        }, {
-          key: "invokeTask",
-          value: function invokeTask(targetZone, task, applyThis, applyArgs) {
-            return this._invokeTaskZS ? this._invokeTaskZS.onInvokeTask(this._invokeTaskDlgt, this._invokeTaskCurrZone, targetZone, task, applyThis, applyArgs) : task.callback.apply(applyThis, applyArgs);
-          }
-        }, {
-          key: "cancelTask",
-          value: function cancelTask(targetZone, task) {
-            var value;
-
-            if (this._cancelTaskZS) {
-              value = this._cancelTaskZS.onCancelTask(this._cancelTaskDlgt, this._cancelTaskCurrZone, targetZone, task);
-            } else {
-              if (!task.cancelFn) {
-                throw Error('Task is not cancelable');
-              }
-
-              value = task.cancelFn(task);
-            }
-
-            return value;
-          }
-        }, {
-          key: "hasTask",
-          value: function hasTask(targetZone, isEmpty) {
-            // hasTask should not throw error so other ZoneDelegate
-            // can still trigger hasTask callback
-            try {
-              this._hasTaskZS && this._hasTaskZS.onHasTask(this._hasTaskDlgt, this._hasTaskCurrZone, targetZone, isEmpty);
-            } catch (err) {
-              this.handleError(targetZone, err);
+              throw new Error('Task is missing scheduleFn.');
             }
           }
-        }, {
-          key: "_updateTaskCount",
-          value: function _updateTaskCount(type, count) {
-            var counts = this._taskCounts;
-            var prev = counts[type];
-            var next = counts[type] = prev + count;
 
-            if (next < 0) {
-              throw new Error('More tasks executed then were scheduled.');
+          return returnTask;
+        }
+
+        invokeTask(targetZone, task, applyThis, applyArgs) {
+          return this._invokeTaskZS ? this._invokeTaskZS.onInvokeTask(this._invokeTaskDlgt, this._invokeTaskCurrZone, targetZone, task, applyThis, applyArgs) : task.callback.apply(applyThis, applyArgs);
+        }
+
+        cancelTask(targetZone, task) {
+          let value;
+
+          if (this._cancelTaskZS) {
+            value = this._cancelTaskZS.onCancelTask(this._cancelTaskDlgt, this._cancelTaskCurrZone, targetZone, task);
+          } else {
+            if (!task.cancelFn) {
+              throw Error('Task is not cancelable');
             }
 
-            if (prev == 0 || next == 0) {
-              var isEmpty = {
-                microTask: counts['microTask'] > 0,
-                macroTask: counts['macroTask'] > 0,
-                eventTask: counts['eventTask'] > 0,
-                change: type
-              };
-              this.hasTask(this.zone, isEmpty);
-            }
+            value = task.cancelFn(task);
           }
-        }]);
 
-        return ZoneDelegate;
-      }();
+          return value;
+        }
 
-      var ZoneTask =
-      /*#__PURE__*/
-      function () {
-        function ZoneTask(type, source, callback, options, scheduleFn, cancelFn) {
-          _classCallCheck(this, ZoneTask);
+        hasTask(targetZone, isEmpty) {
+          // hasTask should not throw error so other ZoneDelegate
+          // can still trigger hasTask callback
+          try {
+            this._hasTaskZS && this._hasTaskZS.onHasTask(this._hasTaskDlgt, this._hasTaskCurrZone, targetZone, isEmpty);
+          } catch (err) {
+            this.handleError(targetZone, err);
+          }
+        }
 
+        _updateTaskCount(type, count) {
+          const counts = this._taskCounts;
+          const prev = counts[type];
+          const next = counts[type] = prev + count;
+
+          if (next < 0) {
+            throw new Error('More tasks executed then were scheduled.');
+          }
+
+          if (prev == 0 || next == 0) {
+            const isEmpty = {
+              microTask: counts['microTask'] > 0,
+              macroTask: counts['macroTask'] > 0,
+              eventTask: counts['eventTask'] > 0,
+              change: type
+            };
+            this.hasTask(this.zone, isEmpty);
+          }
+        }
+
+      }
+
+      class ZoneTask {
+        constructor(type, source, callback, options, scheduleFn, cancelFn) {
           this._zone = null;
           this.runCount = 0;
           this._zoneDelegates = null;
@@ -21795,7 +23361,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           this.scheduleFn = scheduleFn;
           this.cancelFn = cancelFn;
           this.callback = callback;
-          var self = this; // TODO: @JiaLiPassion options should have interface
+          const self = this; // TODO: @JiaLiPassion options should have interface
 
           if (type === eventTask && options && options.useG) {
             this.invoke = ZoneTask.invokeTask;
@@ -21806,95 +23372,85 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
         }
 
-        _createClass(ZoneTask, [{
-          key: "cancelScheduleRequest",
-          value: function cancelScheduleRequest() {
-            this._transitionTo(notScheduled, scheduling);
+        static invokeTask(task, target, args) {
+          if (!task) {
+            task = this;
           }
-        }, {
-          key: "_transitionTo",
-          value: function _transitionTo(toState, fromState1, fromState2) {
-            if (this._state === fromState1 || this._state === fromState2) {
-              this._state = toState;
 
-              if (toState == notScheduled) {
-                this._zoneDelegates = null;
-              }
-            } else {
-              throw new Error("".concat(this.type, " '").concat(this.source, "': can not transition to '").concat(toState, "', expecting state '").concat(fromState1, "'").concat(fromState2 ? ' or \'' + fromState2 + '\'' : '', ", was '").concat(this._state, "'."));
-            }
-          }
-        }, {
-          key: "toString",
-          value: function toString() {
-            if (this.data && typeof this.data.handleId !== 'undefined') {
-              return this.data.handleId.toString();
-            } else {
-              return Object.prototype.toString.call(this);
-            }
-          } // add toJSON method to prevent cyclic error when
-          // call JSON.stringify(zoneTask)
+          _numberOfNestedTaskFrames++;
 
-        }, {
-          key: "toJSON",
-          value: function toJSON() {
-            return {
-              type: this.type,
-              state: this.state,
-              source: this.source,
-              zone: this.zone.name,
-              runCount: this.runCount
-            };
-          }
-        }, {
-          key: "zone",
-          get: function get() {
-            return this._zone;
-          }
-        }, {
-          key: "state",
-          get: function get() {
-            return this._state;
-          }
-        }], [{
-          key: "invokeTask",
-          value: function invokeTask(task, target, args) {
-            if (!task) {
-              task = this;
+          try {
+            task.runCount++;
+            return task.zone.runTask(task, target, args);
+          } finally {
+            if (_numberOfNestedTaskFrames == 1) {
+              drainMicroTaskQueue();
             }
 
-            _numberOfNestedTaskFrames++;
-
-            try {
-              task.runCount++;
-              return task.zone.runTask(task, target, args);
-            } finally {
-              if (_numberOfNestedTaskFrames == 1) {
-                drainMicroTaskQueue();
-              }
-
-              _numberOfNestedTaskFrames--;
-            }
+            _numberOfNestedTaskFrames--;
           }
-        }]);
+        }
 
-        return ZoneTask;
-      }(); //////////////////////////////////////////////////////
+        get zone() {
+          return this._zone;
+        }
+
+        get state() {
+          return this._state;
+        }
+
+        cancelScheduleRequest() {
+          this._transitionTo(notScheduled, scheduling);
+        }
+
+        _transitionTo(toState, fromState1, fromState2) {
+          if (this._state === fromState1 || this._state === fromState2) {
+            this._state = toState;
+
+            if (toState == notScheduled) {
+              this._zoneDelegates = null;
+            }
+          } else {
+            throw new Error("".concat(this.type, " '").concat(this.source, "': can not transition to '").concat(toState, "', expecting state '").concat(fromState1, "'").concat(fromState2 ? ' or \'' + fromState2 + '\'' : '', ", was '").concat(this._state, "'."));
+          }
+        }
+
+        toString() {
+          if (this.data && typeof this.data.handleId !== 'undefined') {
+            return this.data.handleId.toString();
+          } else {
+            return Object.prototype.toString.call(this);
+          }
+        } // add toJSON method to prevent cyclic error when
+        // call JSON.stringify(zoneTask)
+
+
+        toJSON() {
+          return {
+            type: this.type,
+            state: this.state,
+            source: this.source,
+            zone: this.zone.name,
+            runCount: this.runCount
+          };
+        }
+
+      } //////////////////////////////////////////////////////
       //////////////////////////////////////////////////////
       ///  MICROTASK QUEUE
       //////////////////////////////////////////////////////
       //////////////////////////////////////////////////////
 
 
-      var symbolSetTimeout = __symbol__('setTimeout');
+      const symbolSetTimeout = __symbol__('setTimeout');
 
-      var symbolPromise = __symbol__('Promise');
+      const symbolPromise = __symbol__('Promise');
 
-      var symbolThen = __symbol__('then');
+      const symbolThen = __symbol__('then');
 
-      var _microTaskQueue = [];
-      var _isDrainingMicrotaskQueue = false;
-      var nativeMicroTaskQueuePromise;
+      let _microTaskQueue = [];
+      let _isDrainingMicrotaskQueue = false;
+      let nativeMicroTaskQueuePromise;
 
       function scheduleMicroTask(task) {
         // if we are not running in any task, and there has not been anything scheduled
@@ -21908,7 +23464,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
 
           if (nativeMicroTaskQueuePromise) {
-            var nativeThen = nativeMicroTaskQueuePromise[symbolThen];
+            let nativeThen = nativeMicroTaskQueuePromise[symbolThen];
 
             if (!nativeThen) {
               // native Promise is not patchable, we need to use `then` directly
@@ -21930,11 +23486,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           _isDrainingMicrotaskQueue = true;
 
           while (_microTaskQueue.length) {
-            var queue = _microTaskQueue;
+            const queue = _microTaskQueue;
             _microTaskQueue = [];
 
-            for (var i = 0; i < queue.length; i++) {
-              var task = queue[i];
+            for (let i = 0; i < queue.length; i++) {
+              const task = queue[i];
 
               try {
                 task.zone.runTask(task, null, null);
@@ -21955,47 +23511,33 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       //////////////////////////////////////////////////////
 
 
-      var NO_ZONE = {
+      const NO_ZONE = {
         name: 'NO ZONE'
       };
-      var notScheduled = 'notScheduled',
-          scheduling = 'scheduling',
-          scheduled = 'scheduled',
-          running = 'running',
-          canceling = 'canceling',
-          unknown = 'unknown';
-      var microTask = 'microTask',
-          macroTask = 'macroTask',
-          eventTask = 'eventTask';
-      var patches = {};
-      var _api = {
+      const notScheduled = 'notScheduled',
+            scheduling = 'scheduling',
+            scheduled = 'scheduled',
+            running = 'running',
+            canceling = 'canceling',
+            unknown = 'unknown';
+      const microTask = 'microTask',
+            macroTask = 'macroTask',
+            eventTask = 'eventTask';
+      const patches = {};
+      const _api = {
         symbol: __symbol__,
-        currentZoneFrame: function currentZoneFrame() {
-          return _currentZoneFrame;
-        },
+        currentZoneFrame: () => _currentZoneFrame,
         onUnhandledError: noop,
         microtaskDrainDone: noop,
         scheduleMicroTask: scheduleMicroTask,
-        showUncaughtError: function showUncaughtError() {
-          return !Zone[__symbol__('ignoreConsoleErrorUncaughtError')];
-        },
-        patchEventTarget: function patchEventTarget() {
-          return [];
-        },
+        showUncaughtError: () => !Zone[__symbol__('ignoreConsoleErrorUncaughtError')],
+        patchEventTarget: () => [],
         patchOnProperties: noop,
-        patchMethod: function patchMethod() {
-          return noop;
-        },
-        bindArguments: function bindArguments() {
-          return [];
-        },
-        patchThen: function patchThen() {
-          return noop;
-        },
-        patchMacroTask: function patchMacroTask() {
-          return noop;
-        },
-        setNativePromise: function setNativePromise(NativePromise) {
+        patchMethod: () => noop,
+        bindArguments: () => [],
+        patchThen: () => noop,
+        patchMacroTask: () => noop,
+        setNativePromise: NativePromise => {
           // sometimes NativePromise.resolve static function
           // is not ready yet, (such as core-js/es6.promise)
           // so we need to check here.
@@ -22003,52 +23545,26 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             nativeMicroTaskQueuePromise = NativePromise.resolve(0);
           }
         },
-        patchEventPrototype: function patchEventPrototype() {
-          return noop;
-        },
-        isIEOrEdge: function isIEOrEdge() {
-          return false;
-        },
-        getGlobalObjects: function getGlobalObjects() {
-          return undefined;
-        },
-        ObjectDefineProperty: function ObjectDefineProperty() {
-          return noop;
-        },
-        ObjectGetOwnPropertyDescriptor: function ObjectGetOwnPropertyDescriptor() {
-          return undefined;
-        },
-        ObjectCreate: function ObjectCreate() {
-          return undefined;
-        },
-        ArraySlice: function ArraySlice() {
-          return [];
-        },
-        patchClass: function patchClass() {
-          return noop;
-        },
-        wrapWithCurrentZone: function wrapWithCurrentZone() {
-          return noop;
-        },
-        filterProperties: function filterProperties() {
-          return [];
-        },
-        attachOriginToPatched: function attachOriginToPatched() {
-          return noop;
-        },
-        _redefineProperty: function _redefineProperty() {
-          return noop;
-        },
-        patchCallbacks: function patchCallbacks() {
-          return noop;
-        }
+        patchEventPrototype: () => noop,
+        isIEOrEdge: () => false,
+        getGlobalObjects: () => undefined,
+        ObjectDefineProperty: () => noop,
+        ObjectGetOwnPropertyDescriptor: () => undefined,
+        ObjectCreate: () => undefined,
+        ArraySlice: () => [],
+        patchClass: () => noop,
+        wrapWithCurrentZone: () => noop,
+        filterProperties: () => [],
+        attachOriginToPatched: () => noop,
+        _redefineProperty: () => noop,
+        patchCallbacks: () => noop
       };
-      var _currentZoneFrame = {
+      let _currentZoneFrame = {
         parent: null,
         zone: new Zone(null, null)
       };
-      var _currentTask = null;
-      var _numberOfNestedTaskFrames = 0;
+      let _currentTask = null;
+      let _numberOfNestedTaskFrames = 0;
 
       function noop() {}
 
@@ -22068,31 +23584,31 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    Zone.__load_patch('ZoneAwarePromise', function (global, Zone, api) {
-      var ObjectGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-      var ObjectDefineProperty = Object.defineProperty;
+    Zone.__load_patch('ZoneAwarePromise', (global, Zone, api) => {
+      const ObjectGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+      const ObjectDefineProperty = Object.defineProperty;
 
       function readableObjectToString(obj) {
         if (obj && obj.toString === Object.prototype.toString) {
-          var className = obj.constructor && obj.constructor.name;
+          const className = obj.constructor && obj.constructor.name;
           return (className ? className : '') + ': ' + JSON.stringify(obj);
         }
 
         return obj ? obj.toString() : Object.prototype.toString.call(obj);
       }
 
-      var __symbol__ = api.symbol;
-      var _uncaughtPromiseErrors = [];
+      const __symbol__ = api.symbol;
+      const _uncaughtPromiseErrors = [];
 
-      var symbolPromise = __symbol__('Promise');
+      const symbolPromise = __symbol__('Promise');
 
-      var symbolThen = __symbol__('then');
+      const symbolThen = __symbol__('then');
 
-      var creationTrace = '__creationTrace__';
+      const creationTrace = '__creationTrace__';
 
-      api.onUnhandledError = function (e) {
+      api.onUnhandledError = e => {
         if (api.showUncaughtError()) {
-          var rejection = e && e.rejection;
+          const rejection = e && e.rejection;
 
           if (rejection) {
             console.error('Unhandled Promise rejection:', rejection instanceof Error ? rejection.message : rejection, '; Zone:', e.zone.name, '; Task:', e.task && e.task.source, '; Value:', rejection, rejection instanceof Error ? rejection.stack : undefined);
@@ -22102,33 +23618,29 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
       };
 
-      api.microtaskDrainDone = function () {
+      api.microtaskDrainDone = () => {
         while (_uncaughtPromiseErrors.length) {
-          var _loop = function _loop() {
-            var uncaughtPromiseError = _uncaughtPromiseErrors.shift();
+          while (_uncaughtPromiseErrors.length) {
+            const uncaughtPromiseError = _uncaughtPromiseErrors.shift();
 
             try {
-              uncaughtPromiseError.zone.runGuarded(function () {
+              uncaughtPromiseError.zone.runGuarded(() => {
                 throw uncaughtPromiseError;
               });
             } catch (error) {
               handleUnhandledRejection(error);
             }
-          };
-
-          while (_uncaughtPromiseErrors.length) {
-            _loop();
           }
         }
       };
 
-      var UNHANDLED_PROMISE_REJECTION_HANDLER_SYMBOL = __symbol__('unhandledPromiseRejectionHandler');
+      const UNHANDLED_PROMISE_REJECTION_HANDLER_SYMBOL = __symbol__('unhandledPromiseRejectionHandler');
 
       function handleUnhandledRejection(e) {
         api.onUnhandledError(e);
 
         try {
-          var handler = Zone[UNHANDLED_PROMISE_REJECTION_HANDLER_SYMBOL];
+          const handler = Zone[UNHANDLED_PROMISE_REJECTION_HANDLER_SYMBOL];
 
           if (handler && typeof handler === 'function') {
             handler.call(this, e);
@@ -22148,24 +23660,24 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return ZoneAwarePromise.reject(rejection);
       }
 
-      var symbolState = __symbol__('state');
+      const symbolState = __symbol__('state');
 
-      var symbolValue = __symbol__('value');
+      const symbolValue = __symbol__('value');
 
-      var symbolFinally = __symbol__('finally');
+      const symbolFinally = __symbol__('finally');
 
-      var symbolParentPromiseValue = __symbol__('parentPromiseValue');
+      const symbolParentPromiseValue = __symbol__('parentPromiseValue');
 
-      var symbolParentPromiseState = __symbol__('parentPromiseState');
+      const symbolParentPromiseState = __symbol__('parentPromiseState');
 
-      var source = 'Promise.then';
-      var UNRESOLVED = null;
-      var RESOLVED = true;
-      var REJECTED = false;
-      var REJECTED_NO_CATCH = 0;
+      const source = 'Promise.then';
+      const UNRESOLVED = null;
+      const RESOLVED = true;
+      const REJECTED = false;
+      const REJECTED_NO_CATCH = 0;
 
       function makeResolver(promise, state) {
-        return function (v) {
+        return v => {
           try {
             resolvePromise(promise, state, v);
           } catch (err) {
@@ -22175,8 +23687,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
       }
 
-      var once = function once() {
-        var wasCalled = false;
+      const once = function once() {
+        let wasCalled = false;
         return function wrapper(wrappedFunction) {
           return function () {
             if (wasCalled) {
@@ -22189,13 +23701,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
       };
 
-      var TYPE_ERROR = 'Promise resolved with itself';
+      const TYPE_ERROR = 'Promise resolved with itself';
 
-      var CURRENT_TASK_TRACE_SYMBOL = __symbol__('currentTaskTrace'); // Promise Resolution
+      const CURRENT_TASK_TRACE_SYMBOL = __symbol__('currentTaskTrace'); // Promise Resolution
 
 
       function resolvePromise(promise, state, value) {
-        var onceWrapper = once();
+        const onceWrapper = once();
 
         if (promise === value) {
           throw new TypeError(TYPE_ERROR);
@@ -22203,14 +23715,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
         if (promise[symbolState] === UNRESOLVED) {
           // should only get value.then once based on promise spec.
-          var then = null;
+          let then = null;
 
           try {
             if (typeof value === 'object' || typeof value === 'function') {
               then = value && value.then;
             }
           } catch (err) {
-            onceWrapper(function () {
+            onceWrapper(() => {
               resolvePromise(promise, false, err);
             })();
             return promise;
@@ -22224,13 +23736,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             try {
               then.call(value, onceWrapper(makeResolver(promise, state)), onceWrapper(makeResolver(promise, false)));
             } catch (err) {
-              onceWrapper(function () {
+              onceWrapper(() => {
                 resolvePromise(promise, false, err);
               })();
             }
           } else {
             promise[symbolState] = state;
-            var queue = promise[symbolValue];
+            const queue = promise[symbolValue];
             promise[symbolValue] = value;
 
             if (promise[symbolFinally] === symbolFinally) {
@@ -22247,7 +23759,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
             if (state === REJECTED && value instanceof Error) {
               // check if longStackTraceZone is here
-              var trace = Zone.currentTask && Zone.currentTask.data && Zone.currentTask.data[creationTrace];
+              const trace = Zone.currentTask && Zone.currentTask.data && Zone.currentTask.data[creationTrace];
 
               if (trace) {
                 // only keep the long stack trace into error when in longStackTraceZone
@@ -22260,7 +23772,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               }
             }
 
-            for (var i = 0; i < queue.length;) {
+            for (let i = 0; i < queue.length;) {
               scheduleResolveOrReject(promise, queue[i++], queue[i++], queue[i++], queue[i++]);
             }
 
@@ -22271,7 +23783,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
                 // try to print more readable error log
                 throw new Error('Uncaught (in promise): ' + readableObjectToString(value) + (value && value.stack ? '\n' + value.stack : ''));
               } catch (err) {
-                var error = err;
+                const error = err;
                 error.rejection = value;
                 error.promise = promise;
                 error.zone = Zone.current;
@@ -22289,7 +23801,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return promise;
       }
 
-      var REJECTION_HANDLED_HANDLER = __symbol__('rejectionHandledHandler');
+      const REJECTION_HANDLED_HANDLER = __symbol__('rejectionHandledHandler');
 
       function clearRejectedNoCatch(promise) {
         if (promise[symbolState] === REJECTED_NO_CATCH) {
@@ -22299,7 +23811,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // windows.rejectionhandled eventHandler or nodejs rejectionHandled
           // eventHandler
           try {
-            var handler = Zone[REJECTION_HANDLED_HANDLER];
+            const handler = Zone[REJECTION_HANDLED_HANDLER];
 
             if (handler && typeof handler === 'function') {
               handler.call(this, {
@@ -22311,7 +23823,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
           promise[symbolState] = REJECTED;
 
-          for (var i = 0; i < _uncaughtPromiseErrors.length; i++) {
+          for (let i = 0; i < _uncaughtPromiseErrors.length; i++) {
             if (promise === _uncaughtPromiseErrors[i].promise) {
               _uncaughtPromiseErrors.splice(i, 1);
             }
@@ -22321,12 +23833,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       function scheduleResolveOrReject(promise, zone, chainPromise, onFulfilled, onRejected) {
         clearRejectedNoCatch(promise);
-        var promiseState = promise[symbolState];
-        var delegate = promiseState ? typeof onFulfilled === 'function' ? onFulfilled : forwardResolution : typeof onRejected === 'function' ? onRejected : forwardRejection;
-        zone.scheduleMicroTask(source, function () {
+        const promiseState = promise[symbolState];
+        const delegate = promiseState ? typeof onFulfilled === 'function' ? onFulfilled : forwardResolution : typeof onRejected === 'function' ? onRejected : forwardRejection;
+        zone.scheduleMicroTask(source, () => {
           try {
-            var parentPromiseValue = promise[symbolValue];
-            var isFinallyPromise = chainPromise && symbolFinally === chainPromise[symbolFinally];
+            const parentPromiseValue = promise[symbolValue];
+            const isFinallyPromise = chainPromise && symbolFinally === chainPromise[symbolFinally];
 
             if (isFinallyPromise) {
               // if the promise is generated from finally call, keep parent promise's state and value
@@ -22335,7 +23847,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             } // should not pass value to finally callback
 
 
-            var value = zone.run(delegate, undefined, isFinallyPromise && delegate !== forwardRejection && delegate !== forwardResolution ? [] : [parentPromiseValue]);
+            const value = zone.run(delegate, undefined, isFinallyPromise && delegate !== forwardRejection && delegate !== forwardResolution ? [] : [parentPromiseValue]);
             resolvePromise(chainPromise, true, value);
           } catch (error) {
             // if error occurs, should always return this error
@@ -22344,15 +23856,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }, chainPromise);
       }
 
-      var ZONE_AWARE_PROMISE_TO_STRING = 'function ZoneAwarePromise() { [native code] }';
+      const ZONE_AWARE_PROMISE_TO_STRING = 'function ZoneAwarePromise() { [native code] }';
 
-      var ZoneAwarePromise =
-      /*#__PURE__*/
-      function () {
-        function ZoneAwarePromise(executor) {
-          _classCallCheck(this, ZoneAwarePromise);
-
-          var promise = this;
+      class ZoneAwarePromise {
+        constructor(executor) {
+          const promise = this;
 
           if (!(promise instanceof ZoneAwarePromise)) {
             throw new Error('Must be an instanceof Promise.');
@@ -22368,180 +23876,121 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
         }
 
-        _createClass(ZoneAwarePromise, [{
-          key: "then",
-          value: function then(onFulfilled, onRejected) {
-            var chainPromise = new this.constructor(null);
-            var zone = Zone.current;
+        static toString() {
+          return ZONE_AWARE_PROMISE_TO_STRING;
+        }
 
-            if (this[symbolState] == UNRESOLVED) {
-              this[symbolValue].push(zone, chainPromise, onFulfilled, onRejected);
-            } else {
-              scheduleResolveOrReject(this, zone, chainPromise, onFulfilled, onRejected);
+        static resolve(value) {
+          return resolvePromise(new this(null), RESOLVED, value);
+        }
+
+        static reject(error) {
+          return resolvePromise(new this(null), REJECTED, error);
+        }
+
+        static race(values) {
+          let resolve;
+          let reject;
+          let promise = new this((res, rej) => {
+            resolve = res;
+            reject = rej;
+          });
+
+          function onResolve(value) {
+            resolve(value);
+          }
+
+          function onReject(error) {
+            reject(error);
+          }
+
+          for (let value of values) {
+            if (!isThenable(value)) {
+              value = this.resolve(value);
             }
 
-            return chainPromise;
+            value.then(onResolve, onReject);
           }
-        }, {
-          key: "catch",
-          value: function _catch(onRejected) {
-            return this.then(null, onRejected);
-          }
-        }, {
-          key: "finally",
-          value: function _finally(onFinally) {
-            var chainPromise = new this.constructor(null);
-            chainPromise[symbolFinally] = symbolFinally;
-            var zone = Zone.current;
 
-            if (this[symbolState] == UNRESOLVED) {
-              this[symbolValue].push(zone, chainPromise, onFinally, onFinally);
-            } else {
-              scheduleResolveOrReject(this, zone, chainPromise, onFinally, onFinally);
+          return promise;
+        }
+
+        static all(values) {
+          let resolve;
+          let reject;
+          let promise = new this((res, rej) => {
+            resolve = res;
+            reject = rej;
+          }); // Start at 2 to prevent prematurely resolving if .then is called immediately.
+
+          let unresolvedCount = 2;
+          let valueIndex = 0;
+          const resolvedValues = [];
+
+          for (let value of values) {
+            if (!isThenable(value)) {
+              value = this.resolve(value);
             }
 
-            return chainPromise;
-          }
-        }, {
-          key: Symbol.toStringTag,
-          get: function get() {
-            return 'Promise';
-          }
-        }], [{
-          key: "toString",
-          value: function toString() {
-            return ZONE_AWARE_PROMISE_TO_STRING;
-          }
-        }, {
-          key: "resolve",
-          value: function resolve(value) {
-            return resolvePromise(new this(null), RESOLVED, value);
-          }
-        }, {
-          key: "reject",
-          value: function reject(error) {
-            return resolvePromise(new this(null), REJECTED, error);
-          }
-        }, {
-          key: "race",
-          value: function race(values) {
-            var resolve;
-            var reject;
-            var promise = new this(function (res, rej) {
-              resolve = res;
-              reject = rej;
-            });
+            const curValueIndex = valueIndex;
+            value.then(value => {
+              resolvedValues[curValueIndex] = value;
+              unresolvedCount--;
 
-            function onResolve(value) {
-              resolve(value);
-            }
-
-            function onReject(error) {
-              reject(error);
-            }
-
-            var _iteratorNormalCompletion = true;
-            var _didIteratorError = false;
-            var _iteratorError = undefined;
-
-            try {
-              for (var _iterator = values[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-                var value = _step.value;
-
-                if (!isThenable(value)) {
-                  value = this.resolve(value);
-                }
-
-                value.then(onResolve, onReject);
+              if (unresolvedCount === 0) {
+                resolve(resolvedValues);
               }
-            } catch (err) {
-              _didIteratorError = true;
-              _iteratorError = err;
-            } finally {
-              try {
-                if (!_iteratorNormalCompletion && _iterator.return != null) {
-                  _iterator.return();
-                }
-              } finally {
-                if (_didIteratorError) {
-                  throw _iteratorError;
-                }
-              }
-            }
+            }, reject);
+            unresolvedCount++;
+            valueIndex++;
+          } // Make the unresolvedCount zero-based again.
 
-            return promise;
+
+          unresolvedCount -= 2;
+
+          if (unresolvedCount === 0) {
+            resolve(resolvedValues);
           }
-        }, {
-          key: "all",
-          value: function all(values) {
-            var _this24 = this;
 
-            var resolve;
-            var reject;
-            var promise = new this(function (res, rej) {
-              resolve = res;
-              reject = rej;
-            }); // Start at 2 to prevent prematurely resolving if .then is called immediately.
+          return promise;
+        }
 
-            var unresolvedCount = 2;
-            var valueIndex = 0;
-            var resolvedValues = [];
-            var _iteratorNormalCompletion2 = true;
-            var _didIteratorError2 = false;
-            var _iteratorError2 = undefined;
+        get [Symbol.toStringTag]() {
+          return 'Promise';
+        }
 
-            try {
-              var _loop2 = function _loop2() {
-                var value = _step2.value;
+        then(onFulfilled, onRejected) {
+          const chainPromise = new this.constructor(null);
+          const zone = Zone.current;
 
-                if (!isThenable(value)) {
-                  value = _this24.resolve(value);
-                }
-
-                var curValueIndex = valueIndex;
-                value.then(function (value) {
-                  resolvedValues[curValueIndex] = value;
-                  unresolvedCount--;
-
-                  if (unresolvedCount === 0) {
-                    resolve(resolvedValues);
-                  }
-                }, reject);
-                unresolvedCount++;
-                valueIndex++;
-              };
-
-              for (var _iterator2 = values[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-                _loop2();
-              } // Make the unresolvedCount zero-based again.
-
-            } catch (err) {
-              _didIteratorError2 = true;
-              _iteratorError2 = err;
-            } finally {
-              try {
-                if (!_iteratorNormalCompletion2 && _iterator2.return != null) {
-                  _iterator2.return();
-                }
-              } finally {
-                if (_didIteratorError2) {
-                  throw _iteratorError2;
-                }
-              }
-            }
-
-            unresolvedCount -= 2;
-
-            if (unresolvedCount === 0) {
-              resolve(resolvedValues);
-            }
-
-            return promise;
+          if (this[symbolState] == UNRESOLVED) {
+            this[symbolValue].push(zone, chainPromise, onFulfilled, onRejected);
+          } else {
+            scheduleResolveOrReject(this, zone, chainPromise, onFulfilled, onRejected);
           }
-        }]);
 
-        return ZoneAwarePromise;
-      }(); // Protect against aggressive optimizers dropping seemingly unused properties.
+          return chainPromise;
+        }
+
+        catch(onRejected) {
+          return this.then(null, onRejected);
+        }
+
+        finally(onFinally) {
+          const chainPromise = new this.constructor(null);
+          chainPromise[symbolFinally] = symbolFinally;
+          const zone = Zone.current;
+
+          if (this[symbolState] == UNRESOLVED) {
+            this[symbolValue].push(zone, chainPromise, onFinally, onFinally);
+          } else {
+            scheduleResolveOrReject(this, zone, chainPromise, onFinally, onFinally);
+          }
+
+          return chainPromise;
+        }
+
+      } // Protect against aggressive optimizers dropping seemingly unused properties.
       // E.g. Closure Compiler in advanced mode.
 
 
@@ -22549,11 +23998,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       ZoneAwarePromise['reject'] = ZoneAwarePromise.reject;
       ZoneAwarePromise['race'] = ZoneAwarePromise.race;
       ZoneAwarePromise['all'] = ZoneAwarePromise.all;
-      var NativePromise = global[symbolPromise] = global['Promise'];
+      const NativePromise = global[symbolPromise] = global['Promise'];
 
-      var ZONE_AWARE_PROMISE = Zone.__symbol__('ZoneAwarePromise');
+      const ZONE_AWARE_PROMISE = Zone.__symbol__('ZoneAwarePromise');
 
-      var desc = ObjectGetOwnPropertyDescriptor(global, 'Promise');
+      let desc = ObjectGetOwnPropertyDescriptor(global, 'Promise');
 
       if (!desc || desc.configurable) {
         desc && delete desc.writable;
@@ -22600,11 +24049,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       global['Promise'] = ZoneAwarePromise;
 
-      var symbolThenPatched = __symbol__('thenPatched');
+      const symbolThenPatched = __symbol__('thenPatched');
 
       function patchThen(Ctor) {
-        var proto = Ctor.prototype;
-        var prop = ObjectGetOwnPropertyDescriptor(proto, 'then');
+        const proto = Ctor.prototype;
+        const prop = ObjectGetOwnPropertyDescriptor(proto, 'then');
 
         if (prop && (prop.writable === false || !prop.configurable)) {
           // check Ctor.prototype.then propertyDescriptor is writable or not
@@ -22612,15 +24061,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return;
         }
 
-        var originalThen = proto.then; // Keep a reference to the original method.
+        const originalThen = proto.then; // Keep a reference to the original method.
 
         proto[symbolThen] = originalThen;
 
         Ctor.prototype.then = function (onResolve, onReject) {
-          var _this25 = this;
-
-          var wrapped = new ZoneAwarePromise(function (resolve, reject) {
-            originalThen.call(_this25, resolve, reject);
+          const wrapped = new ZoneAwarePromise((resolve, reject) => {
+            originalThen.call(this, resolve, reject);
           });
           return wrapped.then(onResolve, onReject);
         };
@@ -22632,13 +24079,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       function zoneify(fn) {
         return function () {
-          var resultPromise = fn.apply(this, arguments);
+          let resultPromise = fn.apply(this, arguments);
 
           if (resultPromise instanceof ZoneAwarePromise) {
             return resultPromise;
           }
 
-          var ctor = resultPromise.constructor;
+          let ctor = resultPromise.constructor;
 
           if (!ctor[symbolThenPatched]) {
             patchThen(ctor);
@@ -22650,7 +24097,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       if (NativePromise) {
         patchThen(NativePromise);
-        var fetch = global['fetch'];
+        const fetch = global['fetch'];
 
         if (typeof fetch == 'function') {
           global[api.symbol('fetch')] = fetch;
@@ -22680,42 +24127,42 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /** Object.getOwnPropertyDescriptor */
 
 
-    var ObjectGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+    const ObjectGetOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
     /** Object.defineProperty */
 
-    var ObjectDefineProperty = Object.defineProperty;
+    const ObjectDefineProperty = Object.defineProperty;
     /** Object.getPrototypeOf */
 
-    var ObjectGetPrototypeOf = Object.getPrototypeOf;
+    const ObjectGetPrototypeOf = Object.getPrototypeOf;
     /** Object.create */
 
-    var ObjectCreate = Object.create;
+    const ObjectCreate = Object.create;
     /** Array.prototype.slice */
 
-    var ArraySlice = Array.prototype.slice;
+    const ArraySlice = Array.prototype.slice;
     /** addEventListener string const */
 
-    var ADD_EVENT_LISTENER_STR = 'addEventListener';
+    const ADD_EVENT_LISTENER_STR = 'addEventListener';
     /** removeEventListener string const */
 
-    var REMOVE_EVENT_LISTENER_STR = 'removeEventListener';
+    const REMOVE_EVENT_LISTENER_STR = 'removeEventListener';
     /** zoneSymbol addEventListener */
 
-    var ZONE_SYMBOL_ADD_EVENT_LISTENER = Zone.__symbol__(ADD_EVENT_LISTENER_STR);
+    const ZONE_SYMBOL_ADD_EVENT_LISTENER = Zone.__symbol__(ADD_EVENT_LISTENER_STR);
     /** zoneSymbol removeEventListener */
 
 
-    var ZONE_SYMBOL_REMOVE_EVENT_LISTENER = Zone.__symbol__(REMOVE_EVENT_LISTENER_STR);
+    const ZONE_SYMBOL_REMOVE_EVENT_LISTENER = Zone.__symbol__(REMOVE_EVENT_LISTENER_STR);
     /** true string const */
 
 
-    var TRUE_STR = 'true';
+    const TRUE_STR = 'true';
     /** false string const */
 
-    var FALSE_STR = 'false';
+    const FALSE_STR = 'false';
     /** __zone_symbol__ string const */
 
-    var ZONE_SYMBOL_PREFIX = '__zone_symbol__';
+    const ZONE_SYMBOL_PREFIX = '__zone_symbol__';
 
     function wrapWithCurrentZone(callback, source) {
       return Zone.current.wrap(callback, source);
@@ -22725,17 +24172,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       return Zone.current.scheduleMacroTask(source, callback, data, customSchedule, customCancel);
     }
 
-    var zoneSymbol = Zone.__symbol__;
-    var isWindowExists = typeof window !== 'undefined';
-    var internalWindow = isWindowExists ? window : undefined;
+    const zoneSymbol = Zone.__symbol__;
+    const isWindowExists = typeof window !== 'undefined';
+    const internalWindow = isWindowExists ? window : undefined;
 
-    var _global = isWindowExists && internalWindow || typeof self === 'object' && self || global;
+    const _global = isWindowExists && internalWindow || typeof self === 'object' && self || global;
 
-    var REMOVE_ATTRIBUTE = 'removeAttribute';
-    var NULL_ON_PROP_VALUE = [null];
+    const REMOVE_ATTRIBUTE = 'removeAttribute';
+    const NULL_ON_PROP_VALUE = [null];
 
     function bindArguments(args, source) {
-      for (var i = args.length - 1; i >= 0; i--) {
+      for (let i = args.length - 1; i >= 0; i--) {
         if (typeof args[i] === 'function') {
           args[i] = wrapWithCurrentZone(args[i], source + '_' + i);
         }
@@ -22745,34 +24192,28 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function patchPrototype(prototype, fnNames) {
-      var source = prototype.constructor['name'];
+      const source = prototype.constructor['name'];
 
-      var _loop3 = function _loop3(i) {
-        var name = fnNames[i];
-        var delegate = prototype[name];
+      for (let i = 0; i < fnNames.length; i++) {
+        const name = fnNames[i];
+        const delegate = prototype[name];
 
         if (delegate) {
-          var prototypeDesc = ObjectGetOwnPropertyDescriptor(prototype, name);
+          const prototypeDesc = ObjectGetOwnPropertyDescriptor(prototype, name);
 
           if (!isPropertyWritable(prototypeDesc)) {
-            return "continue";
+            continue;
           }
 
-          prototype[name] = function (delegate) {
-            var patched = function patched() {
+          prototype[name] = (delegate => {
+            const patched = function patched() {
               return delegate.apply(this, bindArguments(arguments, source + '.' + name));
             };
 
             attachOriginToPatched(patched, delegate);
             return patched;
-          }(delegate);
+          })(delegate);
         }
-      };
-
-      for (var i = 0; i < fnNames.length; i++) {
-        var _ret = _loop3(i);
-
-        if (_ret === "continue") continue;
       }
     }
 
@@ -22788,18 +24229,18 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       return !(typeof propertyDesc.get === 'function' && typeof propertyDesc.set === 'undefined');
     }
 
-    var isWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope; // Make sure to access `process` through `_global` so that WebPack does not accidentally browserify
+    const isWebWorker = typeof WorkerGlobalScope !== 'undefined' && self instanceof WorkerGlobalScope; // Make sure to access `process` through `_global` so that WebPack does not accidentally browserify
     // this code.
 
-    var isNode = !('nw' in _global) && typeof _global.process !== 'undefined' && {}.toString.call(_global.process) === '[object process]';
-    var isBrowser = !isNode && !isWebWorker && !!(isWindowExists && internalWindow['HTMLElement']); // we are in electron of nw, so we are both browser and nodejs
+    const isNode = !('nw' in _global) && typeof _global.process !== 'undefined' && {}.toString.call(_global.process) === '[object process]';
+    const isBrowser = !isNode && !isWebWorker && !!(isWindowExists && internalWindow['HTMLElement']); // we are in electron of nw, so we are both browser and nodejs
     // Make sure to access `process` through `_global` so that WebPack does not accidentally browserify
     // this code.
 
-    var isMix = typeof _global.process !== 'undefined' && {}.toString.call(_global.process) === '[object process]' && !isWebWorker && !!(isWindowExists && internalWindow['HTMLElement']);
-    var zoneSymbolEventNames = {};
+    const isMix = typeof _global.process !== 'undefined' && {}.toString.call(_global.process) === '[object process]' && !isWebWorker && !!(isWindowExists && internalWindow['HTMLElement']);
+    const zoneSymbolEventNames = {};
 
-    var wrapFn = function wrapFn(event) {
+    const wrapFn = function wrapFn(event) {
       // https://github.com/angular/zone.js/issues/911, in IE, sometimes
       // event will be undefined, so we need to use window.event
       event = event || _global.event;
@@ -22808,21 +24249,21 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var eventNameSymbol = zoneSymbolEventNames[event.type];
+      let eventNameSymbol = zoneSymbolEventNames[event.type];
 
       if (!eventNameSymbol) {
         eventNameSymbol = zoneSymbolEventNames[event.type] = zoneSymbol('ON_PROPERTY' + event.type);
       }
 
-      var target = this || event.target || _global;
-      var listener = target[eventNameSymbol];
-      var result;
+      const target = this || event.target || _global;
+      const listener = target[eventNameSymbol];
+      let result;
 
       if (isBrowser && target === internalWindow && event.type === 'error') {
         // window.onerror have different signiture
         // https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onerror#window.onerror
         // and onerror callback will prevent default when callback return true
-        var errorEvent = event;
+        const errorEvent = event;
         result = listener && listener.call(this, errorEvent.message, errorEvent.filename, errorEvent.lineno, errorEvent.colno, errorEvent.error);
 
         if (result === true) {
@@ -22840,11 +24281,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     };
 
     function patchProperty(obj, prop, prototype) {
-      var desc = ObjectGetOwnPropertyDescriptor(obj, prop);
+      let desc = ObjectGetOwnPropertyDescriptor(obj, prop);
 
       if (!desc && prototype) {
         // when patch window object, use prototype to check prop exist or not
-        var prototypeDesc = ObjectGetOwnPropertyDescriptor(prototype, prop);
+        const prototypeDesc = ObjectGetOwnPropertyDescriptor(prototype, prop);
 
         if (prototypeDesc) {
           desc = {
@@ -22860,7 +24301,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var onPropPatchedSymbol = zoneSymbol('on' + prop + 'patched');
+      const onPropPatchedSymbol = zoneSymbol('on' + prop + 'patched');
 
       if (obj.hasOwnProperty(onPropPatchedSymbol) && obj[onPropPatchedSymbol]) {
         return;
@@ -22873,11 +24314,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
       delete desc.writable;
       delete desc.value;
-      var originalDescGet = desc.get;
-      var originalDescSet = desc.set; // substr(2) cuz 'onclick' -> 'click', etc
+      const originalDescGet = desc.get;
+      const originalDescSet = desc.set; // substr(2) cuz 'onclick' -> 'click', etc
 
-      var eventName = prop.substr(2);
-      var eventNameSymbol = zoneSymbolEventNames[eventName];
+      const eventName = prop.substr(2);
+      let eventNameSymbol = zoneSymbolEventNames[eventName];
 
       if (!eventNameSymbol) {
         eventNameSymbol = zoneSymbolEventNames[eventName] = zoneSymbol('ON_PROPERTY' + eventName);
@@ -22886,7 +24327,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       desc.set = function (newValue) {
         // in some of windows's onproperty callback, this is undefined
         // so we need to check it
-        var target = this;
+        let target = this;
 
         if (!target && obj === _global) {
           target = _global;
@@ -22896,7 +24337,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return;
         }
 
-        var previousValue = target[eventNameSymbol];
+        let previousValue = target[eventNameSymbol];
 
         if (previousValue) {
           target.removeEventListener(eventName, wrapFn);
@@ -22921,7 +24362,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       desc.get = function () {
         // in some of windows's onproperty callback, this is undefined
         // so we need to check it
-        var target = this;
+        let target = this;
 
         if (!target && obj === _global) {
           target = _global;
@@ -22931,7 +24372,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return null;
         }
 
-        var listener = target[eventNameSymbol];
+        const listener = target[eventNameSymbol];
 
         if (listener) {
           return listener;
@@ -22942,7 +24383,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           // the onclick will be evaluated when first time event was triggered or
           // the property is accessed, https://github.com/angular/zone.js/issues/525
           // so we should use original native get to retrieve the handler
-          var value = originalDescGet && originalDescGet.call(this);
+          let value = originalDescGet && originalDescGet.call(this);
 
           if (value) {
             desc.set.call(this, value);
@@ -22964,34 +24405,34 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
     function patchOnProperties(obj, properties, prototype) {
       if (properties) {
-        for (var i = 0; i < properties.length; i++) {
+        for (let i = 0; i < properties.length; i++) {
           patchProperty(obj, 'on' + properties[i], prototype);
         }
       } else {
-        var onProperties = [];
+        const onProperties = [];
 
-        for (var prop in obj) {
+        for (const prop in obj) {
           if (prop.substr(0, 2) == 'on') {
             onProperties.push(prop);
           }
         }
 
-        for (var j = 0; j < onProperties.length; j++) {
+        for (let j = 0; j < onProperties.length; j++) {
           patchProperty(obj, onProperties[j], prototype);
         }
       }
     }
 
-    var originalInstanceKey = zoneSymbol('originalInstance'); // wrap some native API on `window`
+    const originalInstanceKey = zoneSymbol('originalInstance'); // wrap some native API on `window`
 
     function patchClass(className) {
-      var OriginalClass = _global[className];
+      const OriginalClass = _global[className];
       if (!OriginalClass) return; // keep original class in global
 
       _global[zoneSymbol(className)] = OriginalClass;
 
       _global[className] = function () {
-        var a = bindArguments(arguments, className);
+        const a = bindArguments(arguments, className);
 
         switch (a.length) {
           case 0:
@@ -23021,8 +24462,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
       attachOriginToPatched(_global[className], OriginalClass);
-      var instance = new OriginalClass(function () {});
-      var prop;
+      const instance = new OriginalClass(function () {});
+      let prop;
 
       for (prop in instance) {
         // https://bugs.webkit.org/show_bug.cgi?id=44721
@@ -23066,9 +24507,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var symbols = Object.getOwnPropertySymbols(src);
-      symbols.forEach(function (symbol) {
-        var desc = Object.getOwnPropertyDescriptor(src, symbol);
+      const symbols = Object.getOwnPropertySymbols(src);
+      symbols.forEach(symbol => {
+        const desc = Object.getOwnPropertyDescriptor(src, symbol);
         Object.defineProperty(dest, symbol, {
           get: function get() {
             return src[symbol];
@@ -23087,10 +24528,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       });
     }
 
-    var shouldCopySymbolProperties = false;
+    let shouldCopySymbolProperties = false;
 
     function patchMethod(target, name, patchFn) {
-      var proto = target;
+      let proto = target;
 
       while (proto && !proto.hasOwnProperty(name)) {
         proto = ObjectGetPrototypeOf(proto);
@@ -23101,17 +24542,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         proto = target;
       }
 
-      var delegateName = zoneSymbol(name);
-      var delegate = null;
+      const delegateName = zoneSymbol(name);
+      let delegate = null;
 
       if (proto && !(delegate = proto[delegateName])) {
         delegate = proto[delegateName] = proto[name]; // check whether proto[name] is writable
         // some property is readonly in safari, such as HtmlCanvasElement.prototype.toBlob
 
-        var desc = proto && ObjectGetOwnPropertyDescriptor(proto, name);
+        const desc = proto && ObjectGetOwnPropertyDescriptor(proto, name);
 
         if (isPropertyWritable(desc)) {
-          var patchDelegate = patchFn(delegate, delegateName, name);
+          const patchDelegate = patchFn(delegate, delegateName, name);
 
           proto[name] = function () {
             return patchDelegate(this, arguments);
@@ -23130,10 +24571,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function patchMacroTask(obj, funcName, metaCreator) {
-      var setNative = null;
+      let setNative = null;
 
       function scheduleTask(task) {
-        var data = task.data;
+        const data = task.data;
 
         data.args[data.cbIdx] = function () {
           task.invoke.apply(this, arguments);
@@ -23143,17 +24584,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return task;
       }
 
-      setNative = patchMethod(obj, funcName, function (delegate) {
-        return function (self, args) {
-          var meta = metaCreator(self, args);
+      setNative = patchMethod(obj, funcName, delegate => function (self, args) {
+        const meta = metaCreator(self, args);
 
-          if (meta.cbIdx >= 0 && typeof args[meta.cbIdx] === 'function') {
-            return scheduleMacroTaskWithCurrentZone(meta.name, args[meta.cbIdx], meta, scheduleTask);
-          } else {
-            // cause an error by calling it directly.
-            return delegate.apply(self, args);
-          }
-        };
+        if (meta.cbIdx >= 0 && typeof args[meta.cbIdx] === 'function') {
+          return scheduleMacroTaskWithCurrentZone(meta.name, args[meta.cbIdx], meta, scheduleTask);
+        } else {
+          // cause an error by calling it directly.
+          return delegate.apply(self, args);
+        }
       });
     }
 
@@ -23161,12 +24600,12 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       patched[zoneSymbol('OriginalDelegate')] = original;
     }
 
-    var isDetectedIEOrEdge = false;
-    var ieOrEdge = false;
+    let isDetectedIEOrEdge = false;
+    let ieOrEdge = false;
 
     function isIE() {
       try {
-        var ua = internalWindow.navigator.userAgent;
+        const ua = internalWindow.navigator.userAgent;
 
         if (ua.indexOf('MSIE ') !== -1 || ua.indexOf('Trident/') !== -1) {
           return true;
@@ -23184,7 +24623,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       isDetectedIEOrEdge = true;
 
       try {
-        var ua = internalWindow.navigator.userAgent;
+        const ua = internalWindow.navigator.userAgent;
 
         if (ua.indexOf('MSIE ') !== -1 || ua.indexOf('Trident/') !== -1 || ua.indexOf('Edge/') !== -1) {
           ieOrEdge = true;
@@ -23204,16 +24643,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     // look like native function
 
 
-    Zone.__load_patch('toString', function (global) {
+    Zone.__load_patch('toString', global => {
       // patch Func.prototype.toString to let them look like native
-      var originalFunctionToString = Function.prototype.toString;
-      var ORIGINAL_DELEGATE_SYMBOL = zoneSymbol('OriginalDelegate');
-      var PROMISE_SYMBOL = zoneSymbol('Promise');
-      var ERROR_SYMBOL = zoneSymbol('Error');
+      const originalFunctionToString = Function.prototype.toString;
+      const ORIGINAL_DELEGATE_SYMBOL = zoneSymbol('OriginalDelegate');
+      const PROMISE_SYMBOL = zoneSymbol('Promise');
+      const ERROR_SYMBOL = zoneSymbol('Error');
 
-      var newFunctionToString = function toString() {
+      const newFunctionToString = function toString() {
         if (typeof this === 'function') {
-          var originalDelegate = this[ORIGINAL_DELEGATE_SYMBOL];
+          const originalDelegate = this[ORIGINAL_DELEGATE_SYMBOL];
 
           if (originalDelegate) {
             if (typeof originalDelegate === 'function') {
@@ -23224,7 +24663,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
 
           if (this === Promise) {
-            var nativePromise = global[PROMISE_SYMBOL];
+            const nativePromise = global[PROMISE_SYMBOL];
 
             if (nativePromise) {
               return originalFunctionToString.call(nativePromise);
@@ -23232,7 +24671,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
 
           if (this === Error) {
-            var nativeError = global[ERROR_SYMBOL];
+            const nativeError = global[ERROR_SYMBOL];
 
             if (nativeError) {
               return originalFunctionToString.call(nativeError);
@@ -23246,8 +24685,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       newFunctionToString[ORIGINAL_DELEGATE_SYMBOL] = originalFunctionToString;
       Function.prototype.toString = newFunctionToString; // patch Object.prototype.toString to let them look like native
 
-      var originalObjectToString = Object.prototype.toString;
-      var PROMISE_OBJECT_TO_STRING = '[object Promise]';
+      const originalObjectToString = Object.prototype.toString;
+      const PROMISE_OBJECT_TO_STRING = '[object Promise]';
 
       Object.prototype.toString = function () {
         if (this instanceof Promise) {
@@ -23271,11 +24710,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    var passiveSupported = false;
+    let passiveSupported = false;
 
     if (typeof window !== 'undefined') {
       try {
-        var options = Object.defineProperty({}, 'passive', {
+        const options = Object.defineProperty({}, 'passive', {
           get: function get() {
             passiveSupported = true;
           }
@@ -23288,58 +24727,55 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     } // an identifier to tell ZoneTask do not create a new invoke closure
 
 
-    var OPTIMIZED_ZONE_EVENT_TASK_DATA = {
+    const OPTIMIZED_ZONE_EVENT_TASK_DATA = {
       useG: true
     };
-    var zoneSymbolEventNames$1 = {};
-    var globalSources = {};
-    var EVENT_NAME_SYMBOL_REGX = /^__zone_symbol__(\w+)(true|false)$/;
-    var IMMEDIATE_PROPAGATION_SYMBOL = '__zone_symbol__propagationStopped';
+    const zoneSymbolEventNames$1 = {};
+    const globalSources = {};
+    const EVENT_NAME_SYMBOL_REGX = /^__zone_symbol__(\w+)(true|false)$/;
+    const IMMEDIATE_PROPAGATION_SYMBOL = '__zone_symbol__propagationStopped';
 
     function patchEventTarget(_global, apis, patchOptions) {
-      var ADD_EVENT_LISTENER = patchOptions && patchOptions.add || ADD_EVENT_LISTENER_STR;
-      var REMOVE_EVENT_LISTENER = patchOptions && patchOptions.rm || REMOVE_EVENT_LISTENER_STR;
-      var LISTENERS_EVENT_LISTENER = patchOptions && patchOptions.listeners || 'eventListeners';
-      var REMOVE_ALL_LISTENERS_EVENT_LISTENER = patchOptions && patchOptions.rmAll || 'removeAllListeners';
-      var zoneSymbolAddEventListener = zoneSymbol(ADD_EVENT_LISTENER);
-      var ADD_EVENT_LISTENER_SOURCE = '.' + ADD_EVENT_LISTENER + ':';
-      var PREPEND_EVENT_LISTENER = 'prependListener';
-      var PREPEND_EVENT_LISTENER_SOURCE = '.' + PREPEND_EVENT_LISTENER + ':';
+      const ADD_EVENT_LISTENER = patchOptions && patchOptions.add || ADD_EVENT_LISTENER_STR;
+      const REMOVE_EVENT_LISTENER = patchOptions && patchOptions.rm || REMOVE_EVENT_LISTENER_STR;
+      const LISTENERS_EVENT_LISTENER = patchOptions && patchOptions.listeners || 'eventListeners';
+      const REMOVE_ALL_LISTENERS_EVENT_LISTENER = patchOptions && patchOptions.rmAll || 'removeAllListeners';
+      const zoneSymbolAddEventListener = zoneSymbol(ADD_EVENT_LISTENER);
+      const ADD_EVENT_LISTENER_SOURCE = '.' + ADD_EVENT_LISTENER + ':';
+      const PREPEND_EVENT_LISTENER = 'prependListener';
+      const PREPEND_EVENT_LISTENER_SOURCE = '.' + PREPEND_EVENT_LISTENER + ':';
 
-      var invokeTask = function invokeTask(task, target, event) {
+      const invokeTask = function invokeTask(task, target, event) {
         // for better performance, check isRemoved which is set
         // by removeEventListener
         if (task.isRemoved) {
           return;
         }
 
-        var delegate = task.callback;
+        const delegate = task.callback;
 
         if (typeof delegate === 'object' && delegate.handleEvent) {
           // create the bind version of handleEvent when invoke
-          task.callback = function (event) {
-            return delegate.handleEvent(event);
-          };
+          task.callback = event => delegate.handleEvent(event);
 
           task.originalDelegate = delegate;
         } // invoke static task.invoke
 
 
         task.invoke(task, target, [event]);
-        var options = task.options;
+        const options = task.options;
 
         if (options && typeof options === 'object' && options.once) {
           // if options.once is true, after invoke once remove listener here
           // only browser need to do this, nodejs eventEmitter will cal removeListener
           // inside EventEmitter.once
-          var _delegate = task.originalDelegate ? task.originalDelegate : task.callback;
-
-          target[REMOVE_EVENT_LISTENER].call(target, event.type, _delegate, options);
+          const delegate = task.originalDelegate ? task.originalDelegate : task.callback;
+          target[REMOVE_EVENT_LISTENER].call(target, event.type, delegate, options);
         }
       }; // global shared zoneAwareCallback to handle all event callback with capture = false
 
 
-      var globalZoneAwareCallback = function globalZoneAwareCallback(event) {
+      const globalZoneAwareCallback = function globalZoneAwareCallback(event) {
         // https://github.com/angular/zone.js/issues/911, in IE, sometimes
         // event will be undefined, so we need to use window.event
         event = event || _global.event;
@@ -23350,8 +24786,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         // || global is needed https://github.com/angular/zone.js/issues/190
 
 
-        var target = this || event.target || _global;
-        var tasks = target[zoneSymbolEventNames$1[event.type][FALSE_STR]];
+        const target = this || event.target || _global;
+        const tasks = target[zoneSymbolEventNames$1[event.type][FALSE_STR]];
 
         if (tasks) {
           // invoke all tasks which attached to current target with given event.type and capture = false
@@ -23362,9 +24798,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             // https://github.com/angular/zone.js/issues/836
             // copy the tasks array before invoke, to avoid
             // the callback will remove itself or other listener
-            var copyTasks = tasks.slice();
+            const copyTasks = tasks.slice();
 
-            for (var i = 0; i < copyTasks.length; i++) {
+            for (let i = 0; i < copyTasks.length; i++) {
               if (event && event[IMMEDIATE_PROPAGATION_SYMBOL] === true) {
                 break;
               }
@@ -23376,7 +24812,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }; // global shared zoneAwareCallback to handle all event callback with capture = true
 
 
-      var globalZoneAwareCaptureCallback = function globalZoneAwareCaptureCallback(event) {
+      const globalZoneAwareCaptureCallback = function globalZoneAwareCaptureCallback(event) {
         // https://github.com/angular/zone.js/issues/911, in IE, sometimes
         // event will be undefined, so we need to use window.event
         event = event || _global.event;
@@ -23387,8 +24823,8 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         // || global is needed https://github.com/angular/zone.js/issues/190
 
 
-        var target = this || event.target || _global;
-        var tasks = target[zoneSymbolEventNames$1[event.type][TRUE_STR]];
+        const target = this || event.target || _global;
+        const tasks = target[zoneSymbolEventNames$1[event.type][TRUE_STR]];
 
         if (tasks) {
           // invoke all tasks which attached to current target with given event.type and capture = false
@@ -23399,9 +24835,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             // https://github.com/angular/zone.js/issues/836
             // copy the tasks array before invoke, to avoid
             // the callback will remove itself or other listener
-            var copyTasks = tasks.slice();
+            const copyTasks = tasks.slice();
 
-            for (var i = 0; i < copyTasks.length; i++) {
+            for (let i = 0; i < copyTasks.length; i++) {
               if (event && event[IMMEDIATE_PROPAGATION_SYMBOL] === true) {
                 break;
               }
@@ -23417,26 +24853,26 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return false;
         }
 
-        var useGlobalCallback = true;
+        let useGlobalCallback = true;
 
         if (patchOptions && patchOptions.useG !== undefined) {
           useGlobalCallback = patchOptions.useG;
         }
 
-        var validateHandler = patchOptions && patchOptions.vh;
-        var checkDuplicate = true;
+        const validateHandler = patchOptions && patchOptions.vh;
+        let checkDuplicate = true;
 
         if (patchOptions && patchOptions.chkDup !== undefined) {
           checkDuplicate = patchOptions.chkDup;
         }
 
-        var returnTarget = false;
+        let returnTarget = false;
 
         if (patchOptions && patchOptions.rt !== undefined) {
           returnTarget = patchOptions.rt;
         }
 
-        var proto = obj;
+        let proto = obj;
 
         while (proto && !proto.hasOwnProperty(ADD_EVENT_LISTENER)) {
           proto = ObjectGetPrototypeOf(proto);
@@ -23455,15 +24891,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return false;
         }
 
-        var eventNameToString = patchOptions && patchOptions.eventNameToString; // a shared global taskData to pass data for scheduleEventTask
+        const eventNameToString = patchOptions && patchOptions.eventNameToString; // a shared global taskData to pass data for scheduleEventTask
         // so we do not need to create a new object just for pass some data
 
-        var taskData = {};
-        var nativeAddEventListener = proto[zoneSymbolAddEventListener] = proto[ADD_EVENT_LISTENER];
-        var nativeRemoveEventListener = proto[zoneSymbol(REMOVE_EVENT_LISTENER)] = proto[REMOVE_EVENT_LISTENER];
-        var nativeListeners = proto[zoneSymbol(LISTENERS_EVENT_LISTENER)] = proto[LISTENERS_EVENT_LISTENER];
-        var nativeRemoveAllListeners = proto[zoneSymbol(REMOVE_ALL_LISTENERS_EVENT_LISTENER)] = proto[REMOVE_ALL_LISTENERS_EVENT_LISTENER];
-        var nativePrependEventListener;
+        const taskData = {};
+        const nativeAddEventListener = proto[zoneSymbolAddEventListener] = proto[ADD_EVENT_LISTENER];
+        const nativeRemoveEventListener = proto[zoneSymbol(REMOVE_EVENT_LISTENER)] = proto[REMOVE_EVENT_LISTENER];
+        const nativeListeners = proto[zoneSymbol(LISTENERS_EVENT_LISTENER)] = proto[LISTENERS_EVENT_LISTENER];
+        const nativeRemoveAllListeners = proto[zoneSymbol(REMOVE_ALL_LISTENERS_EVENT_LISTENER)] = proto[REMOVE_ALL_LISTENERS_EVENT_LISTENER];
+        let nativePrependEventListener;
 
         if (patchOptions && patchOptions.prepend) {
           nativePrependEventListener = proto[zoneSymbol(patchOptions.prepend)] = proto[patchOptions.prepend];
@@ -23480,7 +24916,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           }
         }
 
-        var customScheduleGlobal = function customScheduleGlobal(task) {
+        const customScheduleGlobal = function customScheduleGlobal(task) {
           // if there is already a task for the eventName + capture,
           // just return, because we use the shared globalZoneAwareCallback here.
           if (taskData.isExisting) {
@@ -23491,23 +24927,23 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return nativeAddEventListener.call(taskData.target, taskData.eventName, taskData.capture ? globalZoneAwareCaptureCallback : globalZoneAwareCallback, taskData.options);
         };
 
-        var customCancelGlobal = function customCancelGlobal(task) {
+        const customCancelGlobal = function customCancelGlobal(task) {
           // if task is not marked as isRemoved, this call is directly
           // from Zone.prototype.cancelTask, we should remove the task
           // from tasksList of target first
           if (!task.isRemoved) {
-            var symbolEventNames = zoneSymbolEventNames$1[task.eventName];
-            var symbolEventName;
+            const symbolEventNames = zoneSymbolEventNames$1[task.eventName];
+            let symbolEventName;
 
             if (symbolEventNames) {
               symbolEventName = symbolEventNames[task.capture ? TRUE_STR : FALSE_STR];
             }
 
-            var existingTasks = symbolEventName && task.target[symbolEventName];
+            const existingTasks = symbolEventName && task.target[symbolEventName];
 
             if (existingTasks) {
-              for (var i = 0; i < existingTasks.length; i++) {
-                var existingTask = existingTasks[i];
+              for (let i = 0; i < existingTasks.length; i++) {
+                const existingTask = existingTasks[i];
 
                 if (existingTask === task) {
                   existingTasks.splice(i, 1); // set isRemoved to data for faster invokeTask check
@@ -23537,38 +24973,36 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           return nativeRemoveEventListener.call(task.target, task.eventName, task.capture ? globalZoneAwareCaptureCallback : globalZoneAwareCallback, task.options);
         };
 
-        var customScheduleNonGlobal = function customScheduleNonGlobal(task) {
+        const customScheduleNonGlobal = function customScheduleNonGlobal(task) {
           checkIsPassive(task);
           return nativeAddEventListener.call(taskData.target, taskData.eventName, task.invoke, taskData.options);
         };
 
-        var customSchedulePrepend = function customSchedulePrepend(task) {
+        const customSchedulePrepend = function customSchedulePrepend(task) {
           return nativePrependEventListener.call(taskData.target, taskData.eventName, task.invoke, taskData.options);
         };
 
-        var customCancelNonGlobal = function customCancelNonGlobal(task) {
+        const customCancelNonGlobal = function customCancelNonGlobal(task) {
           return nativeRemoveEventListener.call(task.target, task.eventName, task.invoke, task.options);
         };
 
-        var customSchedule = useGlobalCallback ? customScheduleGlobal : customScheduleNonGlobal;
-        var customCancel = useGlobalCallback ? customCancelGlobal : customCancelNonGlobal;
+        const customSchedule = useGlobalCallback ? customScheduleGlobal : customScheduleNonGlobal;
+        const customCancel = useGlobalCallback ? customCancelGlobal : customCancelNonGlobal;
 
-        var compareTaskCallbackVsDelegate = function compareTaskCallbackVsDelegate(task, delegate) {
-          var typeOfDelegate = typeof delegate;
+        const compareTaskCallbackVsDelegate = function compareTaskCallbackVsDelegate(task, delegate) {
+          const typeOfDelegate = typeof delegate;
           return typeOfDelegate === 'function' && task.callback === delegate || typeOfDelegate === 'object' && task.originalDelegate === delegate;
         };
 
-        var compare = patchOptions && patchOptions.diff ? patchOptions.diff : compareTaskCallbackVsDelegate;
+        const compare = patchOptions && patchOptions.diff ? patchOptions.diff : compareTaskCallbackVsDelegate;
 
-        var blackListedEvents = Zone[Zone.__symbol__('BLACK_LISTED_EVENTS')];
+        const blackListedEvents = Zone[Zone.__symbol__('BLACK_LISTED_EVENTS')];
 
-        var makeAddListener = function makeAddListener(nativeListener, addSource, customScheduleFn, customCancelFn) {
-          var returnTarget = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
-          var prepend = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : false;
+        const makeAddListener = function makeAddListener(nativeListener, addSource, customScheduleFn, customCancelFn, returnTarget = false, prepend = false) {
           return function () {
-            var target = this || _global;
-            var eventName = arguments[0];
-            var delegate = arguments[1];
+            const target = this || _global;
+            const eventName = arguments[0];
+            let delegate = arguments[1];
 
             if (!delegate) {
               return nativeListener.apply(this, arguments);
@@ -23582,7 +25016,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             // we will create the bind delegate when invoke
 
 
-            var isHandleEvent = false;
+            let isHandleEvent = false;
 
             if (typeof delegate !== 'function') {
               if (!delegate.handleEvent) {
@@ -23596,19 +25030,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               return;
             }
 
-            var options = arguments[2];
+            const options = arguments[2];
 
             if (blackListedEvents) {
               // check black list
-              for (var i = 0; i < blackListedEvents.length; i++) {
+              for (let i = 0; i < blackListedEvents.length; i++) {
                 if (eventName === blackListedEvents[i]) {
                   return nativeListener.apply(this, arguments);
                 }
               }
             }
 
-            var capture;
-            var once = false;
+            let capture;
+            let once = false;
 
             if (options === undefined) {
               capture = false;
@@ -23621,16 +25055,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               once = options ? !!options.once : false;
             }
 
-            var zone = Zone.current;
-            var symbolEventNames = zoneSymbolEventNames$1[eventName];
-            var symbolEventName;
+            const zone = Zone.current;
+            const symbolEventNames = zoneSymbolEventNames$1[eventName];
+            let symbolEventName;
 
             if (!symbolEventNames) {
               // the code is duplicate, but I just want to get some better performance
-              var falseEventName = (eventNameToString ? eventNameToString(eventName) : eventName) + FALSE_STR;
-              var trueEventName = (eventNameToString ? eventNameToString(eventName) : eventName) + TRUE_STR;
-              var symbol = ZONE_SYMBOL_PREFIX + falseEventName;
-              var symbolCapture = ZONE_SYMBOL_PREFIX + trueEventName;
+              const falseEventName = (eventNameToString ? eventNameToString(eventName) : eventName) + FALSE_STR;
+              const trueEventName = (eventNameToString ? eventNameToString(eventName) : eventName) + TRUE_STR;
+              const symbol = ZONE_SYMBOL_PREFIX + falseEventName;
+              const symbolCapture = ZONE_SYMBOL_PREFIX + trueEventName;
               zoneSymbolEventNames$1[eventName] = {};
               zoneSymbolEventNames$1[eventName][FALSE_STR] = symbol;
               zoneSymbolEventNames$1[eventName][TRUE_STR] = symbolCapture;
@@ -23639,16 +25073,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               symbolEventName = symbolEventNames[capture ? TRUE_STR : FALSE_STR];
             }
 
-            var existingTasks = target[symbolEventName];
-            var isExisting = false;
+            let existingTasks = target[symbolEventName];
+            let isExisting = false;
 
             if (existingTasks) {
               // already have task registered
               isExisting = true;
 
               if (checkDuplicate) {
-                for (var _i = 0; _i < existingTasks.length; _i++) {
-                  if (compare(existingTasks[_i], delegate)) {
+                for (let i = 0; i < existingTasks.length; i++) {
+                  if (compare(existingTasks[i], delegate)) {
                     // same callback, same capture, same event name, just return
                     return;
                   }
@@ -23658,9 +25092,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
               existingTasks = target[symbolEventName] = [];
             }
 
-            var source;
-            var constructorName = target.constructor['name'];
-            var targetSource = globalSources[constructorName];
+            let source;
+            const constructorName = target.constructor['name'];
+            const targetSource = globalSources[constructorName];
 
             if (targetSource) {
               source = targetSource[eventName];
@@ -23685,13 +25119,13 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             taskData.capture = capture;
             taskData.eventName = eventName;
             taskData.isExisting = isExisting;
-            var data = useGlobalCallback ? OPTIMIZED_ZONE_EVENT_TASK_DATA : undefined; // keep taskData into data to allow onScheduleEventTask to access the task information
+            const data = useGlobalCallback ? OPTIMIZED_ZONE_EVENT_TASK_DATA : undefined; // keep taskData into data to allow onScheduleEventTask to access the task information
 
             if (data) {
               data.taskData = taskData;
             }
 
-            var task = zone.scheduleEventTask(source, delegate, data, customScheduleFn, customCancelFn); // should clear taskData.target to avoid memory leak
+            const task = zone.scheduleEventTask(source, delegate, data, customScheduleFn, customCancelFn); // should clear taskData.target to avoid memory leak
             // issue, https://github.com/angular/angular/issues/20442
 
             taskData.target = null; // need to clear up taskData because it is a global object
@@ -23740,10 +25174,10 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         }
 
         proto[REMOVE_EVENT_LISTENER] = function () {
-          var target = this || _global;
-          var eventName = arguments[0];
-          var options = arguments[2];
-          var capture;
+          const target = this || _global;
+          const eventName = arguments[0];
+          const options = arguments[2];
+          let capture;
 
           if (options === undefined) {
             capture = false;
@@ -23755,7 +25189,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             capture = options ? !!options.capture : false;
           }
 
-          var delegate = arguments[1];
+          const delegate = arguments[1];
 
           if (!delegate) {
             return nativeRemoveEventListener.apply(this, arguments);
@@ -23765,18 +25199,18 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             return;
           }
 
-          var symbolEventNames = zoneSymbolEventNames$1[eventName];
-          var symbolEventName;
+          const symbolEventNames = zoneSymbolEventNames$1[eventName];
+          let symbolEventName;
 
           if (symbolEventNames) {
             symbolEventName = symbolEventNames[capture ? TRUE_STR : FALSE_STR];
           }
 
-          var existingTasks = symbolEventName && target[symbolEventName];
+          const existingTasks = symbolEventName && target[symbolEventName];
 
           if (existingTasks) {
-            for (var i = 0; i < existingTasks.length; i++) {
-              var existingTask = existingTasks[i];
+            for (let i = 0; i < existingTasks.length; i++) {
+              const existingTask = existingTasks[i];
 
               if (compare(existingTask, delegate)) {
                 existingTasks.splice(i, 1); // set isRemoved to data for faster invokeTask check
@@ -23809,14 +25243,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
 
         proto[LISTENERS_EVENT_LISTENER] = function () {
-          var target = this || _global;
-          var eventName = arguments[0];
-          var listeners = [];
-          var tasks = findEventTasks(target, eventNameToString ? eventNameToString(eventName) : eventName);
+          const target = this || _global;
+          const eventName = arguments[0];
+          const listeners = [];
+          const tasks = findEventTasks(target, eventNameToString ? eventNameToString(eventName) : eventName);
 
-          for (var i = 0; i < tasks.length; i++) {
-            var task = tasks[i];
-            var delegate = task.originalDelegate ? task.originalDelegate : task.callback;
+          for (let i = 0; i < tasks.length; i++) {
+            const task = tasks[i];
+            let delegate = task.originalDelegate ? task.originalDelegate : task.callback;
             listeners.push(delegate);
           }
 
@@ -23824,16 +25258,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         };
 
         proto[REMOVE_ALL_LISTENERS_EVENT_LISTENER] = function () {
-          var target = this || _global;
-          var eventName = arguments[0];
+          const target = this || _global;
+          const eventName = arguments[0];
 
           if (!eventName) {
-            var keys = Object.keys(target);
+            const keys = Object.keys(target);
 
-            for (var i = 0; i < keys.length; i++) {
-              var prop = keys[i];
-              var match = EVENT_NAME_SYMBOL_REGX.exec(prop);
-              var evtName = match && match[1]; // in nodejs EventEmitter, removeListener event is
+            for (let i = 0; i < keys.length; i++) {
+              const prop = keys[i];
+              const match = EVENT_NAME_SYMBOL_REGX.exec(prop);
+              let evtName = match && match[1]; // in nodejs EventEmitter, removeListener event is
               // used for monitoring the removeListener call,
               // so just keep removeListener eventListener until
               // all other eventListeners are removed
@@ -23846,33 +25280,31 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
             this[REMOVE_ALL_LISTENERS_EVENT_LISTENER].call(this, 'removeListener');
           } else {
-            var symbolEventNames = zoneSymbolEventNames$1[eventName];
+            const symbolEventNames = zoneSymbolEventNames$1[eventName];
 
             if (symbolEventNames) {
-              var symbolEventName = symbolEventNames[FALSE_STR];
-              var symbolCaptureEventName = symbolEventNames[TRUE_STR];
-              var tasks = target[symbolEventName];
-              var captureTasks = target[symbolCaptureEventName];
+              const symbolEventName = symbolEventNames[FALSE_STR];
+              const symbolCaptureEventName = symbolEventNames[TRUE_STR];
+              const tasks = target[symbolEventName];
+              const captureTasks = target[symbolCaptureEventName];
 
               if (tasks) {
-                var removeTasks = tasks.slice();
+                const removeTasks = tasks.slice();
 
-                for (var _i2 = 0; _i2 < removeTasks.length; _i2++) {
-                  var task = removeTasks[_i2];
-                  var delegate = task.originalDelegate ? task.originalDelegate : task.callback;
+                for (let i = 0; i < removeTasks.length; i++) {
+                  const task = removeTasks[i];
+                  let delegate = task.originalDelegate ? task.originalDelegate : task.callback;
                   this[REMOVE_EVENT_LISTENER].call(this, eventName, delegate, task.options);
                 }
               }
 
               if (captureTasks) {
-                var _removeTasks = captureTasks.slice();
+                const removeTasks = captureTasks.slice();
 
-                for (var _i3 = 0; _i3 < _removeTasks.length; _i3++) {
-                  var _task = _removeTasks[_i3];
-
-                  var _delegate2 = _task.originalDelegate ? _task.originalDelegate : _task.callback;
-
-                  this[REMOVE_EVENT_LISTENER].call(this, eventName, _delegate2, _task.options);
+                for (let i = 0; i < removeTasks.length; i++) {
+                  const task = removeTasks[i];
+                  let delegate = task.originalDelegate ? task.originalDelegate : task.callback;
+                  this[REMOVE_EVENT_LISTENER].call(this, eventName, delegate, task.options);
                 }
               }
             }
@@ -23898,9 +25330,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return true;
       }
 
-      var results = [];
+      let results = [];
 
-      for (var i = 0; i < apis.length; i++) {
+      for (let i = 0; i < apis.length; i++) {
         results[i] = patchEventTargetMethods(apis[i], patchOptions);
       }
 
@@ -23908,17 +25340,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function findEventTasks(target, eventName) {
-      var foundTasks = [];
+      const foundTasks = [];
 
-      for (var prop in target) {
-        var match = EVENT_NAME_SYMBOL_REGX.exec(prop);
-        var evtName = match && match[1];
+      for (let prop in target) {
+        const match = EVENT_NAME_SYMBOL_REGX.exec(prop);
+        let evtName = match && match[1];
 
         if (evtName && (!eventName || evtName === eventName)) {
-          var tasks = target[prop];
+          const tasks = target[prop];
 
           if (tasks) {
-            for (var i = 0; i < tasks.length; i++) {
+            for (let i = 0; i < tasks.length; i++) {
               foundTasks.push(tasks[i]);
             }
           }
@@ -23929,17 +25361,15 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function patchEventPrototype(global, api) {
-      var Event = global['Event'];
+      const Event = global['Event'];
 
       if (Event && Event.prototype) {
-        api.patchMethod(Event.prototype, 'stopImmediatePropagation', function (delegate) {
-          return function (self, args) {
-            self[IMMEDIATE_PROPAGATION_SYMBOL] = true; // we need to call the native stopImmediatePropagation
-            // in case in some hybrid application, some part of
-            // application will be controlled by zone, some are not
+        api.patchMethod(Event.prototype, 'stopImmediatePropagation', delegate => function (self, args) {
+          self[IMMEDIATE_PROPAGATION_SYMBOL] = true; // we need to call the native stopImmediatePropagation
+          // in case in some hybrid application, some part of
+          // application will be controlled by zone, some are not
 
-            delegate && delegate.apply(self, args);
-          };
+          delegate && delegate.apply(self, args);
         });
       }
     }
@@ -23953,22 +25383,22 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function patchCallbacks(api, target, targetName, method, callbacks) {
-      var symbol = Zone.__symbol__(method);
+      const symbol = Zone.__symbol__(method);
 
       if (target[symbol]) {
         return;
       }
 
-      var nativeDelegate = target[symbol] = target[method];
+      const nativeDelegate = target[symbol] = target[method];
 
       target[method] = function (name, opts, options) {
         if (opts && opts.prototype) {
           callbacks.forEach(function (callback) {
-            var source = "".concat(targetName, ".").concat(method, "::") + callback;
-            var prototype = opts.prototype;
+            const source = "".concat(targetName, ".").concat(method, "::") + callback;
+            const prototype = opts.prototype;
 
             if (prototype.hasOwnProperty(callback)) {
-              var descriptor = api.ObjectGetOwnPropertyDescriptor(prototype, callback);
+              const descriptor = api.ObjectGetOwnPropertyDescriptor(prototype, callback);
 
               if (descriptor && descriptor.value) {
                 descriptor.value = api.wrapWithCurrentZone(descriptor.value, source);
@@ -24002,14 +25432,14 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    var zoneSymbol$1 = Zone.__symbol__;
+    const zoneSymbol$1 = Zone.__symbol__;
 
-    var _defineProperty = Object[zoneSymbol$1('defineProperty')] = Object.defineProperty;
+    const _defineProperty = Object[zoneSymbol$1('defineProperty')] = Object.defineProperty;
 
-    var _getOwnPropertyDescriptor = Object[zoneSymbol$1('getOwnPropertyDescriptor')] = Object.getOwnPropertyDescriptor;
+    const _getOwnPropertyDescriptor = Object[zoneSymbol$1('getOwnPropertyDescriptor')] = Object.getOwnPropertyDescriptor;
 
-    var _create = Object.create;
-    var unconfigurablesKey = zoneSymbol$1('unconfigurables');
+    const _create = Object.create;
+    const unconfigurablesKey = zoneSymbol$1('unconfigurables');
 
     function propertyPatch() {
       Object.defineProperty = function (obj, prop, desc) {
@@ -24017,7 +25447,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           throw new TypeError('Cannot assign to read only property \'' + prop + '\' of ' + obj);
         }
 
-        var originalConfigurableFlag = desc.configurable;
+        const originalConfigurableFlag = desc.configurable;
 
         if (prop !== 'prototype') {
           desc = rewriteDescriptor(obj, prop, desc);
@@ -24044,7 +25474,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       };
 
       Object.getOwnPropertyDescriptor = function (obj, prop) {
-        var desc = _getOwnPropertyDescriptor(obj, prop);
+        const desc = _getOwnPropertyDescriptor(obj, prop);
 
         if (desc && isUnconfigurable(obj, prop)) {
           desc.configurable = false;
@@ -24055,7 +25485,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     }
 
     function _redefineProperty(obj, prop, desc) {
-      var originalConfigurableFlag = desc.configurable;
+      const originalConfigurableFlag = desc.configurable;
       desc = rewriteDescriptor(obj, prop, desc);
       return _tryDefineProperty(obj, prop, desc, originalConfigurableFlag);
     }
@@ -24103,7 +25533,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           try {
             return _defineProperty(obj, prop, desc);
           } catch (error) {
-            var descJson = null;
+            let descJson = null;
 
             try {
               descJson = JSON.stringify(desc);
@@ -24132,41 +25562,37 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    var globalEventHandlersEventNames = ['abort', 'animationcancel', 'animationend', 'animationiteration', 'auxclick', 'beforeinput', 'blur', 'cancel', 'canplay', 'canplaythrough', 'change', 'compositionstart', 'compositionupdate', 'compositionend', 'cuechange', 'click', 'close', 'contextmenu', 'curechange', 'dblclick', 'drag', 'dragend', 'dragenter', 'dragexit', 'dragleave', 'dragover', 'drop', 'durationchange', 'emptied', 'ended', 'error', 'focus', 'focusin', 'focusout', 'gotpointercapture', 'input', 'invalid', 'keydown', 'keypress', 'keyup', 'load', 'loadstart', 'loadeddata', 'loadedmetadata', 'lostpointercapture', 'mousedown', 'mouseenter', 'mouseleave', 'mousemove', 'mouseout', 'mouseover', 'mouseup', 'mousewheel', 'orientationchange', 'pause', 'play', 'playing', 'pointercancel', 'pointerdown', 'pointerenter', 'pointerleave', 'pointerlockchange', 'mozpointerlockchange', 'webkitpointerlockerchange', 'pointerlockerror', 'mozpointerlockerror', 'webkitpointerlockerror', 'pointermove', 'pointout', 'pointerover', 'pointerup', 'progress', 'ratechange', 'reset', 'resize', 'scroll', 'seeked', 'seeking', 'select', 'selectionchange', 'selectstart', 'show', 'sort', 'stalled', 'submit', 'suspend', 'timeupdate', 'volumechange', 'touchcancel', 'touchmove', 'touchstart', 'touchend', 'transitioncancel', 'transitionend', 'waiting', 'wheel'];
-    var documentEventNames = ['afterscriptexecute', 'beforescriptexecute', 'DOMContentLoaded', 'freeze', 'fullscreenchange', 'mozfullscreenchange', 'webkitfullscreenchange', 'msfullscreenchange', 'fullscreenerror', 'mozfullscreenerror', 'webkitfullscreenerror', 'msfullscreenerror', 'readystatechange', 'visibilitychange', 'resume'];
-    var windowEventNames = ['absolutedeviceorientation', 'afterinput', 'afterprint', 'appinstalled', 'beforeinstallprompt', 'beforeprint', 'beforeunload', 'devicelight', 'devicemotion', 'deviceorientation', 'deviceorientationabsolute', 'deviceproximity', 'hashchange', 'languagechange', 'message', 'mozbeforepaint', 'offline', 'online', 'paint', 'pageshow', 'pagehide', 'popstate', 'rejectionhandled', 'storage', 'unhandledrejection', 'unload', 'userproximity', 'vrdisplyconnected', 'vrdisplaydisconnected', 'vrdisplaypresentchange'];
-    var htmlElementEventNames = ['beforecopy', 'beforecut', 'beforepaste', 'copy', 'cut', 'paste', 'dragstart', 'loadend', 'animationstart', 'search', 'transitionrun', 'transitionstart', 'webkitanimationend', 'webkitanimationiteration', 'webkitanimationstart', 'webkittransitionend'];
-    var mediaElementEventNames = ['encrypted', 'waitingforkey', 'msneedkey', 'mozinterruptbegin', 'mozinterruptend'];
-    var ieElementEventNames = ['activate', 'afterupdate', 'ariarequest', 'beforeactivate', 'beforedeactivate', 'beforeeditfocus', 'beforeupdate', 'cellchange', 'controlselect', 'dataavailable', 'datasetchanged', 'datasetcomplete', 'errorupdate', 'filterchange', 'layoutcomplete', 'losecapture', 'move', 'moveend', 'movestart', 'propertychange', 'resizeend', 'resizestart', 'rowenter', 'rowexit', 'rowsdelete', 'rowsinserted', 'command', 'compassneedscalibration', 'deactivate', 'help', 'mscontentzoom', 'msmanipulationstatechanged', 'msgesturechange', 'msgesturedoubletap', 'msgestureend', 'msgesturehold', 'msgesturestart', 'msgesturetap', 'msgotpointercapture', 'msinertiastart', 'mslostpointercapture', 'mspointercancel', 'mspointerdown', 'mspointerenter', 'mspointerhover', 'mspointerleave', 'mspointermove', 'mspointerout', 'mspointerover', 'mspointerup', 'pointerout', 'mssitemodejumplistitemremoved', 'msthumbnailclick', 'stop', 'storagecommit'];
-    var webglEventNames = ['webglcontextrestored', 'webglcontextlost', 'webglcontextcreationerror'];
-    var formEventNames = ['autocomplete', 'autocompleteerror'];
-    var detailEventNames = ['toggle'];
-    var frameEventNames = ['load'];
-    var frameSetEventNames = ['blur', 'error', 'focus', 'load', 'resize', 'scroll', 'messageerror'];
-    var marqueeEventNames = ['bounce', 'finish', 'start'];
-    var XMLHttpRequestEventNames = ['loadstart', 'progress', 'abort', 'error', 'load', 'progress', 'timeout', 'loadend', 'readystatechange'];
-    var IDBIndexEventNames = ['upgradeneeded', 'complete', 'abort', 'success', 'error', 'blocked', 'versionchange', 'close'];
-    var websocketEventNames = ['close', 'error', 'open', 'message'];
-    var workerEventNames = ['error', 'message'];
-    var eventNames = globalEventHandlersEventNames.concat(webglEventNames, formEventNames, detailEventNames, documentEventNames, windowEventNames, htmlElementEventNames, ieElementEventNames);
+    const globalEventHandlersEventNames = ['abort', 'animationcancel', 'animationend', 'animationiteration', 'auxclick', 'beforeinput', 'blur', 'cancel', 'canplay', 'canplaythrough', 'change', 'compositionstart', 'compositionupdate', 'compositionend', 'cuechange', 'click', 'close', 'contextmenu', 'curechange', 'dblclick', 'drag', 'dragend', 'dragenter', 'dragexit', 'dragleave', 'dragover', 'drop', 'durationchange', 'emptied', 'ended', 'error', 'focus', 'focusin', 'focusout', 'gotpointercapture', 'input', 'invalid', 'keydown', 'keypress', 'keyup', 'load', 'loadstart', 'loadeddata', 'loadedmetadata', 'lostpointercapture', 'mousedown', 'mouseenter', 'mouseleave', 'mousemove', 'mouseout', 'mouseover', 'mouseup', 'mousewheel', 'orientationchange', 'pause', 'play', 'playing', 'pointercancel', 'pointerdown', 'pointerenter', 'pointerleave', 'pointerlockchange', 'mozpointerlockchange', 'webkitpointerlockerchange', 'pointerlockerror', 'mozpointerlockerror', 'webkitpointerlockerror', 'pointermove', 'pointout', 'pointerover', 'pointerup', 'progress', 'ratechange', 'reset', 'resize', 'scroll', 'seeked', 'seeking', 'select', 'selectionchange', 'selectstart', 'show', 'sort', 'stalled', 'submit', 'suspend', 'timeupdate', 'volumechange', 'touchcancel', 'touchmove', 'touchstart', 'touchend', 'transitioncancel', 'transitionend', 'waiting', 'wheel'];
+    const documentEventNames = ['afterscriptexecute', 'beforescriptexecute', 'DOMContentLoaded', 'freeze', 'fullscreenchange', 'mozfullscreenchange', 'webkitfullscreenchange', 'msfullscreenchange', 'fullscreenerror', 'mozfullscreenerror', 'webkitfullscreenerror', 'msfullscreenerror', 'readystatechange', 'visibilitychange', 'resume'];
+    const windowEventNames = ['absolutedeviceorientation', 'afterinput', 'afterprint', 'appinstalled', 'beforeinstallprompt', 'beforeprint', 'beforeunload', 'devicelight', 'devicemotion', 'deviceorientation', 'deviceorientationabsolute', 'deviceproximity', 'hashchange', 'languagechange', 'message', 'mozbeforepaint', 'offline', 'online', 'paint', 'pageshow', 'pagehide', 'popstate', 'rejectionhandled', 'storage', 'unhandledrejection', 'unload', 'userproximity', 'vrdisplyconnected', 'vrdisplaydisconnected', 'vrdisplaypresentchange'];
+    const htmlElementEventNames = ['beforecopy', 'beforecut', 'beforepaste', 'copy', 'cut', 'paste', 'dragstart', 'loadend', 'animationstart', 'search', 'transitionrun', 'transitionstart', 'webkitanimationend', 'webkitanimationiteration', 'webkitanimationstart', 'webkittransitionend'];
+    const mediaElementEventNames = ['encrypted', 'waitingforkey', 'msneedkey', 'mozinterruptbegin', 'mozinterruptend'];
+    const ieElementEventNames = ['activate', 'afterupdate', 'ariarequest', 'beforeactivate', 'beforedeactivate', 'beforeeditfocus', 'beforeupdate', 'cellchange', 'controlselect', 'dataavailable', 'datasetchanged', 'datasetcomplete', 'errorupdate', 'filterchange', 'layoutcomplete', 'losecapture', 'move', 'moveend', 'movestart', 'propertychange', 'resizeend', 'resizestart', 'rowenter', 'rowexit', 'rowsdelete', 'rowsinserted', 'command', 'compassneedscalibration', 'deactivate', 'help', 'mscontentzoom', 'msmanipulationstatechanged', 'msgesturechange', 'msgesturedoubletap', 'msgestureend', 'msgesturehold', 'msgesturestart', 'msgesturetap', 'msgotpointercapture', 'msinertiastart', 'mslostpointercapture', 'mspointercancel', 'mspointerdown', 'mspointerenter', 'mspointerhover', 'mspointerleave', 'mspointermove', 'mspointerout', 'mspointerover', 'mspointerup', 'pointerout', 'mssitemodejumplistitemremoved', 'msthumbnailclick', 'stop', 'storagecommit'];
+    const webglEventNames = ['webglcontextrestored', 'webglcontextlost', 'webglcontextcreationerror'];
+    const formEventNames = ['autocomplete', 'autocompleteerror'];
+    const detailEventNames = ['toggle'];
+    const frameEventNames = ['load'];
+    const frameSetEventNames = ['blur', 'error', 'focus', 'load', 'resize', 'scroll', 'messageerror'];
+    const marqueeEventNames = ['bounce', 'finish', 'start'];
+    const XMLHttpRequestEventNames = ['loadstart', 'progress', 'abort', 'error', 'load', 'progress', 'timeout', 'loadend', 'readystatechange'];
+    const IDBIndexEventNames = ['upgradeneeded', 'complete', 'abort', 'success', 'error', 'blocked', 'versionchange', 'close'];
+    const websocketEventNames = ['close', 'error', 'open', 'message'];
+    const workerEventNames = ['error', 'message'];
+    const eventNames = globalEventHandlersEventNames.concat(webglEventNames, formEventNames, detailEventNames, documentEventNames, windowEventNames, htmlElementEventNames, ieElementEventNames);
 
     function filterProperties(target, onProperties, ignoreProperties) {
       if (!ignoreProperties || ignoreProperties.length === 0) {
         return onProperties;
       }
 
-      var tip = ignoreProperties.filter(function (ip) {
-        return ip.target === target;
-      });
+      const tip = ignoreProperties.filter(ip => ip.target === target);
 
       if (!tip || tip.length === 0) {
         return onProperties;
       }
 
-      var targetIgnoreProperties = tip[0].ignoreProperties;
-      return onProperties.filter(function (op) {
-        return targetIgnoreProperties.indexOf(op) === -1;
-      });
+      const targetIgnoreProperties = tip[0].ignoreProperties;
+      return onProperties.filter(op => targetIgnoreProperties.indexOf(op) === -1);
     }
 
     function patchFilteredProperties(target, onProperties, ignoreProperties, prototype) {
@@ -24176,7 +25602,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var filteredProperties = filterProperties(target, onProperties, ignoreProperties);
+      const filteredProperties = filterProperties(target, onProperties, ignoreProperties);
       patchOnProperties(target, filteredProperties, prototype);
     }
 
@@ -24190,22 +25616,22 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var supportsWebSocket = typeof WebSocket !== 'undefined';
-      var ignoreProperties = _global['__Zone_ignore_on_properties']; // for browsers that we can patch the descriptor:  Chrome & Firefox
+      const supportsWebSocket = typeof WebSocket !== 'undefined';
+      const ignoreProperties = _global['__Zone_ignore_on_properties']; // for browsers that we can patch the descriptor:  Chrome & Firefox
 
       if (isBrowser) {
-        var _internalWindow = window;
-        var ignoreErrorProperties = isIE ? [{
-          target: _internalWindow,
+        const internalWindow = window;
+        const ignoreErrorProperties = isIE ? [{
+          target: internalWindow,
           ignoreProperties: ['error']
         }] : []; // in IE/Edge, onProp not exist in window object, but in WindowPrototype
         // so we need to pass WindowPrototype to check onProp exist or not
 
-        patchFilteredProperties(_internalWindow, eventNames.concat(['messageerror']), ignoreProperties ? ignoreProperties.concat(ignoreErrorProperties) : ignoreProperties, ObjectGetPrototypeOf(_internalWindow));
+        patchFilteredProperties(internalWindow, eventNames.concat(['messageerror']), ignoreProperties ? ignoreProperties.concat(ignoreErrorProperties) : ignoreProperties, ObjectGetPrototypeOf(internalWindow));
         patchFilteredProperties(Document.prototype, eventNames, ignoreProperties);
 
-        if (typeof _internalWindow['SVGElement'] !== 'undefined') {
-          patchFilteredProperties(_internalWindow['SVGElement'].prototype, eventNames, ignoreProperties);
+        if (typeof internalWindow['SVGElement'] !== 'undefined') {
+          patchFilteredProperties(internalWindow['SVGElement'].prototype, eventNames, ignoreProperties);
         }
 
         patchFilteredProperties(Element.prototype, eventNames, ignoreProperties);
@@ -24215,27 +25641,27 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         patchFilteredProperties(HTMLBodyElement.prototype, windowEventNames.concat(frameSetEventNames), ignoreProperties);
         patchFilteredProperties(HTMLFrameElement.prototype, frameEventNames, ignoreProperties);
         patchFilteredProperties(HTMLIFrameElement.prototype, frameEventNames, ignoreProperties);
-        var HTMLMarqueeElement = _internalWindow['HTMLMarqueeElement'];
+        const HTMLMarqueeElement = internalWindow['HTMLMarqueeElement'];
 
         if (HTMLMarqueeElement) {
           patchFilteredProperties(HTMLMarqueeElement.prototype, marqueeEventNames, ignoreProperties);
         }
 
-        var Worker = _internalWindow['Worker'];
+        const Worker = internalWindow['Worker'];
 
         if (Worker) {
           patchFilteredProperties(Worker.prototype, workerEventNames, ignoreProperties);
         }
       }
 
-      var XMLHttpRequest = _global['XMLHttpRequest'];
+      const XMLHttpRequest = _global['XMLHttpRequest'];
 
       if (XMLHttpRequest) {
         // XMLHttpRequest is not available in ServiceWorker, so we need to check here
         patchFilteredProperties(XMLHttpRequest.prototype, XMLHttpRequestEventNames, ignoreProperties);
       }
 
-      var XMLHttpRequestEventTarget = _global['XMLHttpRequestEventTarget'];
+      const XMLHttpRequestEventTarget = _global['XMLHttpRequestEventTarget'];
 
       if (XMLHttpRequestEventTarget) {
         patchFilteredProperties(XMLHttpRequestEventTarget && XMLHttpRequestEventTarget.prototype, XMLHttpRequestEventNames, ignoreProperties);
@@ -24263,7 +25689,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    Zone.__load_patch('util', function (global, Zone, api) {
+    Zone.__load_patch('util', (global, Zone, api) => {
       api.patchOnProperties = patchOnProperties;
       api.patchMethod = patchMethod;
       api.bindArguments = bindArguments;
@@ -24274,9 +25700,9 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       // The  `__zone_symbol__BLACK_LISTED_EVENTS` is deprecated, but it is still be supported for
       // backwards compatibility.
 
-      var SYMBOL_BLACK_LISTED_EVENTS = Zone.__symbol__('BLACK_LISTED_EVENTS');
+      const SYMBOL_BLACK_LISTED_EVENTS = Zone.__symbol__('BLACK_LISTED_EVENTS');
 
-      var SYMBOL_UNPATCHED_EVENTS = Zone.__symbol__('UNPATCHED_EVENTS');
+      const SYMBOL_UNPATCHED_EVENTS = Zone.__symbol__('UNPATCHED_EVENTS');
 
       if (global[SYMBOL_UNPATCHED_EVENTS]) {
         global[SYMBOL_BLACK_LISTED_EVENTS] = global[SYMBOL_UNPATCHED_EVENTS];
@@ -24300,21 +25726,19 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       api._redefineProperty = _redefineProperty;
       api.patchCallbacks = patchCallbacks;
 
-      api.getGlobalObjects = function () {
-        return {
-          globalSources: globalSources,
-          zoneSymbolEventNames: zoneSymbolEventNames$1,
-          eventNames: eventNames,
-          isBrowser: isBrowser,
-          isMix: isMix,
-          isNode: isNode,
-          TRUE_STR: TRUE_STR,
-          FALSE_STR: FALSE_STR,
-          ZONE_SYMBOL_PREFIX: ZONE_SYMBOL_PREFIX,
-          ADD_EVENT_LISTENER_STR: ADD_EVENT_LISTENER_STR,
-          REMOVE_EVENT_LISTENER_STR: REMOVE_EVENT_LISTENER_STR
-        };
-      };
+      api.getGlobalObjects = () => ({
+        globalSources,
+        zoneSymbolEventNames: zoneSymbolEventNames$1,
+        eventNames,
+        isBrowser,
+        isMix,
+        isNode,
+        TRUE_STR,
+        FALSE_STR,
+        ZONE_SYMBOL_PREFIX,
+        ADD_EVENT_LISTENER_STR,
+        REMOVE_EVENT_LISTENER_STR
+      });
     });
     /**
      * @license
@@ -24338,17 +25762,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    var taskSymbol = zoneSymbol('zoneTask');
+    const taskSymbol = zoneSymbol('zoneTask');
 
     function patchTimer(window, setName, cancelName, nameSuffix) {
-      var setNative = null;
-      var clearNative = null;
+      let setNative = null;
+      let clearNative = null;
       setName += nameSuffix;
       cancelName += nameSuffix;
-      var tasksByHandleId = {};
+      const tasksByHandleId = {};
 
       function scheduleTask(task) {
-        var data = task.data;
+        const data = task.data;
 
         function timer() {
           try {
@@ -24380,84 +25804,80 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return clearNative(task.data.handleId);
       }
 
-      setNative = patchMethod(window, setName, function (delegate) {
-        return function (self, args) {
-          if (typeof args[0] === 'function') {
-            var _options = {
-              isPeriodic: nameSuffix === 'Interval',
-              delay: nameSuffix === 'Timeout' || nameSuffix === 'Interval' ? args[1] || 0 : undefined,
-              args: args
-            };
-            var task = scheduleMacroTaskWithCurrentZone(setName, args[0], _options, scheduleTask, clearTask);
+      setNative = patchMethod(window, setName, delegate => function (self, args) {
+        if (typeof args[0] === 'function') {
+          const options = {
+            isPeriodic: nameSuffix === 'Interval',
+            delay: nameSuffix === 'Timeout' || nameSuffix === 'Interval' ? args[1] || 0 : undefined,
+            args: args
+          };
+          const task = scheduleMacroTaskWithCurrentZone(setName, args[0], options, scheduleTask, clearTask);
 
-            if (!task) {
-              return task;
-            } // Node.js must additionally support the ref and unref functions.
-
-
-            var handle = task.data.handleId;
-
-            if (typeof handle === 'number') {
-              // for non nodejs env, we save handleId: task
-              // mapping in local cache for clearTimeout
-              tasksByHandleId[handle] = task;
-            } else if (handle) {
-              // for nodejs env, we save task
-              // reference in timerId Object for clearTimeout
-              handle[taskSymbol] = task;
-            } // check whether handle is null, because some polyfill or browser
-            // may return undefined from setTimeout/setInterval/setImmediate/requestAnimationFrame
-
-
-            if (handle && handle.ref && handle.unref && typeof handle.ref === 'function' && typeof handle.unref === 'function') {
-              task.ref = handle.ref.bind(handle);
-              task.unref = handle.unref.bind(handle);
-            }
-
-            if (typeof handle === 'number' || handle) {
-              return handle;
-            }
-
+          if (!task) {
             return task;
-          } else {
-            // cause an error by calling it directly.
-            return delegate.apply(window, args);
+          } // Node.js must additionally support the ref and unref functions.
+
+
+          const handle = task.data.handleId;
+
+          if (typeof handle === 'number') {
+            // for non nodejs env, we save handleId: task
+            // mapping in local cache for clearTimeout
+            tasksByHandleId[handle] = task;
+          } else if (handle) {
+            // for nodejs env, we save task
+            // reference in timerId Object for clearTimeout
+            handle[taskSymbol] = task;
+          } // check whether handle is null, because some polyfill or browser
+          // may return undefined from setTimeout/setInterval/setImmediate/requestAnimationFrame
+
+
+          if (handle && handle.ref && handle.unref && typeof handle.ref === 'function' && typeof handle.unref === 'function') {
+            task.ref = handle.ref.bind(handle);
+            task.unref = handle.unref.bind(handle);
           }
-        };
+
+          if (typeof handle === 'number' || handle) {
+            return handle;
+          }
+
+          return task;
+        } else {
+          // cause an error by calling it directly.
+          return delegate.apply(window, args);
+        }
       });
-      clearNative = patchMethod(window, cancelName, function (delegate) {
-        return function (self, args) {
-          var id = args[0];
-          var task;
+      clearNative = patchMethod(window, cancelName, delegate => function (self, args) {
+        const id = args[0];
+        let task;
 
-          if (typeof id === 'number') {
-            // non nodejs env.
-            task = tasksByHandleId[id];
-          } else {
-            // nodejs env.
-            task = id && id[taskSymbol]; // other environments.
+        if (typeof id === 'number') {
+          // non nodejs env.
+          task = tasksByHandleId[id];
+        } else {
+          // nodejs env.
+          task = id && id[taskSymbol]; // other environments.
 
-            if (!task) {
-              task = id;
-            }
+          if (!task) {
+            task = id;
           }
+        }
 
-          if (task && typeof task.type === 'string') {
-            if (task.state !== 'notScheduled' && (task.cancelFn && task.data.isPeriodic || task.runCount === 0)) {
-              if (typeof id === 'number') {
-                delete tasksByHandleId[id];
-              } else if (id) {
-                id[taskSymbol] = null;
-              } // Do not cancel already canceled functions
+        if (task && typeof task.type === 'string') {
+          if (task.state !== 'notScheduled' && (task.cancelFn && task.data.isPeriodic || task.runCount === 0)) {
+            if (typeof id === 'number') {
+              delete tasksByHandleId[id];
+            } else if (id) {
+              id[taskSymbol] = null;
+            } // Do not cancel already canceled functions
 
 
-              task.zone.cancelTask(task);
-            }
-          } else {
-            // cause an error by calling it directly.
-            delegate.apply(window, args);
+            task.zone.cancelTask(task);
           }
-        };
+        } else {
+          // cause an error by calling it directly.
+          delegate.apply(window, args);
+        }
       });
     }
     /**
@@ -24470,15 +25890,16 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
 
     function patchCustomElements(_global, api) {
-      var _api$getGlobalObjects = api.getGlobalObjects(),
-          isBrowser = _api$getGlobalObjects.isBrowser,
-          isMix = _api$getGlobalObjects.isMix;
+      const {
+        isBrowser,
+        isMix
+      } = api.getGlobalObjects();
 
       if (!isBrowser && !isMix || !_global['customElements'] || !('customElements' in _global)) {
         return;
       }
 
-      var callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback'];
+      const callbacks = ['connectedCallback', 'disconnectedCallback', 'adoptedCallback', 'attributeChangedCallback'];
       api.patchCallbacks(api, _global.customElements, 'customElements', 'define', callbacks);
     }
     /**
@@ -24496,26 +25917,26 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         return;
       }
 
-      var _api$getGlobalObjects2 = api.getGlobalObjects(),
-          eventNames = _api$getGlobalObjects2.eventNames,
-          zoneSymbolEventNames = _api$getGlobalObjects2.zoneSymbolEventNames,
-          TRUE_STR = _api$getGlobalObjects2.TRUE_STR,
-          FALSE_STR = _api$getGlobalObjects2.FALSE_STR,
-          ZONE_SYMBOL_PREFIX = _api$getGlobalObjects2.ZONE_SYMBOL_PREFIX; //  predefine all __zone_symbol__ + eventName + true/false string
+      const {
+        eventNames,
+        zoneSymbolEventNames,
+        TRUE_STR,
+        FALSE_STR,
+        ZONE_SYMBOL_PREFIX
+      } = api.getGlobalObjects(); //  predefine all __zone_symbol__ + eventName + true/false string
 
-
-      for (var i = 0; i < eventNames.length; i++) {
-        var eventName = eventNames[i];
-        var falseEventName = eventName + FALSE_STR;
-        var trueEventName = eventName + TRUE_STR;
-        var symbol = ZONE_SYMBOL_PREFIX + falseEventName;
-        var symbolCapture = ZONE_SYMBOL_PREFIX + trueEventName;
+      for (let i = 0; i < eventNames.length; i++) {
+        const eventName = eventNames[i];
+        const falseEventName = eventName + FALSE_STR;
+        const trueEventName = eventName + TRUE_STR;
+        const symbol = ZONE_SYMBOL_PREFIX + falseEventName;
+        const symbolCapture = ZONE_SYMBOL_PREFIX + trueEventName;
         zoneSymbolEventNames[eventName] = {};
         zoneSymbolEventNames[eventName][FALSE_STR] = symbol;
         zoneSymbolEventNames[eventName][TRUE_STR] = symbolCapture;
       }
 
-      var EVENT_TARGET = _global['EventTarget'];
+      const EVENT_TARGET = _global['EventTarget'];
 
       if (!EVENT_TARGET || !EVENT_TARGET.prototype) {
         return;
@@ -24542,34 +25963,34 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
      */
 
 
-    Zone.__load_patch('legacy', function (global) {
-      var legacyPatch = global[Zone.__symbol__('legacyPatch')];
+    Zone.__load_patch('legacy', global => {
+      const legacyPatch = global[Zone.__symbol__('legacyPatch')];
 
       if (legacyPatch) {
         legacyPatch();
       }
     });
 
-    Zone.__load_patch('timers', function (global) {
-      var set = 'set';
-      var clear = 'clear';
+    Zone.__load_patch('timers', global => {
+      const set = 'set';
+      const clear = 'clear';
       patchTimer(global, set, clear, 'Timeout');
       patchTimer(global, set, clear, 'Interval');
       patchTimer(global, set, clear, 'Immediate');
     });
 
-    Zone.__load_patch('requestAnimationFrame', function (global) {
+    Zone.__load_patch('requestAnimationFrame', global => {
       patchTimer(global, 'request', 'cancel', 'AnimationFrame');
       patchTimer(global, 'mozRequest', 'mozCancel', 'AnimationFrame');
       patchTimer(global, 'webkitRequest', 'webkitCancel', 'AnimationFrame');
     });
 
-    Zone.__load_patch('blocking', function (global, Zone) {
-      var blockingMethods = ['alert', 'prompt', 'confirm'];
+    Zone.__load_patch('blocking', (global, Zone) => {
+      const blockingMethods = ['alert', 'prompt', 'confirm'];
 
-      for (var i = 0; i < blockingMethods.length; i++) {
-        var name = blockingMethods[i];
-        patchMethod(global, name, function (delegate, symbol, name) {
+      for (let i = 0; i < blockingMethods.length; i++) {
+        const name = blockingMethods[i];
+        patchMethod(global, name, (delegate, symbol, name) => {
           return function (s, args) {
             return Zone.current.run(delegate, global, args, name);
           };
@@ -24577,11 +25998,11 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       }
     });
 
-    Zone.__load_patch('EventTarget', function (global, Zone, api) {
+    Zone.__load_patch('EventTarget', (global, Zone, api) => {
       patchEvent(global, api);
       eventTargetPatch(global, api); // patch XMLHttpRequestEventTarget's addEventListener/removeEventListener
 
-      var XMLHttpRequestEventTarget = global['XMLHttpRequestEventTarget'];
+      const XMLHttpRequestEventTarget = global['XMLHttpRequestEventTarget'];
 
       if (XMLHttpRequestEventTarget && XMLHttpRequestEventTarget.prototype) {
         api.patchEventTarget(global, [XMLHttpRequestEventTarget.prototype]);
@@ -24593,62 +26014,62 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
       patchClass('FileReader');
     });
 
-    Zone.__load_patch('on_property', function (global, Zone, api) {
+    Zone.__load_patch('on_property', (global, Zone, api) => {
       propertyDescriptorPatch(api, global);
       propertyPatch();
     });
 
-    Zone.__load_patch('customElements', function (global, Zone, api) {
+    Zone.__load_patch('customElements', (global, Zone, api) => {
       patchCustomElements(global, api);
     });
 
-    Zone.__load_patch('XHR', function (global, Zone) {
+    Zone.__load_patch('XHR', (global, Zone) => {
       // Treat XMLHttpRequest as a macrotask.
       patchXHR(global);
-      var XHR_TASK = zoneSymbol('xhrTask');
-      var XHR_SYNC = zoneSymbol('xhrSync');
-      var XHR_LISTENER = zoneSymbol('xhrListener');
-      var XHR_SCHEDULED = zoneSymbol('xhrScheduled');
-      var XHR_URL = zoneSymbol('xhrURL');
-      var XHR_ERROR_BEFORE_SCHEDULED = zoneSymbol('xhrErrorBeforeScheduled');
+      const XHR_TASK = zoneSymbol('xhrTask');
+      const XHR_SYNC = zoneSymbol('xhrSync');
+      const XHR_LISTENER = zoneSymbol('xhrListener');
+      const XHR_SCHEDULED = zoneSymbol('xhrScheduled');
+      const XHR_URL = zoneSymbol('xhrURL');
+      const XHR_ERROR_BEFORE_SCHEDULED = zoneSymbol('xhrErrorBeforeScheduled');
 
       function patchXHR(window) {
-        var XMLHttpRequest = window['XMLHttpRequest'];
+        const XMLHttpRequest = window['XMLHttpRequest'];
 
         if (!XMLHttpRequest) {
           // XMLHttpRequest is not available in service worker
           return;
         }
 
-        var XMLHttpRequestPrototype = XMLHttpRequest.prototype;
+        const XMLHttpRequestPrototype = XMLHttpRequest.prototype;
 
         function findPendingTask(target) {
           return target[XHR_TASK];
         }
 
-        var oriAddListener = XMLHttpRequestPrototype[ZONE_SYMBOL_ADD_EVENT_LISTENER];
-        var oriRemoveListener = XMLHttpRequestPrototype[ZONE_SYMBOL_REMOVE_EVENT_LISTENER];
+        let oriAddListener = XMLHttpRequestPrototype[ZONE_SYMBOL_ADD_EVENT_LISTENER];
+        let oriRemoveListener = XMLHttpRequestPrototype[ZONE_SYMBOL_REMOVE_EVENT_LISTENER];
 
         if (!oriAddListener) {
-          var XMLHttpRequestEventTarget = window['XMLHttpRequestEventTarget'];
+          const XMLHttpRequestEventTarget = window['XMLHttpRequestEventTarget'];
 
           if (XMLHttpRequestEventTarget) {
-            var XMLHttpRequestEventTargetPrototype = XMLHttpRequestEventTarget.prototype;
+            const XMLHttpRequestEventTargetPrototype = XMLHttpRequestEventTarget.prototype;
             oriAddListener = XMLHttpRequestEventTargetPrototype[ZONE_SYMBOL_ADD_EVENT_LISTENER];
             oriRemoveListener = XMLHttpRequestEventTargetPrototype[ZONE_SYMBOL_REMOVE_EVENT_LISTENER];
           }
         }
 
-        var READY_STATE_CHANGE = 'readystatechange';
-        var SCHEDULED = 'scheduled';
+        const READY_STATE_CHANGE = 'readystatechange';
+        const SCHEDULED = 'scheduled';
 
         function scheduleTask(task) {
-          var data = task.data;
-          var target = data.target;
+          const data = task.data;
+          const target = data.target;
           target[XHR_SCHEDULED] = false;
           target[XHR_ERROR_BEFORE_SCHEDULED] = false; // remove existing event listener
 
-          var listener = target[XHR_LISTENER];
+          const listener = target[XHR_LISTENER];
 
           if (!oriAddListener) {
             oriAddListener = target[ZONE_SYMBOL_ADD_EVENT_LISTENER];
@@ -24659,7 +26080,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
             oriRemoveListener.call(target, READY_STATE_CHANGE, listener);
           }
 
-          var newListener = target[XHR_LISTENER] = function () {
+          const newListener = target[XHR_LISTENER] = () => {
             if (target.readyState === target.DONE) {
               // sometimes on some browsers XMLHttpRequest will fire onreadystatechange with
               // readyState=4 multiple times, so we need to check task state here
@@ -24667,17 +26088,17 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
                 // check whether the xhr has registered onload listener
                 // if that is the case, the task should invoke after all
                 // onload listeners finish.
-                var loadTasks = target['__zone_symbol__loadfalse'];
+                const loadTasks = target['__zone_symbol__loadfalse'];
 
                 if (loadTasks && loadTasks.length > 0) {
-                  var oriInvoke = task.invoke;
+                  const oriInvoke = task.invoke;
 
                   task.invoke = function () {
                     // need to load the tasks again, because in other
                     // load listener, they may remove themselves
-                    var loadTasks = target['__zone_symbol__loadfalse'];
+                    const loadTasks = target['__zone_symbol__loadfalse'];
 
-                    for (var i = 0; i < loadTasks.length; i++) {
+                    for (let i = 0; i < loadTasks.length; i++) {
                       if (loadTasks[i] === task) {
                         loadTasks.splice(i, 1);
                       }
@@ -24700,7 +26121,7 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
           };
 
           oriAddListener.call(target, READY_STATE_CHANGE, newListener);
-          var storedTask = target[XHR_TASK];
+          const storedTask = target[XHR_TASK];
 
           if (!storedTask) {
             target[XHR_TASK] = task;
@@ -24714,99 +26135,93 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
         function placeholderCallback() {}
 
         function clearTask(task) {
-          var data = task.data; // Note - ideally, we would call data.target.removeEventListener here, but it's too late
+          const data = task.data; // Note - ideally, we would call data.target.removeEventListener here, but it's too late
           // to prevent it from firing. So instead, we store info for the event listener.
 
           data.aborted = true;
           return abortNative.apply(data.target, data.args);
         }
 
-        var openNative = patchMethod(XMLHttpRequestPrototype, 'open', function () {
-          return function (self, args) {
-            self[XHR_SYNC] = args[2] == false;
-            self[XHR_URL] = args[1];
-            return openNative.apply(self, args);
-          };
+        const openNative = patchMethod(XMLHttpRequestPrototype, 'open', () => function (self, args) {
+          self[XHR_SYNC] = args[2] == false;
+          self[XHR_URL] = args[1];
+          return openNative.apply(self, args);
         });
-        var XMLHTTPREQUEST_SOURCE = 'XMLHttpRequest.send';
-        var fetchTaskAborting = zoneSymbol('fetchTaskAborting');
-        var fetchTaskScheduling = zoneSymbol('fetchTaskScheduling');
-        var sendNative = patchMethod(XMLHttpRequestPrototype, 'send', function () {
-          return function (self, args) {
-            if (Zone.current[fetchTaskScheduling] === true) {
-              // a fetch is scheduling, so we are using xhr to polyfill fetch
-              // and because we already schedule macroTask for fetch, we should
-              // not schedule a macroTask for xhr again
-              return sendNative.apply(self, args);
+        const XMLHTTPREQUEST_SOURCE = 'XMLHttpRequest.send';
+        const fetchTaskAborting = zoneSymbol('fetchTaskAborting');
+        const fetchTaskScheduling = zoneSymbol('fetchTaskScheduling');
+        const sendNative = patchMethod(XMLHttpRequestPrototype, 'send', () => function (self, args) {
+          if (Zone.current[fetchTaskScheduling] === true) {
+            // a fetch is scheduling, so we are using xhr to polyfill fetch
+            // and because we already schedule macroTask for fetch, we should
+            // not schedule a macroTask for xhr again
+            return sendNative.apply(self, args);
+          }
+
+          if (self[XHR_SYNC]) {
+            // if the XHR is sync there is no task to schedule, just execute the code.
+            return sendNative.apply(self, args);
+          } else {
+            const options = {
+              target: self,
+              url: self[XHR_URL],
+              isPeriodic: false,
+              args: args,
+              aborted: false
+            };
+            const task = scheduleMacroTaskWithCurrentZone(XMLHTTPREQUEST_SOURCE, placeholderCallback, options, scheduleTask, clearTask);
+
+            if (self && self[XHR_ERROR_BEFORE_SCHEDULED] === true && !options.aborted && task.state === SCHEDULED) {
+              // xhr request throw error when send
+              // we should invoke task instead of leaving a scheduled
+              // pending macroTask
+              task.invoke();
+            }
+          }
+        });
+        const abortNative = patchMethod(XMLHttpRequestPrototype, 'abort', () => function (self, args) {
+          const task = findPendingTask(self);
+
+          if (task && typeof task.type == 'string') {
+            // If the XHR has already completed, do nothing.
+            // If the XHR has already been aborted, do nothing.
+            // Fix #569, call abort multiple times before done will cause
+            // macroTask task count be negative number
+            if (task.cancelFn == null || task.data && task.data.aborted) {
+              return;
             }
 
-            if (self[XHR_SYNC]) {
-              // if the XHR is sync there is no task to schedule, just execute the code.
-              return sendNative.apply(self, args);
-            } else {
-              var _options2 = {
-                target: self,
-                url: self[XHR_URL],
-                isPeriodic: false,
-                args: args,
-                aborted: false
-              };
-              var task = scheduleMacroTaskWithCurrentZone(XMLHTTPREQUEST_SOURCE, placeholderCallback, _options2, scheduleTask, clearTask);
+            task.zone.cancelTask(task);
+          } else if (Zone.current[fetchTaskAborting] === true) {
+            // the abort is called from fetch polyfill, we need to call native abort of XHR.
+            return abortNative.apply(self, args);
+          } // Otherwise, we are trying to abort an XHR which has not yet been sent, so there is no
+          // task
+          // to cancel. Do nothing.
 
-              if (self && self[XHR_ERROR_BEFORE_SCHEDULED] === true && !_options2.aborted && task.state === SCHEDULED) {
-                // xhr request throw error when send
-                // we should invoke task instead of leaving a scheduled
-                // pending macroTask
-                task.invoke();
-              }
-            }
-          };
-        });
-        var abortNative = patchMethod(XMLHttpRequestPrototype, 'abort', function () {
-          return function (self, args) {
-            var task = findPendingTask(self);
-
-            if (task && typeof task.type == 'string') {
-              // If the XHR has already completed, do nothing.
-              // If the XHR has already been aborted, do nothing.
-              // Fix #569, call abort multiple times before done will cause
-              // macroTask task count be negative number
-              if (task.cancelFn == null || task.data && task.data.aborted) {
-                return;
-              }
-
-              task.zone.cancelTask(task);
-            } else if (Zone.current[fetchTaskAborting] === true) {
-              // the abort is called from fetch polyfill, we need to call native abort of XHR.
-              return abortNative.apply(self, args);
-            } // Otherwise, we are trying to abort an XHR which has not yet been sent, so there is no
-            // task
-            // to cancel. Do nothing.
-
-          };
         });
       }
     });
 
-    Zone.__load_patch('geolocation', function (global) {
+    Zone.__load_patch('geolocation', global => {
       /// GEO_LOCATION
       if (global['navigator'] && global['navigator'].geolocation) {
         patchPrototype(global['navigator'].geolocation, ['getCurrentPosition', 'watchPosition']);
       }
     });
 
-    Zone.__load_patch('PromiseRejectionEvent', function (global, Zone) {
+    Zone.__load_patch('PromiseRejectionEvent', (global, Zone) => {
       // handle unhandled promise rejection
       function findPromiseRejectionHandler(evtName) {
         return function (e) {
-          var eventTasks = findEventTasks(global, evtName);
-          eventTasks.forEach(function (eventTask) {
+          const eventTasks = findEventTasks(global, evtName);
+          eventTasks.forEach(eventTask => {
             // windows has added unhandledrejection event listener
             // trigger the event listener
-            var PromiseRejectionEvent = global['PromiseRejectionEvent'];
+            const PromiseRejectionEvent = global['PromiseRejectionEvent'];
 
             if (PromiseRejectionEvent) {
-              var evt = new PromiseRejectionEvent(evtName, {
+              const evt = new PromiseRejectionEvent(evtName, {
                 promise: e.promise,
                 reason: e.rejection
               });
@@ -25308,45 +26723,45 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
     /* harmony import */
 
 
-    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! zone.js/dist/zone */
     "./node_modules/zone.js/dist/zone-evergreen.js");
     /* harmony import */
 
 
-    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0___default =
-    /*#__PURE__*/
-    __webpack_require__.n(zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_0__);
+    var zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(zone_js_dist_zone__WEBPACK_IMPORTED_MODULE_1__);
     /* harmony import */
 
 
-    var webrtc_adapter__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    var webrtc_adapter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! webrtc-adapter */
     "./node_modules/webrtc-adapter/src/js/adapter_core.js");
     /* harmony import */
 
 
-    var zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! zone.js/dist/webapis-rtc-peer-connection */
     "./node_modules/zone.js/dist/webapis-rtc-peer-connection.js");
     /* harmony import */
 
 
-    var zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_2___default =
-    /*#__PURE__*/
-    __webpack_require__.n(zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_2__);
+    var zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(zone_js_dist_webapis_rtc_peer_connection__WEBPACK_IMPORTED_MODULE_3__);
     /* harmony import */
 
 
-    var zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! zone.js/dist/zone-patch-user-media */
     "./node_modules/zone.js/dist/zone-patch-user-media.js");
     /* harmony import */
 
 
-    var zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_3___default =
-    /*#__PURE__*/
-    __webpack_require__.n(zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_3__);
+    var zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(zone_js_dist_zone_patch_user_media__WEBPACK_IMPORTED_MODULE_4__);
     /**
      * This file includes polyfills needed by Angular and is loaded before the app.
      * You can add your own extra polyfills to this file.
@@ -25416,24 +26831,32 @@ function _defineProperty2(obj, key, value) { if (key in obj) { Object.defineProp
 
   /***/
   2:
-  /*!****************************************************************************************************************************************************!*\
-    !*** multi ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js zone.js/dist/zone-legacy ./src/polyfills.ts ***!
-    \****************************************************************************************************************************************************/
+  /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+    !*** multi ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js zone.js/dist/zone-legacy ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js ./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js ./src/polyfills.ts ***!
+    \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! C:\Users\Lyor\Desktop\sharing-live\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+    /*! C:\Users\mfron\Desktop\sharing-live\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
     /*! zone.js/dist/zone-legacy */
     "./node_modules/zone.js/dist/zone-legacy.js");
 
+    __webpack_require__(
+    /*! C:\Users\mfron\Desktop\sharing-live\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\jit-polyfills.js */
+    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/jit-polyfills.js");
+
+    __webpack_require__(
+    /*! C:\Users\mfron\Desktop\sharing-live\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-jit-polyfills.js */
+    "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-jit-polyfills.js");
+
     module.exports = __webpack_require__(
-    /*! C:\Users\Lyor\Desktop\sharing-live\src\polyfills.ts */
+    /*! C:\Users\mfron\Desktop\sharing-live\src\polyfills.ts */
     "./src/polyfills.ts");
     /***/
   }
