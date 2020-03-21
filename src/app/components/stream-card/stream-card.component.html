@@ -4,14 +4,14 @@
       >remove_red_eye</mat-icon
     >
     <video
-      *ngIf="hasVideo()"
       (click)="focusVideo()"
       autoplay
       playsinline
       [srcObject]="inputStream.stream"
       class="video"
       [ngStyle]="{
-        'border-bottom': '5px solid' + stringToColor(inputStream.nickname)
+        'border-bottom': '5px solid' + stringToColor(inputStream.nickname),
+        'display' : hasVideo() ? 'block' : 'none'
       }"
       [muted]="isLocalStream()"
     ></video>
