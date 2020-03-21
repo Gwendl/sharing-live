@@ -11,6 +11,7 @@
       (closeStreamEmitter)="closeLocalStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
+
     ></app-stream-card>
   </div>
   <div class="main-stream">
@@ -18,7 +19,7 @@
       [srcObject]="getMainStream()"
       autoplay
       playsinline
-      [muted]="isFocused(getMainStream())"
+      [muted]="true"
       class="main-stream-video"
     ></video>
   </div>

@@ -47,4 +47,8 @@ export class StreamCardComponent {
   public hasVideo() : boolean {
     return this.inputStream.stream && this.inputStream.stream.getVideoTracks().length > 0;
   }
+
+  public isLocalStream() : boolean {
+    return this.inputStream.nickname === undefined;
+  }
 }

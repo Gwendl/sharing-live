@@ -13,6 +13,7 @@
       [ngStyle]="{
         'border-bottom': '5px solid' + stringToColor(inputStream.nickname)
       }"
+      [muted]="isLocalStream()"
     ></video>
     <div class="button-actions">
       <button
