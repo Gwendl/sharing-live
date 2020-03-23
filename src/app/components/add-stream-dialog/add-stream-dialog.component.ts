@@ -17,12 +17,8 @@ export class AddStreamDialogComponent implements OnInit {
     private dialogRef: MatDialogRef<AddStreamDialogComponent>,
     private snackbarService: SnackBarService
   ) {
-    this.videoInputControl = new FormControl(
-      undefined
-    );
-    this.audioInputControl = new FormControl(
-      undefined
-    );
+    this.videoInputControl = new FormControl(undefined);
+    this.audioInputControl = new FormControl(undefined);
 
     this.formGroup = new FormGroup({
       videoDeviceId: this.videoInputControl,
@@ -56,12 +52,11 @@ export class AddStreamDialogComponent implements OnInit {
 
   public submitAddStream(form: FormGroup): void {
     const { videoDeviceId, audioDeviceId } = form.value;
-    if (!videoDeviceId && !audioDeviceId)
-      return;
+    if (!videoDeviceId && !audioDeviceId) return;
     navigator.mediaDevices
       .getUserMedia({
         video: videoDeviceId ? { deviceId: { exact: videoDeviceId } } : false,
-        audio: audioDeviceId ? { deviceId: { exact: audioDeviceId } } : false,
+        audio: audioDeviceId ? { deviceId: { exact: audioDeviceId } } : false
       })
       .then(stream => this.dialogRef.close(stream))
       .catch(e => {

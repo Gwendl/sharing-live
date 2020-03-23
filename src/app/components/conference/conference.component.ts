@@ -81,11 +81,11 @@ export class ConferenceComponent {
   }
 
   public enableMic(stream: MediaStream): void {
-   stream.getAudioTracks().forEach(at => at.enabled = true);
+    stream.getAudioTracks().forEach(at => (at.enabled = true));
   }
 
   public disableMic(stream: MediaStream): void {
-    stream.getAudioTracks().forEach(at => at.enabled = false);
+    stream.getAudioTracks().forEach(at => (at.enabled = false));
   }
 
   public addStream(): void {
@@ -133,7 +133,7 @@ export class ConferenceComponent {
     return this.snackbarService.success("Lien copié dans le presse papier");
   }
 
-  public triggerVisibility() {
+  public triggerVisibility(): void {
     this.panelVisibility = !this.panelVisibility;
   }
 }

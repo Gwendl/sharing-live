@@ -3,7 +3,7 @@
     class="local-streams"
     [ngClass]="{ 'local-stream-invisible': !panelVisibility }"
   >
-    <app-stream-card
+    <app-local-stream-card
       *ngFor="let localStream of getLocalStreams()"
       [inputStream]="localStream"
       [isFocused]="isFocused(localStream.stream)"
@@ -11,8 +11,7 @@
       (closeStreamEmitter)="closeLocalStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
-
-    ></app-stream-card>
+    ></app-local-stream-card>
   </div>
   <div class="main-stream">
     <video
@@ -27,7 +26,7 @@
     class="remote-streams"
     [ngClass]="{ 'remote-stream-invisible': !panelVisibility }"
   >
-    <app-stream-card
+    <app-remote-stream-card
       *ngFor="let remoteStream of getRemoteStreams()"
       [inputStream]="remoteStream"
       [isFocused]="isFocused(remoteStream.stream)"
@@ -35,7 +34,7 @@
       (closeStreamEmitter)="closeRemoteStreamConnection($event)"
       (disableMicEmitter)="disableMic($event)"
       (enableMicEmitter)="enableMic($event)"
-    ></app-stream-card>
+    ></app-remote-stream-card>
   </div>
   <app-conference-buttons
     (hangupConferenceEmitter)="hangupConference()"
