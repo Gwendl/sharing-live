@@ -17,7 +17,7 @@ export class AddNicknameDialogComponent {
     private dialogRef: MatDialogRef<AddNicknameDialogComponent>,
     private snackbarService: SnackBarService
   ) {
-    let nickname = localStorage.getItem("nickname");
+    const nickname = localStorage.getItem("nickname");
     this.nicknameControl = new FormControl(
       nickname,
       Validator.required("This field is required")

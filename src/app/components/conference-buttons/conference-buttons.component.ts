@@ -49,7 +49,7 @@ export class ConferenceButtonsComponent {
     this.triggerVisibilityEmitter.emit();
   }
 
-  public triggerActions() {
+  public triggerActions(): void {
     this.displayedActions = !this.displayedActions;
   }
 }

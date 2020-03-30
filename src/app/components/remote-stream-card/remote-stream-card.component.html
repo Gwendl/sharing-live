@@ -1,0 +1,38 @@
+<mat-card>
+  <mat-card-content>
+    <mat-icon *ngIf="isFocused" class="icon-focused-stream"
+      >remove_red_eye</mat-icon
+    >
+    <video
+      (click)="focusVideo()"
+      autoplay
+      playsinline
+      [srcObject]="inputStream.stream"
+      class="video"
+      [ngStyle]="{
+        'border-bottom': '5px solid' + stringToColor(inputStream.nickname),
+        'display' : hasVideo() ? 'block' : 'none'
+      }"
+      [muted]="isLocalStream()"
+    ></video>
+    <div class="button-actions">
+      <button
+        class="mic-icon"
+        mat-icon-button
+        (click)="toogleMic()"
+        [ngClass]="{ muted: micMuted }"
+        [matTooltip]="micMuted ? 'Enable microphone' : 'Disable microphone'"
+      >
+        <mat-icon>{{ micMuted ? "mic_off" : "mic_on" }}</mat-icon>
+      </button>
+      <button
+        class="close-icon"
+        mat-icon-button
+        (click)="closeStream()"
+        matTooltip="Close stream"
+      >
+        <mat-icon>close</mat-icon>
+      </button>
+    </div>
+  </mat-card-content>
+</mat-card>
