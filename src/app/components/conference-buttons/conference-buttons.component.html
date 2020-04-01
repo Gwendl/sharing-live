@@ -1,7 +1,7 @@
 <div
   class="main-buttons"
   [ngStyle]="{
-    width: displayedActions ? '400px' : '56px',
+    width: displayedActions ? '430px' : '56px',
     height: displayedActions ? '56px' : '56px'
   }"
 >
@@ -27,6 +27,14 @@
       matTooltip="Add a stream"
     >
       <mat-icon>add_circle</mat-icon>
+    </button>
+    <button
+      mat-fab
+      class="fullscreen-icon"
+      (click)="enterInFullScreen()"
+      matTooltip="Fullscreen"
+    >
+      <mat-icon>fullscreen</mat-icon>
     </button>
     <button
       mat-fab

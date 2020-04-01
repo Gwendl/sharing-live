@@ -15,6 +15,7 @@
   </div>
   <div class="main-stream">
     <video
+      #mainStreamVideo
       [srcObject]="getMainStream()"
       autoplay
       playsinline
@@ -42,5 +43,6 @@
     (addScreenShareEmitter)="addScreenShare()"
     (copyToClipBoardEmitter)="copyToClipboardShareLink()"
     (triggerVisibilityEmitter)="triggerVisibility()"
+    (fullScreenEmitter)="enterInFullScreen()"
   ></app-conference-buttons>
 </div>

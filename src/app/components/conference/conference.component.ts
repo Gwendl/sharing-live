@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { ConferenceService } from "src/app/services/conference.service";
 import { RemoteStream, LocalStream } from "src/app/models";
@@ -15,6 +15,8 @@ import { ParticipantStream } from "src/app/models/participant-stream";
 export class ConferenceComponent {
   private focusedStream: MediaStream | undefined = undefined;
   public panelVisibility: boolean = true;
+  @ViewChild("mainStreamVideo", { static: true })
+  public mainStreamVideo: ElementRef<HTMLVideoElement>;
   constructor(
     private router: ActivatedRoute,
     private conferenceService: ConferenceService,
@@ -95,6 +97,13 @@ export class ConferenceComponent {
       this.conferenceService.addStream(result);
       this.snackbarService.success("Stream added");
     });
+  }
+
+  public enterInFullScreen(): void {
+    console.log(this.mainStreamVideo);
+    if (this.mainStreamVideo.nativeElement.requestFullscreen) {
+      this.mainStreamVideo.nativeElement.requestFullscreen();
+    }
   }
 
   public canShareScreen(): boolean {

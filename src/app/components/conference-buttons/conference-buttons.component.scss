@@ -43,6 +43,14 @@ button {
   }
 }
 
+.fullscreen-icon {
+  color: $primary-color !important;
+  &:hover {
+    background-color: $primary-color !important;
+    color: white !important;
+  }
+}
+
 .clean-button {
   color: $primary-color !important;
   &:hover {

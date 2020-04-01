@@ -28,6 +28,10 @@ export class ConferenceButtonsComponent {
     void
   > = new EventEmitter<void>();
 
+  @Output() public fullScreenEmitter: EventEmitter<void> = new EventEmitter<
+    void
+  >();
+
   public hangupConference(): void {
     this.hangupConferenceEmitter.emit();
   }
@@ -47,6 +51,10 @@ export class ConferenceButtonsComponent {
   public triggerVisibility(): void {
     this.panelVisible = !this.panelVisible;
     this.triggerVisibilityEmitter.emit();
+  }
+
+  public enterInFullScreen(): void {
+    this.fullScreenEmitter.emit();
   }
 
   public triggerActions(): void {
