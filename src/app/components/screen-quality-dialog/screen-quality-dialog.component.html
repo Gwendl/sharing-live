@@ -1,0 +1,37 @@
+<h2>Specify the desired screen quality</h2>
+
+<div class="align-center">
+  <mat-button-toggle-group
+    name="screen-quality"
+    (change)="onDesiredQualityChange($event)"
+  >
+    <mat-button-toggle
+      value="AUTO"
+      matTooltip="Automatic"
+      matTooltipPosition="below"
+    >
+      <mat-icon>brightness_auto </mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle
+      value="HQ"
+      matTooltip="High Quality"
+      matTooltipPosition="below"
+    >
+      <mat-icon>high_quality</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle
+      value="HD"
+      matTooltip="High Definition"
+      matTooltipPosition="below"
+    >
+      <mat-icon>hd</mat-icon>
+    </mat-button-toggle>
+    <mat-button-toggle
+      value="4K"
+      matTooltip="Ultra High Definition"
+      matTooltipPosition="below"
+    >
+      <mat-icon>4k</mat-icon>
+    </mat-button-toggle>
+  </mat-button-toggle-group>
+</div>

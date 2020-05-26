@@ -7,10 +7,11 @@ import { AddStreamDialogComponent } from "../add-stream-dialog/add-stream-dialog
 import { SnackBarService } from "src/app/services";
 import { AddNicknameDialogComponent } from "../add-nickname-dialog/add-nickname-dialog.component";
 import { ParticipantStream } from "src/app/models/participant-stream";
+import { ScreenQualityDialogComponent } from "../screen-quality-dialog/screen-quality-dialog.component";
 
 @Component({
   templateUrl: "./conference.component.html",
-  styleUrls: ["./conference.component.scss"]
+  styleUrls: ["./conference.component.scss"],
 })
 export class ConferenceComponent {
   private focusedStream: MediaStream | undefined = undefined;
@@ -31,7 +32,7 @@ export class ConferenceComponent {
     const lastRemoteStream = localParticipant.remoteStreams.reverse()[0];
     return (
       (lastRemoteStream && lastRemoteStream.stream) ||
-      localParticipant.localStreams.map(ls => ls.stream)[0]
+      localParticipant.localStreams.map((ls) => ls.stream)[0]
     );
   }
 
@@ -53,8 +54,9 @@ export class ConferenceComponent {
     }
     navigator.mediaDevices
       .getUserMedia({ video: true, audio: true })
-      .then(stream => {
+      .then((stream) => {
         this.conferenceService.addStream(stream);
+        stream.getAudioTracks().forEach((track) => (track.enabled = false));
       });
   }
 
@@ -81,18 +83,16 @@ export class ConferenceComponent {
   }
 
   public enableMic(stream: MediaStream): void {
-    // enable microphone
-    console.log("enable microphone", stream);
+    stream.getAudioTracks().forEach((track) => (track.enabled = true));
   }
 
   public disableMic(stream: MediaStream): void {
-    // disable microphone
-    console.log("disable microphone", stream);
+    stream.getAudioTracks().forEach((track) => (track.enabled = false));
   }
 
   public addStream(): void {
     const dialogRef = this.dialog.open(AddStreamDialogComponent);
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result) => {
       if (!result) return;
       this.conferenceService.addStream(result);
       this.snackbarService.success("Stream added");
@@ -106,13 +106,47 @@ export class ConferenceComponent {
 
   public async addScreenShare(): Promise<void> {
     // tslint:disable-next-line: no-string-literal
-    const stream = await navigator.mediaDevices["getDisplayMedia"]();
-    this.conferenceService.addStream(stream);
+    let width: number;
+    let height: number;
+    const dialogRef = this.dialog.open(ScreenQualityDialogComponent);
+    dialogRef.afterClosed().subscribe(async (result) => {
+      if (!result) return;
+      switch (result) {
+        case "AUTO":
+          width = undefined;
+          height = undefined;
+          break;
+        case "SD":
+          width = 1280;
+          height = 720;
+          break;
+        case "HD":
+          width = 1920;
+          height = 1080;
+          break;
+        case "4K":
+          width = 3840;
+          height = 2160;
+          break;
+      }
+      // tslint:disable-next-line: no-string-literal
+      const stream = await navigator.mediaDevices["getDisplayMedia"]({
+        audio: false,
+        video: {
+          frameRate: 60,
+          resizeMode: "crop-and-scale",
+          width,
+          height,
+        },
+      });
+      this.conferenceService.addStream(stream);
+      this.snackbarService.success("Screen share added");
+    });
   }
 
   public async openNicknameDialog(): Promise<string> {
     const dialogRef = this.dialog.open(AddNicknameDialogComponent, {
-      disableClose: true
+      disableClose: true,
     });
     const nickname = await dialogRef.afterClosed().toPromise();
     if (!nickname) return;
@@ -137,5 +171,10 @@ export class ConferenceComponent {
 
   public triggerVisibility() {
     this.panelVisibility = !this.panelVisibility;
+  }
+
+  public isMicEnabled(stream: MediaStream): boolean {
+    if (!stream) return;
+    return stream.getAudioTracks()[0] && !stream.getAudioTracks()[0].enabled;
   }
 }

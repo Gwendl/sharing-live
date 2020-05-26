@@ -23,13 +23,12 @@ export class StreamCardComponent {
   @Output() public focusStreamEmitter: EventEmitter<
     MediaStream
   > = new EventEmitter<MediaStream>();
-  public micMuted: boolean;
+  @Input() public micMuted: boolean;
 
   public toogleMic(): void {
     this.micMuted
       ? this.enableMicEmitter.emit(this.inputStream.stream)
       : this.disableMicEmitter.emit(this.inputStream.stream);
-    this.micMuted = !this.micMuted;
   }
 
   public closeStream(): void {

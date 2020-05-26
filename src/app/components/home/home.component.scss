@@ -13,6 +13,7 @@
   height: 100%;
   flex-direction: column;
   background: #6200ea14;
+  overflow: auto;
 }
 
 mat-card {
@@ -152,4 +153,10 @@ mat-card {
   50% {
     transform: rotate(180deg) translate3d(0, 5px, 0);
   }
+}
+
+.rtc-configuration-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }

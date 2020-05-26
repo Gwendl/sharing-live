@@ -6,22 +6,26 @@ import {
   RTCInformation,
   RTCInitiator,
   RTCConnection,
-  RTCReceiver
+  RTCReceiver,
 } from "light-rtc";
 import { LocalParticipant, LocalStream, RemoteStream } from "../models";
 import { environment } from "src/environments/environment";
 import { ParticipantConnection } from "../models/participantConnection";
 import { flatten } from "lodash";
+import { RTCConfigurationService } from "./rtc-configuration.service";
 
 @Injectable({
-  providedIn: "root"
+  providedIn: "root",
 })
 export class ConferenceService {
   private participants: Participant[];
   private socketIo: SocketIOClient.Socket;
   private localParticipant: LocalParticipant;
 
-  constructor(private router: Router) {
+  constructor(
+    private router: Router,
+    private rtcConfigurationService: RTCConfigurationService
+  ) {
     this.clean();
   }
 
@@ -43,8 +47,8 @@ export class ConferenceService {
   private clean(): void {
     this.participants = [];
     if (!this.localParticipant) return;
-    this.localParticipant.localStreams.forEach(ls => ls.stop());
-    this.localParticipant.remoteStreams.forEach(rs => rs.stop());
+    this.localParticipant.localStreams.forEach((ls) => ls.stop());
+    this.localParticipant.remoteStreams.forEach((rs) => rs.stop());
     this.localParticipant = undefined;
   }
 
@@ -55,7 +59,7 @@ export class ConferenceService {
   private createConnection(): Promise<SocketIOClient.Socket> {
     return new Promise((res, rej) => {
       const socket = socketIo(environment.serverUrl, {
-        reconnection: false
+        reconnection: false,
       });
       socket.once("connect", () => res(socket));
       socket.on("disconnect", rej);
@@ -87,8 +91,8 @@ export class ConferenceService {
     participants: string[]
   ): void {
     this.localParticipant = new LocalParticipant(nickname);
-    this.participants = participants.map(name => ({
-      nickname: name
+    this.participants = participants.map((name) => ({
+      nickname: name,
     }));
     this.router.navigate(["conference", conferenceId]);
   }
@@ -103,9 +107,9 @@ export class ConferenceService {
 
   public async onParticipantJoined(nickname: string): Promise<void> {
     this.participants.push({
-      nickname
+      nickname,
     });
-    this.localParticipant.localStreams.forEach(localStream => {
+    this.localParticipant.localStreams.forEach((localStream) => {
       const connection = this.sendStream(localStream, nickname);
     });
   }
@@ -114,9 +118,22 @@ export class ConferenceService {
     localStream: LocalStream,
     nickname: string
   ): RTCConnection {
-    const connection = new RTCInitiator(localStream.stream, infos => {
-      this.sendRTCHandshake(nickname, localStream.id, infos);
-    });
+    const RTCConfiguration = this.rtcConfigurationService.getRTCConfiguration();
+    const connection = new RTCInitiator(
+      localStream.stream,
+      (infos) => {
+        this.sendRTCHandshake(nickname, localStream.id, infos);
+      },
+      {
+        iceServers: [
+          {
+            urls: RTCConfiguration.stunTurnUri,
+            username: RTCConfiguration.turnUsername,
+            credential: RTCConfiguration.turnPassword,
+          },
+        ],
+      }
+    );
     localStream.addConnection(nickname, connection);
     return connection;
   }
@@ -136,15 +153,28 @@ export class ConferenceService {
   ): void {
     const connections = this.getPeerConnections();
     const participantConnection =
-      connections.find(c => c.nickname === nickname && c.id === peerId) ||
+      connections.find((c) => c.nickname === nickname && c.id === peerId) ||
       this.createReceiver(nickname, peerId);
     participantConnection.connection.addInformations(rtcInfos);
   }
 
   private createReceiver(nickname: string, peerId: string): RemoteStream {
-    const rtcConnection = new RTCReceiver(undefined, infos => {
-      this.sendRTCHandshake(nickname, peerId, infos);
-    });
+    const RTCConfiguration = this.rtcConfigurationService.getRTCConfiguration();
+    const rtcConnection = new RTCReceiver(
+      undefined,
+      (infos) => {
+        this.sendRTCHandshake(nickname, peerId, infos);
+      },
+      {
+        iceServers: [
+          {
+            urls: RTCConfiguration.stunTurnUri,
+            username: RTCConfiguration.turnUsername,
+            credential: RTCConfiguration.turnPassword,
+          },
+        ],
+      }
+    );
     return this.localParticipant.addRemoteStreamConnection(
       nickname,
       peerId,
@@ -155,14 +185,14 @@ export class ConferenceService {
   private getPeerConnections(): ParticipantConnection[] {
     const localStreams = this.localParticipant.localStreams;
     const localStreamConnections = flatten(
-      localStreams.map(streams => streams.connections)
+      localStreams.map((streams) => streams.connections)
     );
     return localStreamConnections.concat(this.localParticipant.remoteStreams);
   }
 
   public addStream(stream: MediaStream): void {
     const localStream = new LocalStream(stream);
-    this.participants.forEach(p => {
+    this.participants.forEach((p) => {
       this.sendStream(localStream, p.nickname);
     });
     this.localParticipant.localStreams.push(localStream);
@@ -170,29 +200,31 @@ export class ConferenceService {
 
   public stopLocalStreamConnection(id: string): void {
     const localStreamConnection = this.localParticipant.localStreams.find(
-      ls => ls.id === id
+      (ls) => ls.id === id
     );
     localStreamConnection.stop();
     this.localParticipant.localStreams = this.localParticipant.localStreams.filter(
-      ls => ls !== localStreamConnection
+      (ls) => ls !== localStreamConnection
     );
   }
 
   public stopRemoteStreamConnection(id: string): void {
     const remoteStreamConnection = this.localParticipant.remoteStreams.find(
-      rs => rs.id === id
+      (rs) => rs.id === id
     );
     remoteStreamConnection.stop();
     this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(
-      rs => rs !== remoteStreamConnection
+      (rs) => rs !== remoteStreamConnection
     );
   }
 
   public onParticipantLeft(nickname: string): void {
     this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(
-      rs => rs.nickname !== nickname
+      (rs) => rs.nickname !== nickname
     );
-    this.participants = this.participants.filter(p => p.nickname !== nickname);
+    this.participants = this.participants.filter(
+      (p) => p.nickname !== nickname
+    );
   }
 
   public isInConference(): boolean {

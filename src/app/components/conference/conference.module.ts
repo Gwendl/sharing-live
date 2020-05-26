@@ -8,6 +8,8 @@ import { AddStreamDialogComponent } from "../add-stream-dialog/add-stream-dialog
 import { AddStreamDialogModule } from "../add-stream-dialog/add-stream-dialog.module";
 import { AddNicknameDialogComponent } from "../add-nickname-dialog/add-nickname-dialog.component";
 import { AddNicknameDialogModule } from "../add-nickname-dialog/add-nickname-dialog.module";
+import { ScreenQualityDialogModule } from "../screen-quality-dialog/screen-quality-dialog.module";
+import { ScreenQualityDialogComponent } from "../screen-quality-dialog/screen-quality-dialog.component";
 
 @NgModule({
   declarations: [ConferenceComponent],
@@ -17,8 +19,13 @@ import { AddNicknameDialogModule } from "../add-nickname-dialog/add-nickname-dia
     ConferenceButtonsModule,
     MatDialogModule,
     AddStreamDialogModule,
-    AddNicknameDialogModule
+    ScreenQualityDialogModule,
+    AddNicknameDialogModule,
   ],
-  entryComponents: [AddStreamDialogComponent, AddNicknameDialogComponent]
+  entryComponents: [
+    AddStreamDialogComponent,
+    AddNicknameDialogComponent,
+    ScreenQualityDialogComponent,
+  ],
 })
 export class ConferenceModule {}

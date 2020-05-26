@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  serverUrl: "https://screen-sharing-server.herokuapp.com"
 };

@@ -5,9 +5,11 @@ import {
   MatFormFieldModule,
   MatInputModule,
   MatButtonModule,
-  MatExpansionModule
+  MatIconModule,
 } from "@angular/material";
 import { ReactiveFormsModule } from "@angular/forms";
+import { RTCConfigurationDialogModule } from "../RTC-configuration-dialog/RTC-configuration-dialog.module";
+import { RTCConfigurationDialogComponent } from "../RTC-configuration-dialog/RTC-configuration-dialog.component";
 
 @NgModule({
   declarations: [HomeComponent],
@@ -17,7 +19,9 @@ import { ReactiveFormsModule } from "@angular/forms";
     MatInputModule,
     ReactiveFormsModule,
     MatButtonModule,
-    MatExpansionModule
-  ]
+    MatIconModule,
+    RTCConfigurationDialogModule,
+  ],
+  entryComponents: [RTCConfigurationDialogComponent],
 })
 export class HomeModule {}
