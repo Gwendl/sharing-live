@@ -132,7 +132,7 @@ export class ConferenceService {
         this.sendRTCHandshake(nickname, localStream.id, infos);
       },
       {
-        iceServers: [iceServer],
+        iceServers: [iceServer, { urls: "stun:stun.l.google.com:19302" }],
       }
     );
     localStream.addConnection(nickname, connection);
@@ -174,7 +174,7 @@ export class ConferenceService {
         this.sendRTCHandshake(nickname, peerId, infos);
       },
       {
-        iceServers: [iceServer],
+        iceServers: [iceServer, { urls: "stun:stun.l.google.com:19302" }],
       }
     );
     return this.localParticipant.addRemoteStreamConnection(
