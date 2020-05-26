@@ -1,15 +1,15 @@
 import { Component, Input, Output, EventEmitter } from "@angular/core";
-import { RemoteStream, LocalStream } from "src/app/models";
+import { LocalStream } from "src/app/models";
 import { stringToRGBColor } from "../utils/string-to-color";
 
 @Component({
-  selector: "app-stream-card",
-  templateUrl: "./stream-card.component.html",
-  styleUrls: ["./stream-card.component.scss"]
+  selector: "app-local-stream-card",
+  templateUrl: "./local-stream-card.component.html",
+  styleUrls: ["./local-stream-card.component.scss"]
 })
-export class StreamCardComponent {
+export class LocalStreamCardComponent {
   @Input()
-  public inputStream: LocalStream & RemoteStream;
+  public inputStream: LocalStream;
   @Input() public isFocused: boolean;
   @Output() public enableMicEmitter: EventEmitter<
     MediaStream
@@ -41,5 +41,12 @@ export class StreamCardComponent {
 
   public stringToColor(nickname: string): string {
     return stringToRGBColor(nickname);
+  }
+
+  public hasVideo(): boolean {
+    return (
+      this.inputStream.stream &&
+      this.inputStream.stream.getVideoTracks().length > 0
+    );
   }
 }

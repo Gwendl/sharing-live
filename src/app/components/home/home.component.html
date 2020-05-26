@@ -13,7 +13,7 @@
     <h1 class="title">Sharing live</h1>
   </div>
   <div class="room-manager">
-    <mat-card class="form-card">
+    <mat-card class="form-card create-room-card">
       <div class="form-container">
         <div class="form-infos">
           <h2 class="text-center">Create a room</h2>
@@ -31,7 +31,7 @@
             <input matInput [formControl]="createRoomNickNameControl" />
             <mat-error>{{ createRoomNickNameControl.mainError() }} </mat-error>
           </mat-form-field>
-          <div class="text-center">
+          <div class="text-center margin-bottom-20">
             <button mat-raised-button color="primary" type="submit">
               Create
             </button>
@@ -39,7 +39,7 @@
         </form>
       </div>
     </mat-card>
-    <mat-card class="form-card">
+    <mat-card class="form-card join-room-card">
       <div class="form-container">
         <div class="form-infos">
           <h2 class="text-center">Join a room</h2>
@@ -62,7 +62,7 @@
             <input matInput [formControl]="joinRoomNicknameControl" />
             <mat-error>{{ joinRoomNicknameControl.mainError() }} </mat-error>
           </mat-form-field>
-          <div class="text-center">
+          <div class="text-center margin-bottom-20">
             <button mat-raised-button color="primary" type="submit">
               Join
             </button>

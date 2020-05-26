@@ -9,7 +9,9 @@ import {
 } from "@angular/forms";
 
 export class FormGroup extends AngularFormGroup {
-  public getControls() {
+  public getControls(): {
+    [key: string]: FormControl;
+  } {
     return this.controls as { [key: string]: FormControl };
   }
 
@@ -26,7 +28,7 @@ export class FormGroup extends AngularFormGroup {
 }
 
 export class FormArray extends AngularFormArray {
-  public getControls() {
+  public getControls(): FormControl[] {
     return this.controls as FormControl[];
   }
   public mainError(): string {

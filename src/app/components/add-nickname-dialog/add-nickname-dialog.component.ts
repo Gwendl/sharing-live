@@ -17,8 +17,9 @@ export class AddNicknameDialogComponent {
     private dialogRef: MatDialogRef<AddNicknameDialogComponent>,
     private snackbarService: SnackBarService
   ) {
+    const nickname = localStorage.getItem("nickname");
     this.nicknameControl = new FormControl(
-      "",
+      nickname,
       Validator.required("This field is required")
     );
     this.formGroup = new FormGroup({
@@ -38,6 +39,7 @@ export class AddNicknameDialogComponent {
       return;
     }
     const { nickname } = form.value;
+    localStorage.setItem("nickname", nickname);
     this.dialogRef.close(nickname);
   }
 }

@@ -7,7 +7,7 @@
 }
 
 .local-streams {
-  overflow: overlay;
+  overflow: hidden;
   width: fit-content;
   max-height: 100%;
   z-index: 1;
@@ -18,7 +18,7 @@
 }
 
 .remote-streams {
-  overflow: overlay;
+  overflow: hidden;
   width: fit-content;
   max-height: 100%;
   z-index: 1;

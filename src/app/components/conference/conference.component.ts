@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, ViewChild, ElementRef } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { ConferenceService } from "src/app/services/conference.service";
 import { RemoteStream, LocalStream } from "src/app/models";
@@ -16,6 +16,8 @@ import { ScreenQualityDialogComponent } from "../screen-quality-dialog/screen-qu
 export class ConferenceComponent {
   private focusedStream: MediaStream | undefined = undefined;
   public panelVisibility: boolean = true;
+  @ViewChild("mainStreamVideo", { static: true })
+  public mainStreamVideo: ElementRef<HTMLVideoElement>;
   constructor(
     private router: ActivatedRoute,
     private conferenceService: ConferenceService,
@@ -83,11 +85,11 @@ export class ConferenceComponent {
   }
 
   public enableMic(stream: MediaStream): void {
-    stream.getAudioTracks().forEach((track) => (track.enabled = true));
+    stream.getAudioTracks().forEach((at) => (at.enabled = true));
   }
 
   public disableMic(stream: MediaStream): void {
-    stream.getAudioTracks().forEach((track) => (track.enabled = false));
+    stream.getAudioTracks().forEach((at) => (at.enabled = false));
   }
 
   public addStream(): void {
@@ -97,6 +99,13 @@ export class ConferenceComponent {
       this.conferenceService.addStream(result);
       this.snackbarService.success("Stream added");
     });
+  }
+
+  public enterInFullScreen(): void {
+    console.log(this.mainStreamVideo);
+    if (this.mainStreamVideo.nativeElement.requestFullscreen) {
+      this.mainStreamVideo.nativeElement.requestFullscreen();
+    }
   }
 
   public canShareScreen(): boolean {
@@ -169,7 +178,7 @@ export class ConferenceComponent {
     return this.snackbarService.success("Lien copié dans le presse papier");
   }
 
-  public triggerVisibility() {
+  public triggerVisibility(): void {
     this.panelVisibility = !this.panelVisibility;
   }
 

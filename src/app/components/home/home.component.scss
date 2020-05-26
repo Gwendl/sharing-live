@@ -5,6 +5,23 @@
   position: relative;
   height: 100%;
 }
+:host-context(.mobile) .title {
+  font-size: 22px;
+  color: white;
+}
+
+:host-context(.mobile) .create-room-card {
+  min-height: 40%;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+:host-context(.mobile) .join-room-card {
+  min-height: 50%;
+  padding: 0;
+  margin: 0;
+}
 
 .home-container {
   display: flex;
@@ -29,16 +46,6 @@ mat-card {
 .form-card {
   border: 2px solid $primary-color;
   margin: 10px;
-}
-
-:host-context(.mobile) .create-room-card {
-  margin-right: 0;
-  margin-bottom: 20px;
-}
-
-:host-context(.tablet) .create-room-card {
-  margin-right: 0;
-  margin-bottom: 20px;
 }
 
 :host-context(.mobile) .room-manager {

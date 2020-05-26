@@ -17,14 +17,8 @@ export class AddStreamDialogComponent implements OnInit {
     private dialogRef: MatDialogRef<AddStreamDialogComponent>,
     private snackbarService: SnackBarService
   ) {
-    this.videoInputControl = new FormControl(
-      "",
-      Validator.required("This field is required")
-    );
-    this.audioInputControl = new FormControl(
-      "",
-      Validator.required("This field is required")
-    );
+    this.videoInputControl = new FormControl(undefined);
+    this.audioInputControl = new FormControl(undefined);
 
     this.formGroup = new FormGroup({
       videoDeviceId: this.videoInputControl,
@@ -57,16 +51,12 @@ export class AddStreamDialogComponent implements OnInit {
   }
 
   public submitAddStream(form: FormGroup): void {
-    form.markAllAsTouched();
-    if (form.invalid) {
-      this.snackbarService.error("The form is invalid");
-      return;
-    }
     const { videoDeviceId, audioDeviceId } = form.value;
+    if (!videoDeviceId && !audioDeviceId) return;
     navigator.mediaDevices
       .getUserMedia({
-        video: { deviceId: { exact: videoDeviceId } },
-        audio: { deviceId: { exact: audioDeviceId } }
+        video: videoDeviceId ? { deviceId: { exact: videoDeviceId } } : false,
+        audio: audioDeviceId ? { deviceId: { exact: audioDeviceId } } : false
       })
       .then(stream => this.dialogRef.close(stream))
       .catch(e => {

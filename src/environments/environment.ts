@@ -3,8 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  serverUrl: "https://screen-sharing-server.herokuapp.com"
+  production: true,
+  serverUrl: "https://server.sharing-live.com"
 };
 
 /*

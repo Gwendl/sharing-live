@@ -10,8 +10,10 @@
       [srcObject]="inputStream.stream"
       class="video"
       [ngStyle]="{
-        'border-bottom': '5px solid' + stringToColor(inputStream.nickname)
+        'border-bottom': '5px solid' + stringToColor(inputStream.nickname),
+        'display' : hasVideo() ? 'block' : 'none'
       }"
+      [muted]="isLocalStream()"
     ></video>
     <div class="button-actions">
       <button

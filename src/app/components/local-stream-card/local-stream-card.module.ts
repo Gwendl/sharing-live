@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { StreamCardComponent } from "./stream-card.component";
+import { LocalStreamCardComponent } from "./local-stream-card.component";
 import {
   MatCardModule,
   MatButtonModule,
@@ -9,7 +9,7 @@ import {
 import { CommonModule } from "@angular/common";
 
 @NgModule({
-  declarations: [StreamCardComponent],
+  declarations: [LocalStreamCardComponent],
   imports: [
     CommonModule,
     MatCardModule,
@@ -17,6 +17,6 @@ import { CommonModule } from "@angular/common";
     MatIconModule,
     MatTooltipModule
   ],
-  exports: [StreamCardComponent]
+  exports: [LocalStreamCardComponent]
 })
-export class StreamCardModule {}
+export class LocalStreamCardModule {}

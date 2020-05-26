@@ -7,6 +7,9 @@
   <mat-form-field class="full-width" appearance="outline">
     <mat-label>Video input</mat-label>
     <mat-select [formControl]="videoInputControl">
+      <mat-option [value]="false">
+        NONE
+      </mat-option>
       <mat-option
         *ngFor="let videoDevice of getVideoDevices()"
         [value]="videoDevice.deviceId"
@@ -19,6 +22,9 @@
   <mat-form-field class="full-width" appearance="outline">
     <mat-label>Audio input</mat-label>
     <mat-select [formControl]="audioInputControl">
+      <mat-option [value]="false">
+        NONE
+      </mat-option>
       <mat-option
         *ngFor="let audioDevice of getAudioDevices()"
         [value]="audioDevice.deviceId"
