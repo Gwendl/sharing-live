@@ -119,19 +119,20 @@ export class ConferenceService {
     nickname: string
   ): RTCConnection {
     const RTCConfiguration = this.rtcConfigurationService.getRTCConfiguration();
+    const iceServer = {
+      urls:
+        (RTCConfiguration && RTCConfiguration.stunTurnUri) ||
+        "stun:stun.l.google.com:19302",
+      username: RTCConfiguration && RTCConfiguration.turnUsername,
+      credential: RTCConfiguration && RTCConfiguration.turnPassword,
+    };
     const connection = new RTCInitiator(
       localStream.stream,
       (infos) => {
         this.sendRTCHandshake(nickname, localStream.id, infos);
       },
       {
-        iceServers: [
-          {
-            urls: RTCConfiguration.stunTurnUri,
-            username: RTCConfiguration.turnUsername,
-            credential: RTCConfiguration.turnPassword,
-          },
-        ],
+        iceServers: [iceServer],
       }
     );
     localStream.addConnection(nickname, connection);
@@ -160,19 +161,20 @@ export class ConferenceService {
 
   private createReceiver(nickname: string, peerId: string): RemoteStream {
     const RTCConfiguration = this.rtcConfigurationService.getRTCConfiguration();
+    const iceServer = {
+      urls:
+        (RTCConfiguration && RTCConfiguration.stunTurnUri) ||
+        "stun:stun.l.google.com:19302",
+      username: RTCConfiguration && RTCConfiguration.turnUsername,
+      credential: RTCConfiguration && RTCConfiguration.turnPassword,
+    };
     const rtcConnection = new RTCReceiver(
       undefined,
       (infos) => {
         this.sendRTCHandshake(nickname, peerId, infos);
       },
       {
-        iceServers: [
-          {
-            urls: RTCConfiguration.stunTurnUri,
-            username: RTCConfiguration.turnUsername,
-            credential: RTCConfiguration.turnPassword,
-          },
-        ],
+        iceServers: [iceServer],
       }
     );
     return this.localParticipant.addRemoteStreamConnection(
