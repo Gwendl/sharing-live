@@ -80,8 +80,9 @@ export class ConferenceService {
     );
     socketIoClient.on(
       "rtcHandshake",
-      (nickname: string, peerId: string, rtcInfos: RTCInformation) =>
-        this.onRTCHandshake(nickname, peerId, rtcInfos)
+      (nickname: string, peerId: string, rtcInfos: RTCInformation) => {
+        this.onRTCHandshake(nickname, peerId, rtcInfos);
+      }
     );
   }
 
@@ -106,6 +107,7 @@ export class ConferenceService {
   }
 
   public async onParticipantJoined(nickname: string): Promise<void> {
+    this.resetParticipant(nickname);
     this.participants.push({
       nickname,
     });
@@ -221,9 +223,22 @@ export class ConferenceService {
   }
 
   public onParticipantLeft(nickname: string): void {
+    this.resetParticipant(nickname);
+  }
+
+  private resetParticipant(nickname: string) {
+    this.localParticipant.remoteStreams
+      .filter((rs) => rs.nickname === nickname)
+      .forEach((c) => c.stop());
     this.localParticipant.remoteStreams = this.localParticipant.remoteStreams.filter(
       (rs) => rs.nickname !== nickname
     );
+    this.localParticipant.localStreams.forEach((ls) => {
+      ls.connections
+        .filter((c) => c.nickname === nickname)
+        .forEach((c) => c.connection.getPeer().close());
+      ls.connections = ls.connections.filter((c) => c.nickname !== nickname);
+    });
     this.participants = this.participants.filter(
       (p) => p.nickname !== nickname
     );

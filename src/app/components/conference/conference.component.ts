@@ -102,7 +102,6 @@ export class ConferenceComponent {
   }
 
   public enterInFullScreen(): void {
-    console.log(this.mainStreamVideo);
     if (this.mainStreamVideo.nativeElement.requestFullscreen) {
       this.mainStreamVideo.nativeElement.requestFullscreen();
     }
